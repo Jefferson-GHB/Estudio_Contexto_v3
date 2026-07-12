@@ -1,0 +1,107 @@
+ID,CINE_F_Campo_Detallado,Area_Desempeno_SIET
+1,Gestión y administración,VENTAS Y SERVICIOS
+2,Mercadotecnia y publicidad,VENTAS Y SERVICIOS
+3,Ventas al por mayor y al por menor,VENTAS Y SERVICIOS
+4,"Viajes, turismo y actividades recreativas",VENTAS Y SERVICIOS
+5,"Hotelería, restaurantes y servicios de banquetes",VENTAS Y SERVICIOS
+6,Servicios de transporte,VENTAS Y SERVICIOS
+7,Servicios domésticos,VENTAS Y SERVICIOS
+8,Peluquería y tratamientos de belleza,VENTAS Y SERVICIOS
+9,Secretariado y trabajo de oficina,VENTAS Y SERVICIOS
+10,Contabilidad e impuestos,FINANZAS Y ADMINISTRACIÓN
+11,"Gestión financiera, administración bancaria y seguros",FINANZAS Y ADMINISTRACIÓN
+12,Economía,FINANZAS Y ADMINISTRACIÓN
+13,Derecho,FINANZAS Y ADMINISTRACIÓN
+14,Educación comercial y administración no clasificados en otra parte,FINANZAS Y ADMINISTRACIÓN
+15,Ciencias políticas y educación cívica,FINANZAS Y ADMINISTRACIÓN
+16,Programas y certificaciones interdisciplinarios relativos a administración de empresas y derecho,FINANZAS Y ADMINISTRACIÓN
+17,Mecánica y profesiones afines a la metalistería,"OFICIOS, OPERACIÓN DE EQUIPO Y TRANSPORTE"
+18,Electricidad y energía,"OFICIOS, OPERACIÓN DE EQUIPO Y TRANSPORTE"
+19,"Vehículos, barcos y aeronaves de motor","OFICIOS, OPERACIÓN DE EQUIPO Y TRANSPORTE"
+20,Construcción e ingeniería civil,"OFICIOS, OPERACIÓN DE EQUIPO Y TRANSPORTE"
+21,Arquitectura y urbanismo,"OFICIOS, OPERACIÓN DE EQUIPO Y TRANSPORTE"
+22,Ingeniería y profesiones afines no clasificadas en otra parte,CIENCIAS NATURALES APLICADAS Y RELACIONADAS
+23,Electrónica y automatización,CIENCIAS NATURALES APLICADAS Y RELACIONADAS
+24,Desarrollo y análisis de software y aplicaciones,CIENCIAS NATURALES APLICADAS Y RELACIONADAS
+25,Diseño y administración de redes y bases de datos,CIENCIAS NATURALES APLICADAS Y RELACIONADAS
+26,Tecnologías de la información y la comunicación (TIC) no clasificada en otra parte,CIENCIAS NATURALES APLICADAS Y RELACIONADAS
+27,Uso de computadores,CIENCIAS NATURALES APLICADAS Y RELACIONADAS
+28,Programas y certificaciones interdisciplinarios relativos a tecnologías de la información y la comunicación (TIC),CIENCIAS NATURALES APLICADAS Y RELACIONADAS
+29,Tecnología de protección del medio ambiente,CIENCIAS NATURALES APLICADAS Y RELACIONADAS
+30,Ciencias del medio ambiente,CIENCIAS NATURALES APLICADAS Y RELACIONADAS
+31,Medio ambiente natural y vida silvestre,CIENCIAS NATURALES APLICADAS Y RELACIONADAS
+32,Medio ambiente no clasificados en otra parte,CIENCIAS NATURALES APLICADAS Y RELACIONADAS
+33,Biología,CIENCIAS NATURALES APLICADAS Y RELACIONADAS
+34,Química,CIENCIAS NATURALES APLICADAS Y RELACIONADAS
+35,Bioquímica,CIENCIAS NATURALES APLICADAS Y RELACIONADAS
+36,Física,CIENCIAS NATURALES APLICADAS Y RELACIONADAS
+37,Matemáticas,CIENCIAS NATURALES APLICADAS Y RELACIONADAS
+38,Estadística,CIENCIAS NATURALES APLICADAS Y RELACIONADAS
+39,Ciencias de la tierra,CIENCIAS NATURALES APLICADAS Y RELACIONADAS
+40,Ciencias físicas no clasificadas en otra parte,CIENCIAS NATURALES APLICADAS Y RELACIONADAS
+41,Ciencias biológicas y afines no clasificados en otra parte,CIENCIAS NATURALES APLICADAS Y RELACIONADAS
+42,"Programas y certificaciones interdisciplinarios relativos a ciencias naturales, matemáticas y estadística",CIENCIAS NATURALES APLICADAS Y RELACIONADAS
+43,Ingeniería y procesos químicos,CIENCIAS NATURALES APLICADAS Y RELACIONADAS
+44,"Programas y certificaciones interdisciplinarios relativos a ingeniería, industria y construcción",CIENCIAS NATURALES APLICADAS Y RELACIONADAS
+45,Medicina,SALUD
+46,Odontología y estudios dentales,SALUD
+47,Enfermería y partería,SALUD
+48,"Fisioterapia, Fonoaudiología, Terapia ocupacional, Nutrición y afines",SALUD
+49,Tecnología de diagnóstico y tratamiento médico,SALUD
+50,Farmacia,SALUD
+51,Salud y protección laboral,SALUD
+52,Salud no clasificada en otra parte,SALUD
+53,Instrumentación quirúrgica,SALUD
+54,Servicios de higiene y salud ocupacional no clasificadas en otra parte,SALUD
+55,Medicina y terapia tradicional y complementaria,SALUD
+56,Programas y certificaciones interdisciplinarios relativos a salud y bienestar,SALUD
+57,Bienestar no clasificado en otra parte,SALUD
+58,"Atención a adultos, adultos mayores con o sin discapacitados",SALUD
+59,"Atención, protección y servicios a la infancia, adolescencia y juventud",SALUD
+60,Ciencias de la educación,"CIENCIAS SOCIALES, EDUCATIVAS,RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+61,Formación para docentes sin asignatura de especialización,"CIENCIAS SOCIALES, EDUCATIVAS,RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+62,Formación para docentes con asignatura de especialización,"CIENCIAS SOCIALES, EDUCATIVAS,RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+63,Formación para docentes de educación pre-primaría,"CIENCIAS SOCIALES, EDUCATIVAS,RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+64,Programas y certificaciones interdisciplinarios relativos a educación,"CIENCIAS SOCIALES, EDUCATIVAS,RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+65,Educación no clasificada en otra parte,"CIENCIAS SOCIALES, EDUCATIVAS,RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+66,Psicología,"CIENCIAS SOCIALES, EDUCATIVAS,RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+67,"Sociología, Antropología y estudios culturales","CIENCIAS SOCIALES, EDUCATIVAS,RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+68,Trabajo social,"CIENCIAS SOCIALES, EDUCATIVAS,RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+69,Ciencias sociales y del comportamiento no clasificadas en otra parte,"CIENCIAS SOCIALES, EDUCATIVAS,RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+70,"Programas y certificaciones interdisciplinarios relativos a ciencias sociales, periodismo e información","CIENCIAS SOCIALES, EDUCATIVAS,RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+71,Religión y Teología,"CIENCIAS SOCIALES, EDUCATIVAS,RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+72,Filosofía y ética,"CIENCIAS SOCIALES, EDUCATIVAS,RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+73,Historia y arqueología,"CIENCIAS SOCIALES, EDUCATIVAS,RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+74,Educación militar y de defensa,"CIENCIAS SOCIALES, EDUCATIVAS,RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+75,Protección de las personas y de la propiedad,"CIENCIAS SOCIALES, EDUCATIVAS,RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+76,Servicios de seguridad no clasificados en otra parte,"CIENCIAS SOCIALES, EDUCATIVAS,RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+77,Programas y certificaciones interdisciplinarios relativos a servicios,"CIENCIAS SOCIALES, EDUCATIVAS,RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+78,Competencias laborales,"CIENCIAS SOCIALES, EDUCATIVAS,RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+79,Competencias personales y desarrollo,"CIENCIAS SOCIALES, EDUCATIVAS,RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+80,Adquisición del lenguaje,"CIENCIAS SOCIALES, EDUCATIVAS,RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+81,Bellas artes,"ARTE, CULTURA, ESPARCIMIENTO Y DEPORTES"
+82,Música y artes escénicas,"ARTE, CULTURA, ESPARCIMIENTO Y DEPORTES"
+83,"Diseño industrial, de moda e interiores","ARTE, CULTURA, ESPARCIMIENTO Y DEPORTES"
+84,Técnicas audiovisuales y producción para medios de comunicación,"ARTE, CULTURA, ESPARCIMIENTO Y DEPORTES"
+85,"Periodismo, comunicación y reportajes","ARTE, CULTURA, ESPARCIMIENTO Y DEPORTES"
+86,Periodismo e información no clasificados en otra parte,"ARTE, CULTURA, ESPARCIMIENTO Y DEPORTES"
+87,Artesanías,"ARTE, CULTURA, ESPARCIMIENTO Y DEPORTES"
+88,Artes no clasificadas en otra parte,"ARTE, CULTURA, ESPARCIMIENTO Y DEPORTES"
+89,Literatura y lingüística,"ARTE, CULTURA, ESPARCIMIENTO Y DEPORTES"
+90,Humanidades (excepto idiomas) no clasificados en otra parte,"ARTE, CULTURA, ESPARCIMIENTO Y DEPORTES"
+91,Idiomas no clasificados en otra parte,"ARTE, CULTURA, ESPARCIMIENTO Y DEPORTES"
+92,Programas y certificaciones interdisciplinarios relativos a artes y humanidades,"ARTE, CULTURA, ESPARCIMIENTO Y DEPORTES"
+93,"Bibliotecología, información y archivología","ARTE, CULTURA, ESPARCIMIENTO Y DEPORTES"
+94,Deportes,"ARTE, CULTURA, ESPARCIMIENTO Y DEPORTES"
+95,Procesamiento de alimentos,"PROCESAMIENTO, FABRICACIÓN Y ENSAMBLAJE"
+96,"Producción textiles (ropa, calzado y artículos de cuero)","PROCESAMIENTO, FABRICACIÓN Y ENSAMBLAJE"
+97,"Materiales (vidrio, papel, plástico y madera)","PROCESAMIENTO, FABRICACIÓN Y ENSAMBLAJE"
+98,Industria y procesamiento no clasificados en otra parte,"PROCESAMIENTO, FABRICACIÓN Y ENSAMBLAJE"
+99,Producción agrícola y ganadera,EXPLOTACIÓN PRIMARIA Y EXTRACTIVA
+100,Silvicultura,EXPLOTACIÓN PRIMARIA Y EXTRACTIVA
+101,Pesca,EXPLOTACIÓN PRIMARIA Y EXTRACTIVA
+102,Veterinaria,EXPLOTACIÓN PRIMARIA Y EXTRACTIVA
+103,"Horticultura (Técnicas de huertas, invernaderos, viveros y jardines)",EXPLOTACIÓN PRIMARIA Y EXTRACTIVA
+104,Agropecuario no clasificado en otra parte,EXPLOTACIÓN PRIMARIA Y EXTRACTIVA
+105,"Programas y certificaciones interdisciplinarias relativos a agropecuario, silvicultura, pesca y veterinaria",EXPLOTACIÓN PRIMARIA Y EXTRACTIVA
+106,Minería y extracción,EXPLOTACIÓN PRIMARIA Y EXTRACTIVA

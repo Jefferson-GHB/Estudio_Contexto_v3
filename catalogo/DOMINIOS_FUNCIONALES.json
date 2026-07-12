@@ -1,0 +1,161 @@
+{
+  "fecha_generacion": "2026-01-13T01:32:13.147130",
+  "descripcion": "Mapeo de archivos a los 8 dominios funcionales del repositorio analítico",
+  "total_archivos": 522,
+  "dominios": {
+    "1_ACADEMICO_FORMATIVO": {
+      "descripcion": "Campos conocimiento, NBC, programas, niveles, rutas formativas",
+      "n_archivos": 27,
+      "cobertura_pct": 62.5,
+      "archivos": [
+        "EDUCACION/Areas_Conocimiento_MEN.csv",
+        "EDUCACION/Caracteres_IES.csv",
+        "EDUCACION/Modalidades_Formacion.csv",
+        "EDUCACION/NBC_Nucleos_Basicos_Conocimiento.csv",
+        "EDUCACION/Niveles_Formacion_MEN.csv",
+        "EDUCACION/Sectores_IES.csv",
+        "GRADUADOS_IES/Graduados_2019_1.csv",
+        "GRADUADOS_IES/Graduados_2019_2.csv",
+        "GRADUADOS_IES/Graduados_Pregrado_Posgrado.csv",
+        "GRADUADOS_IES/UNAL_Estudiantes_Graduados.csv",
+        "ICFES_SABER/ICFES_Saber_Pro_Resultados.csv",
+        "ICFES_SABER/ICFES_Saber_TyT_Resultados.csv",
+        "MEN/CONJUNTO_DE_DATOS_ESTADISTICO_DE_ESTUDIANTES_GRADU.csv",
+        "MEN/Deserción_académica_1-2019.csv",
+        "MEN/Deserción_no_académica_1-2019.csv",
+        "MEN/INDICADORES_EDUCATIVOS_DEL_DEPARTAMENTO_DEL_MAGDAL.csv",
+        "MEN/MEN_Estadisticas_Basica_Media_ETC.csv",
+        "MEN/MEN_Estadisticas_Basica_Media_Mpio.csv",
+        "MEN/MEN_ESTADISTICAS_MATRICULA_POR_MUNICIPIOS_ES.csv",
+        "MEN/MEN_Programas_Educacion_Superior.csv"
+      ]
+    },
+    "2_NORMATIVO_INSTITUCIONAL": {
+      "descripcion": "IES, registros calificados, acreditación, naturaleza jurídica",
+      "n_archivos": 29,
+      "cobertura_pct": 75.0,
+      "archivos": [
+        "DANE/Características_demográficas_de_las_defu.csv",
+        "DANE/Directorio_de_Establecimientos_Educativo.csv",
+        "DANE/Ley_de_Cuotas.csv",
+        "DANE/Listado_de_sedes_de_los_Establecimientos.csv",
+        "DANE/MEN_ESTABLECIMIENTOS_EDUCATIVOS_PREESCOL.csv",
+        "DANE/Más_Jóvenes_en_el_Estado.csv",
+        "DANE/Objetivos_de_Desarrollo_Sostenible__Soc.csv",
+        "DANE/Proyección_demográfica_del_Municipio_de.csv",
+        "DANE/PROYECCIÓN_DE_POBLACIÓN_MUNICIPAL_DE_CHI.csv",
+        "DANE/Resguardos_Indígenas_a_Nivel_Nacional_20.csv",
+        "DANE/Áreas_de_referencia_como_insumo_para_la.csv",
+        "ENTIDADES/Entidades_Superfinanciera.csv",
+        "ENTIDADES/Universo_Entidades_Publicas.csv"
+      ]
+    },
+    "3_OFERTA_ACADEMICA_COMPARADA": {
+      "descripcion": "SNIES, SIET/ETDH, programas existentes, competencia",
+      "n_archivos": 13,
+      "cobertura_pct": 60.0,
+      "archivos": [
+        "OLE/Becas_Creditos_Educacion_Superior_Antioquia.csv",
+        "OLE/Graduados_Colegio_Mayor_Antioquia.csv",
+        "OLE/Graduados_Universidad_Popular_Cesar.csv",
+        "OLE/Graduados_Universidad_Valle.csv",
+        "OLE/Matriculados_IU_Mayor_Cartagena.csv",
+        "OLE/MEN_Docentes_Oficiales_EPBM.csv",
+        "OLE/MEN_Indicadores_Educacion_Media_SENA.csv"
+      ]
+    },
+    "4_OCUPACIONAL_LABORAL": {
+      "descripcion": "CUOC, CIIU, salarios, demanda laboral, formalidad",
+      "n_archivos": 206,
+      "cobertura_pct": 75.0,
+      "archivos": [
+        "CUOC/CUOC-Estructura-2025.csv",
+        "CUOC/CUOC-indice-2025.csv",
+        "CUOC/CUOC_Limpio_2025.csv",
+        "CUOC/PerfilesOcupacionales-Excel-CUOC-2025.csv",
+        "EMPLEADORES/Empleos_Tipos_Planta_Por_Entidad.csv",
+        "EMPLEADORES/Personas_Expuestas_Politicamente_PEP.csv",
+        "EMPLEADORES/SIGEP_Servidores_Publicos_Nacional.csv",
+        "EMPRESAS/Empresas_Servicios_Publicos_Colombia.csv",
+        "EMPRESAS/Personal_Por_Categoria_Empleo.csv",
+        "EMPRESAS/Registro_Prestadores_Servicios_RUPS.csv",
+        "INTELIGENTE/44Casos_de_Bajo_peso_al_Nacer_en_el_muni.csv",
+        "INTELIGENTE/Actividades_de_Desarrollo_Humano_y_Promo.csv",
+        "INTELIGENTE/ACTIVIDADES_DE_EMPRENDIMIENTO_EN_MADRID.csv",
+        "INTELIGENTE/ACTIVIDADES_DE_EMPRENDIMIENTO_PERERIA.csv",
+        "INTELIGENTE/ACTIVOS_DE_INFORMACION.csv",
+        "INTELIGENTE/Acuerdos_marco_de_prácticas.csv",
+        "INTELIGENTE/Afiliación_al_Sistema_General_de_Segurid.csv",
+        "INTELIGENTE/Afiliación_a_Sistema_General_de_Segurida.csv",
+        "INTELIGENTE/Apropiación_TIC_del_Valle_del_Cauca.csv",
+        "INTELIGENTE/Base_de_datos_de_Pymes.csv"
+      ]
+    },
+    "5_COMPETENCIAS": {
+      "descripcion": "Técnicas, transversales, digitales, brechas",
+      "n_archivos": 11,
+      "cobertura_pct": 100.0,
+      "archivos": []
+    },
+    "6_TERRITORIAL_SOCIAL": {
+      "descripcion": "Regiones, planes desarrollo, clústeres, barreras",
+      "n_archivos": 28,
+      "cobertura_pct": 100.0,
+      "archivos": [
+        "CULTURA/Espacios_de_las_Artes_las_Culturas_y_lo.csv",
+        "CULTURA/Estímulos_a_Proyectos_Artísticos_y_Cultu.csv",
+        "CULTURA/Historial_Memorias_de_Oficio.csv",
+        "CULTURA/Modalidades_de_Formación_en_Arte_y_Depor.csv",
+        "CULTURA/Programas_de_las_Casas_Distritales_de_Cu.csv",
+        "CULTURA/Sitios_Arqueológicos_de_Colombia.csv",
+        "DANE_INDICADORES/Personas_Acceso_Agua_Saneamiento.csv",
+        "DESCUBIERTOS/10000_Empresas_mas_Grandes_del_País.csv",
+        "DESCUBIERTOS/Acceso_universal.csv",
+        "DESCUBIERTOS/Administrativos_Universidad_del_Quindio.csv",
+        "DESCUBIERTOS/Admitidos_Estudiantes_Unillanos.csv",
+        "DESCUBIERTOS/ADMITIDOS_HISTORICO.csv",
+        "DESCUBIERTOS/AGENCIA_DE_EMPLEO_-_COLOCACION.csv",
+        "DESCUBIERTOS/APOYOS_ECONOMICOS.csv",
+        "DESCUBIERTOS/BASE_DE_DATOS_EMPRESAS_DEL_CHOCÓ.csv",
+        "DESCUBIERTOS/BASE_DE_DATOS_ENAJENACIONES.csv",
+        "DESCUBIERTOS/BASE_DE_DATOS_INDUSTRIA_Y_COMERCIO.csv",
+        "DESCUBIERTOS/Base_de_datos_Industria_y_Comercio_2021.csv",
+        "DESCUBIERTOS/BD_EMPRESAS_CONSTITUIDAS.csv",
+        "DESCUBIERTOS/Becas_en_el_exterior_para_colombianos.csv"
+      ]
+    },
+    "7_GLOBAL_TENDENCIAS": {
+      "descripcion": "Prospectiva, IA, automatización, tendencias internacionales",
+      "n_archivos": 39,
+      "cobertura_pct": 100.0,
+      "archivos": [
+        "BANCO_MUNDIAL/BM_Crecimiento_PIB.csv",
+        "BANCO_MUNDIAL/BM_Desempleo_Jovenes.csv",
+        "BANCO_MUNDIAL/BM_Empleo_Vulnerable.csv",
+        "BANCO_MUNDIAL/BM_Exportaciones_PIB.csv",
+        "BANCO_MUNDIAL/BM_Fuerza_Laboral_Total.csv",
+        "BANCO_MUNDIAL/BM_Gasto_Educacion_PIB.csv",
+        "BANCO_MUNDIAL/BM_Gasto_ID_PIB.csv",
+        "BANCO_MUNDIAL/BM_Inflacion_Anual.csv",
+        "BANCO_MUNDIAL/BM_Participacion_Fuerza_Laboral.csv",
+        "BANCO_MUNDIAL/BM_PIB_Per_Capita.csv",
+        "BANCO_MUNDIAL/BM_Poblacion_15_64_Pct.csv",
+        "BANCO_MUNDIAL/BM_Poblacion_Educacion_Terciaria.csv",
+        "BANCO_MUNDIAL/BM_Poblacion_Total.csv",
+        "BANCO_MUNDIAL/BM_Poblacion_Urbana_Pct.csv",
+        "BANCO_MUNDIAL/BM_Suscripciones_Moviles.csv",
+        "BANCO_MUNDIAL/BM_Tasa_Alfabetizacion_Adultos.csv",
+        "BANCO_MUNDIAL/BM_Tasa_Desempleo.csv",
+        "BANCO_MUNDIAL/BM_Tasa_Empleo.csv",
+        "BANCO_MUNDIAL/BM_Tasa_Matricula_Primaria.csv",
+        "BANCO_MUNDIAL/BM_Tasa_Matricula_Secundaria.csv"
+      ]
+    },
+    "8_DECISION_INSTITUCIONAL": {
+      "descripcion": "Síntesis, pertinencia - SE CONSTRUYE, no viene de datos externos",
+      "n_archivos": 0,
+      "cobertura_pct": 0.0,
+      "archivos": []
+    }
+  }
+}

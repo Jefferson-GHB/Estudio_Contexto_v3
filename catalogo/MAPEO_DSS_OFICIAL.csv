@@ -1,0 +1,115 @@
+Eje,Dominio,ID_Variable,Nombre_Variable,Schema,Tabla,Columna_Principal,Tipo_Cruce,Cruce_Via,Nota,Verificado
+EJE_1_PERTINENCIA_ACADEMICA,D1_ACADEMICO_FORMATIVO,campo_amplio_cinef,Campo Amplio CINE-F (SNIES),snies,snies_programas,CINE_F_2013_AC_CAMPO_AMPLIO,CLASIFICADOR_FILTRO,,11 campos amplios UNESCO CINE-F 2013 directo de SNIES,True
+EJE_1_PERTINENCIA_ACADEMICA,D1_ACADEMICO_FORMATIVO,campo_especifico_cinef,Campo Específico CINE-F,snies,snies_programas,CINE_F_2013_AC_CAMPO_ESPECÍFIC,CLASIFICADOR,,Campo específico CINE-F para análisis detallado,True
+EJE_1_PERTINENCIA_ACADEMICA,D1_ACADEMICO_FORMATIVO,campo_detallado_cinef,Campo Detallado CINE-F,snies,snies_programas,CINE_F_2013_AC_CAMPO_DETALLADO,CLASIFICADOR,,Nivel más detallado de clasificación CINE-F,True
+EJE_1_PERTINENCIA_ACADEMICA,D1_ACADEMICO_FORMATIVO,campo_amplio,Campo amplio CINE-F,catalogo_curado,catalogo_nbc_snies,CINE_Campo_Amplio,CLASIFICADOR,NBC,8 campos amplios UNESCO CINE-F,True
+EJE_1_PERTINENCIA_ACADEMICA,D1_ACADEMICO_FORMATIVO,area_conocimiento,Área del conocimiento MEN,catalogo_curado,catalogo_nbc_snies,Area_Conocimiento,CLASIFICADOR,NBC,8 áreas MEN Colombia,True
+EJE_1_PERTINENCIA_ACADEMICA,D1_ACADEMICO_FORMATIVO,nbc,Núcleo Básico del Conocimiento,snies,snies_programas,NÚCLEO_BÁSICO_DEL_CONOCIMIENTO,LLAVE_PRINCIPAL,,55 NBCs - Llave de cruce con catálogo y CUOC,True
+EJE_1_PERTINENCIA_ACADEMICA,D1_ACADEMICO_FORMATIVO,programa_nombre,Nombre del programa,snies,snies_programas,NOMBRE_DEL_PROGRAMA,DATO,,Nombre oficial del programa académico,True
+EJE_1_PERTINENCIA_ACADEMICA,D1_ACADEMICO_FORMATIVO,codigo_snies,Código SNIES del programa,snies,snies_programas,CÓDIGO_SNIES_DEL_PROGRAMA,LLAVE_PRINCIPAL,,"Llave para cruzar con graduados, matriculados, admitidos",True
+EJE_1_PERTINENCIA_ACADEMICA,D1_ACADEMICO_FORMATIVO,nivel_formacion,Nivel de formación,snies,snies_programas,NIVEL_DE_FORMACIÓN,CLASIFICADOR,,"Técnico, Tecnológico, Universitario, Especialización, Maestría, Doctorado",True
+EJE_1_PERTINENCIA_ACADEMICA,D1_ACADEMICO_FORMATIVO,modalidad,Modalidad de formación,snies,snies_programas,MODALIDAD,CLASIFICADOR,,"Presencial, Distancia, Virtual",True
+EJE_1_PERTINENCIA_ACADEMICA,D1_ACADEMICO_FORMATIVO,creditos,Número de créditos,snies,snies_programas,NÚMERO_CRÉDITOS,DATO,,Créditos académicos del programa,True
+EJE_1_PERTINENCIA_ACADEMICA,D1_ACADEMICO_FORMATIVO,duracion_periodos,Duración en períodos,snies,snies_programas,NÚMERO_PERIODOS_DE_DURACIÓN,DATO,,Semestres de duración,True
+EJE_1_PERTINENCIA_ACADEMICA,D1_ACADEMICO_FORMATIVO,periodicidad,Periodicidad,snies,snies_programas,PERIODICIDAD,DATO,,"Semestral, Anual, Trimestral",True
+EJE_1_PERTINENCIA_ACADEMICA,D1_ACADEMICO_FORMATIVO,ciclos_propedeuticos,Ciclos propedéuticos,snies,snies_programas,SE_OFRECE_POR_CICLOS_PROPEDÉUT,DATO,,SI/NO - Si ofrece ciclos propedéuticos,True
+EJE_1_PERTINENCIA_ACADEMICA,D1_ACADEMICO_FORMATIVO,programa_siet,Programa técnico laboral (SIET),siet,siet_programas,Nombre Programa,DATO,,Programas ETDH,True
+EJE_1_PERTINENCIA_ACADEMICA,D1_ACADEMICO_FORMATIVO,duracion_horas_siet,Duración en horas (SIET),siet,siet_programas,Duración Horas,DATO,,880-2640 horas típico,True
+EJE_1_PERTINENCIA_ACADEMICA,D1_ACADEMICO_FORMATIVO,area_desempeno_siet,Área de desempeño (SIET),siet,siet_programas,Area de Desempeño,CLASIFICADOR,,Clasificación SIET,True
+EJE_1_PERTINENCIA_ACADEMICA,D2_NORMATIVO_INSTITUCIONAL,codigo_institucion,Código de la institución,snies,snies_programas,CÓDIGO_INSTITUCIÓN,LLAVE_CRUCE,snies.snies_instituciones.CÓDIGO_INSTITUCIÓN,Llave para cruzar con tabla instituciones,True
+EJE_1_PERTINENCIA_ACADEMICA,D2_NORMATIVO_INSTITUCIONAL,nombre_institucion,Nombre de la institución,snies,snies_programas,NOMBRE_INSTITUCIÓN,DATO,,Nombre de la IES,True
+EJE_1_PERTINENCIA_ACADEMICA,D2_NORMATIVO_INSTITUCIONAL,caracter_academico,Carácter académico IES,snies,snies_programas,CARÁCTER_ACADÉMICO,CLASIFICADOR,,"Universidad, Inst. Universitaria, Tecnológica, Técnica",True
+EJE_1_PERTINENCIA_ACADEMICA,D2_NORMATIVO_INSTITUCIONAL,sector,Sector (público/privado),snies,snies_programas,SECTOR,CLASIFICADOR,,Oficial o Privada,True
+EJE_1_PERTINENCIA_ACADEMICA,D2_NORMATIVO_INSTITUCIONAL,estado_programa,Estado del programa,snies,snies_programas,ESTADO_PROGRAMA,CLASIFICADOR,,"Activo, Inactivo",True
+EJE_1_PERTINENCIA_ACADEMICA,D2_NORMATIVO_INSTITUCIONAL,vigencia_anos,Vigencia registro (años),snies,snies_programas,VIGENCIA_AÑOS,DATO,,Años de vigencia del registro calificado,True
+EJE_1_PERTINENCIA_ACADEMICA,D2_NORMATIVO_INSTITUCIONAL,fecha_registro,Fecha de registro SNIES,snies,snies_programas,FECHA_DE_REGISTRO_EN_SNIES,DATO,,Fecha de registro inicial,True
+EJE_1_PERTINENCIA_ACADEMICA,D2_NORMATIVO_INSTITUCIONAL,ies_acreditada,IES acreditada alta calidad,snies,snies_instituciones,ACREDITADA_ALTA_CALIDAD,DATO,CÓDIGO_INSTITUCIÓN,Si/No acreditación institucional,True
+EJE_1_PERTINENCIA_ACADEMICA,D2_NORMATIVO_INSTITUCIONAL,codigo_inst_siet,Código institución SIET,siet,siet_programas,Código Institución,LLAVE_CRUCE,siet.siet_instituciones.Código Institución,Llave para cruzar con instituciones SIET,True
+EJE_1_PERTINENCIA_ACADEMICA,D2_NORMATIVO_INSTITUCIONAL,estado_programa_siet,Estado programa SIET,siet,siet_programas,Estado Programa,CLASIFICADOR,,Activo/Inactivo,True
+EJE_1_PERTINENCIA_ACADEMICA,D2_NORMATIVO_INSTITUCIONAL,naturaleza_siet,Naturaleza institución SIET,siet,siet_instituciones,Naturaleza,CLASIFICADOR,Código Institución,Pública/Privada,True
+EJE_1_PERTINENCIA_ACADEMICA,D3_OFERTA_COMPARADA,departamento_programa,Departamento del programa,snies,snies_programas,DEPARTAMENTO_OFERTA_PROGRAMA,LLAVE_CRUCE,divipola.divipola_departamentos.departamento,Filtro territorial principal,True
+EJE_1_PERTINENCIA_ACADEMICA,D3_OFERTA_COMPARADA,municipio_programa,Municipio del programa,snies,snies_programas,MUNICIPIO_OFERTA_PROGRAMA,DATO,,Municipio de oferta,True
+EJE_1_PERTINENCIA_ACADEMICA,D3_OFERTA_COMPARADA,costo_matricula,Costo matrícula estudiantes nuevos,snies,snies_programas,COSTO_MATRÍCULA_ESTUD_NUEVOS,DATO,,Valor en pesos,True
+EJE_1_PERTINENCIA_ACADEMICA,D3_OFERTA_COMPARADA,titulo_otorgado,Título otorgado,snies,snies_programas,TITULO_OTORGADO,DATO,,Título profesional que otorga,True
+EJE_1_PERTINENCIA_ACADEMICA,D3_OFERTA_COMPARADA,graduados,Número de graduados,snies,snies_graduados,GRADUADOS,INDICADOR,COD_SNIES_PROGRAMA,Cruce vía COD_SNIES_PROGRAMA,True
+EJE_1_PERTINENCIA_ACADEMICA,D3_OFERTA_COMPARADA,graduados_ano,Año de graduados,snies,snies_graduados,ANO,FILTRO,,Para filtrar serie temporal,True
+EJE_1_PERTINENCIA_ACADEMICA,D3_OFERTA_COMPARADA,graduados_depto,Departamento graduados,snies,snies_graduados,DEPTO_PROGRAMA,FILTRO,,Filtro territorial,True
+EJE_1_PERTINENCIA_ACADEMICA,D3_OFERTA_COMPARADA,matriculados,Número de matriculados,snies,snies_matriculados,MATRICULADOS,INDICADOR,COD_SNIES_PROGRAMA,Cruce vía COD_SNIES_PROGRAMA,True
+EJE_1_PERTINENCIA_ACADEMICA,D3_OFERTA_COMPARADA,matriculados_nbc,NBC en matriculados,snies,snies_matriculados,NBC,LLAVE_CRUCE,,Para agregar por NBC sin código SNIES,True
+EJE_1_PERTINENCIA_ACADEMICA,D3_OFERTA_COMPARADA,admitidos,Número de admitidos,snies,snies_admitidos,ADMITIDOS,INDICADOR,COD_SNIES_PROGRAMA,Cruce vía COD_SNIES_PROGRAMA,True
+EJE_1_PERTINENCIA_ACADEMICA,D3_OFERTA_COMPARADA,departamento_siet,Departamento programa SIET,siet,siet_programas,Departamento,FILTRO,,Filtro territorial ETDH,True
+EJE_1_PERTINENCIA_ACADEMICA,D3_OFERTA_COMPARADA,costo_siet,Costo programa SIET,siet,siet_programas,Costo,DATO,,Valor del programa técnico laboral,True
+EJE_2_PERTINENCIA_LABORAL,D4_OCUPACIONAL_LABORAL,codigo_cuoc,Código CUOC,cuoc,cuoc_limpio_2025,CODIGO_CUOC,LLAVE_PRINCIPAL,,Llave para competencias y destrezas,True
+EJE_2_PERTINENCIA_LABORAL,D4_OCUPACIONAL_LABORAL,ocupacion_nombre,Nombre de la ocupación,cuoc,cuoc_limpio_2025,ocupacion,DATO,,Ocupación según CUOC 2025,True
+EJE_2_PERTINENCIA_LABORAL,D4_OCUPACIONAL_LABORAL,gran_grupo_cuoc,Gran grupo ocupacional,cuoc,cuoc_limpio_2025,GRAN_GRUPO,CLASIFICADOR,,10 grandes grupos ocupacionales,True
+EJE_2_PERTINENCIA_LABORAL,D4_OCUPACIONAL_LABORAL,nivel_cualificacion,Nivel de cualificación MNC,cuoc,cuoc_limpio_2025,NOMBRE_NIVEL,CLASIFICADOR,,8 niveles Marco Nacional Cualificaciones,True
+EJE_2_PERTINENCIA_LABORAL,D4_OCUPACIONAL_LABORAL,grupo_primario,Grupo primario ocupacional,cuoc,cuoc_limpio_2025,GRUPO_PRIMARIO,CLASIFICADOR,,Nivel más detallado de clasificación,True
+EJE_2_PERTINENCIA_LABORAL,D4_OCUPACIONAL_LABORAL,areas_cuoc_por_nbc,Áreas cualificación CUOC por NBC,catalogo_curado,mapeo_nbc_cuoc,Areas_Cualificacion_CUOC,CLASIFICADOR,NBC,Mapeo estratégico educación → ocupación,True
+EJE_2_PERTINENCIA_LABORAL,D4_OCUPACIONAL_LABORAL,n_ocupaciones_nbc,N° ocupaciones CUOC por NBC,catalogo_curado,mapeo_nbc_cuoc,N_Ocupaciones_CUOC,INDICADOR,NBC,Cantidad de ocupaciones asociadas al NBC,True
+EJE_2_PERTINENCIA_LABORAL,D4_OCUPACIONAL_LABORAL,seccion_ciiu,Sección CIIU (sector económico),catalogo_curado,mapeo_cuoc_ciiu,Seccion_CIIU,CLASIFICADOR,Area_Cualificacion_CUOC,21 secciones económicas,True
+EJE_2_PERTINENCIA_LABORAL,D4_OCUPACIONAL_LABORAL,nombre_seccion_ciiu,Nombre sección económica CIIU,catalogo_curado,mapeo_cuoc_ciiu,Nombre_Seccion_CIIU,DATO,,Descripción del sector,True
+EJE_2_PERTINENCIA_LABORAL,D5_COMPETENCIAS,conocimiento,Conocimientos por ocupación,competencias,cuoc_conocimientos,conocimiento,DATO,codigo_ocupacion,Cruce vía codigo_ocupacion con CUOC,True
+EJE_2_PERTINENCIA_LABORAL,D5_COMPETENCIAS,destreza,Destrezas por ocupación,competencias,cuoc_destrezas,destreza,DATO,codigo_ocupacion,Cruce vía codigo_ocupacion con CUOC,True
+EJE_2_PERTINENCIA_LABORAL,D5_COMPETENCIAS,codigo_ocupacion_comp,Código ocupación (competencias),competencias,cuoc_conocimientos,codigo_ocupacion,LLAVE_CRUCE,cuoc.cuoc_limpio_2025.CODIGO_CUOC,Llave de cruce - NECESITA CAST para igualar,True
+EJE_3_PERTINENCIA_TERRITORIAL,D6_TERRITORIAL_ESTRATEGICO,departamento,Departamento,divipola,divipola_departamentos,departamento,LLAVE_PRINCIPAL,,Nombre del departamento - Llave territorial,True
+EJE_3_PERTINENCIA_TERRITORIAL,D6_TERRITORIAL_ESTRATEGICO,codigo_depto,Código departamento,divipola,divipola_departamentos,departamento_1,LLAVE_CRUCE,,Código numérico DANE,True
+EJE_3_PERTINENCIA_TERRITORIAL,D6_TERRITORIAL_ESTRATEGICO,region,Región,divipola,divipola_departamentos,region,CLASIFICADOR,,6 regiones de Colombia,True
+EJE_3_PERTINENCIA_TERRITORIAL,D6_TERRITORIAL_ESTRATEGICO,municipio,Municipio,divipola,divipola_municipios,municipio,DATO,,Nombre del municipio,True
+EJE_3_PERTINENCIA_TERRITORIAL,D6_TERRITORIAL_ESTRATEGICO,accesos_internet,Accesos internet fijo,conectividad,internet_fijo_accesos,no_de_accesos,INDICADOR,departamento,Accesos por departamento/municipio,True
+EJE_3_PERTINENCIA_TERRITORIAL,D6_TERRITORIAL_ESTRATEGICO,depto_conectividad,Departamento (conectividad),conectividad,internet_fijo_accesos,departamento,LLAVE_CRUCE,divipola.divipola_departamentos.departamento,Para cruzar con territorial,True
+EJE_2_LABORAL,D4_OCUPACIONAL,salario_promedio,Salario Promedio,datos_complementarios,salarios_por_cargo,salario_promedio,MONEDA,denominacionempleoactual,Complementario,True (Nuevo)
+EJE_2_LABORAL,D4_OCUPACIONAL,rango_salarial_min,Rango Salarial (Min),datos_complementarios,salarios_por_cargo,salario_min,MONEDA,denominacionempleoactual,Complementario,True (Nuevo)
+EJE_2_LABORAL,D4_OCUPACIONAL,rango_salarial_max,Rango Salarial (Max),datos_complementarios,salarios_por_cargo,salario_max,MONEDA,denominacionempleoactual,Complementario,True (Nuevo)
+EJE_2_LABORAL,D4_OCUPACIONAL,ocupacion_cuoc,Ocupacion CUOC,tendencias_laborales,vacantes_ape_clean,ocupacion,TEXTO,codigo_cuoc,APE_SENA,True (Nuevo)
+EJE_2_LABORAL,D4_OCUPACIONAL,tendencia_demanda_vacantes,Tendencia Demanda (Vacantes),tendencias_laborales,vacantes_ape_clean,vacantes_2024,NUMERICO,codigo_cuoc,APE_SENA,True (Nuevo)
+EJE_2_LABORAL,D4_OCUPACIONAL,sector_economico_ciiu,Sector Economico (CIIU),rues_camaras_comercio,estructura_empresarial_actividad_economica,sector_ciiu,CODIGO,sector_ciiu,RUES,True (Nuevo)
+EJE_2_LABORAL,D4_OCUPACIONAL,densidad_empresarial,Densidad Empresarial,rues_camaras_comercio,estructura_empresarial_actividad_economica,no_de_empresas,NUMERICO,sector_ciiu,RUES,True (Nuevo)
+EJE_3_TERRITORIAL,D6_TERRITORIAL,desempeño_municipal_indicador,Desempeño Municipal (Indicador),dnp_planes_desarrollo,dnp_medicion_desempeno_municipal,indicador,TEXTO,codigo_entidad,DNP,True (Nuevo)
+EJE_3_TERRITORIAL,D6_TERRITORIAL,valor_desempeño,Valor Desempeño,dnp_planes_desarrollo,dnp_medicion_desempeno_municipal,dato,NUMERICO,codigo_entidad,DNP,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,desempleo_jovenes_global,Desempleo Jovenes (Global),banco_mundial,bm_desempleo_jovenes,valor,PORCENTAJE,pais,BancoMundial,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,pais_referencia,Pais Referencia,banco_mundial,bm_desempleo_jovenes,pais,TEXTO,pais,BancoMundial,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,año_referencia,Año Referencia,banco_mundial,bm_desempleo_jovenes,año,FECHA,pais,BancoMundial,True (Nuevo)
+EJE_2_PERTINENCIA_LABORAL,D5_COMPETENCIAS,descripcion_oficial_ocupacion,Descripción Oficial Ocupación (NLP),clasificadores,cuoc,DESCRIPCION,TEXTO_NLP,CODIGO_CUOC,Fuente para análisis de brecha de habilidades,True
+EJE_3_PERTINENCIA_TERRITORIAL,D6_TERRITORIAL_ESTRATEGICO,cobertura_4g,Cobertura 4G,competencias_tic,cobertura_m¾vil_por_tecnologÝa_departamento_y_muni,cobertuta_4g,INDICADOR,cod_municipio,Dato clave para viabilidad virtual,True
+EJE_3_PERTINENCIA_TERRITORIAL,D6_TERRITORIAL_ESTRATEGICO,es_pdet,Municipio PDET,territorial,municipios_pdet,CodigoMunicipio,BOOLEANO,cod_municipio,Priorización estatal,True
+EJE_4_GLOBAL,D7_GLOBAL,tendencia_crecimiento,Tendencia Global (Crecimiento),tendencias_tecnologicas,habilidades_futuro,crecimiento_anual_pct,INDICADOR,categoria,Crecimiento proyectado de la habilidad/tecnología,True
+EJE_4_GLOBAL,D7_GLOBAL,impacto_empleos,Impacto Tecnológico (Empleos),tendencias_tecnologicas,habilidades_futuro,empleos_globales_millones,INDICADOR,categoria,Volumen de empleos globales afectados,True
+EJE_4_GLOBAL,D7_GLOBAL,brecha_talento_global,Brecha de Talento Global,tendencias_tecnologicas,habilidades_futuro,brecha_talento_score,INDICADOR,categoria,Dificultad de conseguir talento (Riesgo/Oportunidad),True
+EJE_4_GLOBAL,D7_GLOBAL,adopcion_ia_paises,Adopción IA por País,tendencias_tecnologicas,adopcion_ia_paises,adopcion_ia_empresas_pct,INDICADOR,codigo_pais,Porcentaje de empresas que adoptan IA por país,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,inversion_ia,Inversión en IA (USD bn),tendencias_tecnologicas,adopcion_ia_paises,inversion_ia_bn_usd,MONEDA,codigo_pais,Inversión nacional en IA billones USD,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,talento_ia_score,Score Talento IA,tendencias_tecnologicas,adopcion_ia_paises,talento_ia_score,INDICADOR,codigo_pais,Índice de disponibilidad de talento IA,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,patentes_ia,Patentes IA,tendencias_tecnologicas,adopcion_ia_paises,patentes_ia,NUMERICO,codigo_pais,Número de patentes de IA registradas,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,edtech_penetracion,Penetración EdTech,tendencias_tecnologicas,edtech_adopcion_paises,penetracion_edtech_pct,PORCENTAJE,codigo_pais,Penetración de tecnología educativa,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,estudiantes_online_pct,Estudiantes Online (%),tendencias_tecnologicas,edtech_adopcion_paises,estudiantes_online_pct,PORCENTAJE,codigo_pais,Porcentaje de estudiantes en modalidad online,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,lms_adopcion,Adopción LMS (%),tendencias_tecnologicas,edtech_adopcion_paises,lms_adopcion_pct,PORCENTAJE,codigo_pais,Adopción de Learning Management Systems,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,indice_industria40,Índice Industria 4.0,tendencias_tecnologicas,industria40_paises,indice_industria40,INDICADOR,codigo_pais,Índice de madurez Industria 4.0,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,robots_trabajadores,Robots por 10K Trabajadores,tendencias_tecnologicas,industria40_paises,robots_por_10k_trabajadores,NUMERICO,codigo_pais,Densidad de robots industriales,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,adopcion_iot,Adopción IoT (%),tendencias_tecnologicas,industria40_paises,adopcion_iot_pct,PORCENTAJE,codigo_pais,Adopción de Internet de las Cosas,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,mercado_ia_global,Mercado IA Global (USD bn),tendencias_tecnologicas,mercado_ia_global,valor_mercado_bn_usd,MONEDA,anio,Tamaño mercado global de IA,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,cagr_ia,CAGR Mercado IA,tendencias_tecnologicas,mercado_ia_global,cagr_pct,PORCENTAJE,anio,Tasa de crecimiento compuesto anual IA,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,tasa_desempleo_global,Tasa Desempleo Global,indicadores_globales,bm_tasa_desempleo,valor,PORCENTAJE,pais,Tasa de desempleo por país - Banco Mundial,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,participacion_laboral_global,Participación Fuerza Laboral,indicadores_globales,bm_participacion_fuerza_laboral,valor,PORCENTAJE,pais,Participación en fuerza laboral - Banco Mundial,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,gasto_educacion_pib,Gasto Educación (% PIB),indicadores_globales,bm_gasto_educacion_pib,valor,PORCENTAJE,pais,Inversión pública en educación - Banco Mundial,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,pib_per_capita,PIB per Cápita,indicadores_globales,bm_pib_per_capita,valor,MONEDA,pais,PIB per cápita USD - Banco Mundial,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,usuarios_internet,Usuarios Internet (%),indicadores_globales,bm_usuarios_internet_pct,valor,PORCENTAJE,pais,Penetración de internet - Banco Mundial,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,microcredenciales_tendencia,Tendencias Microcredenciales,microcredenciales,tendencias,adopcion_2024_pct,PORCENTAJE,categoria,Adopción de microcredenciales por categoría,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,microcredenciales_proyeccion,Proyección Microcredenciales 2027,microcredenciales,tendencias,proyeccion_2027_pct,PORCENTAJE,categoria,Proyección de adopción 2027,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,mercado_microcredenciales,Mercado Microcredenciales (USD bn),microcredenciales,mercado_global,valor_mercado_usd_bn,MONEDA,anio,Tamaño mercado global microcredenciales,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,desempleo_ocde,Tasa Desempleo OCDE,oecd_internacional,labour_statistics,tasa_desempleo,PORCENTAJE,pais,Desempleo países OCDE,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,participacion_ocde,Participación Laboral OCDE,oecd_internacional,labour_statistics,participacion_laboral,PORCENTAJE,pais,Participación laboral países OCDE,True (Nuevo)
+EJE_4_GLOBAL,D7_GLOBAL,indicadores_unesco,Indicadores Educativos UNESCO,unesco_internacional,indicadores_educacion,valor,INDICADOR,codigo_pais,Indicadores educativos globales UNESCO,True (Nuevo)
+EJE_3_PERTINENCIA_TERRITORIAL,D6_TERRITORIAL_ESTRATEGICO,internet_fijo_accesos,Accesos Internet Fijo,conectividad,internet_fijo_accesos,velocidad_bajada,INDICADOR,cod_departamento,Velocidad y accesos internet fijo por municipio,True (Nuevo)
+EJE_3_PERTINENCIA_TERRITORIAL,D6_TERRITORIAL_ESTRATEGICO,proveedor_internet,Proveedor Internet,conectividad,internet_fijo_accesos,proveedor,TEXTO,municipio,Proveedores de internet por zona,True (Nuevo)
+EJE_3_PERTINENCIA_TERRITORIAL,D6_TERRITORIAL_ESTRATEGICO,tecnologia_internet,Tecnología Internet,conectividad,internet_fijo_accesos,tecnologia,CLASIFICADOR,municipio,Tipo de tecnología de conexión,True (Nuevo)
+EJE_3_PERTINENCIA_TERRITORIAL,D6_TERRITORIAL_ESTRATEGICO,cobertura_4g_detalle,Cobertura 4G Detallada,competencias_tic,cobertura_móvil_por_tecnología_departamento_y_muni,cabecera_municipal,BOOLEANO,cod_municipio,Cobertura 4G por municipio y centro poblado,True (Nuevo)
+EJE_3_PERTINENCIA_TERRITORIAL,D6_TERRITORIAL_ESTRATEGICO,proveedor_movil,Proveedor Móvil,competencias_tic,cobertura_móvil_por_tecnología_departamento_y_muni,proveedor,TEXTO,cod_municipio,Operadores móviles por zona,True (Nuevo)
+EJE_2_PERTINENCIA_LABORAL,D4_OCUPACIONAL_LABORAL,vacantes_departamento,Vacantes por Departamento,tendencias_laborales,vacantes_ape_clean,departamento,FILTRO,codigo_cuoc,Filtro territorial vacantes APE,True (Nuevo)
+EJE_2_PERTINENCIA_LABORAL,D4_OCUPACIONAL_LABORAL,vacantes_historico,Vacantes Históricas Anuales,tendencias_ocupacionales,vacantes_anual_2024,total_vacantes,INDICADOR,codigo_cuoc,Series históricas de vacantes 2017-2024,True (Nuevo)
+EJE_2_PERTINENCIA_LABORAL,D4_OCUPACIONAL_LABORAL,colocados_historico,Colocados Históricos Anuales,tendencias_ocupacionales,colocados_anual_2024,total_colocados,INDICADOR,codigo_cuoc,Series históricas de colocados 2017-2024,True (Nuevo)
+EJE_2_PERTINENCIA_LABORAL,D4_OCUPACIONAL_LABORAL,inscritos_historico,Inscritos Históricos Anuales,tendencias_ocupacionales,inscritos_anual_2024,total_inscritos,INDICADOR,codigo_cuoc,Series históricas de inscritos 2017-2024,True (Nuevo)
+EJE_1_PERTINENCIA_ACADEMICA,D1_ACADEMICO_FORMATIVO,cualificacion_men,Cualificación MEN,catalogo_curado,cualificaciones_men,Cualificacion,DATO,Sigla_Area,Estándar oficial de cualificación del MEN,True
+EJE_1_PERTINENCIA_ACADEMICA,D1_ACADEMICO_FORMATIVO,codigo_men,Código MEN Cualificación,catalogo_curado,cualificaciones_men,Codigo_MEN,LLAVE_PRINCIPAL,,Código único de cualificación MEN (ej: 4-AGRO-AYP-004),True
+EJE_1_PERTINENCIA_ACADEMICA,D1_ACADEMICO_FORMATIVO,nivel_mnc,Nivel MNC (Marco Nacional Cualificaciones),catalogo_curado,cualificaciones_men,Nivel_MNC,CLASIFICADOR,,Nivel 2-7 del Marco Nacional de Cualificaciones,True
+EJE_1_PERTINENCIA_ACADEMICA,D1_ACADEMICO_FORMATIVO,sector_cualif_men,Sector Cualificación MEN,catalogo_curado,cualificaciones_men,Sector,CLASIFICADOR_FILTRO,,41 sectores económicos de cualificación MEN,True
+EJE_2_PERTINENCIA_LABORAL,D4_OCUPACIONAL_LABORAL,area_cualif_men,Área Cualificación MEN,catalogo_curado,cualificaciones_men,Area_Cualificacion,CLASIFICADOR,Sigla_Area,"Conecta con CUOC vía Sigla_Area (AGVE, TICO, LOTR, etc.)",True
+EJE_2_PERTINENCIA_LABORAL,D4_OCUPACIONAL_LABORAL,sigla_area_men,Sigla Área CUOC (MEN),catalogo_curado,cualificaciones_men,Sigla_Area,LLAVE_CRUCE,cuoc.cuoc_limpio_2025.Area_Cualificacion,Llave para cruzar con ocupaciones CUOC,True

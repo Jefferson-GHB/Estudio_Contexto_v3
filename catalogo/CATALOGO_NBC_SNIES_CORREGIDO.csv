@@ -1,0 +1,58 @@
+ID_NBC,NBC,AREA_CONOCIMIENTO,CINE_Campo_Amplio,Programas_Count
+1,Administración,"Economía, administración, contaduría y afines",Administración de Empresas y Derecho,7014
+2,Agronomía,"Agronomía, veterinaria y afines","Agropecuario, Silvicultura, Pesca y Veterinaria",454
+3,Antropología y artes liberales,Ciencias sociales y humanas,Arte y Humanidades,68
+4,Arquitectura y afines,"Ingeniería, arquitectura, urbanismo y afines","Ingeniería, Industria y Construcción",294
+5,"Artes plásticas, visuales y afines",Bellas artes,Arte y Humanidades,219
+6,Artes representativas,Bellas artes,Arte y Humanidades,69
+7,Bacteriología,Ciencias de la salud,Salud y Bienestar,69
+8,"Bibliotecología, otros de ciencias sociales y humanas",Ciencias sociales y humanas,"Ciencias Sociales, Periodismo e Información",112
+9,"Biología, microbiología y afines",Matemáticas y ciencias naturales,"Ciencias Naturales, Matemáticas y Estadística",315
+10,"Ciencia política, relaciones internacionales",Ciencias sociales y humanas,"Ciencias Sociales, Periodismo e Información",262
+11,"Comunicación social, periodismo y afines",Ciencias sociales y humanas,"Ciencias Sociales, Periodismo e Información",511
+12,Contaduría pública,"Economía, administración, contaduría y afines",Administración de Empresas y Derecho,1245
+13,"Deportes, educación física y recreación",Ciencias sociales y humanas,Servicios,180
+14,Derecho y afines,Ciencias sociales y humanas,Administración de Empresas y Derecho,2067
+15,Diseño,Bellas artes,Arte y Humanidades,680
+16,Economía,"Economía, administración, contaduría y afines","Ciencias Sociales, Periodismo e Información",667
+17,Educación,Ciencias de la educación,Educación,3416
+18,Enfermería,Ciencias de la salud,Salud y Bienestar,200
+19,"Filosofía, teología y afines",Ciencias sociales y humanas,Arte y Humanidades,196
+20,Formación relacionada con el campo militar o policial,Ciencias sociales y humanas,Servicios,84
+21,Física,Matemáticas y ciencias naturales,"Ciencias Naturales, Matemáticas y Estadística",72
+22,"Geografía, historia",Ciencias sociales y humanas,"Ciencias Sociales, Periodismo e Información",98
+23,"Geología, otros programas de ciencias naturales",Matemáticas y ciencias naturales,"Ciencias Naturales, Matemáticas y Estadística",75
+24,Ingeniería administrativa y afines,"Ingeniería, arquitectura, urbanismo y afines","Ingeniería, Industria y Construcción",141
+25,"Ingeniería agroindustrial, alimentos y afines","Ingeniería, arquitectura, urbanismo y afines","Ingeniería, Industria y Construcción",298
+26,"Ingeniería agronómica, pecuaria y afines","Ingeniería, arquitectura, urbanismo y afines","Agropecuario, Silvicultura, Pesca y Veterinaria",129
+27,"Ingeniería agrícola, forestal y afines","Ingeniería, arquitectura, urbanismo y afines","Agropecuario, Silvicultura, Pesca y Veterinaria",134
+28,"Ingeniería ambiental, sanitaria y afines","Ingeniería, arquitectura, urbanismo y afines","Ingeniería, Industria y Construcción",559
+29,Ingeniería biomédica y afines,"Ingeniería, arquitectura, urbanismo y afines","Ingeniería, Industria y Construcción",75
+30,Ingeniería civil y afines,"Ingeniería, arquitectura, urbanismo y afines","Ingeniería, Industria y Construcción",521
+31,"Ingeniería de minas, metalurgia y afines","Ingeniería, arquitectura, urbanismo y afines","Ingeniería, Industria y Construcción",141
+32,"Ingeniería de sistemas, telemática y afines","Ingeniería, arquitectura, urbanismo y afines",Tecnologías de la Información y la Comunicación (TIC),2000
+33,"Ingeniería electrónica, telecomunicaciones y afines","Ingeniería, arquitectura, urbanismo y afines","Ingeniería, Industria y Construcción",753
+34,Ingeniería eléctrica y afines,"Ingeniería, arquitectura, urbanismo y afines","Ingeniería, Industria y Construcción",253
+35,Ingeniería industrial y afines,"Ingeniería, arquitectura, urbanismo y afines","Ingeniería, Industria y Construcción",908
+36,Ingeniería mecánica y afines,"Ingeniería, arquitectura, urbanismo y afines","Ingeniería, Industria y Construcción",483
+37,Ingeniería química y afines,"Ingeniería, arquitectura, urbanismo y afines","Ingeniería, Industria y Construcción",183
+38,Instrumentación quirúrgica,Ciencias de la salud,Salud y Bienestar,28
+39,"Lenguas modernas, literatura, linguística y afines",Ciencias sociales y humanas,Arte y Humanidades,142
+40,"Matemáticas, estadística y afines",Matemáticas y ciencias naturales,"Ciencias Naturales, Matemáticas y Estadística",235
+41,Medicina,Ciencias de la salud,Salud y Bienestar,1083
+42,Medicina veterinaria,"Agronomía, veterinaria y afines","Agropecuario, Silvicultura, Pesca y Veterinaria",142
+43,Música,Bellas artes,Arte y Humanidades,87
+44,Nutrición y dietética,Ciencias de la salud,Salud y Bienestar,46
+45,Odontología,Ciencias de la salud,Salud y Bienestar,238
+46,"Optometría, otros programas de ciencias de la salud",Ciencias de la salud,Salud y Bienestar,52
+47,Otras ingenierías,"Ingeniería, arquitectura, urbanismo y afines","Ingeniería, Industria y Construcción",176
+48,Otros programas asociados a bellas artes,Bellas artes,Arte y Humanidades,95
+49,Psicología,Ciencias sociales y humanas,"Ciencias Sociales, Periodismo e Información",529
+50,Publicidad y afines,Bellas artes,Arte y Humanidades,217
+52,Química y afines,Matemáticas y ciencias naturales,"Ciencias Naturales, Matemáticas y Estadística",134
+51,Química y afines,Ciencias de la salud,"Ciencias Naturales, Matemáticas y Estadística",4
+53,Salud pública,Ciencias de la salud,Salud y Bienestar,401
+54,Sin clasificar,,Administración de Empresas y Derecho,1239
+55,"Sociología, trabajo social y afines",Ciencias sociales y humanas,"Ciencias Sociales, Periodismo e Información",460
+56,Terapias,Ciencias de la salud,Salud y Bienestar,221
+57,Zootecnia,"Agronomía, veterinaria y afines","Agropecuario, Silvicultura, Pesca y Veterinaria",186

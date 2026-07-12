@@ -1,0 +1,405 @@
+ID,Codigo_MEN,Cualificacion,Nivel_MNC,Titulo_Otorga,Sector,Area_Cualificacion,Sigla_Area
+1,2-AGRO-AYP-001,Marinero de cubierta,2,,Acuicultura y Pesca,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+2,2-AGRO-AYP-002,Patrón de pesca artesanal,2,,Acuicultura y Pesca,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+3,3-AGRO-AYP-003,Patrón de pesca,3,,Acuicultura y Pesca,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+4,4-AGRO-AYP-004,Actividades de gestión de la acuicultura,4,,Acuicultura y Pesca,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+5,4-AGRO-AYP-005,Oficial de pesca,4,,Acuicultura y Pesca,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+6,5-AGRO-AYP-006,Oficial de pesca de altura,5,,Acuicultura y Pesca,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+7,5-AGRO-AYP-007,Capitán de pesca de altura,5,,Acuicultura y Pesca,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+8,6-AGRO-AYP-008,Gestión de la producción y extracción de especies acuáticas,6,,Acuicultura y Pesca,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+9,7-AGRO-AYP-009,Investigación en acuicultura y pesca,7,,Acuicultura y Pesca,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+10,3-AGRO-AGR-001,Producción Agricola,3,,Agrícola,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+11,5-AGRO-AGR-002,Soporte a  actividades  productivas  agrícolas,5,,Agrícola,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+12,6-AGRO-AGR-003,Gestión de la producción agrícola,6,,Agrícola,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+13,6-AGRO-AGR-004,Agroecología,6,,Agrícola,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+14,7-AGRO-AGR-005,Ciencias agrícolas,7,,Agrícola,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+15,2-AGRO-AGR-FOR-001,Apoyo en labores de producción agrícola y forestal,2,,Agrícola y forestal,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+16,3-AGRO–FOR-001,Producción y cosecha forestal y agroforestal.,3,,Forestal,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+17,5-AGRO–FOR-002,Soporte en el desarrollo de proyectos forestales y agroforestales,5,,Forestal,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+18,6-AGRO-FOR-003,Gestión de proyectos forestales,6,,Forestal,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+19,7-AGVE-FOR-4,Agroforestería,7,,Forestal,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+20,2-AGRO-PEC-001,Apoyo en labores auxiliares pecuarias,2,,Pecuario,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+21,3-AGRO-PEC-002,Producción pecuaria,3,,Pecuario,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+22,4-AGRO-PEC-003,Asistencia veterinaria,4,,Pecuario,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+23,5-AGRO-PEC-004,"Soporte a la producción, asistencia técnica y extensión pecuaria",5,,Pecuario,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+24,6-AGRO-PEC-005,Veterinaria,6,,Pecuario,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+25,6-AGRO-PEC-006,Gestión de producción pecuaria. ,6,,Pecuario,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+26,7-AGRO-PEC-007,Genética y mejoramiento animal,6,,Pecuario,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+27,7-AGRO-PEC-008,Salud y produccion pecuaria ,7,,Pecuario,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+28,7-Transversal-AGRO-002,Dirección agropecuaria,7,,Transversales,"Agropecuario, Silvicultura, Pesca, Acuicultura y Veterinaria",AGVE
+29,4-ALYG-EDI-003,Impresión Flexográfica,4,,Cultura- Artes gráficas,Artes literarias y gráficas,ALYG
+30,4-ALYG-EDI-004,Impresión serigráfica ,4,,Cultura- Artes gráficas,Artes literarias y gráficas,ALYG
+31,4-ALYG-EDI-005,Impresión en offset,4,,Cultura- Artes gráficas,Artes literarias y gráficas,ALYG
+32,4-ALYG-EDI-006,Encuadernación y terminado de impresos,4,,Cultura- Artes gráficas,Artes literarias y gráficas,ALYG
+33,4-ALYG-EDI-007,Preparación de máquinas y materiales en procesos de impresión gráfica (Pre prensa),4,,Cultura- Artes gráficas,Artes literarias y gráficas,ALYG
+34,5-ALYG-EDI-008,Supervisión de procesos en industria gráfica,5,,Cultura- Artes gráficas,Artes literarias y gráficas,ALYG
+35,5-ALYG-EDI-009,Promoción de lectura,5,,Cultura- Artes gráficas,Artes literarias y gráficas,ALYG
+36,5-ALYG-EDI-010,Asistencia en Diseño gráfico ,5,,Cultura- Artes gráficas,Artes literarias y gráficas,ALYG
+37,6-ALYG-EDI-001,Apoyo en Labores Operativas de la Producción Gráfica,3,,Cultura- Artes gráficas,Artes literarias y gráficas,ALYG
+38,6-ALYG-EDI-002,Impresión digital,4,,Cultura- Artes gráficas,Artes literarias y gráficas,ALYG
+39,6-ALYG-EDI-011,Diseño gráfico,6,,Cultura- Artes gráficas,Artes literarias y gráficas,ALYG
+40,6-ALYG-EDI-012,Creación de Narrativas Graficas,6,,Cultura- Artes gráficas,Artes literarias y gráficas,ALYG
+41,6-ALYG-EDI-013,"Creación, edición y  crítica literaria",6,,Cultura- Artes gráficas,Artes literarias y gráficas,ALYG
+42,4-AVPP-PCI-001,Carpinteria de Ribera,4,,Cultura- Patrimonio,"Artes visuales, plásticas y del patrimonio cultural",AVPP
+43,4-AVPP-PCI-002,Intervención  de inmuebles construidos con tierra,4,,Cultura- Patrimonio,"Artes visuales, plásticas y del patrimonio cultural",AVPP
+44,4-AVPP-PCI-003,Preparación de menús Tradicionales,4,,Cultura- Patrimonio,"Artes visuales, plásticas y del patrimonio cultural",AVPP
+45,5-AVPP-MUS-001,Asistencia a museos,5,,Cultura- Patrimonio,"Artes visuales, plásticas y del patrimonio cultural",AVPP
+46,5-AVPP-PCI-004,Cocina tradicional,5,,Cultura- Patrimonio,"Artes visuales, plásticas y del patrimonio cultural",AVPP
+47,6-AVPP-MUS-003,Dirección y administración de museos,6,,Cultura- Patrimonio,"Artes visuales, plásticas y del patrimonio cultural",AVPP
+48,6-AVPP-MUS-004,Catalogación y registro,6,,Cultura- Patrimonio,"Artes visuales, plásticas y del patrimonio cultural",AVPP
+49,6-AVPP-MUS-005,Educación Museal,6,,Cultura- Patrimonio,"Artes visuales, plásticas y del patrimonio cultural",AVPP
+50,6-AVPP-MUS-006,Museografía,6,,Cultura- Patrimonio,"Artes visuales, plásticas y del patrimonio cultural",AVPP
+51,7-AVPP-MUS-007,Museología,7,,Cultura- Patrimonio,"Artes visuales, plásticas y del patrimonio cultural",AVPP
+52,7-AVPP-MUS-008,Curaduría de arte y patrimonio cultural,7,,Cultura- Patrimonio,"Artes visuales, plásticas y del patrimonio cultural",AVPP
+53,4-AVEM-TVS-001,Asistencia escenográfica y de utilería,4,,Cultura- Artes escénicas,"Audiovisuales, artes escénicas y música",AVEM
+54,5-AVEM-TVS-002,Asistencia en la producción de las artes escénicas,5,,Cultura- Artes escénicas,"Audiovisuales, artes escénicas y música",AVEM
+55,5-AVEM-TVS-003,Realización y montaje de escenografía y utilería  ,5,,Cultura- Artes escénicas,"Audiovisuales, artes escénicas y música",AVEM
+56,5-AVEM-TVS-004,Maquillaje artístico y de efectos especiales,5,,Cultura- Artes escénicas,"Audiovisuales, artes escénicas y música",AVEM
+57,5-AVEM-TVS-005,Iluminación en las artes escénicas y audiovisuales,5,,Cultura- Artes escénicas,"Audiovisuales, artes escénicas y música",AVEM
+58,6-AVEM-TVS-007,Vestuario Artístico,6,,Cultura- Artes escénicas,"Audiovisuales, artes escénicas y música",AVEM
+59,6-AVEM-TVS-008,Producción de eventos en las artes escénicas,6,,Cultura- Artes escénicas,"Audiovisuales, artes escénicas y música",AVEM
+60,3-AVEM-AUD-001,Operación de sistemas de Proyección Digital,3,,Cultura- Audiovisuales,"Audiovisuales, artes escénicas y música",AVEM
+61,4-AVEM-AUD-002,Locución y Presentación de Medios Audiovisuales,5,,Cultura- Audiovisuales,"Audiovisuales, artes escénicas y música",AVEM
+62,5-AVEM-AUD-003,Supervisión de Imagen Digital,5,,Cultura- Audiovisuales,"Audiovisuales, artes escénicas y música",AVEM
+63,5-AVEM-AUD-004,"Operación de Cámaras de Cine, Video y   televisión",5,,Cultura- Audiovisuales,"Audiovisuales, artes escénicas y música",AVEM
+64,5-AVEM-AUD-005,Asistencia de Dirección y Producción Audiovisual,5,,Cultura- Audiovisuales,"Audiovisuales, artes escénicas y música",AVEM
+65,5-AVEM-AUD-006,Edición y montaje de obras audiovisuales,6,,Cultura- Audiovisuales,"Audiovisuales, artes escénicas y música",AVEM
+66,6-AVEM-AUD-007,Comunicación Audiovisual,6,,Cultura- Audiovisuales,"Audiovisuales, artes escénicas y música",AVEM
+67,6-AVEM-AUD-008,Diseño y Posproducción de Sonido,6,,Cultura- Audiovisuales,"Audiovisuales, artes escénicas y música",AVEM
+68,6-AVEM-AUD-009,Producción de Contenidos Audiovisuales,6,,Cultura- Audiovisuales,"Audiovisuales, artes escénicas y música",AVEM
+69,6-AVEM-AUD-010,Dirección de Arte para Obras Audiovisuales,6,,Cultura- Audiovisuales,"Audiovisuales, artes escénicas y música",AVEM
+70,6-AVEM-AUD-011,Dirección de Fotografía para Obras Audiovisuales ,6,,Cultura- Audiovisuales,"Audiovisuales, artes escénicas y música",AVEM
+71,6-AVEM-AUD-012,Dirección de Obras Audiovisuales,6,,Cultura- Audiovisuales,"Audiovisuales, artes escénicas y música",AVEM
+72,6-AVEM-AUD-013,Dirección y programación de medios,7,,Cultura- Audiovisuales,"Audiovisuales, artes escénicas y música",AVEM
+73,7-AVEM-AUD-014,Investigación y producción de noticias,7,,Cultura- Audiovisuales,"Audiovisuales, artes escénicas y música",AVEM
+74,7-AVEM-AUD-015,Escritura de Obras Audiovisuales,7,,Cultura- Audiovisuales,"Audiovisuales, artes escénicas y música",AVEM
+75,5-AVEM-CIR-001,Artes circenses,5,,Cultura- Circo,"Audiovisuales, artes escénicas y música",AVEM
+76,4-AVEM-DAN-001,Ejecucion e interpretación de la danza,4,,Cultura- Danza,"Audiovisuales, artes escénicas y música",AVEM
+77,5-AVEM-DAN-002,"Asistencia coreográfica, ejecucion e interpretación de la danza",5,,Cultura- Danza,"Audiovisuales, artes escénicas y música",AVEM
+78,6-AVEM-DAN-003,"Interpretación, direccion coreográfica y formación en danza ",6,,Cultura- Danza,"Audiovisuales, artes escénicas y música",AVEM
+79,3-AVEM-MUS-001,Operación de sonido ,3,,Cultura- Música,"Audiovisuales, artes escénicas y música",AVEM
+80,4-AVEM-MUS-002,Montaje Técnico para la producción y amplificación de sonido en vivo,4,,Cultura- Música,"Audiovisuales, artes escénicas y música",AVEM
+81,4-AVEM-MUS-003,Ejecución músical,4,,Cultura- Música,"Audiovisuales, artes escénicas y música",AVEM
+82,5-AVEM-MUS-004,Asistencia Técnica para la Producción de Música y Sonido,5,,Cultura- Música,"Audiovisuales, artes escénicas y música",AVEM
+83,6-AVEM-MUS-005,Producción de música y sonido,6,,Cultura- Música,"Audiovisuales, artes escénicas y música",AVEM
+84,6-AVEM-MUS-006," Dirección, composición e interpretación musical",6,,Cultura- Música,"Audiovisuales, artes escénicas y música",AVEM
+85,6-AVEM-MUS-007,"Curaduría, Supervisión, Agendamiento y Distribución de Proyectos Musicales",6,,Cultura- Música,"Audiovisuales, artes escénicas y música",AVEM
+86,7-AVEM-MUS-008,Gerencia y Dirección de Organizaciones Musicales,7,,Cultura- Música,"Audiovisuales, artes escénicas y música",AVEM
+87,3-AVEM-TEA-001,Operación de Tramoya,3,,Cultura-Teatro,"Audiovisuales, artes escénicas y música",AVEM
+88,4-AVEM-TEA-002,Expresión teatral,4,,Cultura-Teatro,"Audiovisuales, artes escénicas y música",AVEM
+89,5-AVEM-TEA-003,Interpretación escénica,5,,Cultura-Teatro,"Audiovisuales, artes escénicas y música",AVEM
+90,5-AVEM-TEA-004,Escenotecnia para las artes escénicas,5,,Cultura-Teatro,"Audiovisuales, artes escénicas y música",AVEM
+91,6-AVEM-TEA-005,Actuación,6,,Cultura-Teatro,"Audiovisuales, artes escénicas y música",AVEM
+92,6-AVEM-TEA-006,Diseño de iluminación artística,6,,Cultura-Teatro,"Audiovisuales, artes escénicas y música",AVEM
+93,7-AVEM-TEA-007,Dirección artística teatral,7,,Cultura-Teatro,"Audiovisuales, artes escénicas y música",AVEM
+94,7-AVEM-TEA-008,Dramaturgia de obras teatrales,7,,Cultura-Teatro,"Audiovisuales, artes escénicas y música",AVEM
+95,7-AVEM-TEA-009,Gestión de procesos artísticos,7,,Cultura-Teatro,"Audiovisuales, artes escénicas y música",AVEM
+96,2_CONS-001,Actividades de apoyo a la construcción ,2,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+97,3_CONS-002,Instalación de sistemas de aislamiento térmico y acústico,3,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+98,3_CONS-003,"Instalación, mantenimiento y reparación de cubiertas",3,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+99,3_CONS-004,Instalación de acabados adheridos y flotados en pisos y paredes,3,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+100,3_CONS-005,Aplicación de revestimientos y recubrimientos en muros y techos,3,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+101,3_CONS-006,"Operación de maquinaria pesada de movimiento de tierras, pavimentación y cimentación en proyectos de edificación e infraestructura",3,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+102,4_CONS-007,Ejecución de actividades complementarias de construcción y mantenimiento,4,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+103,4_CONS-008,Construcción y mantenimiento de edificaciones de hasta dos niveles,4,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+104,4_CONS-009,Construcción de estructuras en concreto ,4,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+105,4_CONS-010,Construcción y mantenimiento de obras de infraestructura,4,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+106,4_CONS-011,Construccion de mampostería ,4,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+107,4_CONS-012,Instalación de redes internas de gas en proyectos de edificación,4,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+108,4_CONS-013,Instalación de redes de acueducto y alcantarillado,4,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+109,4_CONS-014,Instalación de redes hidráulicas y sanitarias en proyectos de edificación,4,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+110,5_CONS-015,Asistencia técnica en el desarrollo de proyectos de construcción,5,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+111,5_CONS-016,Supervisión de proyectos de construcción,5,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+112,5_CONS-017,Levantamientos topográficos y catastrales,5,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+113,5_CONS-018,Dibujo y modelado de arquitectura e ingeniería civil,5,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+114,6_CONS-019,Ingeniería topográfica,6,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+115,6_CONS-020,Arquitectura,6,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+116,6_CONS-021,Ingeniería civil,6,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+117,6-CONS-022,Diseño de redes hidrosanitarias y de protección contra incendio ,6,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+118,7_CONS-023,Diseño y construcción de proyectos de infraestructura hidráulica,7,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+119,7_CONS-024,Diseño y construcción de proyectos de infraestructura de vial,7,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+120,7_CONS-025,Ingeniería estructural ,7,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+121,7_CONS-026,Geotecnia en proyectos de edificación e infraestructura,7,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+122,7_CONS-027,Diseño y construcción de proyectos de infraestructura ferroviaria,7,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+123,7_CONS-028,Diseño y construcción de proyectos de infraestructura portuaria,7,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+124,7_CONS-029,Arquitectura del paisaje,7,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+125,7_CONS-030,Construcción sostenible en proyectos de edificación e infraestructura,7,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+126,7_CONS-031,Gerencia en gestión y modelado virtual de información de la construcción,7,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+127,7_CONS-032,Planificación del territorio,7,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+128,7-CONS-033,Dirección de empresas de construcción,7,,Construcción e Infraestructura,Construcción e Infraestructura,COIF
+129,2-EMCP-PYG-TRV-TRV-001,Apoyo a procesos del Upstream,2,,Extracción de petróleo y gas,"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+130,3-EMCP-PYG-EXP-002,Operaciones de apoyo en activación de fuente de energía en actividades petroleras.pdf,3,,Extracción de petróleo y gas,"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+131,3-EMCP-PYG-PYA-004,Operaciones asistenciales de servicio a pozos,3,,Extracción de petróleo y gas,"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+132,3-EMCP-PYG-PYC-003,Apoyo a operaciones del taladro de perforación de hidrocarburos,3,,Extracción de petróleo y gas,"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+133,4-EMCP-PYG-EXP-005 ,Asistencia técnica de procesos de exploración y desarrollo.pdf,4,,Extracción de petróleo y gas,"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+134,4-EMCP-PYG-PYA-007,"Apoyo técnico en procesos de tratamiento, separación y medición de hidrocarburos",4,,Extracción de petróleo y gas,"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+135,4-EMCP-PYG-PYC-006, Operaciones de apoyo a la Perforación y Completamiento de pozos de petróleo y gas,4,,Extracción de petróleo y gas,"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+136,5-EMCP-PYG-EXP- 008,Supervisión de procesos de exploración y desarrollo de yacimientos de petróleo y gas natural,5,,Extracción de petróleo y gas,"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+137,5-EMCP-PYG-PYA-010 ,Seguimiento de  procesos de Producción y Facilidades de hidrocarburos,5,,Extracción de petróleo y gas,"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+138,5-EMCP-PYG-PYC-009,Inspección y control de operaciones de Perforación y Completamiento,5,,Extracción de petróleo y gas,"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+139,6-EMCP-PYG-EXP-011,Gestión de proyectos de Exploración de Yacimientos de Petróleo y Gas natural,6,,Extracción de petróleo y gas,"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+140,6-EMCP-PYG-EXP-012,Gestión de proyectos de Desarrollo de Yacimientos de Petróleo y Gas natural,6,,Extracción de petróleo y gas,"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+141,6-EMCP-PYG-PYA-015,"Gestión de producción, facilidades y mejora de productividad de pozos de hidrocarburos",6,,Extracción de petróleo y gas,"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+142,6-EMCP-PYG-PYC-013,Gestión de proyectos de Perforación y Completamiento,6,,Extracción de petróleo y gas,"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+143,6-EMCP-PYG-PYC-014,Integración logística en proyectos de perforación y completamiento de hidrocarburos,6,,Extracción de petróleo y gas,"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+144,7-EMCP-PYG-PYA- 018,Dirección de Proyectos con énfasis de diseño de Facilidades y Producción de hidrocarburos,7,,Extracción de petróleo y gas,"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+145,7-EMCP-PYG-PYC-016,Dirección de Proyectos con énfasis en exploración y desarrollo de yacimientos de petróleo y gas,7,,Extracción de petróleo y gas,"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+146,7-EMCP-PYG-PYC-017,Dirección de proyectos con énfasis en Perforación y Completamiento de Hidrocarburos,7,,Extracción de petróleo y gas,"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+147,7-EMCP-PYG-PYC-019, Dirección estratégica del Upstream,7,,Extracción de petróleo y gas,"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+148,2- EXMC -008,Operaciones auxiliares en minas,2,,Minero (Minerales oro y carbón),"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+149,3- EXMC -007,Operaciones de desarrollo minero,3,,Minero (Minerales oro y carbón),"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+150,4- EXMC -004,Sondeos en áreas mineras,4,,Minero (Minerales oro y carbón),"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+151,4- EXMC -005,Perforación y voladura en actividades mineras,4,,Minero (Minerales oro y carbón),"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+152,4- EXMC -006,"Beneficio, transformación y recuperación de minerales",4,,Minero (Minerales oro y carbón),"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+153,5- EXMC -002,Supervisión de labores mineras,5,,Minero (Minerales oro y carbón),"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+154,5-EXMC-003,Análisis químico de minerales y rocas,5,,Minero (Minerales oro y carbón),"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+155,6-EXMC-001,Dirección técnica minera,6,,Minero (Minerales oro y carbón),"Exploración y Extracción De Minas, Canteras, Petróleo y Gas",EMCP
+156,2-INQU-TRV-001  ,Asistencia de producción en la industria química,2,,Químico/Farmacéutico,Industria química (,
+157,3-INQU-BAS-003  ,Operación de fabricación de productos químicos básicos.,3,,Químico/Farmacéutico,Industria química (,
+158,3-INQU-FAR-002,Operación de equipos y plantas de la producción farmacéutica,3,,Químico/Farmacéutico,Industria química (,
+159,3-INQU-PET-004   ,"Operación de refinación de petróleo, coquización y mezcla de combustibles",3,,Químico/Farmacéutico,Industria química (,
+160,4-INQU-TRV-005  ,"Manejo y control de materiales, productos y equipos de laboratorio",4,,Químico/Farmacéutico,Industria química (,
+161,4-INQU-TRV-006 ,Análisis químico y soporte al proceso productivo en la industria química,4,,Químico/Farmacéutico,Industria química (,
+162,5-INQU-TRV-007 ,Supervisión de la producción en la industria química,5,,Químico/Farmacéutico,Industria química (,
+163,6-FAR  -TRV-012,Gestión y dirección técnica de laboratorios cosméticos y farmacéuticos,6,,Químico/Farmacéutico,Industria química (,
+164,6-INQU -TRV-011  ,Gestión y dirección de laboratorios químicos,6,,Químico/Farmacéutico,Industria química (,
+165,6-INQU-FAR-010   ,Desarrollo y seguimiento de la producción farmacéutica y afines,6,,Químico/Farmacéutico,Industria química (,
+166,6-INQU-TRV-008   ,Diseño y desarrollo de procesos de transformación físicos-químicos en la industria,6,,Químico/Farmacéutico,Industria química (,
+167,6-INQU-TRV-009 ,Descripción y transformación de la materia en productos,6,,Químico/Farmacéutico,Industria química (,
+168,6-INQU-TRV-013   ,Gestión y dirección de plantas de producción química,6,,Químico/Farmacéutico,Industria química (,
+169,7-INQU-TRV-014  ,Investigación e innovación en el sector químico y farmacéutico,7,,Químico/Farmacéutico,Industria química (,
+170,2-LP-TL-004,Actividades de amarre y desamarre de naves en zona y terminales portuarias.,2,,Logistica Portuaria,Logística y Transporte,LOTR
+171,2-LP-TL-005,Apoyo a naves en zona portuaria,2,,Logistica Portuaria,Logística y Transporte,LOTR
+172,2-TRAL-LOG-001,Operaciones auxiliares de manipulación de carga,2,,Logística empresarial,Logística y Transporte,LOTR
+173,2-TRAL-TRA-001,Conducción de vehículos de dos y tres ruedas en operaciones de reparto domiciliario y postal,2,,Transporte terrestre,Logística y Transporte,LOTR
+174,3-LP-TL-002,"Manejo de carga, descarga y transbordo en el puerto marítimo y fluvial",3,,Logistica Portuaria,Logística y Transporte,LOTR
+175,3-LP-TL-003,"Almacenamiento, recibo y despacho de carga en puerto",3,,Logistica Portuaria,Logística y Transporte,LOTR
+176,3-TRAL-LOG-002,"Almacenamiento recibo y despacho de mercancías en centros de distribución, bodegas y almacenes",3,,Logística empresarial,Logística y Transporte,LOTR
+177,3-TRAL-TRA-002,Conducción de vehículos livianos de transporte de pasajeros y mercancías por carretera,3,,Transporte terrestre,Logística y Transporte,LOTR
+178,4- TRAL-TRA-007,Atención de máquinas de embarcaciones fluviales mayores,4,,Trasnporte Fluvial,Logística y Transporte,LOTR
+179,4-TRAL-TRA-004,Conducción de vehículos pesados de transporte de personas y carga por carretera,4,,Transporte terrestre,Logística y Transporte,LOTR
+180,4-TRAL-TRA-005,Conducción de sistemas ferroviarios en operaciones de transporte de carga y pasajeros,4,,Transporte terrestre,Logística y Transporte,LOTR
+181,4-TRAL-TRA-005,Apoyo en sección de cubierta y navegación de transporte marítimo comercial,4,,Transporte marítimo,Logística y Transporte,LOTR
+182,4-TRAL-TRA-006,Apoyo en sección de máquinas de transporte marítimo comercial,4,,Transporte marítimo,Logística y Transporte,LOTR
+183,4-TRAL-TRA-008,Asistencia a maniobras de embarcaciones fluviales mayores,4,,Trasnporte Fluvial,Logística y Transporte,LOTR
+184,4-TRAL-TRA-009,Operación de embarcaciones fluviales menores,4,,Trasnporte Fluvial,Logística y Transporte,LOTR
+185,5- TRAL-TRA-014,Gobierno de embarcaciones fluviales mayores,5,,Trasnporte Fluvial,Logística y Transporte,LOTR
+186,5-TRAL-LOG-003,Gestión de Operaciones Logísticas,5,,Logística empresarial,Logística y Transporte,LOTR
+187,5-TRAL-TRA-009,Gestión de monitoreo de flotas y redes de transporte terrestre,5,,Transporte terrestre,Logística y Transporte,LOTR
+188,5-TRAL-TRA-010,Operación con restricciones en sección de cubierta y navegación de transporte marítimo comercial,5,,Transporte marítimo,Logística y Transporte,LOTR
+189,5-TRAL-TRA-011,Operación con restricciones en sección de máquinas de transporte marítimo comercial,5,,Transporte marítimo,Logística y Transporte,LOTR
+190,5-TRAL-TRA-012,Gestión con restricciones en sección de cubierta y navegación de transporte marítimo comercial,5,,Transporte marítimo,Logística y Transporte,LOTR
+191,5-TRAL-TRA-013,Gestión con restricciones en sección de máquinas de transporte marítimo comercial,5,,Transporte marítimo,Logística y Transporte,LOTR
+192,6- TRAL-TRA-020,Gestión de las operaciones del transporte acuático,6,,Trasnporte Fluvial,Logística y Transporte,LOTR
+193,6- TRAL-TRA-021,Asistencia en practicaje de maniobras náuticas de embarcaciones mayores en zona portuaria,6,,Trasnporte Fluvial,Logística y Transporte,LOTR
+194,6-LP-TL -001,Gestión de operaciones portuarias,6,,Logistica Portuaria,Logística y Transporte,LOTR
+195,6-LP-TL-006,Asistencia en practicaje de maniobras con remolcadores a la nave,6,,Logistica Portuaria,Logística y Transporte,LOTR
+196,6-TRAL-LOG-004,Administración logística,6,,Logística empresarial,Logística y Transporte,LOTR
+197,6-TRAL-LOG-005,Dirección de logística integral,6,,Logística empresarial,Logística y Transporte,LOTR
+198,6-TRAL-TRA-016,Operación sin restricciones en sección de cubierta y navegación de transporte marítimo comercial,6,,Transporte marítimo,Logística y Transporte,LOTR
+199,6-TRAL-TRA-017,Operación sin restricciones en sección de máquinas de transporte marítimo comercial,6,,Transporte marítimo,Logística y Transporte,LOTR
+200,6-TRAL-TRA-018,Gestión sin restricciones en sección de cubierta y navegación de transporte marítimo comercial,6,,Transporte marítimo,Logística y Transporte,LOTR
+201,6-TRAL-TRA-019,Gestión sin restricciones en sección de máquinas de transporte marítimo comercial,6,,Transporte marítimo,Logística y Transporte,LOTR
+202,7-TRAL-LOG-006,Gerencia de la Cadena de Suministro,7,,Logística empresarial,Logística y Transporte,LOTR
+203,4-LOTR-AER–DMA-001 ,Ensamble de Aeronaves y Partes,4,,Aeronáutico,Logística y Transporte,LOTR
+204,4-LOTR-AER-SEA-003,Atención al Riesgo Aeroportuario,4,,Aeronáutico,Logística y Transporte,LOTR
+205,5-LOTR-AER-DMA-004,Gestión de manufactura de aeronaves y partes,5,,Aeronáutico,Logística y Transporte,LOTR
+206,5-LOTR-AER-MNT-002,Mantenimiento Aeronáutico,5,,Aeronáutico,Logística y Transporte,LOTR
+207,5-LOTR-AER-OPA-005 ,Gestión de Servicio a Pasajeros,5,,Aeronáutico,Logística y Transporte,LOTR
+208,5-LOTR-AER-OPA-006,Operación de Aeronaves ,5,,Aeronáutico,Logística y Transporte,LOTR
+209,5-LOTR-AER-SAN-007,Control de Tránsito Aéreo,5,,Aeronáutico,Logística y Transporte,LOTR
+210,5-LOTR-AER-SAN-008,Gestión Información Aérea Clima y Atmósfera,5,,Aeronáutico,Logística y Transporte,LOTR
+211,5-LOTR-AER-SEA-009 ,Gestión de Operación Aeroportuaria,5,,Aeronáutico,Logística y Transporte,LOTR
+212,6-LOTR-AER-DMA-010,Ingeniería Aeronáutica,6,,Aeronáutico,Logística y Transporte,LOTR
+213,6-LOTR-AER-IYC-011,Administración de la Seguridad Aeronáutica,6,,Aeronáutico,Logística y Transporte,LOTR
+214,6-LOTR-AER-SAN-012,Estudio del Clima y Atmósfera en Aviación,6,,Aeronáutico,Logística y Transporte,LOTR
+215,6-LOTR-AER-SEC-013,Gestión de la Seguridad de la Aviación Civil,6,,Aeronáutico,Logística y Transporte,LOTR
+216,7-LOTR-AER-SEA-014,Gerencia Aeroportuaria.,7,,Aeronáutico,Logística y Transporte,LOTR
+217,4-INCO-MDC-001,"Operación de equipos, dispositivos y herramientas para contenidos digitales",4,,Contenido Digitales,Tecnologías de la información y las comunicaciones,TICO
+218,5-INCO-MDC-002,Asistencia en producción de piezas gráficas digitales para contenidos multiplataforma,5,,Contenido Digitales,Tecnologías de la información y las comunicaciones,TICO
+219,5-INCO-MDC-003,Producción de contenidos digitales,5,,Contenido Digitales,Tecnologías de la información y las comunicaciones,TICO
+220,6-INCO-MDC-004,Creación de contenidos digitales,6,,Contenido Digitales,Tecnologías de la información y las comunicaciones,TICO
+221,6-INCO-MDC-005,Animación digital,6,,Contenido Digitales,Tecnologías de la información y las comunicaciones,TICO
+222,6-INCO-MDC-006,Posproducción de contenidos digitales,6,,Contenido Digitales,Tecnologías de la información y las comunicaciones,TICO
+223,6-INCO-MDC-007,Gestión de contenidos digitales,6,,Contenido Digitales,Tecnologías de la información y las comunicaciones,TICO
+224,7-INCO-MDC-008,Innovación en creación de contenidos digitales,7,,Contenido Digitales,Tecnologías de la información y las comunicaciones,TICO
+225,4-INCO-SWE-001,Manejo de herramientas para codificación de software,4,,Software,Tecnologías de la información y las comunicaciones,TICO
+226,5-INCO-SWE-002,Programación de software.,5,,Software,Tecnologías de la información y las comunicaciones,TICO
+227,5-INCO-SWE-003,Desarrollo de Software.,5,,Software,Tecnologías de la información y las comunicaciones,TICO
+228,5-INCO-SWE-004,Implementación de Aplicaciones de Software,5,,Software,Tecnologías de la información y las comunicaciones,TICO
+229,5-INCO-SWE-005,Soluciones de Software Web,5,,Software,Tecnologías de la información y las comunicaciones,TICO
+230,6-INCO-SW-011,Creación de Videojuegos.,6,,Software,Tecnologías de la información y las comunicaciones,TICO
+231,6-INCO-SW-012,Aplicación de Videojuegos en Contextos Lúdicos y no Lúdicos,6,,Software,Tecnologías de la información y las comunicaciones,TICO
+232,6-INCO-SWE-006,Construcción de Sistemas de Software,6,,Software,Tecnologías de la información y las comunicaciones,TICO
+233,6-INCO-SWE-007,Integración de software,6,,Software,Tecnologías de la información y las comunicaciones,TICO
+234,6-INCO-SWE-008,Gestión de Sistemas de Software,6,,Software,Tecnologías de la información y las comunicaciones,TICO
+235,6-INCO-SWE-009,Diseño Arquitectónico de Sistemas de Software,6,,Software,Tecnologías de la información y las comunicaciones,TICO
+236,6-INCO-SWE-010,Aseguramiento de la Calidad de Sistemas de Software,6,,Software,Tecnologías de la información y las comunicaciones,TICO
+237,7-INCO-SWE-013,Generación de sistemas de software con inteligencia artificial.,7,,Software,Tecnologías de la información y las comunicaciones,TICO
+238,7-INCO-SWE-014,Construcción de Plataformas de Software,7,,Software,Tecnologías de la información y las comunicaciones,TICO
+239,7-INCO-SWE-015,Innovación en Arquitecturas y Servicios de Software,7,,Software,Tecnologías de la información y las comunicaciones,TICO
+240,4-INCO-ITS-001,Instalación y soporte de redes de cableado estructurado,4,,Tecnologías de la Información,Tecnologías de la información y las comunicaciones,TICO
+241,4-INCO-ITS-002,Instalación y mantenimiento de computadores y periféricos,4,,Tecnologías de la Información,Tecnologías de la información y las comunicaciones,TICO
+242,5-INCO-ITS-003,Administración de redes multiservicio e infraestructuras TI,5,,Tecnologías de la Información,Tecnologías de la información y las comunicaciones,TICO
+243,5-INCO-ITS-011,Operación y mantenimiento de bases de datos,5,,Tecnologías de la Información,Tecnologías de la información y las comunicaciones,TICO
+244,5-INCO-ITS-012,Gestión de bases de datos,5,,Tecnologías de la Información,Tecnologías de la información y las comunicaciones,TICO
+245,5-INCO-ITS-013,Aplicación de herramientas y técnicas para bases de datos,5,,Tecnologías de la Información,Tecnologías de la información y las comunicaciones,TICO
+246,6-INCO-ITS-004,"Diseño, implementación y administración de redes informáticas multiservicio",6,,Tecnologías de la Información,Tecnologías de la información y las comunicaciones,TICO
+247,6-INCO-ITS-005,Modernización en modelos tecnológicos para las soluciones blockchain y DLT,6,,Tecnologías de la Información,Tecnologías de la información y las comunicaciones,TICO
+248,6-INCO-ITS-006,Gestión de soluciones cloud computing,6,,Tecnologías de la Información,Tecnologías de la información y las comunicaciones,TICO
+249,6-INCO-ITS-007,Diseño de Infraestructura de Tecnologías de la Información,6,,Tecnologías de la Información,Tecnologías de la información y las comunicaciones,TICO
+250,6-INCO-ITS-008,Gestión de la seguridad de la información,6,,Tecnologías de la Información,Tecnologías de la información y las comunicaciones,TICO
+251,6-INCO-ITS-014,Administración de datos e información.,6,,Tecnologías de la Información,Tecnologías de la información y las comunicaciones,TICO
+252,6-INCO-ITS-015,Escalabilidad de datos e información.,6,,Tecnologías de la Información,Tecnologías de la información y las comunicaciones,TICO
+253,6-INCO-ITS-016,Analítica de datos e información.,6,,Tecnologías de la Información,Tecnologías de la información y las comunicaciones,TICO
+254,6-INCO-ITS-017,Diseño de arquitecturas para datos e información,6,,Tecnologías de la Información,Tecnologías de la información y las comunicaciones,TICO
+255,7-INCO-ITS-009,Innovación en soluciones de empresas y gobierno soportados en tecnología Blockchain y DLT.,7,,Tecnologías de la Información,Tecnologías de la información y las comunicaciones,TICO
+256,7-INCO-ITS-010,Diseño y desarrollo de soluciones de ciberseguridad,7,,Tecnologías de la Información,Tecnologías de la información y las comunicaciones,TICO
+257,7-INCO-ITS-018,Gestión de ciencia de datos e información.,7,,Tecnologías de la Información,Tecnologías de la información y las comunicaciones,TICO
+258,7-INCO-ITS-019,Gobierno de datos e información.,7,,Tecnologías de la Información,Tecnologías de la información y las comunicaciones,TICO
+259,4-INCO-TLC-001,Instalación y mantenimiento de redes de telecomunicaciones.,4,,Telecomunicaciones,Tecnologías de la información y las comunicaciones,TICO
+260,4-INCO-TLC-002,Operación de redes de comunicaciones inalámbricas.,4,,Telecomunicaciones,Tecnologías de la información y las comunicaciones,TICO
+261,5-INCO-TLC-003,Ejecución de operaciones técnicas en sistemas de telecomunicaciones,5,,Telecomunicaciones,Tecnologías de la información y las comunicaciones,TICO
+262,6-INCO-TLC-004,Diseño e implementación de sistemas de telecomunicaciones.,6,,Telecomunicaciones,Tecnologías de la información y las comunicaciones,TICO
+263,6-INCO-TLC-005,Innovación de Sistemas de Transmisión.,6,,Telecomunicaciones,Tecnologías de la información y las comunicaciones,TICO
+264,6-INCO-TLC-006,Desarrollo de soluciones tecnológicas en Comunicaciones Móviles,6,,Telecomunicaciones,Tecnologías de la información y las comunicaciones,TICO
+265,6-INCO-TLC-007,"Gestión de infraestructura, plataforma y aplicaciones IdC",6,,Telecomunicaciones,Tecnologías de la información y las comunicaciones,TICO
+266,7-INCO-TLC-008,Transformación digital de Sistemas de transmisión y comunicaciones móviles,7,,Telecomunicaciones,Tecnologías de la información y las comunicaciones,TICO
+267,2-TCCD-TRV-001,Operaciones básicas de la industria manufacturera de moda,2,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+268,3 -TCCD-TXT-003,Fabricación de productos de pasamanería textiles y artículos de piel y cuero,3,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+269,3-CCD-TXT-002,Manejo máquina tejedoras,3,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+270,3-TCCD- CNF–001,Fabricación  de prendas de vestir,3,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+271,3-TCCD-CMC-001,Operación  de máquinas de calzado y marroquinería,3,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+272,3-TCCD-CMC–002,Tratamiento integral de  pieles y cueros,3,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+273,3-TCCD-CMC–003,Armado de artículos de calzado y marroquinería,3,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+274,3-TCCD-TRV-002,Servicios  de lavandería,3,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+275,3-TCCD-TXT-001,"Operación de máquinas de blanqueamiento, teñido y limpieza de tejidos",3,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+276,3-TCCD-TXT-002,Manejo de máquinas tejedoras.pdf,3,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+277,3-TCCD-TXT-003, Fabricación de productos de pasamanería textiles y artículos de piel y cuero,3,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+278,3-TCCD-TXT-004,"Preparación de fibras, hilado y devanado.",3,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+279,4-TCCD-CMC-004,Manejo de procesos de curtiembre.,4,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+280,4-TCCD-CNF-002,Confección y reparación de tapizados en las líneas de muebles y colchones,4,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+281,4-TCCD-TRV–003,"Patronaje y Corte de piezas,  prendas de vestir y marroquinería",4,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+282,4-TCCD-TRV-004,"Clasificación, inspección y análisis de producto textil, cuero, confección y diseño.pdf",4,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+283,4-TCCD-TXT 005,Tejeduría de prendas y productos de punto.pdf,4,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+284,4-TCCD-TXT 006, Procesos de tejeduría de prendas y accesorios.pdf,4,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+285,4-TCCD-TXT- 007,Preparación y proceso de tejido plano,4,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+286,5-TCCD- CNF–003,Elaboración de prendas de vestir.,5,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+287,5-TCCD-CMC-005,Producción de calzado y Marroquinería,5,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+288,5-TCCD-TRV-005,"Sistemas de producción textil, cuero y confección",5,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+289,5-TCCD-TRV-006,"Supervisión de manufactura textil, del  cuero y la confeccion",5,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+290,6-TCCD-DSG-001,Diseño de prendas y accesorios de vestir,6,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+291,6-TCCD-TRV-007,"Ingeniería de producción textil, cuero, confección y diseño de moda",6,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+292,6-TCCD-TRV-008,"Dirección de producción textil, cuero, confección y diseño de moda",6,,"Moda, textil, cueros y pieles","Textil, Confección Y Diseño De Modas",TCDM
+293,3-TUHG-A&B-001,Asistencia en el servicio de alimentos y bebidas,3,,Alimentos y bebidas,"Turismo, Hotelería y Gastronomía",TUHG
+294,3-TUHG-A&B-002,Servicio de alimentos y Bebidas,3,,Alimentos y bebidas,"Turismo, Hotelería y Gastronomía",TUHG
+295,3-TUHG-A&B-003,Parrilla y Cocina,3,,Alimentos y bebidas,"Turismo, Hotelería y Gastronomía",TUHG
+296,4-TUHG-A&B-004,Preparación de alimentos,4,,Alimentos y bebidas,"Turismo, Hotelería y Gastronomía",TUHG
+297,4-TUHG-A&B-005,Preparación y servicio de bebidas alcohólicas y no alcohólicas,4,,Alimentos y bebidas,"Turismo, Hotelería y Gastronomía",TUHG
+298,4-TUHG-A&B-006,Preparación y servicio de cafés especializados,4,,Alimentos y bebidas,"Turismo, Hotelería y Gastronomía",TUHG
+299,5-TUHG-A&B-007,Dirección y control de la operación de la cocina,5,,Alimentos y bebidas,"Turismo, Hotelería y Gastronomía",TUHG
+300,6-TUHG-A&B-008,Gastronomía,6,,Alimentos y bebidas,"Turismo, Hotelería y Gastronomía",TUHG
+301,3-TUHG-GUI-001,Facilitación de información y promoción turística,3,,Guianza Turística,"Turismo, Hotelería y Gastronomía",TUHG
+302,4-TUHG-GUI-002,Acompañamiento local a visitantes en el ámbito geográfico local,4,,Guianza Turística,"Turismo, Hotelería y Gastronomía",TUHG
+303,5-TUHG-GUI-003,Guionaje turístico ,5,,Guianza Turística,"Turismo, Hotelería y Gastronomía",TUHG
+304,5-TUHG-GUI-004,Guionaje en observación de aves,5,,Guianza Turística,"Turismo, Hotelería y Gastronomía",TUHG
+305,5-TUHG-GUI-005,Diseño y conducción de recorridos por la naturaleza ,5,,Guianza Turística,"Turismo, Hotelería y Gastronomía",TUHG
+306,5-TUHG-GUI-006,Interpretación del patrimonio natural y cultura,5,,Guianza Turística,"Turismo, Hotelería y Gastronomía",TUHG
+307,2-TUHG-HOT-002,Mantenimiento de habitaciones y áreas públicas en hoteles y establecimientos de alojamiento,2,,Hotelería,"Turismo, Hotelería y Gastronomía",TUHG
+308,4-TUHG-HOT-003,Reservas y asistencia de servicios turísticos,4,,Hotelería,"Turismo, Hotelería y Gastronomía",TUHG
+309,5-TUHG-HOT-004,Coordinación y supervisión de servicios hoteleros,5,,Hotelería,"Turismo, Hotelería y Gastronomía",TUHG
+310,5-TUHG-TVS-001,Coordinación de eventos,5,,Transversal Turismo,"Turismo, Hotelería y Gastronomía",TUHG
+311,6-TUHG-TVS-002,Gerencia hotelera y turística,6,,Transversal Turismo,"Turismo, Hotelería y Gastronomía",TUHG
+312,6-TUHG-TVS-003,Planificación y Organización de eventos MICE,6,,Transversal Turismo,"Turismo, Hotelería y Gastronomía",TUHG
+313,2-TUHG-HOT-001,"Asistencia en servicios al cliente, huésped y pasajero",2,,Hotelería,"Turismo, Hotelería y Gastronomía",TUHG
+314,4-TUHG-TUR-001,Organización y comercialización productos y servicios turísticos,4,,Turismo,"Turismo, Hotelería y Gastronomía",TUHG
+315,4-TUHG-TUR-002,Atención de servicios  a pasajeros en aeropuerto,4,,Turismo,"Turismo, Hotelería y Gastronomía",TUHG
+316,5-TUHG-TUR-003,Estructuración y Operación de Productos y Servicios Turísticos,5,,Turismo,"Turismo, Hotelería y Gastronomía",TUHG
+317,5-TUHG-TUR-004,Diseño y coordinación de viajes y turismo,5,,Turismo,"Turismo, Hotelería y Gastronomía",TUHG
+318,5-TUHG-TUR-005,Gestión de productos y servicios turísticos especializados ,5,,Turismo,"Turismo, Hotelería y Gastronomía",TUHG
+319,6-TUHG-TUR-006,Planificación turística,6,,Turismo,"Turismo, Hotelería y Gastronomía",TUHG
+320,7-TUHG-TUR-007,Gestión de Proyectos Territoriales y Consultoría de Turismo,7,,Turismo,"Turismo, Hotelería y Gastronomía",TUHG
+321,4-CPSA-CPA-31410-E-001,Asistencia en bioprocesos en uso sostenible de recursos naturales.,4,,Conservación y Protección Ambiental,"Conservación, Protección y Saneamiento Ambiental –",
+322,5-CPSA-CPA-31431-E-002,Aprovechamiento sostenible de recursos naturales.,5,,Conservación y Protección Ambiental,"Conservación, Protección y Saneamiento Ambiental –",
+323,5-CPSA-CPA-31431-E-003,Gestión de procesos de aprovechamiento de recursos naturales en proyectos de conservación ambiental.,5,,Conservación y Protección Ambiental,"Conservación, Protección y Saneamiento Ambiental –",
+324,5-CPSA-CPA-31410-E-004,Gestión de planes de manejo de biodiversidad urbana.,5,,Conservación y Protección Ambiental,"Conservación, Protección y Saneamiento Ambiental –",
+325,6-CPSA-CPA-21331-E-005,Conservación y protección ambiental.,6,,Conservación y Protección Ambiental,"Conservación, Protección y Saneamiento Ambiental –",
+326,6-CPSA-CPA-21331-E-006,Diseño y desarrollo de indicadores de sostenibilidad ambiental.,6,,Conservación y Protección Ambiental,"Conservación, Protección y Saneamiento Ambiental –",
+327,7-CPSA-CPA-21331-E-007,Conservación y protección de recursos acuáticos continentales y marino costeros.,7,,Conservación y Protección Ambiental,"Conservación, Protección y Saneamiento Ambiental –",
+328,7-CPSA-CPA-21331-E-008,"Sostenibilidad de bosques, biodiversidad y servicios ecosistémicos.",7,,Conservación y Protección Ambiental,"Conservación, Protección y Saneamiento Ambiental –",
+329,2-CPSA-CPA-75440--E-001,Control de vectores y plagas en saneamiento ambiental.,2,,Gestión y Saneamiento Ambiental,"Conservación, Protección y Saneamiento Ambiental –",
+330,2-CPSA-CPA-96120--E-002,Clasificación y manejo de residuos.,2,,Gestión y Saneamiento Ambiental,"Conservación, Protección y Saneamiento Ambiental –",
+331,3-CPSA-GSA-31321-E-003,Operación de instalaciones de tratamiento de agua potable y residuales.,3,,Gestión y Saneamiento Ambiental,"Conservación, Protección y Saneamiento Ambiental –",
+332,3-CPSA-GSA-31322-E-004,Operación de sistemas de rellenos sanitarios y sistemas de incineración.,3,,Gestión y Saneamiento Ambiental,"Conservación, Protección y Saneamiento Ambiental –",
+333,3-CPSA-GSA-31322-E-005,"Operación de plantas de aprovechamiento y disposición final de residuos peligrosos, especiales y de manejo diferenciado.",3,,Gestión y Saneamiento Ambiental,"Conservación, Protección y Saneamiento Ambiental –",
+334,4-CPSA-GSA-32574-E-006,Asistencia en saneamiento ambiental.,4,,Gestión y Saneamiento Ambiental,"Conservación, Protección y Saneamiento Ambiental –",
+335,4-CPSA-GSA-32573-E-007,Manejo de vertimientos y derrames de residuos peligrosos.,4,,Gestión y Saneamiento Ambiental,"Conservación, Protección y Saneamiento Ambiental –",
+336,5-CPSA-GSA-32573-E-008,Supervisión de procesos de biorremediación y remediación ambiental.,5,,Gestión y Saneamiento Ambiental,"Conservación, Protección y Saneamiento Ambiental –",
+337,5-CPSA-GSA-31321-E-009,Supervisión de plantas de tratamiento de aguas y de gestión integral de residuos.,5,,Gestión y Saneamiento Ambiental,"Conservación, Protección y Saneamiento Ambiental –",
+338,5-CPSA-GSA-32572-E-010,Coordinación e inspección de sistemas integrados de gestión,5,,Gestión y Saneamiento Ambiental,"Conservación, Protección y Saneamiento Ambiental –",
+339,6-CPSA-GSA-21430-E-011,Ingeniería ambiental y de procesos de saneamiento ambiental.,6,,Gestión y Saneamiento Ambiental,"Conservación, Protección y Saneamiento Ambiental –",
+340,6-CPSA-GSA-21430-E-012,Gestión del riesgo ambiental.,6,,Gestión y Saneamiento Ambiental,"Conservación, Protección y Saneamiento Ambiental –",
+341,6-CPSA-GSA-21430-E-013,Gestión integral de residuos.,6,,Gestión y Saneamiento Ambiental,"Conservación, Protección y Saneamiento Ambiental –",
+342,6-CPSA-GSA-21430-E-014,Gestión de proyectos en fijación de carbono y cambio climático.,6,,Gestión y Saneamiento Ambiental,"Conservación, Protección y Saneamiento Ambiental –",
+343,7-CPSA-GSA-21430-E-015,Calidad ambiental y cambio climático.,7,,Gestión y Saneamiento Ambiental,"Conservación, Protección y Saneamiento Ambiental –",
+344,5-CPSA-TRV-32573-E-001,"Desarrollo de soluciones de base tecnológica aplicadas a conservación, protección y saneamiento ambiental.",5,,Transversales,"Conservación, Protección y Saneamiento Ambiental –",
+345,6-CPSA-TRV-21430-E-002,Gestión de herramientas geomáticas aplicadas al medio ambiente.,6,,Transversales,"Conservación, Protección y Saneamiento Ambiental –",
+346,6-CPSA-TRV-21331-E-003,Gestión de procesos de participación y educación ambiental,6,,Transversales,"Conservación, Protección y Saneamiento Ambiental –",
+347,6-CPSA-TRV-21331-E-004,Gestión de proyectos de sostenibilidad y saneamiento ambiental.,6,,Transversales,"Conservación, Protección y Saneamiento Ambiental –",
+348,7-CPSA-TRV-21331-E-005,Innovación en bioeconomía y negocios verdes.,7,,Transversales,"Conservación, Protección y Saneamiento Ambiental –",
+349,7-CPSA-TRV-21430-E-006,Innovación en saneamiento ambiental.,7,,Transversales,"Conservación, Protección y Saneamiento Ambiental –",
+350,7-CPSA-TRV-12199-E-007,Dirección estratégica de ambiente y sostenibilidad.,7,,Transversales,"Conservación, Protección y Saneamiento Ambiental –",
+351,,Actividad física con soporte musical.,4,,Actividad física,"Actividades físicas, deportivas y recreativas",
+352,,"Coordinación de servicios de actividades físicas, deportivas y recreativas.",5,,Actividad física,"Actividades físicas, deportivas y recreativas",
+353,,Instructor de actividad física.,6,,Actividad física,"Actividades físicas, deportivas y recreativas",
+354,,"Gestion Integral de instalaciones y espacios para las actividades físicas, deportivas y recreativas.",6,,Actividad física,"Actividades físicas, deportivas y recreativas",
+355,,"Gamificación y lúdica aplicada a las actividades físicas, deportivas y recreativas.",6,,Actividad física,"Actividades físicas, deportivas y recreativas",
+356,,Diseño y desarrollo de actividad física adaptada y recreación inclusiva.,6,,Actividad física,"Actividades físicas, deportivas y recreativas",
+357,,"Innovación tecnológica aplicada a las actividades  físicas, deportivas y recreativas.",7,,Actividad física,"Actividades físicas, deportivas y recreativas",
+358,,Deportista,4,,Deporte,"Actividades físicas, deportivas y recreativas",
+359,,Preparador físico,4,,Deporte,"Actividades físicas, deportivas y recreativas",
+360,,"Auxiliar de servicios de actividad física, recreación y deporte",4,,Deporte,"Actividades físicas, deportivas y recreativas",
+361,,"Coordinador de servicios de actividades físicas, deportivas y recreativas",5,,Deporte,"Actividades físicas, deportivas y recreativas",
+362,,Entrenamiento deportivo,6,,Deporte,"Actividades físicas, deportivas y recreativas",
+363,,Entrenamiento en deporte adaptado y deporte paralímpico,6,,Deporte,"Actividades físicas, deportivas y recreativas",
+364,,"Gestión integral de instalaciones y espacios para las actividades físicas, deportivas y recreativas",6,,Deporte,"Actividades físicas, deportivas y recreativas",
+365,,"Gamificación y lúdica aplicada a las actividades físicas, deportivas y recreativas.",6,,Deporte,"Actividades físicas, deportivas y recreativas",
+366,,Tendencias actividad física y deporte,6,,Deporte,"Actividades físicas, deportivas y recreativas",
+367,,"Innovación tecnológica aplicada a las actividades físicas, deportivas y recreativas",7,,Deporte,"Actividades físicas, deportivas y recreativas",
+368,,Asistencia en servicios de juegos suerte de azar ,2,,Recreación,"Actividades físicas, deportivas y recreativas",
+369,,Ejecutor de servicios de juegos suerte de azar ,3,,Recreación,"Actividades físicas, deportivas y recreativas",
+370,,Dinamizador de actividades lúdicas y recreativas,4,,Recreación,"Actividades físicas, deportivas y recreativas",
+371,,"Auxiliar de servicios de actividad física, recreación y deporte",4,,Recreación,"Actividades físicas, deportivas y recreativas",
+372,,Asistencia en parques de atracciones y temáticos,4,,Recreación,"Actividades físicas, deportivas y recreativas",
+373,,"Coordinación de servicios de actividades físicas, deportivas y recreativas.",5,,Recreación,"Actividades físicas, deportivas y recreativas",
+374,,Supervisión de operación en parques de atracciones y temáticos,5,,Recreación,"Actividades físicas, deportivas y recreativas",
+375,,Recreación,6,,Recreación,"Actividades físicas, deportivas y recreativas",
+376,,Diseño y gestión de proyectos de ocio y tiempo libre,6,,Recreación,"Actividades físicas, deportivas y recreativas",
+377,,"Gestión integral de instalaciones y espacios para las actividades físicas, deportivas y recreativas",6,,Recreación,"Actividades físicas, deportivas y recreativas",
+378,,"Gamificación y lúdica aplicada a las actividades físicas, deportivas y recreativas.",6,,Recreación,"Actividades físicas, deportivas y recreativas",
+379,,Diseño y desarrollo de actividad física adaptada y recreación inclusiva.,6,,Recreación,"Actividades físicas, deportivas y recreativas",
+380,,"Innovación tecnológica aplicada a las actividades  físicas, deportivas y recreativas.",7,,Recreación,"Actividades físicas, deportivas y recreativas",
+380,4-ELEA-ELE-001,Montaje y operación de sistemas de generación y almacenamiento de energía eléctrica.,4,"Certificado de aptitud ocupacional de Técnico laboral de Sistemas de generación y
+almacenamiento de energía eléctrica",Subsector: electricidad,Electricidad y Electrónica,ELEA
+380,4-ELEA-ELE-002,Construcción y mantenimiento de sistemas de transmisión de energía eléctrica.,4,"Certificado de aptitud ocupacional de Técnico laboral en Sistemas de transmisión de
+energía eléctrica",Subsector: electricidad,Electricidad y Electrónica,ELEA
+380,4-ELEA-ELE-003,"Montaje, operación y mantenimienyo de instlaciones eléctricas y dispositivos de uso final",4,"Certificado de aptitud ocupacional de técnico laboral en sistemas de distribución y
+uso final de energía",Subsector: electricidad,Electricidad y Electrónica,ELEA
+380,5-ELEA-ELE-004,Supervisión y desarrollo de sistemas de generación y almacenamiento de energía eléctrica,5,Tecnólogo de Sistemas de generación y almacenamiento de energía,Subsector: electricidad,Electricidad y Electrónica,ELEA
+380,5-ELEA-ELE-005,Desarrollo de sistemas de transmisión y distribución de energía eléctrica,5,Tecnólogo de Sistemas de transmisión y distribución eléctrica,Subsector: electricidad,Electricidad y Electrónica,ELEA
+380,6-ELEA-ELE-006,Gestión y diseño de sistemas de energía eléctrica.,6,Ingeniero Electricista,Subsector: electricidad,Electricidad y Electrónica,ELEA
+380,7-ELEA-ELE-007,Dirección de sistemas de generación y almacenamiento de energía eléctrica,7,Magister en Sistemas de generación y almacenamiento de energía eléctrica.,Subsector: electricidad,Electricidad y Electrónica,ELEA
+380,7-ELEA-ELE-008,Dirección de sistemas de transmisión y distribución de energía eléctrica.,7,Magister en Sistemas de Transmisión y Distribución de energía,Subsector: electricidad,Electricidad y Electrónica,ELEA
+380,4-ELEA-ETO-001 ,MANTENIMIENTO DE EQUIPOS ELECTRÓNICOS DE CÓMPUTO Y DE ENTRETENIMIENTO,4,"Certificado de aptitud ocupacional de técnico laboral en mantenimiento de equipos
+electrónicos de cómputo y entretenimiento",Subsedor: electrónica,Electricidad y Electrónica,ELEA
+380,4-ELEA-ETO-002 ,"MANTENIMIENTO DE ELECTROGASODOMÉSTICOS DE LÍNEA BLANCA, CLIMATIZACIÓN Y ELECTRODOMÉSTICOS MENORES",4,"Certificado de aptitud ocupacional de técnico laboral en mantenimiento de
+electrogasodomésticos de línea blanca, climatización y electrodomésticos menores.",Subsedor: electrónica,Electricidad y Electrónica,ELEA
+380,4-ELEA-ETO-003 ,FABRICACIÓN Y ENSAMBLE DE EQUIPOS ELECTRÓNICOS.,4,"Certificado de aptitud ocupacional de técnico laboral en fabricación y ensamble de
+equipos electrónicos.",Subsedor: electrónica,Electricidad y Electrónica,ELEA
+380,4-ELEA-ETO-004 ,INSTALACIÓN Y OPERACIÓN DE EQUIPOS Y SISTEMAS ELECTRÓNICOS INDUSTRIALES Y DE AUTOMATIZACIÓN.,4,"Certificado de aptitud ocupacional de técnico laboral en instalación y operación de
+equipos y sistemas electrónicos industriales y de automatización.",Subsedor: electrónica,Electricidad y Electrónica,ELEA
+380,5-ELEA-ETO-005 ,"MANTENIMIENTO DE EQUIPOS, SISTEMAS ELECTRÓNICOS INDUSTRIALES, DE
+AUTOMATIZACIÓN O DE REFRIGERACIÓN COMERCIAL.",5,"Tecnólogo en mantenimiento de equipos, sistemas electrónicos industriales, de automatización o de refrigeración comercial.",Subsedor: electrónica,Electricidad y Electrónica,ELEA
+380,ELEA-ETO-006 ,MANTENIMIENTO E INSTALACIÓN DE EQUIPO ELECTROMÉDICO.,5,Tecnólogo en mantenimiento e instalación de equipo electromédico,Subsedor: electrónica,Electricidad y Electrónica,ELEA
+380,ELEA-ETO-007 ,"SUPERVISIÓN DE LA INSTALACIÓN Y OPERACIÓN DE EQUIPOS, SISTEMAS ELECTRÓNICOS O DE AUTOMATIZACIÓN INDUSTRIAL.",5,"Tecnólogo en supervisión de la instalación y operación de equipos, sistemas electrónicos o de automatización industrial.",Subsedor: electrónica,Electricidad y Electrónica,ELEA
+380,ELEA-ETO-008,DISEÑO Y DESARROLLO DE EQUIPOS Y SISTEMAS ELECTRÓNICOS,6,Ingeniero electrónico,Subsedor: electrónica,Electricidad y Electrónica,ELEA

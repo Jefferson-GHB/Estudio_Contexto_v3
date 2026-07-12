@@ -1,0 +1,16 @@
+[theme]
+primaryColor = "#9b1b30"
+backgroundColor = "#f7f3ee"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1a1a1a"
+font = "Inter"
+headingFont = "Lora"
+baseRadius = "0.8rem"
+borderColor = "#E5DDD6"
+showWidgetBorder = true
+chartCategoricalColors = ["#9B1B30","#C7A951","#6B9080","#52423C","#C5304A","#D97706","#0D9488","#7C3AED"]
+
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#f7f3ee"
+textColor = "#1a1a1a"

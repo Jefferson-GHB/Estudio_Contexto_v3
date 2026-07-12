@@ -1,0 +1,107 @@
+﻿CINE_F_SNIES,CODIGO_CINE_F,COD_CAMPO_AMPLIO,CAMPO_AMPLIO,MATCH
+Gestión y administración,413.0,4.0,ADMINISTRACIÓN DE EMPRESAS Y DERECHO,AUTO
+Historia y arqueología,222.0,2.0,ARTES Y HUMANIDADES,AUTO
+Arquitectura y urbanismo,731.0,7.0,"INGENIERÍA, INDUSTRIA Y CONSTRUCCIÓN",AUTO
+Bellas artes,213.0,2.0,ARTES Y HUMANIDADES,AUTO
+Biología,511.0,5.0,"CIENCIAS NATURALES, MATEMÁTICAS Y ESTADÍSTICA",AUTO
+Ciencias políticas y educación cívica,312.0,3.0,"CIENCIAS SOCIALES, PERIODISMO E INFORMACIÓN",AUTO
+Matemáticas,541.0,5.0,"CIENCIAS NATURALES, MATEMÁTICAS Y ESTADÍSTICA",AUTO
+Técnicas audiovisuales y producción para medios de comunicación,211.0,2.0,ARTES Y HUMANIDADES,AUTO
+Contabilidad e impuestos,411.0,4.0,ADMINISTRACIÓN DE EMPRESAS Y DERECHO,AUTO
+Derecho,421.0,4.0,ADMINISTRACIÓN DE EMPRESAS Y DERECHO,AUTO
+"Diseño industrial, de moda e interiores",212.0,2.0,ARTES Y HUMANIDADES,AUTO
+Artes no clasificadas en otra parte,219.0,2.0,ARTES Y HUMANIDADES,AUTO
+Producción agrícola y ganadera,811.0,8.0,"AGROPECUARIO, SILVICULTURA, PESCA Y VETERINARIA",AUTO
+"Sociología, Antropología y estudios culturales",314.0,3.0,"CIENCIAS SOCIALES, PERIODISMO E INFORMACIÓN",AUTO
+Procesamiento de alimentos,721.0,7.0,"INGENIERÍA, INDUSTRIA Y CONSTRUCCIÓN",AUTO
+Ciencias físicas no clasificadas en otra parte,539.0,5.0,"CIENCIAS NATURALES, MATEMÁTICAS Y ESTADÍSTICA",AUTO
+"Programas y certificaciones interdisciplinarios relativos a ciencias naturales, matemáticas y estadística",588.0,5.0,"CIENCIAS NATURALES, MATEMÁTICAS Y ESTADÍSTICA",AUTO
+Estadística,542.0,5.0,"CIENCIAS NATURALES, MATEMÁTICAS Y ESTADÍSTICA",AUTO
+Física,533.0,5.0,"CIENCIAS NATURALES, MATEMÁTICAS Y ESTADÍSTICA",AUTO
+Química,531.0,5.0,"CIENCIAS NATURALES, MATEMÁTICAS Y ESTADÍSTICA",AUTO
+"Programas y certificaciones interdisciplinarias relativos a agropecuario, silvicultura, pesca y veterinaria",888.0,8.0,"AGROPECUARIO, SILVICULTURA, PESCA Y VETERINARIA",MATCH_MANUAL
+Veterinaria,841.0,8.0,"AGROPECUARIO, SILVICULTURA, PESCA Y VETERINARIA",AUTO
+Medicina,912.0,9.0,SALUD Y BIENESTAR,AUTO
+Economía,311.0,3.0,"CIENCIAS SOCIALES, PERIODISMO E INFORMACIÓN",AUTO
+Farmacia,916.0,9.0,SALUD Y BIENESTAR,AUTO
+Enfermería y partería,913.0,9.0,SALUD Y BIENESTAR,MATCH_MANUAL
+Ciencias del medio ambiente,521.0,5.0,"CIENCIAS NATURALES, MATEMÁTICAS Y ESTADÍSTICA",AUTO
+Filosofía y ética,223.0,2.0,ARTES Y HUMANIDADES,AUTO
+Ciencias de la tierra,532.0,5.0,"CIENCIAS NATURALES, MATEMÁTICAS Y ESTADÍSTICA",AUTO
+"Programas y certificaciones interdisciplinarios relativos a ciencias sociales, periodismo e información",388.0,3.0,"CIENCIAS SOCIALES, PERIODISMO E INFORMACIÓN",AUTO
+Ingeniería y profesiones afines no clasificadas en otra parte,719.0,7.0,"INGENIERÍA, INDUSTRIA Y CONSTRUCCIÓN",AUTO
+Construcción e ingeniería civil,732.0,7.0,"INGENIERÍA, INDUSTRIA Y CONSTRUCCIÓN",AUTO
+Electricidad y energía,713.0,7.0,"INGENIERÍA, INDUSTRIA Y CONSTRUCCIÓN",AUTO
+Mecánica y profesiones afines a la metalistería,715.0,7.0,"INGENIERÍA, INDUSTRIA Y CONSTRUCCIÓN",AUTO
+Ingeniería y procesos químicos,711.0,7.0,"INGENIERÍA, INDUSTRIA Y CONSTRUCCIÓN",AUTO
+Programas y certificaciones interdisciplinarios relativos a tecnologías de la información y la comunicación (TIC),688.0,6.0,TECNOLOGÍAS DE LA INFORMACIÓN Y LA COMUNICACIÓN (TIC),AUTO
+"Materiales (vidrio, papel, plástico y madera)",722.0,7.0,"INGENIERÍA, INDUSTRIA Y CONSTRUCCIÓN",MATCH_MANUAL
+Psicología,313.0,3.0,"CIENCIAS SOCIALES, PERIODISMO E INFORMACIÓN",AUTO
+Idiomas no clasificados en otra parte,239.0,2.0,ARTES Y HUMANIDADES,AUTO
+Odontología y estudios dentales,911.0,9.0,SALUD Y BIENESTAR,AUTO
+Tecnologías de la información  y la comunicación (TIC) no clasificada en otra parte,619.0,6.0,TECNOLOGÍAS DE LA INFORMACIÓN Y LA COMUNICACIÓN (TIC),MATCH_MANUAL
+Electrónica y automatización,714.0,7.0,"INGENIERÍA, INDUSTRIA Y CONSTRUCCIÓN",AUTO
+Tecnología de protección del medio ambiente,712.0,7.0,"INGENIERÍA, INDUSTRIA Y CONSTRUCCIÓN",AUTO
+Música y artes escénicas,215.0,2.0,ARTES Y HUMANIDADES,AUTO
+Desarrollo y análisis de software y aplicaciones,613.0,6.0,TECNOLOGÍAS DE LA INFORMACIÓN Y LA COMUNICACIÓN (TIC),AUTO
+Literatura y lingüística,232.0,2.0,ARTES Y HUMANIDADES,AUTO
+Adquisición del lenguaje,231.0,2.0,ARTES Y HUMANIDADES,AUTO
+"Fisioterapia, Fonoaudiología, Terapia ocupacional, Nutrición y afines",915.0,9.0,SALUD Y BIENESTAR,MATCH_MANUAL
+Ciencias sociales y del comportamiento no clasificadas en otra parte,319.0,3.0,"CIENCIAS SOCIALES, PERIODISMO E INFORMACIÓN",MATCH_MANUAL
+Industria y procesamiento no clasificados en otra parte,729.0,7.0,"INGENIERÍA, INDUSTRIA Y CONSTRUCCIÓN",AUTO
+Formación para docentes sin asignatura de especialización,113.0,1.0,EDUCACIÓN,AUTO
+Programas y certificaciones interdisciplinarios relativos a artes y humanidades,288.0,2.0,ARTES Y HUMANIDADES,AUTO
+Bienestar no clasificado en otra parte,929.0,9.0,SALUD Y BIENESTAR,AUTO
+Ciencias de la educación,111.0,1.0,EDUCACIÓN,AUTO
+Trabajo social,315.0,3.0,"CIENCIAS SOCIALES, PERIODISMO E INFORMACIÓN",AUTO
+Diseño y administración de redes y bases de datos,612.0,6.0,TECNOLOGÍAS DE LA INFORMACIÓN Y LA COMUNICACIÓN (TIC),AUTO
+Programas y certificaciones interdisciplinarios relativos a administración de empresas y derecho,488.0,4.0,ADMINISTRACIÓN DE EMPRESAS Y DERECHO,AUTO
+Minería y extracción,724.0,7.0,"INGENIERÍA, INDUSTRIA Y CONSTRUCCIÓN",AUTO
+"Programas y certificaciones interdisciplinarios relativos a ingeniería, industria y construcción",788.0,7.0,"INGENIERÍA, INDUSTRIA Y CONSTRUCCIÓN",AUTO
+"Gestión financiera, administración bancaria y seguros",412.0,4.0,ADMINISTRACIÓN DE EMPRESAS Y DERECHO,AUTO
+Tecnología de diagnóstico y tratamiento médico,914.0,9.0,SALUD Y BIENESTAR,AUTO
+Silvicultura,821.0,8.0,"AGROPECUARIO, SILVICULTURA, PESCA Y VETERINARIA",AUTO
+Bioquímica,512.0,5.0,"CIENCIAS NATURALES, MATEMÁTICAS Y ESTADÍSTICA",AUTO
+Medio ambiente natural y vida silvestre,522.0,5.0,"CIENCIAS NATURALES, MATEMÁTICAS Y ESTADÍSTICA",AUTO
+Mercadotecnia y publicidad,414.0,4.0,ADMINISTRACIÓN DE EMPRESAS Y DERECHO,MATCH_MANUAL
+Agropecuario no clasificado en otra parte,819.0,8.0,"AGROPECUARIO, SILVICULTURA, PESCA Y VETERINARIA",AUTO
+Educación comercial y administración no clasificados en otra parte,419.0,4.0,ADMINISTRACIÓN DE EMPRESAS Y DERECHO,AUTO
+Formación para docentes con asignatura de especialización,114.0,1.0,EDUCACIÓN,AUTO
+Programas y certificaciones interdisciplinarios relativos a educación,188.0,1.0,EDUCACIÓN,AUTO
+Salud no clasificada en otra parte,919.0,9.0,SALUD Y BIENESTAR,AUTO
+Educación no clasificada en otra parte,119.0,1.0,EDUCACIÓN,AUTO
+"Bibliotecología, información y archivología",322.0,3.0,"CIENCIAS SOCIALES, PERIODISMO E INFORMACIÓN",MATCH_MANUAL
+Deportes,1014.0,10.0,SERVICIOS,AUTO
+Uso de computadores,611.0,6.0,TECNOLOGÍAS DE LA INFORMACIÓN Y LA COMUNICACIÓN (TIC),AUTO
+"Viajes, turismo y actividades recreativas",1015.0,10.0,SERVICIOS,AUTO
+"Horticultura (Técnicas de huertas, invernaderos, viveros y jardines)",812.0,8.0,"AGROPECUARIO, SILVICULTURA, PESCA Y VETERINARIA",AUTO
+Pesca,831.0,8.0,"AGROPECUARIO, SILVICULTURA, PESCA Y VETERINARIA",AUTO
+"Periodismo, comunicación y reportajes",321.0,3.0,"CIENCIAS SOCIALES, PERIODISMO E INFORMACIÓN",MATCH_MANUAL
+Humanidades (excepto idiomas) no clasificados en otra parte,229.0,2.0,ARTES Y HUMANIDADES,AUTO
+Ciencias biológicas y afines no clasificados en otra parte,519.0,5.0,"CIENCIAS NATURALES, MATEMÁTICAS Y ESTADÍSTICA",AUTO
+Medio ambiente no clasificados en otra parte,529.0,5.0,"CIENCIAS NATURALES, MATEMÁTICAS Y ESTADÍSTICA",AUTO
+Programas y certificaciones interdisciplinarios relativos a salud y bienestar,988.0,9.0,SALUD Y BIENESTAR,AUTO
+Programas y certificaciones interdisciplinarios relativos a servicios,1088.0,10.0,SERVICIOS,AUTO
+Artesanías,214.0,2.0,ARTES Y HUMANIDADES,AUTO
+Salud y protección laboral,1022.0,10.0,SERVICIOS,AUTO
+Competencias personales y desarrollo,31.0,0.0,PROGRAMAS Y CERTIFICACIONES GENÉRICOS,AUTO
+Educación militar y de defensa,1031.0,10.0,SERVICIOS,AUTO
+"Hotelería, restaurantes y servicios de banquetes",1013.0,10.0,SERVICIOS,AUTO
+"Atención, protección y servicios a la infancia, adolescencia y juventud",921.0,9.0,SALUD Y BIENESTAR,MATCH_MANUAL
+Medicina y terapia tradicional y complementaria,917.0,9.0,SALUD Y BIENESTAR,MATCH_MANUAL
+Formación para docentes de educación pre-primaría,112.0,1.0,EDUCACIÓN,MATCH_MANUAL
+"Vehículos, barcos y aeronaves de motor",716.0,7.0,"INGENIERÍA, INDUSTRIA Y CONSTRUCCIÓN",AUTO
+Servicios de transporte,1041.0,10.0,SERVICIOS,AUTO
+Servicios de higiene y salud ocupacional no clasificadas en otra parte,1029.0,10.0,SERVICIOS,MATCH_MANUAL
+"Atención a adultos, adultos mayores con o sin discapacitados",923.0,9.0,SALUD Y BIENESTAR,MATCH_MANUAL
+Ventas al por mayor y al por menor,416.0,4.0,ADMINISTRACIÓN DE EMPRESAS Y DERECHO,AUTO
+Periodismo e información no clasificados en otra parte,329.0,3.0,"CIENCIAS SOCIALES, PERIODISMO E INFORMACIÓN",AUTO
+Competencias laborales,417.0,4.0,ADMINISTRACIÓN DE EMPRESAS Y DERECHO,AUTO
+Religión y Teología,221.0,2.0,ARTES Y HUMANIDADES,AUTO
+Servicios domésticos,1011.0,10.0,SERVICIOS,AUTO
+"Producción textiles (ropa, calzado y artículos de cuero)",723.0,7.0,"INGENIERÍA, INDUSTRIA Y CONSTRUCCIÓN",MATCH_MANUAL
+Instrumentación quirúrgica,918.0,9.0,SALUD Y BIENESTAR,AUTO
+Protección de las personas y de la propiedad,1032.0,10.0,SERVICIOS,AUTO
+Secretariado y trabajo de oficina,415.0,4.0,ADMINISTRACIÓN DE EMPRESAS Y DERECHO,AUTO
+Servicios de seguridad no clasificados en otra parte,1039.0,10.0,SERVICIOS,AUTO
+Peluquería y tratamientos de belleza,1012.0,10.0,SERVICIOS,AUTO

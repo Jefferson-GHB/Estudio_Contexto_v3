@@ -1,0 +1,587 @@
+{
+  "TEMPORAL_AÑO": {
+    "descripcion": "Año calendario o vigencia",
+    "nombre_canonico": "año",
+    "palabras_clave": [
+      "año",
+      "anio",
+      "ano",
+      "year",
+      "vigencia",
+      "annio"
+    ],
+    "exclusiones": [
+      "nacimiento",
+      "fundacion",
+      "creacion",
+      "grado",
+      "graduacion",
+      "ingreso"
+    ]
+  },
+  "TEMPORAL_PERIODO": {
+    "descripcion": "Periodo académico (semestre, trimestre)",
+    "nombre_canonico": "periodo",
+    "palabras_clave": [
+      "semestre",
+      "periodo",
+      "trimestre",
+      "bimestre",
+      "cuatrimestre"
+    ],
+    "exclusiones": []
+  },
+  "TEMPORAL_FECHA": {
+    "descripcion": "Fecha específica",
+    "nombre_canonico": "fecha",
+    "palabras_clave": [
+      "fecha",
+      "date",
+      "dia",
+      "mes"
+    ],
+    "exclusiones": [
+      "nacimiento",
+      "expedicion"
+    ]
+  },
+  "GEO_PAIS": {
+    "descripcion": "País de origen/destino",
+    "nombre_canonico": "pais",
+    "palabras_clave": [
+      "pais",
+      "país",
+      "country",
+      "nacionalidad",
+      "codigo_pais"
+    ],
+    "exclusiones": []
+  },
+  "GEO_DEPARTAMENTO": {
+    "descripcion": "Departamento Colombia (DIVIPOLA)",
+    "nombre_canonico": "departamento",
+    "palabras_clave": [
+      "departamento",
+      "depto",
+      "dpto",
+      "divipola_depto",
+      "cod_depto",
+      "codigo_departamento"
+    ],
+    "exclusiones": [
+      "academico"
+    ]
+  },
+  "GEO_MUNICIPIO": {
+    "descripcion": "Municipio Colombia (DIVIPOLA)",
+    "nombre_canonico": "municipio",
+    "palabras_clave": [
+      "municipio",
+      "mpio",
+      "ciudad",
+      "divipola_mun",
+      "cod_mun",
+      "codigo_municipio"
+    ],
+    "exclusiones": []
+  },
+  "GEO_REGION": {
+    "descripcion": "Región o zona geográfica",
+    "nombre_canonico": "region",
+    "palabras_clave": [
+      "region",
+      "zona",
+      "area_geografica"
+    ],
+    "exclusiones": []
+  },
+  "DEMO_GENERO": {
+    "descripcion": "Género o sexo biológico",
+    "nombre_canonico": "genero",
+    "palabras_clave": [
+      "genero",
+      "género",
+      "sexo",
+      "sex",
+      "masculino",
+      "femenino"
+    ],
+    "exclusiones": []
+  },
+  "DEMO_EDAD": {
+    "descripcion": "Edad o rango etario",
+    "nombre_canonico": "edad",
+    "palabras_clave": [
+      "edad",
+      "age",
+      "rango_edad",
+      "grupo_etario"
+    ],
+    "exclusiones": []
+  },
+  "DEMO_ESTRATO": {
+    "descripcion": "Estrato socioeconómico",
+    "nombre_canonico": "estrato",
+    "palabras_clave": [
+      "estrato",
+      "nivel_socioeconomico",
+      "nse"
+    ],
+    "exclusiones": []
+  },
+  "EDU_IES": {
+    "descripcion": "Institución de Educación Superior",
+    "nombre_canonico": "ies",
+    "palabras_clave": [
+      "ies",
+      "institucion",
+      "universidad",
+      "cod_ies",
+      "codigo_ies",
+      "nombre_ies"
+    ],
+    "exclusiones": [
+      "prestadora",
+      "financiera"
+    ]
+  },
+  "EDU_PROGRAMA": {
+    "descripcion": "Programa académico",
+    "nombre_canonico": "programa",
+    "palabras_clave": [
+      "programa",
+      "carrera",
+      "snies",
+      "cod_programa",
+      "nombre_programa",
+      "programa_academico"
+    ],
+    "exclusiones": [
+      "ficha"
+    ]
+  },
+  "EDU_NIVEL": {
+    "descripcion": "Nivel de formación (técnico, tecnológico, profesional, posgrado)",
+    "nombre_canonico": "nivel_formacion",
+    "palabras_clave": [
+      "nivel",
+      "nivel_formacion",
+      "nivel_academico",
+      "tipo_formacion",
+      "nivel_estudio"
+    ],
+    "exclusiones": [
+      "socioeconomico",
+      "ingles"
+    ]
+  },
+  "EDU_MODALIDAD": {
+    "descripcion": "Modalidad de estudio (presencial, virtual, distancia)",
+    "nombre_canonico": "modalidad",
+    "palabras_clave": [
+      "modalidad",
+      "metodologia",
+      "presencial",
+      "virtual",
+      "distancia",
+      "semipresencial"
+    ],
+    "exclusiones": [
+      "contratacion"
+    ]
+  },
+  "EDU_AREA": {
+    "descripcion": "Área de conocimiento (NBC, CINE)",
+    "nombre_canonico": "area_conocimiento",
+    "palabras_clave": [
+      "area",
+      "nbc",
+      "cine",
+      "area_conocimiento",
+      "nucleo_basico",
+      "campo_detallado"
+    ],
+    "exclusiones": [
+      "geografica"
+    ]
+  },
+  "EDU_SECTOR": {
+    "descripcion": "Sector IES (oficial, privado)",
+    "nombre_canonico": "sector_ies",
+    "palabras_clave": [
+      "sector",
+      "caracter",
+      "oficial",
+      "privado",
+      "naturaleza"
+    ],
+    "exclusiones": [
+      "economico",
+      "ciiu",
+      "productivo"
+    ]
+  },
+  "IND_MATRICULA": {
+    "descripcion": "Estudiantes matriculados",
+    "nombre_canonico": "matriculados",
+    "palabras_clave": [
+      "matricula",
+      "matriculados",
+      "inscritos",
+      "estudiantes",
+      "aprendices",
+      "total_matricula"
+    ],
+    "exclusiones": [
+      "primer_curso"
+    ]
+  },
+  "IND_GRADUADOS": {
+    "descripcion": "Graduados o titulados",
+    "nombre_canonico": "graduados",
+    "palabras_clave": [
+      "graduados",
+      "egresados",
+      "titulados",
+      "certificados",
+      "graduaciones"
+    ],
+    "exclusiones": []
+  },
+  "IND_DESERCION": {
+    "descripcion": "Deserción estudiantil",
+    "nombre_canonico": "desercion",
+    "palabras_clave": [
+      "desercion",
+      "deserción",
+      "abandono",
+      "retiro",
+      "dropout"
+    ],
+    "exclusiones": []
+  },
+  "IND_COBERTURA": {
+    "descripcion": "Tasa de cobertura",
+    "nombre_canonico": "tasa_cobertura",
+    "palabras_clave": [
+      "cobertura",
+      "tasa_cobertura",
+      "tcb",
+      "tti"
+    ],
+    "exclusiones": []
+  },
+  "EMP_OCUPACION": {
+    "descripcion": "Ocupación o cargo (CUOC)",
+    "nombre_canonico": "ocupacion",
+    "palabras_clave": [
+      "ocupacion",
+      "cuoc",
+      "cargo",
+      "profesion",
+      "oficio",
+      "cod_ocupacion"
+    ],
+    "exclusiones": []
+  },
+  "EMP_VINCULACION": {
+    "descripcion": "Tipo de vinculación laboral",
+    "nombre_canonico": "tipo_vinculacion",
+    "palabras_clave": [
+      "vinculacion",
+      "tipo_contrato",
+      "contrato",
+      "empleado",
+      "independiente",
+      "formal",
+      "informal"
+    ],
+    "exclusiones": []
+  },
+  "EMP_SALARIO": {
+    "descripcion": "Ingreso o salario",
+    "nombre_canonico": "ingreso",
+    "palabras_clave": [
+      "salario",
+      "ingreso",
+      "sueldo",
+      "remuneracion",
+      "ila",
+      "ibc"
+    ],
+    "exclusiones": []
+  },
+  "EMP_SECTOR_ECONOMICO": {
+    "descripcion": "Sector económico (CIIU)",
+    "nombre_canonico": "sector_ciiu",
+    "palabras_clave": [
+      "ciiu",
+      "sector_economico",
+      "actividad_economica",
+      "rama",
+      "industria",
+      "division_ciiu"
+    ],
+    "exclusiones": []
+  },
+  "EMP_NIT": {
+    "descripcion": "Identificación empresa (NIT)",
+    "nombre_canonico": "nit",
+    "palabras_clave": [
+      "nit",
+      "rut",
+      "nit_empresa",
+      "identificacion_empresa"
+    ],
+    "exclusiones": []
+  },
+  "EMP_RAZON_SOCIAL": {
+    "descripcion": "Nombre empresa",
+    "nombre_canonico": "empresa",
+    "palabras_clave": [
+      "razon_social",
+      "nombre_empresa",
+      "empresa",
+      "empleador"
+    ],
+    "exclusiones": []
+  },
+  "EMP_TAMAÑO": {
+    "descripcion": "Tamaño empresa (micro, pequeña, mediana, grande)",
+    "nombre_canonico": "tamano_empresa",
+    "palabras_clave": [
+      "tamaño",
+      "tamano",
+      "microempresa",
+      "pyme",
+      "grande_empresa",
+      "num_empleados"
+    ],
+    "exclusiones": []
+  },
+  "ID_DOCUMENTO": {
+    "descripcion": "Documento identidad",
+    "nombre_canonico": "documento",
+    "palabras_clave": [
+      "documento",
+      "cedula",
+      "id",
+      "identificacion",
+      "numero_documento",
+      "tipo_documento"
+    ],
+    "exclusiones": [
+      "cod",
+      "codigo"
+    ]
+  },
+  "COMP_HABILIDAD": {
+    "descripcion": "Competencia o habilidad",
+    "nombre_canonico": "competencia",
+    "palabras_clave": [
+      "competencia",
+      "habilidad",
+      "skill",
+      "aptitud",
+      "destreza"
+    ],
+    "exclusiones": []
+  },
+  "COMP_CONOCIMIENTO": {
+    "descripcion": "Conocimiento técnico",
+    "nombre_canonico": "conocimiento",
+    "palabras_clave": [
+      "conocimiento",
+      "knowledge",
+      "saber",
+      "formacion_especifica"
+    ],
+    "exclusiones": [
+      "area"
+    ]
+  },
+  "METRICA_CONTEO": {
+    "descripcion": "Conteo o total de elementos",
+    "nombre_canonico": "total",
+    "palabras_clave": [
+      "total",
+      "count",
+      "cantidad",
+      "numero",
+      "n_",
+      "num_",
+      "cant_",
+      "suma",
+      "agregado"
+    ],
+    "exclusiones": [
+      "documento",
+      "empleados"
+    ]
+  },
+  "ESTADO_PROCESO": {
+    "descripcion": "Estado de un proceso o registro",
+    "nombre_canonico": "estado",
+    "palabras_clave": [
+      "estado",
+      "status",
+      "situacion",
+      "condicion"
+    ],
+    "exclusiones": [
+      "civil"
+    ]
+  },
+  "VALOR_MONETARIO": {
+    "descripcion": "Valor monetario o económico",
+    "nombre_canonico": "valor",
+    "palabras_clave": [
+      "valor",
+      "monto",
+      "precio",
+      "costo",
+      "pago",
+      "presupuesto"
+    ],
+    "exclusiones": []
+  },
+  "TIPO_CLASIFICADOR": {
+    "descripcion": "Tipo o categoría genérica",
+    "nombre_canonico": "tipo",
+    "palabras_clave": [
+      "tipo",
+      "tipo_",
+      "categoria",
+      "clase",
+      "clasificacion"
+    ],
+    "exclusiones": [
+      "documento",
+      "formacion",
+      "contrato",
+      "vinculacion"
+    ]
+  },
+  "CODIGO_IDENTIFICADOR": {
+    "descripcion": "Código identificador genérico",
+    "nombre_canonico": "codigo",
+    "palabras_clave": [
+      "codigo",
+      "cod_",
+      "_cod",
+      "id_",
+      "_id",
+      "clave",
+      "llave"
+    ],
+    "exclusiones": [
+      "depto",
+      "mpio",
+      "ies",
+      "programa",
+      "pais",
+      "departamento",
+      "municipio"
+    ]
+  },
+  "NOMBRE_ENTIDAD": {
+    "descripcion": "Nombre descriptivo genérico",
+    "nombre_canonico": "nombre",
+    "palabras_clave": [
+      "nombre",
+      "nombre_",
+      "descripcion",
+      "denominacion",
+      "titulo"
+    ],
+    "exclusiones": [
+      "programa",
+      "ies",
+      "departamento",
+      "municipio",
+      "empresa"
+    ]
+  },
+  "POBLACION_GRUPO": {
+    "descripcion": "Grupo poblacional o segmento",
+    "nombre_canonico": "grupo_poblacional",
+    "palabras_clave": [
+      "poblacion",
+      "grupo",
+      "segmento",
+      "cohorte",
+      "victimas",
+      "discapacidad",
+      "etnia"
+    ],
+    "exclusiones": []
+  },
+  "INDICADOR_TASA": {
+    "descripcion": "Indicador o tasa calculada",
+    "nombre_canonico": "indicador",
+    "palabras_clave": [
+      "indicador",
+      "indice",
+      "tasa",
+      "porcentaje",
+      "pct",
+      "ratio",
+      "proporcion"
+    ],
+    "exclusiones": [
+      "cobertura",
+      "desercion"
+    ]
+  },
+  "ACREDITACION_CALIDAD": {
+    "descripcion": "Acreditación y calidad",
+    "nombre_canonico": "acreditacion",
+    "palabras_clave": [
+      "acreditacion",
+      "acreditado",
+      "calidad",
+      "cna",
+      "registro_calificado"
+    ],
+    "exclusiones": []
+  },
+  "JORNADA_HORARIO": {
+    "descripcion": "Jornada o horario",
+    "nombre_canonico": "jornada",
+    "palabras_clave": [
+      "jornada",
+      "horario",
+      "turno",
+      "diurno",
+      "nocturno"
+    ],
+    "exclusiones": []
+  },
+  "DURACION_TIEMPO": {
+    "descripcion": "Duración temporal",
+    "nombre_canonico": "duracion",
+    "palabras_clave": [
+      "duracion",
+      "tiempo",
+      "horas",
+      "creditos",
+      "semanas",
+      "meses"
+    ],
+    "exclusiones": []
+  },
+  "FINANCIACION": {
+    "descripcion": "Financiación y recursos",
+    "nombre_canonico": "financiacion",
+    "palabras_clave": [
+      "financiacion",
+      "recurso",
+      "inversion",
+      "icetex",
+      "beca",
+      "subsidio",
+      "generacion_e"
+    ],
+    "exclusiones": []
+  }
+}

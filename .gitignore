@@ -1,0 +1,45 @@
+__pycache__/
+*.pyc
+*.pyo
+*.bak*
+*.bak_*
+*.duckdb
+*.duckdb.wal
+.env
+.venv/
+.mimocode/
+
+# ── Artefactos de tooling (pueden regenerarse) ──
+node_modules/
+package.json
+package-lock.json
+skills-lock.json
+.agents/
+.agent/
+agent/
+.playwright-mcp/
+.pytest_cache/
+data/skills/
+
+# ── Imagenes y capturas ──
+*.png
+*.jpg
+
+# ── Logs ──
+*.log
+
+# ── Archivos temporales de diagnostico ──
+_auditoria*
+_diag*
+_sim*
+_verificar*
+_check_*
+
+# ── Artefactos de evaluacion ──
+admin/evaluacion_output/
+
+# ── Archivo de limpieza ──
+_limpieza/
+
+# ── Streamlit ──
+.streamlit/secrets.toml

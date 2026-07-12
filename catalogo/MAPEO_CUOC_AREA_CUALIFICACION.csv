@@ -1,0 +1,681 @@
+﻿Codigo_CUOC,Nombre_Ocupacion,Sigla_Area,Area_Cualificacion
+1100,Oficiales de las Fuerzas Militares,SEGU,Seguridad
+2100,Suboficiales de las Fuerzas Militares,SEGU,Seguridad
+3100,Otros miembros de las Fuerzas Militares,SEGU,Seguridad
+11110,Directores formuladores y ejecutores de políticas y normas / Directoras formuladoras y ejecutoras de políticas y normas,AFDE,"Administración, Finanzas Y Derecho"
+11120,Directores del gobierno / Directoras del gobierno,AFDE,"Administración, Finanzas Y Derecho"
+11130,Jefes de comunidades étnicas / Jefas de comunidades étnicas,AFDE,"Administración, Finanzas Y Derecho"
+11140,"Dirigentes de organizaciones con un interés específico (partidos políticos, sindicatos y organizaciones sociales)",AFDE,"Administración, Finanzas Y Derecho"
+11200,Directores y gerentes generales / Directoras y gerentas generales,AFDE,"Administración, Finanzas Y Derecho"
+12111,Directores y gerentes financieros / Directoras y gerentas financieras,AFDE,"Administración, Finanzas Y Derecho"
+12112,"Directores y gerentes de seguros, bienes raíces y corretaje financiero / Directoras y gerentas de seguros, bienes raíces y corretaje financiero",AFDE,"Administración, Finanzas Y Derecho"
+12113,"Directores y gerentes de banca, crédito e inversiones / Directoras y gerentas de banca, crédito e inversiones",AFDE,"Administración, Finanzas Y Derecho"
+12120,Directores y gerentes de gestión de talento humano / Directoras y gerentas de gestión de talento humano,AFDE,"Administración, Finanzas Y Derecho"
+12130,Directores y gerentes de políticas y planeación / Directoras y gerentas de políticas y planeación,AFDE,"Administración, Finanzas Y Derecho"
+12191,Directores y gerentes de limpieza y mantenimiento / Directoras y gerentas de limpieza y mantenimiento,AFDE,"Administración, Finanzas Y Derecho"
+12199,Directores y gerentes de administración y servicios no clasificados en otras ocupaciones / Directoras y gerentas de administración y servicios no clasificados en otras ocupaciones,AFDE,"Administración, Finanzas Y Derecho"
+12211,Directores y gerentes de ventas y mercadeo / Directoras y gerentas de ventas y mercadeo,AFDE,"Administración, Finanzas Y Derecho"
+12212,Directores y gerentes de comercio exterior / Directoras y gerentas de comercio exterior,AFDE,"Administración, Finanzas Y Derecho"
+12220,Directores y gerentes de publicidad y relaciones públicas / Directoras y gerentas de publicidad y relaciones públicas,AFDE,"Administración, Finanzas Y Derecho"
+12230,"Directores y gerentes de ingeniería, investigación y desarrollo / Directoras y gerentas de ingeniería, investigación y desarrollo",AFDE,"Administración, Finanzas Y Derecho"
+13110,Directores y gerentes de producción agropecuaria y silvicultura / Directoras y gerentas de producción agropecuaria y silvicultura,AFDE,"Administración, Finanzas Y Derecho"
+13120,"Directores y gerentes de producción acuícola, piscícola y de pesca / Directoras y gerentas de producción acuícola, piscícola y de pesca",AFDE,"Administración, Finanzas Y Derecho"
+13210,Directores y gerentes de industrias manufactureras / Directoras y gerentas de industrias manufactureras,AFDE,"Administración, Finanzas Y Derecho"
+13220,Directores y gerentes de producción primaria (excepto agricultura) / Directoras y gerentas de producción primaria (excepto agricultura),AFDE,"Administración, Finanzas Y Derecho"
+13230,Directores y gerentes de empresas de construcción / Directoras y gerentas de empresas de construcción,AFDE,"Administración, Finanzas Y Derecho"
+13241,Directores y gerentes de compras y adquisiciones / Directoras y gerentas de compras y adquisiciones,AFDE,"Administración, Finanzas Y Derecho"
+13242,Directores y gerentes de servicios de correo y mensajería / Directoras y gerentas de servicios de correo y mensajería,AFDE,"Administración, Finanzas Y Derecho"
+13243,"Directores y gerentes de transporte, distribución y logística / Directoras y gerentas de transporte, distribución y logística",AFDE,"Administración, Finanzas Y Derecho"
+13244,Directores y gerentes de cadena de suministro / Directoras y gerentas de cadena de suministro,AFDE,"Administración, Finanzas Y Derecho"
+13301,Directores y gerentes de telecomunicaciones / Directoras y gerentas de telecomunicaciones,AFDE,"Administración, Finanzas Y Derecho"
+13302,Directores y gerentes de sistemas de información y procesamiento de datos / Directoras y gerentas de sistemas de información y procesamiento de datos,AFDE,"Administración, Finanzas Y Derecho"
+13303,Directores y gerentes de comunicaciones y audiovisuales / Directoras y gerentas de comunicaciones y audiovisuales,AFDE,"Administración, Finanzas Y Derecho"
+13410,Directores y gerentes de servicios de cuidados infantiles / Directoras y gerentas de servicios de cuidados infantiles,AFDE,"Administración, Finanzas Y Derecho"
+13420,Directores y gerentes de servicios de salud / Directoras y gerentas de servicios de salud,AFDE,"Administración, Finanzas Y Derecho"
+13430,Directores y gerentes de servicios de atención a personas mayores / Directoras y gerentas de servicios de atención a personas mayores,AFDE,"Administración, Finanzas Y Derecho"
+13440,"Directores y gerentes de servicios de bienestar social, comunitario y correccional / Directoras y gerentas de servicios de bienestar social, comunitario y correccional",AFDE,"Administración, Finanzas Y Derecho"
+13451,Directores y gerentes de programas de política educativa / Directoras y gerentas de programas de política educativa,AFDE,"Administración, Finanzas Y Derecho"
+13452,Directores y administradores de instituciones de educación y formación / Directoras y administradoras de instituciones de educación y formación,AFDE,"Administración, Finanzas Y Derecho"
+13460,"Directores y gerentes de sucursales de bancos, de servicios financieros y de seguros / Directoras y gerentas de sucursales de bancos, de servicios financieros y de seguros",AFDE,"Administración, Finanzas Y Derecho"
+13491,"Directores y gerentes de archivo, biblioteca, museo y galería de arte / Directoras y gerentas de archivo, biblioteca, museo y galería de arte",AFDE,"Administración, Finanzas Y Derecho"
+13492,Directores y gerentes de servicios y procesos de negocio / Directoras y gerentes de servicios y procesos de negocio,AFDE,"Administración, Finanzas Y Derecho"
+13499,Directores y gerentes de servicios profesionales no clasificados en otras ocupaciones / Directoras y gerentes de servicios profesionales no clasificados en otras ocupaciones,AFDE,"Administración, Finanzas Y Derecho"
+14110,Directores y gerentes de servicios hoteleros y hospedaje / Directoras y gerentes de servicios hoteleros y hospedaje,AFDE,"Administración, Finanzas Y Derecho"
+14120,Gerentes y administradores de servicios de alimentos y restaurantes / Gerentas y administradoras de servicios de alimentos y restaurantes,AFDE,"Administración, Finanzas Y Derecho"
+14200,Gerentes de comercios al por mayor y al por menor / Gerentas de comercios al por mayor y al por menor,AFDE,"Administración, Finanzas Y Derecho"
+14311,"Directores y gerentes de empresas de música, artes escénicas y cultura / Directoras y gerentes de empresas de música, artes escénicas y cultura",AFDE,"Administración, Finanzas Y Derecho"
+14312,"Directores y gerentes de recreación, actividad física y deportes / Directoras y gerentes de recreación, actividad física y deportes",AFDE,"Administración, Finanzas Y Derecho"
+14391,Gerentes y administradores de propiedad horizontal / Gerentas y administradoras de propiedad horizontal,AFDE,"Administración, Finanzas Y Derecho"
+14399,Otros gerentes y administradores de servicios no clasificados en otras ocupaciones / Otras gerentas y administradoras de servicios no clasificados en otras ocupaciones,AFDE,"Administración, Finanzas Y Derecho"
+21110,Físicos y astrónomos / Físicas y astrónomas,CNME,"Ciencias Naturales, Matemáticas Y Estadística"
+21120,Meteorólogos / Meteorólogas,CNME,"Ciencias Naturales, Matemáticas Y Estadística"
+21130,Químicos / Químicas,INQU,Industria Química
+21141,"Geólogos, geofísicos y geoquímicos / Geólogas, geofísicas y geoquímicas",CNME,"Ciencias Naturales, Matemáticas Y Estadística"
+21142,Gemólogos / Gemólogas,CNME,"Ciencias Naturales, Matemáticas Y Estadística"
+21143,Oceanógrafos / Oceanógrafas,CNME,"Ciencias Naturales, Matemáticas Y Estadística"
+21200,"Matemáticos, actuarios y estadísticos / Matemáticas, actuarias y estadísticas",CNME,"Ciencias Naturales, Matemáticas Y Estadística"
+21310,"Biólogos, botánicos, zoólogos y afines / Biólogas, botánicas, zoólogas y afines",CNME,"Ciencias Naturales, Matemáticas Y Estadística"
+21321,"Agrónomos, agroecólogos, agrícolas, pecuarios y zootecnistas / Agrónomas, agroecólogas, agrícolas, pecuarias y zootecnistas",AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+21322,Silvicultores y forestales / Silvicultoras y forestales,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+21323,Extensionistas agropecuarios y forestales de bosques naturales,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+21331,Profesionales ambientales y ecologistas,CNME,"Ciencias Naturales, Matemáticas Y Estadística"
+21332,Profesionales en gestión de riesgo de desastres,CNME,"Ciencias Naturales, Matemáticas Y Estadística"
+21410,Ingenieros industriales y de producción / Ingenieras industriales y de producción,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+21420,Ingenieros civiles / Ingenieras civiles,COIF,Construcción E Infraestructura
+21430,Ingenieros medioambientales / Ingenieras medioambientales,CPSA,"Conservación, Protección Y Saneamiento Ambiental"
+21441,Ingenieros mecánicos / Ingenieras mecánicas,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+21442,Ingenieros navales / Ingenieras navales,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+21443,Ingenieros aeronáuticos / Ingenieras aeronáuticas,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+21450,Ingenieros químicos / Ingenieras químicas,INQU,Industria Química
+21461,Ingenieros de minas / Ingenieras de minas,EMCP,"Exploración Y Extracción De Minas, Canteras, Petróleo Y Gas"
+21462,Ingenieros metalúrgicos / Ingenieras metalúrgicas,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+21463,Ingenieros de petróleo y gas / Ingenieras de petróleo y gas,EMCP,"Exploración Y Extracción De Minas, Canteras, Petróleo Y Gas"
+21491,Ingenieros de materiales / Ingenieras de materiales,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+21492,Ingenieros biomédicos y biológicos / Ingenieras biomédicas y biológicas,SABI,Salud Y Bienestar
+21499,Ingenieros no clasificados en otras ocupaciones / Ingenieras no clasificadas en otras ocupaciones,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+21510,Ingenieros electricistas / Ingenieras electricistas,PEEL,Producción De Energía Y Electricidad
+21521,Ingenieros electrónicos / Ingenieras electrónicas,ELCA,Electrónica Y Automatización
+21522,Ingenieros de automatización e instrumentación / Ingenieras de automatización e instrumentación,ELCA,Electrónica Y Automatización
+21531,Ingenieros de telecomunicaciones / Ingenieras de telecomunicaciones,TICO,Tecnologías De La Información Y Las Comunicaciones
+21532,Ingenieros y productores de audio y sonido / Ingenieras y productoras de audio y sonido,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+21610,Arquitectos / Arquitectas,COIF,Construcción E Infraestructura
+21620,Arquitectos paisajistas / Arquitectas paisajistas,COIF,Construcción E Infraestructura
+21631,Diseñadores industriales y de productos / Diseñadoras industriales y de productos,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+21632,Diseñadores de vestuario y moda / Diseñadoras de vestuario y moda,TCCD,"Textil, Cuero, Confección Y Diseño De Modas"
+21633,Diseñadores de espacios / Diseñadoras de espacios,COIF,Construcción E Infraestructura
+21634,Diseñadores de servicios / Diseñadoras de servicios,AFDE,"Administración, Finanzas Y Derecho"
+21635,Diseñadores de iluminación / Diseñadoras de iluminación,COIF,Construcción E Infraestructura
+21640,"Planificadores urbanos, regionales y de tránsito / Planificadoras urbanas, regionales y de tránsito",COIF,Construcción E Infraestructura
+21650,Cartógrafos e ingenieros topográficos y catastrales / Cartógrafas e ingenieras topográficas y catastrales,COIF,Construcción E Infraestructura
+21661,Diseñadores gráficos / Diseñadoras gráficas,LIAG,Literatura Y Artes Gráficas
+21662,Diseñadores de imágenes computarizadas e interacción digital / Diseñadoras de imágenes computarizadas e interacción digital,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+22110,Médicos generales / Médicas generales,SABI,Salud Y Bienestar
+22120,Médicos especialistas / Médicas especialistas,SABI,Salud Y Bienestar
+22210,Profesionales de enfermería,SABI,Salud Y Bienestar
+22300,Profesionales de medicina tradicional y alternativa,SABI,Salud Y Bienestar
+22401,Paramédicos / Paramédicas,SABI,Salud Y Bienestar
+22402,Instrumentadores quirúrgicos / Instrumentadoras quirúrgicas,SABI,Salud Y Bienestar
+22500,Veterinarios / Veterinarias,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+22611,Odontólogos generales / Odontólogas generales,SABI,Salud Y Bienestar
+22612,Odontólogos especialistas / Odontólogas especialistas,SABI,Salud Y Bienestar
+22620,Farmacéuticos y químicos farmacéuticos / Farmacéuticas y químicas farmacéuticas,INQU,Industria Química
+22630,Profesionales de la salud y la higiene laboral y ambiental,SABI,Salud Y Bienestar
+22640,Fisioterapeutas,SABI,Salud Y Bienestar
+22650,Nutricionistas dietistas,SABI,Salud Y Bienestar
+22660,Fonoaudiólogos y terapeutas del lenguaje / Fonoaudiólogas y terapeutas del lenguaje,SABI,Salud Y Bienestar
+22670,Optómetras,SABI,Salud Y Bienestar
+22691,Terapeutas ocupacionales,SABI,Salud Y Bienestar
+22692,Profesionales en terapia respiratoria,SABI,Salud Y Bienestar
+22693,Otros profesionales de terapia / Otras profesionales de terapia,SABI,Salud Y Bienestar
+22699,Profesionales de la salud no clasificados en otras ocupaciones,SABI,Salud Y Bienestar
+23100,Profesores de instituciones de educación superior / Profesoras de instituciones de educación superior,EDFO,Educación Y Formación
+23200,Profesores de formación profesional / Profesoras de formación profesional,EDFO,Educación Y Formación
+23300,Profesores de educación secundaria / Profesoras de educación secundaria,EDFO,Educación Y Formación
+23410,Profesores de educación básica primaria / Profesoras de educación básica primaria,EDFO,Educación Y Formación
+23420,Profesores de primera infancia y preescolar / Profesoras de primera infancia y preescolar,EDFO,Educación Y Formación
+23510,Especialistas en métodos y procesos pedagógicos,EDFO,Educación Y Formación
+23521,Profesores e instructores de educación especial e inclusiva / Profesoras e instructoras de educación especial e inclusiva,EDFO,Educación Y Formación
+23522,Pedagogos reeducadores / Pedagogas reeducadoras,EDFO,Educación Y Formación
+23530,Otros profesores de idiomas / Otras profesoras de idiomas,EDFO,Educación Y Formación
+23540,Otros profesores de música / Otras profesoras de música,EDFO,Educación Y Formación
+23550,Otros profesores de artes / Otras profesoras de artes,EDFO,Educación Y Formación
+23560,Instructores de tecnología de la información / Instructoras de tecnología de la información,EDFO,Educación Y Formación
+23591,Orientadores educativos / Orientadoras educativas,EDFO,Educación Y Formación
+23599,Otros profesionales de la educación no clasificados en otras ocupaciones / Otras profesionales de la educación no clasificados en otras ocupaciones,EDFO,Educación Y Formación
+24111,Contadores / Contadoras,AFDE,"Administración, Finanzas Y Derecho"
+24112,Auditores financieros y contables / Auditoras financieras y contables,AFDE,"Administración, Finanzas Y Derecho"
+24120,Asesores financieros y de inversiones / Asesoras financieras y de inversiones,AFDE,"Administración, Finanzas Y Derecho"
+24130,Analistas financieros / Analistas financieras,AFDE,"Administración, Finanzas Y Derecho"
+24210,Profesionales y analistas de gestión y organización,AFDE,"Administración, Finanzas Y Derecho"
+24220,Profesionales en políticas sociales y de administración,AFDE,"Administración, Finanzas Y Derecho"
+24231,Profesionales de talento humano,AFDE,"Administración, Finanzas Y Derecho"
+24232,Consejeros de servicios de empleo / Consejeras de servicios de empleo,AFDE,"Administración, Finanzas Y Derecho"
+24241,Profesionales de formación y desarrollo de personal,AFDE,"Administración, Finanzas Y Derecho"
+24242,Evaluadores de competencias laborales / Evaluadoras de competencias laborales,AFDE,"Administración, Finanzas Y Derecho"
+24311,Profesionales en mercadeo y publicidad,COMP,"Comercio, Mercadeo Y Publicidad"
+24312,Administradores de comunidades virtuales / Administradoras de comunidades virtuales,COMP,"Comercio, Mercadeo Y Publicidad"
+24313,Profesionales en negocios internacionales,COMP,"Comercio, Mercadeo Y Publicidad"
+24320,Profesionales de relaciones públicas y comunicaciones,COMP,"Comercio, Mercadeo Y Publicidad"
+24330,Profesionales de ventas técnicas y médicas (excluyendo las TIC),COMP,"Comercio, Mercadeo Y Publicidad"
+24340,Profesionales de ventas de tecnología de la información y las comunicaciones,COMP,"Comercio, Mercadeo Y Publicidad"
+25110,Analistas de sistemas,TICO,Tecnologías De La Información Y Las Comunicaciones
+25120,Desarrolladores de software / Desarrolladoras de software,TICO,Tecnologías De La Información Y Las Comunicaciones
+25130,Desarrolladores Web y multimedia / Desarrolladoras Web y multimedia,TICO,Tecnologías De La Información Y Las Comunicaciones
+25140,Programadores de aplicaciones / Programadoras de aplicaciones,TICO,Tecnologías De La Información Y Las Comunicaciones
+25190,Desarrolladores y analistas de software y multimedia no clasificados en otras ocupaciones / Desarrolladoras y analistas de software y multimedia no clasificadas en otras ocupaciones,TICO,Tecnologías De La Información Y Las Comunicaciones
+25210,Diseñadores y administradores de bases de datos / Diseñadoras y administradoras de bases de datos,TICO,Tecnologías De La Información Y Las Comunicaciones
+25220,Administradores de sistemas / Administradoras de sistemas,TICO,Tecnologías De La Información Y Las Comunicaciones
+25230,Profesionales en redes de computadores,TICO,Tecnologías De La Información Y Las Comunicaciones
+25290,Profesionales en bases de datos y en redes de computadores no clasificados en otras ocupaciones,TICO,Tecnologías De La Información Y Las Comunicaciones
+26110,Abogados / Abogadas,AFDE,"Administración, Finanzas Y Derecho"
+26120,Jueces / Juezas,AFDE,"Administración, Finanzas Y Derecho"
+26191,Profesionales en ciencias forenses,AFDE,"Administración, Finanzas Y Derecho"
+26199,Profesionales en derecho no clasificados en otras ocupaciones,AFDE,"Administración, Finanzas Y Derecho"
+26211,Archivistas,AFDE,"Administración, Finanzas Y Derecho"
+26212,Curadores de artes visuales y plásticas y de patrimonio cultural / Curadoras de artes visuales y plásticas y de patrimonio cultural,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+26213,Curadores y supervisores musicales / Curadoras y supervisoras musicales,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+26214,Museólogos y museógrafos / Museólogas y museógrafas,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+26215,Restauradores y conservadores de patrimonio cultural mueble / Restauradoras y conservadoras de patrimonio cultural mueble,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+26216,Restauradores y conservadores de patrimonio cultural construido / Restauradoras y conservadoras de patrimonio cultural construido,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+26219,"Otros archivistas, curadores de arte y restauradores no clasificados en otras ocupaciones / Otras archivistas, curadoras de arte y restauradoras no clasificadas en otras ocupaciones",AFDE,"Administración, Finanzas Y Derecho"
+26220,"Bibliotecólogos, documentalistas y afines / Bibliotecólogas, documentalistas y afines",AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+26310,Economistas,CISH,Ciencias Sociales Y Humanidades
+26320,"Sociólogos, antropólogos y afines / Sociólogas, antropólogas y afines",CISH,Ciencias Sociales Y Humanidades
+26330,"Filósofos, historiadores y especialistas en ciencias políticas / Filósofas, historiadoras y especialistas en ciencias políticas",CISH,Ciencias Sociales Y Humanidades
+26340,Psicólogos / Psicólogas,CISH,Ciencias Sociales Y Humanidades
+26351,Profesionales del trabajo social y consejeros,CISH,Ciencias Sociales Y Humanidades
+26352,Gestores de recursos y donaciones / Gestoras de recursos y donaciones,AFDE,"Administración, Finanzas Y Derecho"
+26360,Profesionales religiosos y ministros de culto / Profesionales religiosas y ministras de culto,CISH,Ciencias Sociales Y Humanidades
+26410,Autores y otros escritores / Autoras y otras escritoras,LIAG,Literatura Y Artes Gráficas
+26421,Periodistas,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+26422,Editores y redactores / Editoras y redactoras,LIAG,Literatura Y Artes Gráficas
+26431,"Traductores, intérpretes y lingüistas / Traductoras, intérpretes y lingüistas",CISH,Ciencias Sociales Y Humanidades
+26432,Traductores e intérpretes de lenguas nativas / Traductoras e intérpretes de lenguas nativas,CISH,Ciencias Sociales Y Humanidades
+26433,Intérpretes de lengua de señas,CISH,Ciencias Sociales Y Humanidades
+26434,Guías-intérpretes,CISH,Ciencias Sociales Y Humanidades
+26511,Artistas plásticos y visuales / Artistas plásticas y visuales,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+26512,Ilustradores artísticos / Ilustradoras artísticas,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+26521,Intérpretes musicales,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+26522,Directores e investigadores musicales / Directoras e investigadoras musicales,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+26523,Autores y compositores musicales / Autoras y compositoras musicales,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+26524,Ejecutantes musicales,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+26531,Compositores coreográficos e intérpretes de danza / Compositoras coreográficas e intérpretes de danza,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+26532,Bailarines y otros ejecutantes de la danza / Bailarinas y otras ejecutantes de la danza,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+26541,"Productores, directores y editores de cine, teatro y afines / Productoras, directoras y editoras de cine, teatro y afines",AVEM,"Audiovisuales, Artes Escénicas Y Música"
+26542,Productores de campo para las artes escénicas y audiovisuales / Productoras de campo para las artes escénicas y audiovisuales,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+26543,"Realizadores y coordinadores de las artes escénicas, audiovisuales y afines / Realizadoras y coordinadoras de las artes escénicas, audiovisuales y afines",AVEM,"Audiovisuales, Artes Escénicas Y Música"
+26551,Actores / Actrices,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+26559,Otros actores no clasificados en otras ocupaciones / Otras actrices no clasificadas en otras ocupaciones,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+26560,"Locutores y presentadores de radio, televisión y otros medios de comunicación / Locutoras y presentadoras de radio, televisión y otros medios de comunicación",AVEM,"Audiovisuales, Artes Escénicas Y Música"
+26591,Artistas creativos y ejecutantes de técnicas circenses / Artistas creativas y ejecutantes de técnicas circenses,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+26599,Artistas creativos e interpretativos no clasificados en otras ocupaciones / Artistas creativas e interpretativas no clasificadas en otras ocupaciones,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+31111,Técnicos en física y química / Técnicas en física y química,CNME,"Ciencias Naturales, Matemáticas Y Estadística"
+31112,Técnicos en geología / Técnicas en geología,CNME,"Ciencias Naturales, Matemáticas Y Estadística"
+31113,Técnicos en meteorología / Técnicas en meteorología,CNME,"Ciencias Naturales, Matemáticas Y Estadística"
+31114,Técnicos en metrología / Técnicas en metrología,CNME,"Ciencias Naturales, Matemáticas Y Estadística"
+31115,Auxiliares de laboratorio,INQU,Industria Química
+31121,Técnicos en construcción y arquitectura / Técnicas en construcción y arquitectura,COIF,Construcción E Infraestructura
+31122,Técnicos en topografía / Técnicas en topografía,COIF,Construcción E Infraestructura
+31123,Técnicos en cartografía / Técnicas en cartografía,COIF,Construcción E Infraestructura
+31130,Técnicos en electricidad / Técnicas en electricidad,PEEL,Producción De Energía Y Electricidad
+31141,Técnicos en electrónica / Técnicas en electrónica,ELCA,Electrónica Y Automatización
+31142,Técnicos en automatización e instrumentación / Técnicas en automatización e instrumentación,ELCA,Electrónica Y Automatización
+31150,Técnicos en ingeniería mecánica / Técnicas en ingeniería mecánica,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+31160,Técnicos en química industrial / Técnicas en química industrial,INQU,Industria Química
+31171,Técnicos de minas y metalurgia / Técnicas de minas y metalurgia,EMCP,"Exploración Y Extracción De Minas, Canteras, Petróleo Y Gas"
+31172,Operarios de exploración geofísica y geológica / Operarias de exploración geofísica y geológica,EMCP,"Exploración Y Extracción De Minas, Canteras, Petróleo Y Gas"
+31181,Delineantes y dibujantes técnicos / Delineantes y dibujantes técnicas,COIF,Construcción E Infraestructura
+31182,Auxiliares de producción gráfica,LIAG,Literatura Y Artes Gráficas
+31183,Graficadores de imágenes computarizadas / Graficadoras de imágenes computarizadas,LIAG,Literatura Y Artes Gráficas
+31191,Técnicos en fabricación industrial / Técnicas en fabricación industrial,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+31199,Técnicos en ciencias físicas y en ingeniería no clasificados en otras ocupaciones / Técnicas en ciencias físicas y en ingeniería no clasificados en otras ocupaciones,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+31211,Supervisores de minería y canteras / Supervisoras de minería y canteras,EMCP,"Exploración Y Extracción De Minas, Canteras, Petróleo Y Gas"
+31212,Supervisores de perforación y servicio a pozos de petróleo y gas / Supervisoras de perforación y servicio a pozos de petróleo y gas,EMCP,"Exploración Y Extracción De Minas, Canteras, Petróleo Y Gas"
+31213,Supervisores y analistas de producción de hidrocarburos / Supervisoras y analistas de producción de hidrocarburos,EMCP,"Exploración Y Extracción De Minas, Canteras, Petróleo Y Gas"
+31221,Supervisores de procesamiento de alimentos y bebidas / Supervisoras de procesamiento de alimentos y bebidas,ETAL,Elaboración Y Transformación De Alimentos
+31222,Supervisores de fabricación y procesamiento de productos de plástico y caucho / Supervisoras de fabricación y procesamiento de productos de plástico y caucho,INQU,Industria Química
+31223,Supervisores de procesamiento de la madera y producción de pulpa y papel / Supervisoras de procesamiento de la madera y producción de pulpa y papel,INQU,Industria Química
+31224,Supervisores de ensamble de vehículos de motor / Supervisoras de ensamble de vehículos de motor,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+31225,Supervisores de impresión y ocupaciones relacionadas / Supervisoras de impresión y ocupaciones relacionadas,LIAG,Literatura Y Artes Gráficas
+31226,"Supervisores de fabricación y tratamiento de productos mecánicos, metálicos y minerales / Supervisoras de fabricación y tratamiento de productos mecánicos, metálicos y minerales",FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+31227,"Supervisores de fabricación y procesamiento de productos textiles, cuero y piel / Supervisoras de fabricación y procesamiento de productos textiles, cuero y piel",TCCD,"Textil, Cuero, Confección Y Diseño De Modas"
+31228,Supervisores de fabricación de productos eléctricos y electrónicos / Supervisoras de fabricación de productos eléctricos y electrónicos,PEEL,Producción De Energía Y Electricidad
+31229,Supervisores de industrias manufactureras no clasificadas en otras ocupaciones / Supervisoras de industrias manufactureras no clasificadas en otras ocupaciones,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+31231,"Supervisores de la construcción, maestros generales de obra, instalación y reparación / Supervisoras de la construcción, maestros generales de obra, instalación y reparación",COIF,Construcción E Infraestructura
+31232,Inspectores de sistemas e instalaciones de gas / Inspectoras de sistemas e instalaciones de gas,COIF,Construcción E Infraestructura
+31310,Operadores de plantas de generación y distribución de energía / Operadoras de plantas de generación y distribución de energía,PEEL,Producción De Energía Y Electricidad
+31321,Operadores de plantas de tratamiento de agua / Operadoras de plantas de tratamiento de agua,CPSA,"Conservación, Protección Y Saneamiento Ambiental"
+31322,"Operadores de incineradores, de hornos crematorios y de rellenos sanitarios / Operadoras de incineradores, de hornos crematorios y de rellenos sanitarios",CPSA,"Conservación, Protección Y Saneamiento Ambiental"
+31330,Controladores de instalaciones de procesamiento de productos químicos / Controladoras de instalaciones de procesamiento de productos químicos,INQU,Industria Química
+31341,Operadores de instalaciones de refinación de petróleo y gas natural / Operadoras de instalaciones de refinación de petróleo y gas natural,INQU,Industria Química
+31342,Inspectores de oleoductos y gasoductos / Inspectoras de oleoductos y gasoductos,EMCP,"Exploración Y Extracción De Minas, Canteras, Petróleo Y Gas"
+31350,Controladores de procesos de producción y tratamiento de metales / Controladoras de procesos de producción y tratamiento de metales,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+31390,Técnicos en control de procesos no clasificados en otras ocupaciones / Técnicas en control de procesos no clasificados en otras ocupaciones,INQU,Industria Química
+31410,Técnicos en ciencias biológicas (excluyendo la medicina) / Técnicas en ciencias biológicas (excluyendo la medicina),CNME,"Ciencias Naturales, Matemáticas Y Estadística"
+31421,Técnicos agropecuarios / Técnicas agropecuarias,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+31422,"Inspectores de productos agrícola, pecuarios y de pesca / Inspectoras de productos agrícola, pecuarios y de pesca",AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+31423,Inspectores de riego agrícola / Inspectoras de riego agrícola,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+31424,Supervisores de producción agrícola / Supervisoras de producción agrícola,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+31425,Supervisores de producción pecuaria / Supervisoras de producción pecuaria,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+31426,Promotores de servicios agrícolas y relacionados / Promotoras de servicios agrícolas y relacionados,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+31431,Técnicos forestales y de recursos naturales / Técnicas forestales y de recursos naturales,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+31432,Supervisores de explotación forestal y silvicultura / Supervisoras de explotación forestal y silvicultura,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+31510,Oficiales maquinistas en navegación,LOTR,Logística Y Transporte
+31520,Capitanes y oficiales de cubierta,LOTR,Logística Y Transporte
+31530,"Pilotos, ingenieros e instructores de vuelo",LOTR,Logística Y Transporte
+31540,"Controladores de tráfico aéreo, marítimo y ferroviario / Controladoras de tráfico aéreo, marítimo y ferroviario",LOTR,Logística Y Transporte
+31550,Técnicos en seguridad aeronáutica e instrumentos de aeronavegación / Técnicas en seguridad aeronáutica e instrumentos de aeronavegación,LOTR,Logística Y Transporte
+32111,Técnicos y tecnólogos en imágenes diagnósticas / Técnicas y tecnólogas en imágenes diagnósticas,SABI,Salud Y Bienestar
+32112,Técnicos y tecnólogos en radioterapia / Técnicas y tecnólogas en radioterapia,SABI,Salud Y Bienestar
+32113,Técnicos y tecnólogos en medicina nuclear / Técnicas y tecnólogas en medicina nuclear,SABI,Salud Y Bienestar
+32119,Otros técnicos en aparatos de diagnóstico y tratamiento médico no clasificados en otras ocupaciones / Otras técnicas en aparatos de diagnóstico y tratamiento médico no clasificados en otras ocupaciones,SABI,Salud Y Bienestar
+32120,Técnicos de laboratorios médicos / Técnicas de laboratorios médicos,SABI,Salud Y Bienestar
+32130,Técnicos y asistentes farmacéuticos / Técnicas y asistentes farmacéuticas,SABI,Salud Y Bienestar
+32141,Técnicos en mecánica dental / Técnicas en mecánica dental,SABI,Salud Y Bienestar
+32142,Técnicos de órtesis y prótesis médicas / Técnicas de órtesis y prótesis médicas,SABI,Salud Y Bienestar
+32220,Técnicos y profesionales del nivel medio en partería tradicional / Técnicas y profesionales del nivel medio en partería tradicional,SABI,Salud Y Bienestar
+32301,Técnicos y profesionales del nivel medio en medicina alternativa / Técnicas y profesionales del nivel medio en medicina alternativa,SABI,Salud Y Bienestar
+32302,Practicantes de medicina tradicional ancestral / Practicantas de medicina tradicional ancestral,SABI,Salud Y Bienestar
+32400,Técnicos y asistentes veterinarios / Técnicas y asistentes veterinarias,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+32520,Técnicos en documentación sanitaria / Técnicas en documentación sanitaria,SABI,Salud Y Bienestar
+32530,Trabajadores comunitarios de la salud / Trabajadoras comunitarias de la salud,SABI,Salud Y Bienestar
+32540,Técnicos en óptica / Técnicas en óptica,SABI,Salud Y Bienestar
+32550,Técnicos y asistentes terapeutas / Técnicas y asistentes terapeutas,SABI,Salud Y Bienestar
+32560,Asistentes médicos / Asistentas médicas,SABI,Salud Y Bienestar
+32571,"Inspectores de sanidad, seguridad y salud en el trabajo / Inspectoras de sanidad, seguridad y salud en el trabajo",SABI,Salud Y Bienestar
+32572,Coordinadores de sistemas integrados de gestión / Coordinadoras de sistemas integrados de gestión,CPSA,"Conservación, Protección Y Saneamiento Ambiental"
+32573,"Técnicos en prevención, gestión y control ambiental / Técnicas en prevención, gestión y control ambiental",CPSA,"Conservación, Protección Y Saneamiento Ambiental"
+32574,Asistentes en saneamiento ambiental / Asistentas en saneamiento ambiental,CPSA,"Conservación, Protección Y Saneamiento Ambiental"
+32580,Técnicos en atención prehospitalaria / Técnicas en atención prehospitalaria,SABI,Salud Y Bienestar
+32590,Otros técnicos y profesionales del nivel medio de la salud no clasificados en otras ocupaciones / Otras técnicas y profesionales del nivel medio de la salud no clasificadas en otras ocupaciones,SABI,Salud Y Bienestar
+33110,"Agentes de bolsa, cambio y otros servicios financieros",AFDE,"Administración, Finanzas Y Derecho"
+33120,Analistas y asistentes financieros en préstamos y créditos / Analistas y asistentes financieras en préstamos y créditos,AFDE,"Administración, Finanzas Y Derecho"
+33131,Asistentes contables / Asistentas contables,AFDE,"Administración, Finanzas Y Derecho"
+33132,Asistentes financieros / Asistentas financieras,AFDE,"Administración, Finanzas Y Derecho"
+33133,Asistentes de tesorería / Asistentas de tesorería,AFDE,"Administración, Finanzas Y Derecho"
+33134,Técnicos de contabilidad y afines / Técnicas de contabilidad y afines,AFDE,"Administración, Finanzas Y Derecho"
+33140,"Técnicos y profesionales del nivel medio de servicios estadísticos, matemáticos y afines / Técnicas y profesionales del nivel medio de servicios estadísticos, matemáticos y afines",AFDE,"Administración, Finanzas Y Derecho"
+33150,"Tasadores, avaluadores y liquidadores de seguros / Tasadoras, avaluadoras y liquidadoras de seguros",AFDE,"Administración, Finanzas Y Derecho"
+33210,Agentes y corredores de seguros / Agentes y corredoras de seguros,AFDE,"Administración, Finanzas Y Derecho"
+33220,Representantes comerciales,COMP,"Comercio, Mercadeo Y Publicidad"
+33230,Agentes de compras,COMP,"Comercio, Mercadeo Y Publicidad"
+33240,Agentes de operaciones comerciales y consignatarios,COMP,"Comercio, Mercadeo Y Publicidad"
+33311,Asistentes de comercio exterior / Asistentas de comercio exterior,LOTR,Logística Y Transporte
+33312,Gestores y agentes de servicios de aduana / Gestoras y agentes de servicios de aduana,LOTR,Logística Y Transporte
+33320,"Coordinadores y productores de conferencias, eventos y espectáculos / Coordinadoras y productoras de conferencias, eventos y espectáculos",TUHG,"Turismo, Hotelería Y Gastronomía"
+33330,Agentes de empleo y contratistas de mano de obra,AFDE,"Administración, Finanzas Y Derecho"
+33340,Agentes inmobiliarios / Agentes inmobiliarias,COMP,"Comercio, Mercadeo Y Publicidad"
+33391,"Agentes y promotores culturales, artísticos y deportivos / Agentes y promotoras culturales, artísticas y deportivas",AVEM,"Audiovisuales, Artes Escénicas Y Música"
+33392,"Asistentes de mercadeo, publicidad y comunicaciones / Asistentas de mercadeo, publicidad y comunicaciones",COMP,"Comercio, Mercadeo Y Publicidad"
+33393,Auxiliares de promoción artística,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+33399,Agentes de servicios comerciales no clasificados en otras ocupaciones,COMP,"Comercio, Mercadeo Y Publicidad"
+33411,Supervisores administrativos / Supervisoras administrativas,AFDE,"Administración, Finanzas Y Derecho"
+33412,Supervisores de entidades financieras / Supervisoras de entidades financieras,AFDE,"Administración, Finanzas Y Derecho"
+33413,"Supervisores y coordinadores de procesos de negocio, empleados de información y servicio al cliente / Supervisoras y coordinadoras de procesos de negocio, empleadas de información y servicio al cliente",AFDE,"Administración, Finanzas Y Derecho"
+33414,Supervisores de personal de correo y mensajería / Supervisoras de personal de correo y mensajería,LOTR,Logística Y Transporte
+33415,"Supervisores de almacenamiento, inventario y distribución / Supervisoras de almacenamiento, inventario y distribución",LOTR,Logística Y Transporte
+33416,Supervisores de operación de transporte ferroviario / Supervisoras de operación de transporte ferroviario,LOTR,Logística Y Transporte
+33417,Supervisores de operación de transporte terrestre (no ferroviario) / Supervisoras de operación de transporte terrestre (no ferroviario),LOTR,Logística Y Transporte
+33420,Secretarios jurídicos / Secretarias jurídicas,AFDE,"Administración, Finanzas Y Derecho"
+33431,Asistentes administrativos / Asistentas administrativas,AFDE,"Administración, Finanzas Y Derecho"
+33432,Asistentes de talento humano / Asistentas de talento humano,AFDE,"Administración, Finanzas Y Derecho"
+33433,Técnicos en archivística / Técnicas en archivística,AFDE,"Administración, Finanzas Y Derecho"
+33440,Secretarios médicos / Secretarias médicas,AFDE,"Administración, Finanzas Y Derecho"
+33510,"Inspectores de aduana, fronteras y migración / Inspectoras de aduana, fronteras y migración",AFDE,"Administración, Finanzas Y Derecho"
+33520,Agentes de administración tributaria,AFDE,"Administración, Finanzas Y Derecho"
+33530,Funcionarios e inspectores de servicios de seguridad social / Funcionarias e inspectoras de servicios de seguridad social,AFDE,"Administración, Finanzas Y Derecho"
+33540,Funcionarios e inspectores gubernamentales de expedición de licencias / Funcionarias e inspectoras gubernamentales de expedición de licencias,AFDE,"Administración, Finanzas Y Derecho"
+33551,Inspectores y detectives de policía / Inspectoras y detectives de policía,SEGU,Seguridad
+33552,Técnicos investigadores criminalísticos y judiciales / Técnicas investigadoras criminalísticas y judiciales,SEGU,Seguridad
+33553,Investigadores criminalísticos y judiciales / Investigadoras criminalísticas y judiciales,AFDE,"Administración, Finanzas Y Derecho"
+33590,Agentes de gobierno y profesionales del nivel medio para la aplicación de regulaciones no clasificados en otras ocupaciones,AFDE,"Administración, Finanzas Y Derecho"
+34111,"Asistentes de juzgados, tribunales y afines / Asistentas de juzgados, tribunales y afines",AFDE,"Administración, Finanzas Y Derecho"
+34112,Auxiliares de tribunales,AFDE,"Administración, Finanzas Y Derecho"
+34113,Asistentes legales y afines / Asistentas legales y afines,AFDE,"Administración, Finanzas Y Derecho"
+34119,"Técnicos y profesionales del nivel medio del derecho, de servicios legales y afines, no clasificados en otras ocupaciones / Técnicas y profesionales del nivel medio del derecho, de servicios legales y afines, no clasificadas en otras ocupaciones",AFDE,"Administración, Finanzas Y Derecho"
+34120,Trabajadores y asistentes sociales y comunitarios / Trabajadoras y asistentes sociales y comunitarias,CISH,Ciencias Sociales Y Humanidades
+34130,Auxiliares laicos de las religiones / Auxiliares laicas de las religiones,SEPC,Servicios Personales Y A La Comunidad
+34210,Atletas y deportistas,AFIR,"Actividades Físicas, Deportivas Y Recreativas"
+34221,Entrenadores y preparadores físicos / Entrenadoras y preparadoras físicas,AFIR,"Actividades Físicas, Deportivas Y Recreativas"
+34222,Árbitros / Árbitras,AFIR,"Actividades Físicas, Deportivas Y Recreativas"
+34231,Instructores de educación física y recreación / Instructoras de educación física y recreación,AFIR,"Actividades Físicas, Deportivas Y Recreativas"
+34232,Recreadores / Recreadoras,AFIR,"Actividades Físicas, Deportivas Y Recreativas"
+34310,Fotógrafos / Fotógrafas,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+34320,Decoradores de interiores / Decoradoras de interiores,COMP,"Comercio, Mercadeo Y Publicidad"
+34331,Ocupaciones técnicas relacionadas con museos y galerías,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+34332,Técnicos en biblioteca / Técnicas en biblioteca,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+34333,Técnicos en promoción y animación a la lectura y la escritura / Técnicas en promoción y animación a la lectura y la escritura,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+34340,Chefs,TUHG,"Turismo, Hotelería Y Gastronomía"
+34351,Otros técnicos de actividades artísticas / Otras técnicas de actividades artísticas,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+34352,Artistas corporales,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+34353,Auxiliares de producción de eventos y espectáculos,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+34354,Asistentes de dirección y producción en las artes escénicas y audiovisuales / Asistentas de dirección y producción en las artes escénicas y audiovisuales,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+34355,Técnicos y profesionales de nivel medio en producción de arte para actividades audiovisuales y escénicas / Técnicas y profesionales de nivel medio en producción de arte para actividades audiovisuales y escénicas,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+35110,Técnicos en operaciones de tecnología de la información y las comunicaciones / Técnicas en operaciones de tecnología de la información y las comunicaciones,TICO,Tecnologías De La Información Y Las Comunicaciones
+35121,Técnicos en asistencia y soporte de tecnologías de la información / Técnicas en asistencia y soporte de tecnologías de la información,TICO,Tecnologías De La Información Y Las Comunicaciones
+35122,Representantes de servicios especializados BPO (business process outsourcing),AFDE,"Administración, Finanzas Y Derecho"
+35130,Técnicos en redes y tecnologías de la información / Técnicas en redes y tecnologías de la información,TICO,Tecnologías De La Información Y Las Comunicaciones
+35140,Técnicos de la web / Técnicas de la web,TICO,Tecnologías De La Información Y Las Comunicaciones
+35211,Operadores de cámara de cine y televisión / Operadoras de cámara de cine y televisión,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+35212,Técnicos en transmisión audiovisual / Técnicas en transmisión audiovisual,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+35213,"Asistentes en cine, televisión y artes escénicas / Asistentas en cine, televisión y artes escénicas",AVEM,"Audiovisuales, Artes Escénicas Y Música"
+35214,Técnicos de producción de audio y sonido / Técnicas de producción de audio y sonido,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+35215,Asistentes de producción de audio y sonido / Asistentas de producción de audio y sonido,AVEM,"Audiovisuales, Artes Escénicas Y Música"
+35221,Técnicos en telecomunicaciones / Técnicas en telecomunicaciones,TICO,Tecnologías De La Información Y Las Comunicaciones
+35222,Supervisores de telecomunicaciones / Supervisoras de telecomunicaciones,TICO,Tecnologías De La Información Y Las Comunicaciones
+35223,Operadores de radio / Operadoras de radio,TICO,Tecnologías De La Información Y Las Comunicaciones
+41101,Oficinistas generales,AFDE,"Administración, Finanzas Y Derecho"
+41102,Auxiliares de aduana,LOTR,Logística Y Transporte
+41200,Secretarios generales / Secretarias generales,AFDE,"Administración, Finanzas Y Derecho"
+41310,Operadores de máquinas de procesamiento de texto y mecanógrafos / Operadoras de máquinas de procesamiento de texto y mecanógrafos,AFDE,"Administración, Finanzas Y Derecho"
+41321,Grabadores de datos / Grabadoras de datos,AFDE,"Administración, Finanzas Y Derecho"
+41322,Digitadores / Digitadoras,AFDE,"Administración, Finanzas Y Derecho"
+42110,Cajeros de bancos y afines / Cajeras de bancos y afines,AFDE,"Administración, Finanzas Y Derecho"
+42120,Receptores de apuestas y afines / Receptoras de apuestas y afines,AFIR,"Actividades Físicas, Deportivas Y Recreativas"
+42130,Prestamistas,AFDE,"Administración, Finanzas Y Derecho"
+42140,"Cobradores, auxiliares de cartera y afines / Cobradoras, auxiliares de cartera y afines",AFDE,"Administración, Finanzas Y Derecho"
+42210,Empleados de ventas y servicios de viajes / Empleadas de ventas y servicios de viajes,TUHG,"Turismo, Hotelería Y Gastronomía"
+42220,Empleados de centros de llamadas / Empleadas de centros de llamadas,AFDE,"Administración, Finanzas Y Derecho"
+42230,Telefonistas,AFDE,"Administración, Finanzas Y Derecho"
+42240,Recepcionistas de hoteles,TUHG,"Turismo, Hotelería Y Gastronomía"
+42251,Auxiliares de información y servicio al cliente,AFDE,"Administración, Finanzas Y Derecho"
+42252,Informadores turísticos / Informadoras turísticas,TUHG,"Turismo, Hotelería Y Gastronomía"
+42260,Recepcionistas generales,AFDE,"Administración, Finanzas Y Derecho"
+42270,Entrevistadores de encuestas y de investigaciones de mercados / Entrevistadoras de encuestas y de investigaciones de mercados,COMP,"Comercio, Mercadeo Y Publicidad"
+42291,Auxiliares administrativos en salud / Auxiliares administrativas en salud,SABI,Salud Y Bienestar
+42299,Otros empleados de servicios de información al cliente no clasificados en otras ocupaciones / Otras empleadas de servicios de información al cliente no clasificados en otras ocupaciones,AFDE,"Administración, Finanzas Y Derecho"
+43110,"Auxiliares de contabilidad, costos y tesorería",AFDE,"Administración, Finanzas Y Derecho"
+43121,Auxiliares de servicios estadísticos y financieros,AFDE,"Administración, Finanzas Y Derecho"
+43122,Auxiliares de avalúos,AFDE,"Administración, Finanzas Y Derecho"
+43130,Auxiliares de nómina y prestaciones,AFDE,"Administración, Finanzas Y Derecho"
+43211,Auxiliares de almacén y pesaje,LOTR,Logística Y Transporte
+43212,Auxiliares de compras e inventarios,LOTR,Logística Y Transporte
+43220,Empleados de servicios de apoyo a la producción / Empleadas de servicios de apoyo a la producción,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+43231,Empleados y operarios de servicios de transporte / Empleadas y operarias de servicios de transporte,LOTR,Logística Y Transporte
+43232,Inspectores y controladores de transporte / Inspectoras y controladoras de transporte,LOTR,Logística Y Transporte
+44110,Empleados auxiliares de bibliotecas / Empleadas auxiliares de bibliotecas,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+44120,Empleados de servicios de correos / Empleadas de servicios de correos,LOTR,Logística Y Transporte
+44130,"Codificadores de datos, correctores de pruebas de imprenta y afines / Codificadoras de datos, correctores de pruebas de imprenta y afines",AFDE,"Administración, Finanzas Y Derecho"
+44140,Escribientes públicos y afines / Escribientes públicas y afines,AFDE,"Administración, Finanzas Y Derecho"
+44150,Empleados auxiliares de archivos / Empleadas auxiliares de archivos,AFDE,"Administración, Finanzas Y Derecho"
+44161,Auxiliares de talento humano,AFDE,"Administración, Finanzas Y Derecho"
+44162,Auxiliares de seguridad en el trabajo,SABI,Salud Y Bienestar
+44191,Auxiliares de publicación y afines,LIAG,Literatura Y Artes Gráficas
+44199,Otro personal de apoyo administrativo no clasificados en otras ocupaciones / Otra personal de apoyo administrativo no clasificados en otras ocupaciones,AFDE,"Administración, Finanzas Y Derecho"
+51110,Personal de servicio a pasajeros,LOTR,Logística Y Transporte
+51120,Revisores y cobradores de los transportes públicos / Revisoras y cobradoras de los transportes públicos,LOTR,Logística Y Transporte
+51131,Guías de turismo,TUHG,"Turismo, Hotelería Y Gastronomía"
+51132,Anfitriones turísticos locales / Anfitrionas turísticas locales,TUHG,"Turismo, Hotelería Y Gastronomía"
+51201,Cocineros / Cocineras,TUHG,"Turismo, Hotelería Y Gastronomía"
+51202,Sabedores de la cocina tradicional / Sabedoras de la cocina tradicional,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+51310,Meseros y capitanes de servicio a la mesa / Meseras y capitanes de servicio a la mesa,TUHG,"Turismo, Hotelería Y Gastronomía"
+51321,Bartenders,TUHG,"Turismo, Hotelería Y Gastronomía"
+51322,Baristas,TUHG,"Turismo, Hotelería Y Gastronomía"
+51410,Peluqueros / Peluqueras,SEPC,Servicios Personales Y A La Comunidad
+51421,Manicuristas y pedicuristas,SEPC,Servicios Personales Y A La Comunidad
+51422,Cosmetólogos esteticistas / Cosmetólogas esteticistas,SEPC,Servicios Personales Y A La Comunidad
+51423,Maquilladores / Maquilladoras,SEPC,Servicios Personales Y A La Comunidad
+51424,Asesores de imagen / Asesoras de imagen,SEPC,Servicios Personales Y A La Comunidad
+51429,Otras ocupaciones elementales de los servicios no clasificados en otras ocupaciones / Otras ocupaciones elementales de los servicios no clasificadas en otras ocupaciones,SEPC,Servicios Personales Y A La Comunidad
+51510,"Supervisores de mantenimiento y limpieza en oficinas, hoteles y otros establecimientos / Supervisoras de mantenimiento y limpieza en oficinas, hoteles y otros establecimientos",SEPC,Servicios Personales Y A La Comunidad
+51520,Ecónomos y mayordomos domésticos / Ecónomas y mayordomas domésticas,SEPC,Servicios Personales Y A La Comunidad
+51530,Conserjes y afines,SEPC,Servicios Personales Y A La Comunidad
+51610,"Astrólogos, adivinos y afines / Astrólogas, adivinas y afines",SEPC,Servicios Personales Y A La Comunidad
+51620,Acompañantes,SEPC,Servicios Personales Y A La Comunidad
+51631,Tanatopractores / Tanatopractoras,SEPC,Servicios Personales Y A La Comunidad
+51632,Coordinadores de servicios funerarios / Coordinadoras de servicios funerarios,SEPC,Servicios Personales Y A La Comunidad
+51633,Personal de servicios funerarios,SEPC,Servicios Personales Y A La Comunidad
+51640,Cuidadores de animales / Cuidadoras de animales,SEPC,Servicios Personales Y A La Comunidad
+51650,Instructores de conducción / Instructoras de conducción,EDFO,Educación Y Formación
+51690,Otros trabajadores de servicios personales no clasificados en otras ocupaciones / Otras trabajadoras de servicios personales no clasificados en otras ocupaciones,SEPC,Servicios Personales Y A La Comunidad
+52110,Vendedores en quioscos y puestos de mercado / Vendedoras en quioscos y puestos de mercado,COMP,"Comercio, Mercadeo Y Publicidad"
+52120,Vendedores ambulantes de alimentos preparados para consumo inmediato / Vendedoras ambulantes de alimentos preparados para consumo inmediato,COMP,"Comercio, Mercadeo Y Publicidad"
+52210,Comerciantes de tiendas,COMP,"Comercio, Mercadeo Y Publicidad"
+52220,Supervisores de tiendas y almacenes / Supervisoras de tiendas y almacenes,COMP,"Comercio, Mercadeo Y Publicidad"
+52230,"Vendedores y auxiliares de venta en tiendas, almacenes y afines / Vendedoras y auxiliares de venta en tiendas, almacenes y afines",COMP,"Comercio, Mercadeo Y Publicidad"
+52300,"Cajeros de comercio, taquilleros y expendedores de boletas / Cajeras de comercio, taquilleros y expendedores de boletas",COMP,"Comercio, Mercadeo Y Publicidad"
+52410,"Modelos de moda, arte y publicidad",COMP,"Comercio, Mercadeo Y Publicidad"
+52420,"Demostradores de tiendas, almacenes y afines / Demostradoras de tiendas, almacenes y afines",COMP,"Comercio, Mercadeo Y Publicidad"
+52430,Vendedores puerta a puerta / Vendedoras puerta a puerta,COMP,"Comercio, Mercadeo Y Publicidad"
+52440,Vendedores a través de medios tecnológicos / Vendedoras a través de medios tecnológicos,COMP,"Comercio, Mercadeo Y Publicidad"
+52450,Expendedores de combustibles para vehículos / Expendedoras de combustibles para vehículos,COMP,"Comercio, Mercadeo Y Publicidad"
+52460,Vendedores de comidas en mostrador / Vendedoras de comidas en mostrador,TUHG,"Turismo, Hotelería Y Gastronomía"
+52490,Otros vendedores no clasificados en otras ocupaciones / Otras vendedoras no clasificadas en otras ocupaciones,COMP,"Comercio, Mercadeo Y Publicidad"
+53110,Cuidadores de niños / Cuidadoras de niños,SEPC,Servicios Personales Y A La Comunidad
+53120,Auxiliares de maestros y primera infancia,EDFO,Educación Y Formación
+53210,Trabajadores de los cuidados personales en instituciones / Trabajadoras de los cuidados personales en instituciones,SABI,Salud Y Bienestar
+53220,Trabajadores de los cuidados personales a domicilio / Trabajadoras de los cuidados personales a domicilio,SEPC,Servicios Personales Y A La Comunidad
+53291,Auxiliares en enfermería,SABI,Salud Y Bienestar
+53292,Auxiliares en salud oral,SABI,Salud Y Bienestar
+53293,Auxiliares en salud pública,SABI,Salud Y Bienestar
+53294,Auxiliares de laboratorio clínico,SABI,Salud Y Bienestar
+53295,Auxiliares en servicios farmacéuticos,SABI,Salud Y Bienestar
+53299,Trabajadores de los cuidados personales en servicios de salud no clasificados en otras ocupaciones / Trabajadoras de los cuidados personales en servicios de salud no clasificados en otras ocupaciones,SABI,Salud Y Bienestar
+54111,Oficiales de bomberos,SEGU,Seguridad
+54112,Suboficiales de bomberos,SEGU,Seguridad
+54113,Bomberos / Bomberas,SEGU,Seguridad
+54114,Rescatistas,SEGU,Seguridad
+54121,Oficiales de policía,SEGU,Seguridad
+54122,Suboficiales y nivel ejecutivo de la policía,SEGU,Seguridad
+54123,Patrulleros y agentes de policía / Patrulleras y agentes de policía,SEGU,Seguridad
+54124,Auxiliares de policía,SEGU,Seguridad
+54131,Oficiales del cuerpo de custodia y vigilancia,SEGU,Seguridad
+54132,Suboficiales del cuerpo de custodia y vigilancia,SEGU,Seguridad
+54133,Guardianes de prisión / Guardianas de prisión,SEGU,Seguridad
+54141,Supervisor de personal de vigilancia / Supervisora de personal de vigilancia,SEGU,Seguridad
+54142,"Vigilantes, guardas y personal operativo de seguridad privada",SEGU,Seguridad
+54191,Guardavidas y salvavidas,SEGU,Seguridad
+54192,Agentes de tránsito,SEGU,Seguridad
+54193,Técnicos operativos de tránsito / Técnicas operativas de tránsito,SEGU,Seguridad
+54199,Personal de los servicios de protección no clasificadas en otras ocupaciones,SEGU,Seguridad
+61111,Agricultores de cultivos extensivos / Agricultoras de cultivos extensivos,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+61112,Trabajadores agrícolas calificados de cultivos extensivos / Trabajadoras agrícolas calificadas de cultivos extensivos,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+61113,Trabajadores calificados de riego agrícola / Trabajadoras calificadas de riego agrícola,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+61121,Agricultores de plantaciones de árboles y arbustos / Agricultoras de plantaciones de árboles y arbustos,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+61122,Trabajadores agrícolas calificados de plantaciones de árboles y arbustos / Trabajadoras agrícolas calificadas de plantaciones de árboles y arbustos,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+61131,"Agricultores de huertas, invernaderos, viveros y jardines / Agricultoras de huertas, invernaderos, viveros y jardines",AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+61132,"Trabajadores agrícolas calificados de huertas, invernaderos, viveros y jardines / Trabajadoras agrícolas calificadas de huertas, invernaderos, viveros y jardines",AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+61140,Agricultores y trabajadores calificados de cultivos mixtos / Agricultoras y trabajadoras calificadas de cultivos mixtos,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+61211,Criadores de animales (excepto aves de corral) / Criadoras de animales (excepto aves de corral),AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+61212,Trabajadores calificados de la cría de animales (excepto aves de corral) / Trabajadoras calificadas de la cría de animales (excepto aves de corral),AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+61221,Avicultores / Avicultoras,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+61222,Trabajadores calificados de la avicultura / Trabajadoras calificadas de la avicultura,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+61230,Criadores y trabajadores calificados de la apicultura y la sericicultura / Criadoras y trabajadoras calificadas de la apicultura y la sericicultura,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+61290,"Criadores y trabajadores pecuarios calificados, avicultores y criadores de insectos no clasificados en otras ocupaciones / Criadoras y trabajadoras pecuarias calificadas, avicultoras y criadoras de insectos no clasificadas en otras ocupaciones",AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+61300,Productores y trabajadores calificados de explotaciones agropecuarias mixtas cuya producción se destina al mercado / Productoras y trabajadoras calificadas de explotaciones agropecuarias mixtas cuya producción se destina al mercado,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+62101,Trabajadores calificados de explotación forestal / Trabajadoras calificadas de explotación forestal,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+62102,Trabajadores de silvicultura y forestación / Trabajadoras de silvicultura y forestación,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+62211,Productores de acuicultura / Productoras de acuicultura,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+62212,Trabajadores acuícolas calificados / Trabajadoras acuícolas calificadas,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+62221,Capitanes y patrones de pesca de aguas dulces y costeras,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+62222,Pescadores de aguas dulces y costeras / Pescadoras de aguas dulces y costeras,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+62231,Capitanes y patrones de pesca de alta mar,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+62232,Pescadores de alta mar / Pescadoras de alta mar,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+62240,Cazadores y tramperos / Cazadoras y tramperas,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+63100,Trabajadores agrícolas de subsistencia / Trabajadoras agrícolas de subsistencia,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+63200,Trabajadores pecuarios de subsistencia / Trabajadoras pecuarias de subsistencia,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+63300,Trabajadores agropecuarios de subsistencia / Trabajadoras agropecuarias de subsistencia,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+63400,"Pescadores, cazadores, tramperos y recolectores de subsistencia / Pescadoras, cazadoras, tramperas y recolectoras de subsistencia",AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+71110,Constructores de casas / Constructoras de casas,COIF,Construcción E Infraestructura
+71120,Albañiles y oficiales de construcción,COIF,Construcción E Infraestructura
+71130,"Labrantes, tronzadores y grabadores de piedra / Labrantes, tronzadores y grabadores de piedra",FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+71140,"Operarios en cemento armado, enfoscadores y afines / Operarias en cemento armado, enfoscadores y afines",COIF,Construcción E Infraestructura
+71150,Carpinteros de armar y de obra blanca / Carpinteras de armar y de obra blanca,COIF,Construcción E Infraestructura
+71190,Oficiales y operarios de la construcción de obra gruesa y afines no clasificados en otras ocupaciones,COIF,Construcción E Infraestructura
+71210,Techadores / Techadoras,COIF,Construcción E Infraestructura
+71221,Enchapadores / Enchapadoras,COIF,Construcción E Infraestructura
+71222,Instaladores de pisos / Instaladoras de pisos,COIF,Construcción E Infraestructura
+71230,Revocadores / Revocadoras,COIF,Construcción E Infraestructura
+71240,Instaladores de material aislante y de insonorización / Instaladoras de material aislante y de insonorización,COIF,Construcción E Infraestructura
+71250,Cristaleros y vidrieros / Cristaleras y vidrieras,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+71261,Fontaneros y plomeros / Fontaneras y plomeras,COIF,Construcción E Infraestructura
+71262,Instaladores de tuberías para sistemas de extinción de incendios / Instaladoras de tuberías para sistemas de extinción de incendios,COIF,Construcción E Infraestructura
+71263,Instaladores de redes y equipos a gas / Instaladoras de redes y equipos a gas,COIF,Construcción E Infraestructura
+71264,Operarios de mantenimiento de redes de abastecimiento de agua y gas / Operarias de mantenimiento de redes de abastecimiento de agua y gas,COIF,Construcción E Infraestructura
+71270,Mecánicos montadores de aire acondicionado y refrigeración / Mecánicas montadoras de aire acondicionado y refrigeración,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+71310,Pintores y empapeladores / Pintoras y empapeladoras,COIF,Construcción E Infraestructura
+71320,Barnizadores y afines / Barnizadoras y afines,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+71330,Limpiadores de fachadas y deshollinadores / Limpiadoras de fachadas y deshollinadores,SEPC,Servicios Personales Y A La Comunidad
+72110,"Operarios de fundición, moldeadores y macheros / Operarias de fundición, moldeadores y macheros",FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+72120,Soldadores y oxicortadores / Soldadoras y oxicortadoras,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+72131,Chapistas y caldereros / Chapistas y caldereras,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+72132,Latoneros / Latoneras,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+72140,Montadores de estructuras metálicas / Montadoras de estructuras metálicas,COIF,Construcción E Infraestructura
+72151,Aparejadores / Aparejadoras,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+72152,Instaladores y empalmadores de cables / Instaladoras y empalmadoras de cables,PEEL,Producción De Energía Y Electricidad
+72210,Herreros y forjadores / Herreras y forjadoras,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+72220,Herramentistas y afines,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+72230,Ajustadores y operadores de máquinas herramientas / Ajustadoras y operadoras de máquinas herramientas,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+72240,Pulidores de metales y afiladores de herramientas / Pulidoras de metales y afiladores de herramientas,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+72310,Mecánicos y reparadores de vehículos de motor / Mecánicas y reparadoras de vehículos de motor,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+72320,Mecánicos y reparadores de sistemas y motores de aeronaves / Mecánicas y reparadoras de sistemas y motores de aeronaves,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+72331,Mecánicos industriales / Mecánicas industriales,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+72332,Mecánicos de equipo pesado / Mecánicas de equipo pesado,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+72333,"Mecánicos de maquinaria textil, confección, cuero, calzado y marroquinería / Mecánicas de maquinaria textil, confección, cuero, calzado y marroquinería",FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+72334,Marineros de sala de máquinas / Marineras de sala de máquinas,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+72335,Auxiliares en automatización e instrumentación industrial,ELCA,Electrónica Y Automatización
+72340,Reparadores de bicicletas y afines / Reparadoras de bicicletas y afines,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+73110,Mecánicos y reparadores de instrumentos de precisión / Mecánicas y reparadoras de instrumentos de precisión,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+73120,Fabricantes y afinadores de instrumentos musicales / Fabricantes y afinadoras de instrumentos musicales,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+73140,Alfareros y ceramistas (barro y arcilla) / Alfareras y ceramistas (barro y arcilla),AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+73151,"Operarios de fabricación, moldeo y acabado del vidrio / Operarias de fabricación, moldeo y acabado del vidrio",FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+73152,Artesanos de trabajos en vidrio / Artesanas de trabajos en vidrio,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+73160,"Rotulistas, pintores decorativos y grabadores / Rotulistas, pintoras decorativas y grabadoras",AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+73211,Pre-impresores y pre-prensistas de artes gráficas / Pre-impresoras y pre-prensistas de artes gráficas,LIAG,Literatura Y Artes Gráficas
+73212,Tipógrafos / Tipógrafas,LIAG,Literatura Y Artes Gráficas
+73220,Impresores de artes gráficas / Impresoras de artes gráficas,LIAG,Literatura Y Artes Gráficas
+73230,Encuadernadores y afines / Encuadernadoras y afines,LIAG,Literatura Y Artes Gráficas
+73310,Tejedores con telares / Tejedoras con telares,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+73320,Tejedores con agujas / Tejedoras con agujas,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+73330,Otros tejedores / Otras tejedoras,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+73410,Cesteros y mimbreros / Cesteras y mimbreras,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+73420,Sombrereros artesanales / Sombrereras artesanales,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+73510,Talladores de piezas artesanales de madera / Talladoras de piezas artesanales de madera,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+73520,Decoradores de piezas artesanales en madera / Decoradoras de piezas artesanales en madera,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+73610,Joyeros / Joyeras,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+73620,Orfebres y plateros / Orfebres y plateras,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+73630,Bisuteros / Bisuteras,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+73700,Artesanos del cuero / Artesanas del cuero,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+73910,Artesanos de papel / Artesanas de papel,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+73920,Artesanos del hierro y otros metales / Artesanas del hierro y otros metales,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+73930,Artesanos de las semillas y cortezas vegetales / Artesanas de las semillas y cortezas vegetales,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+73991,Artesanos de trabajos en materiales líticos / Artesanas de trabajos en materiales líticos,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+73999,Artesanos de otros materiales no clasificados en otras ocupaciones / Artesanas de otros materiales no clasificados en otras ocupaciones,AVPP,"Artes Visuales, Plásticas Y Del Patrimonio Cultural"
+74111,"Electricistas de obra, residenciales y afines",PEEL,Producción De Energía Y Electricidad
+74112,Ayudantes electricistas,PEEL,Producción De Energía Y Electricidad
+74121,Electricistas industriales,PEEL,Producción De Energía Y Electricidad
+74122,Reparadores de aparatos electrodomésticos / Reparadoras de aparatos electrodomésticos,PEEL,Producción De Energía Y Electricidad
+74123,Mecánicos electricistas / Mecánicas electricistas,PEEL,Producción De Energía Y Electricidad
+74130,Instaladores y reparadores de líneas eléctricas / Instaladoras y reparadoras de líneas eléctricas,PEEL,Producción De Energía Y Electricidad
+74210,"Ajustadores, reparadores e instaladores en electrónica / Ajustadoras, reparadoras e instaladoras en electrónica",ELCA,Electrónica Y Automatización
+74221,Técnicos instaladores de redes y líneas de telecomunicaciones / Técnicas instaladoras de redes y líneas de telecomunicaciones,TICO,Tecnologías De La Información Y Las Comunicaciones
+74222,"Auxiliares técnicos de instalación, mantenimiento y reparación de sistemas de telecomunicaciones / Auxiliares técnicas de instalación, mantenimiento y reparación de sistemas de telecomunicaciones",TICO,Tecnologías De La Información Y Las Comunicaciones
+74223,Operarios de mantenimiento y servicio de televisión por cable / Operarias de mantenimiento y servicio de televisión por cable,TICO,Tecnologías De La Información Y Las Comunicaciones
+75110,"Carniceros, pescaderos y afines / Carniceras, pescaderas y afines",ETAL,Elaboración Y Transformación De Alimentos
+75121,"Panaderos, pasteleros y confiteros / Panaderas, pasteleras y confiteras",ETAL,Elaboración Y Transformación De Alimentos
+75122,Paneleros / Paneleras,ETAL,Elaboración Y Transformación De Alimentos
+75130,Operarios de la elaboración de productos lácteos / Operarias de la elaboración de productos lácteos,ETAL,Elaboración Y Transformación De Alimentos
+75140,"Operarios de la conservación de frutas, legumbres, verduras y afines / Operarias de la conservación de frutas, legumbres, verduras y afines",ETAL,Elaboración Y Transformación De Alimentos
+75150,Catadores y clasificadores de alimentos y bebidas / Catadoras y clasificadoras de alimentos y bebidas,ETAL,Elaboración Y Transformación De Alimentos
+75160,Preparadores y elaboradores de cigarros y productos del tabaco / Preparadoras y elaboradoras de cigarros y productos del tabaco,ETAL,Elaboración Y Transformación De Alimentos
+75210,Operarios del tratamiento de la madera / Operarias del tratamiento de la madera,TMFM,Transformación De La Madera Y Fabricación De Muebles
+75220,Ebanistas y carpinteros (excluye carpinteros de armar y de obra blanca) / Ebanistas y carpinteras (excluye carpinteras de armar y de obra blanca),TMFM,Transformación De La Madera Y Fabricación De Muebles
+75230,Ajustadores y operadores de máquinas para trabajar madera / Ajustadoras y operadoras de máquinas para trabajar madera,TMFM,Transformación De La Madera Y Fabricación De Muebles
+75310,"Sastres, modistos, peleteros y sombrereros / Sastresas, modistas, peleteras y sombrereras",TCCD,"Textil, Cuero, Confección Y Diseño De Modas"
+75321,"Patronistas de productos de tela, cuero y piel",TCCD,"Textil, Cuero, Confección Y Diseño De Modas"
+75322,"Cortadores de tela, cuero y piel / Cortadoras de tela, cuero y piel",TCCD,"Textil, Cuero, Confección Y Diseño De Modas"
+75330,"Costureros, bordadores y afines / Costureras, bordadoras y afines",TCCD,"Textil, Cuero, Confección Y Diseño De Modas"
+75340,"Tapiceros, colchoneros y afines / Tapiceras, colchoneras y afines",TCCD,"Textil, Cuero, Confección Y Diseño De Modas"
+75350,"Apelambradores, pellejeros y curtidores / Apelambradoras, pellejeras y curtidoras",TCCD,"Textil, Cuero, Confección Y Diseño De Modas"
+75360,Zapateros y afines / Zapateras y afines,TCCD,"Textil, Cuero, Confección Y Diseño De Modas"
+75410,Buzos / Buzas,SEGU,Seguridad
+75420,Dinamiteros y pegadores / Dinamiteras y pegadoras,EMCP,"Exploración Y Extracción De Minas, Canteras, Petróleo Y Gas"
+75431,Analistas de calidad de textiles,TCCD,"Textil, Cuero, Confección Y Diseño De Modas"
+75432,"Inspectores de control de calidad, fabricación de productos de tela, piel y cuero / Inspectoras de control de calidad, fabricación de productos de tela, piel y cuero",TCCD,"Textil, Cuero, Confección Y Diseño De Modas"
+75433,"Inspectores de control de calidad, procesamiento de la madera / Inspectoras de control de calidad, procesamiento de la madera",TMFM,Transformación De La Madera Y Fabricación De Muebles
+75439,Clasificadores y probadores de productos (excluyendo alimentos y bebidas) no clasificados en otras ocupaciones / Clasificadoras y probadoras de productos (excluyendo alimentos y bebidas) no clasificados en otras ocupaciones,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+75440,Fumigadores y otros controladores de plagas y malas hierbas / Fumigadoras y otras controladoras de plagas y malas hierbas,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+75491,Operarios y auxiliares de mecánica oftálmica / Operarias y auxiliares de mecánica oftálmica,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+75499,"Otros oficiales, operarios y oficios relacionados no clasificados en otras ocupaciones / Otras oficiales, operarias y oficios relacionados no clasificados en otras ocupaciones",FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+81111,Mineros y canteros / Mineras y canteras,EMCP,"Exploración Y Extracción De Minas, Canteras, Petróleo Y Gas"
+81112,Operadores de servicios e instalaciones mineras / Operadoras de servicios e instalaciones mineras,EMCP,"Exploración Y Extracción De Minas, Canteras, Petróleo Y Gas"
+81113,Operadores de equipo pesado de minería / Operadoras de equipo pesado de minería,EMCP,"Exploración Y Extracción De Minas, Canteras, Petróleo Y Gas"
+81120,Operadores de instalaciones de procesamiento de minerales y rocas / Operadoras de instalaciones de procesamiento de minerales y rocas,EMCP,"Exploración Y Extracción De Minas, Canteras, Petróleo Y Gas"
+81131,Perforadores de pozos de gas y petróleo / Perforadoras de pozos de gas y petróleo,EMCP,"Exploración Y Extracción De Minas, Canteras, Petróleo Y Gas"
+81132,Perforadores de pozos de agua / Perforadoras de pozos de agua,EMCP,"Exploración Y Extracción De Minas, Canteras, Petróleo Y Gas"
+81133,Operadores de servicios en perforación de petróleo y gas / Operadoras de servicios en perforación de petróleo y gas,EMCP,"Exploración Y Extracción De Minas, Canteras, Petróleo Y Gas"
+81134,Operadores de producción de hidrocarburos / Operadoras de producción de hidrocarburos,EMCP,"Exploración Y Extracción De Minas, Canteras, Petróleo Y Gas"
+81135,Operadores de servicios a pozos de hidrocarburos / Operadoras de servicios a pozos de hidrocarburos,EMCP,"Exploración Y Extracción De Minas, Canteras, Petróleo Y Gas"
+81136,Operadores de torres de perforación de pozos hidrocarburos / Operadoras de torres de perforación de pozos hidrocarburos,EMCP,"Exploración Y Extracción De Minas, Canteras, Petróleo Y Gas"
+81140,Operadores de máquinas para fabricar cemento y otros productos minerales / Operadoras de máquinas para fabricar cemento y otros productos minerales,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+81210,Operadores de instalaciones de procesamiento de metales / Operadoras de instalaciones de procesamiento de metales,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+81220,"Operadores de máquinas pulidoras, galvanizadoras y recubridoras de metales / Operadoras de máquinas pulidoras, galvanizadoras y recubridoras de metales",FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+81311,Operadores de máquinas de planta química / Operadoras de máquinas de planta química,INQU,Industria Química
+81312,Operadores de planta de gas / Operadoras de planta de gas,INQU,Industria Química
+81320,Operadores de máquinas y procesadores fotográficos y de películas / Operadoras de máquinas y procesadores fotográficos y de películas,LIAG,Literatura Y Artes Gráficas
+81410,Operadores de máquinas para fabricar y procesar productos de caucho / Operadoras de máquinas para fabricar y procesar productos de caucho,INQU,Industria Química
+81420,Operadores de máquinas para fabricar productos de material plástico / Operadoras de máquinas para fabricar productos de material plástico,INQU,Industria Química
+81430,Operadores de máquinas para fabricar productos de papel / Operadoras de máquinas para fabricar productos de papel,INQU,Industria Química
+81510,"Operadores de máquinas de preparación de fibras, hilado y devanado / Operadoras de máquinas de preparación de fibras, hilado y devanado",TCCD,"Textil, Cuero, Confección Y Diseño De Modas"
+81520,Operadores de telares y otras máquinas tejedoras / Operadoras de telares y otras máquinas tejedoras,TCCD,"Textil, Cuero, Confección Y Diseño De Modas"
+81530,Operadores de máquinas de coser y bordar / Operadoras de máquinas de coser y bordar,TCCD,"Textil, Cuero, Confección Y Diseño De Modas"
+81540,"Operadores de máquinas de blanqueamiento, teñido y limpieza de tejidos / Operadoras de máquinas de blanqueamiento, teñido y limpieza de tejidos",TCCD,"Textil, Cuero, Confección Y Diseño De Modas"
+81550,Operadores de máquinas de tratamiento de pieles y cueros / Operadoras de máquinas de tratamiento de pieles y cueros,TCCD,"Textil, Cuero, Confección Y Diseño De Modas"
+81560,Operadores de máquinas para la fabricación de calzado y afines / Operadoras de máquinas para la fabricación de calzado y afines,TCCD,"Textil, Cuero, Confección Y Diseño De Modas"
+81570,Operadores de máquinas de lavandería / Operadoras de máquinas de lavandería,SEPC,Servicios Personales Y A La Comunidad
+81590,Operadores de máquinas para fabricar productos textiles y artículos de piel y cuero no clasificadas en otras ocupaciones / Operadoras de máquinas para fabricar productos textiles y artículos de piel y cuero no clasificadas en otras ocupaciones,TCCD,"Textil, Cuero, Confección Y Diseño De Modas"
+81600,Operadores de máquinas para elaborar alimentos y productos afines / Operadoras de máquinas para elaborar alimentos y productos afines,ETAL,Elaboración Y Transformación De Alimentos
+81711,Operadores de máquinas para la fabricación de papel / Operadoras de máquinas para la fabricación de papel,INQU,Industria Química
+81712,Operadores de máquinas para la producción de pulpa / Operadoras de máquinas para la producción de pulpa,INQU,Industria Química
+81720,Operadores de instalaciones de procesamiento de la madera / Operadoras de instalaciones de procesamiento de la madera,TMFM,Transformación De La Madera Y Fabricación De Muebles
+81811,"Operadores de fabricación, moldeo y acabado del vidrio / Operadoras de fabricación, moldeo y acabado del vidrio",FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+81812,Operadores de moldeo de arcilla y piedra / Operadoras de moldeo de arcilla y piedra,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+81820,Operadores de máquinas de vapor y calderas / Operadoras de máquinas de vapor y calderas,PEEL,Producción De Energía Y Electricidad
+81830,"Operadores de máquinas de embalaje, embotellamiento y etiquetado / Operadoras de máquinas de embalaje, embotellamiento y etiquetado",FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+81891,Operadores portuarios / Operadoras portuarias,LOTR,Logística Y Transporte
+81899,Otros operadores de máquinas y de instalaciones fijas no clasificados en otras ocupaciones / Otras operadoras de máquinas y de instalaciones fijas no clasificados en otras ocupaciones,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+82110,Ensambladores de maquinaria mecánica / Ensambladoras de maquinaria mecánica,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+82121,Ensambladores de productos electrónicos / Ensambladoras de productos electrónicos,ELCA,Electrónica Y Automatización
+82122,Ensambladores de aparatos y equipo eléctrico / Ensambladoras de aparatos y equipo eléctrico,PEEL,Producción De Energía Y Electricidad
+82123,Ensambladores de transformadores y motores eléctricos industriales / Ensambladoras de transformadores y motores eléctricos industriales,PEEL,Producción De Energía Y Electricidad
+82124,Operadores de máquinas para la fabricación de productos y componentes eléctricos / Operadoras de máquinas para la fabricación de productos y componentes eléctricos,PEEL,Producción De Energía Y Electricidad
+82190,Ensambladores no clasificados en otras ocupaciones / Ensambladoras no clasificadas en otras ocupaciones,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+83110,Maquinistas de transporte ferroviario,LOTR,Logística Y Transporte
+83120,"Guardafrenos, guardagujas y agentes de maniobras",LOTR,Logística Y Transporte
+83210,Conductores de motocicletas / Conductoras de motocicletas,LOTR,Logística Y Transporte
+83230,Conductores de camionetas y vehículos livianos / Conductoras de camionetas y vehículos livianos,LOTR,Logística Y Transporte
+83240,Conductores de taxis / Conductoras de taxis,LOTR,Logística Y Transporte
+83310,"Conductores de buses, microbuses y tranvías / Conductoras de buses, microbuses y tranvías",LOTR,Logística Y Transporte
+83320,Conductores de camiones y vehículos pesados / Conductoras de camiones y vehículos pesados,LOTR,Logística Y Transporte
+83410,Operadores de maquinaria agrícola y forestal móvil / Operadoras de maquinaria agrícola y forestal móvil,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+83420,"Operadores de máquinas de movimiento de tierras, construcción de vías y afines / Operadoras de máquinas de movimiento de tierras, construcción de vías y afines",COIF,Construcción E Infraestructura
+83430,"Operadores de grúas, aparatos elevadores y afines / Operadoras de grúas, aparatos elevadores y afines",LOTR,Logística Y Transporte
+83440,Operadores de montacargas / Operadoras de montacargas,LOTR,Logística Y Transporte
+83501,Marineros de cubierta y de apoyo / Marineras de cubierta y de apoyo,LOTR,Logística Y Transporte
+83502,Operadores de embarcaciones menores / Operadoras de embarcaciones menores,LOTR,Logística Y Transporte
+91110,Personal de servicio doméstico,SEPC,Servicios Personales Y A La Comunidad
+91120,"Aseadores de oficinas, hoteles y otros establecimientos / Aseadoras de oficinas, hoteles y otros establecimientos",SEPC,Servicios Personales Y A La Comunidad
+91210,Lavanderos y planchadores manuales / Lavanderas y planchadoras manuales,SEPC,Servicios Personales Y A La Comunidad
+91220,Lavadores de vehículos / Lavadoras de vehículos,SEPC,Servicios Personales Y A La Comunidad
+91230,Limpiadores de ventanas y vitrinas / Limpiadoras de ventanas y vitrinas,SEPC,Servicios Personales Y A La Comunidad
+91290,Otro personal de limpieza no clasificados en otras ocupaciones / Otra personal de limpieza no clasificados en otras ocupaciones,SEPC,Servicios Personales Y A La Comunidad
+92110,Obreros y peones de explotaciones agrícolas / Obreras y peonas de explotaciones agrícolas,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+92120,Obreros y peones de explotaciones ganaderas / Obreras y peonas de explotaciones ganaderas,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+92130,Obreros y peones de explotaciones agropecuarias / Obreras y peonas de explotaciones agropecuarias,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+92140,Obreros y peones de jardinería y horticultura / Obreras y peonas de jardinería y horticultura,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+92150,Obreros y peones forestales y de silvicultura / Obreras y peonas forestales y de silvicultura,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+92160,Obreros y peones de pesca y acuicultura / Obreras y peonas de pesca y acuicultura,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+93111,Obreros y peones de minas y canteras / Obreras y peonas de minas y canteras,EMCP,"Exploración Y Extracción De Minas, Canteras, Petróleo Y Gas"
+93112,Obreros y ayudantes de producción en pozos de petróleo y gas / Obreras y ayudantas de producción en pozos de petróleo y gas,EMCP,"Exploración Y Extracción De Minas, Canteras, Petróleo Y Gas"
+93121,Obreros y ayudantes de obras públicas y mantenimiento / Obreras y ayudantas de obras públicas y mantenimiento,COIF,Construcción E Infraestructura
+93122,Obreros y operarios de cementerios / Obreras y operarias de cementerios,SEPC,Servicios Personales Y A La Comunidad
+93130,Obreros y peones de la construcción / Obreras y peonas de la construcción,COIF,Construcción E Infraestructura
+93210,Empacadores manuales / Empacadoras manuales,COMP,"Comercio, Mercadeo Y Publicidad"
+93291,Obreros y ayudantes en el procesamiento de la madera y producción de pulpa y papel / Obreras y ayudantas en el procesamiento de la madera y producción de pulpa y papel,INQU,Industria Química
+93292,Obreros y ayudantes en el tratamiento de metales y minerales / Obreras y ayudantas en el tratamiento de metales y minerales,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+93293,Obreros y ayudantes de planta química / Obreras y ayudantas de planta química,INQU,Industria Química
+93294,Obreros y ayudantes en la elaboración de alimentos y bebidas / Obreras y ayudantas en la elaboración de alimentos y bebidas,ETAL,Elaboración Y Transformación De Alimentos
+93299,Obreros y peones de la industria manufacturera no clasificados en otras ocupaciones / Obreras y peonas de la industria manufacturera no clasificadas en otras ocupaciones,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+93310,Conductores de vehículos accionados a pedal o a brazo / Conductoras de vehículos accionados a pedal o a brazo,LOTR,Logística Y Transporte
+93320,Conductores de vehículos y maquinaria de tracción animal / Conductoras de vehículos y maquinaria de tracción animal,LOTR,Logística Y Transporte
+93331,Obreros y peones de carga y descarga / Obreras y peonas de carga y descarga,LOTR,Logística Y Transporte
+93332,Obreros y peones portuarios / Obreras y peonas portuarias,LOTR,Logística Y Transporte
+93333,Operarios y auxiliares de rampa de transporte aéreo / Operarias y auxiliares de rampa de transporte aéreo,LOTR,Logística Y Transporte
+93334,Ayudantes de transporte automotor,LOTR,Logística Y Transporte
+93340,Surtidores de estanterías / Surtidoras de estanterías,COMP,"Comercio, Mercadeo Y Publicidad"
+94110,Cocineros de comidas rápidas / Cocineras de comidas rápidas,TUHG,"Turismo, Hotelería Y Gastronomía"
+94120,Ayudantes de cocina,TUHG,"Turismo, Hotelería Y Gastronomía"
+95100,Trabajadores ambulantes de servicios y afines / Trabajadoras ambulantes de servicios y afines,SEPC,Servicios Personales Y A La Comunidad
+95200,Vendedores ambulantes (excluyendo comidas de preparación inmediata) / Vendedoras ambulantes (excluyendo comidas de preparación inmediata),COMP,"Comercio, Mercadeo Y Publicidad"
+96110,Recolectores de basura y material reciclable / Recolectoras de basura y material reciclable,CPSA,"Conservación, Protección Y Saneamiento Ambiental"
+96120,Clasificadores de desechos / Clasificadoras de desechos,CPSA,"Conservación, Protección Y Saneamiento Ambiental"
+96130,Ayudantes y operarios de barrido y limpieza de vías y áreas públicas / Ayudantes y operarias de barrido y limpieza de vías y áreas públicas,CPSA,"Conservación, Protección Y Saneamiento Ambiental"
+96211,"Mandaderos, maleteros y repartidores / Mandaderas, maleteras y repartidoras",LOTR,Logística Y Transporte
+96212,Mensajeros / Mensajeras,LOTR,Logística Y Transporte
+96220,Personas que realizan trabajos varios,SEPC,Servicios Personales Y A La Comunidad
+96240,Acarreadores de agua y recolectores de leña / Acarreadoras de agua y recolectores de leña,AGVE,"Agropecuario, Silvicultura, Pesca, Acuicultura Y Veterinaria"
+96250,Recolectores de dinero y surtidores de máquinas de venta automática / Recolectoras de dinero y surtidores de máquinas de venta automática,LOTR,Logística Y Transporte
+96260,Lectores de medidores / Lectoras de medidores,LOTR,Logística Y Transporte
+96291,Auxiliares de servicios de recreación y deporte,AFIR,"Actividades Físicas, Deportivas Y Recreativas"
+96292,Ayudantes de mecánica y servicio automotriz,FAMA,"Fabricación, Transformación De Materiales, Instalación, Mantenimiento Y Reparación"
+96299,Otras ocupaciones elementales no clasificadas en otras ocupaciones,SEPC,Servicios Personales Y A La Comunidad
