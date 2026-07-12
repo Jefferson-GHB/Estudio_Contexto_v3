@@ -5,7 +5,7 @@ import streamlit as st
 @st.dialog("Metodologia", width="large")
 def mostrar_metodologia():
     st.markdown("### Metodologia del Sistema")
-    st.caption("Metricas, formulas y fuentes. Consulte aqui si olvida que significa cada indicador.")
+    st.caption("Indicadores, metricas y fuentes del sistema de apoyo a la decision para pertinencia y permanencia estudiantil. Marco CRISP-ML adaptado al dominio educativo.")
 
     with st.expander("1. Indicadores Academicos", expanded=True):
         st.markdown("#### HHI — Concentracion de mercado")

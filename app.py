@@ -587,7 +587,7 @@ def main():
 
     # --- Main Content ---
     st.title("Sistema de análisis para estudio de contexto")
-    st.markdown("Síntesis Evaluativas, dominios y variables")
+    st.markdown("Evidencia integrada para decisiones de pertinencia y permanencia estudiantil")
 
     if not st.session_state.get("welcome_banner_shown", False):
         st.session_state["welcome_banner_shown"] = True
@@ -598,7 +598,7 @@ def main():
         with c1:
             render_welcome_banner(
                 title="Bienvenido, tu panel ya está listo",
-                subtitle='"El conocimiento es el único instrumento de poder que no se desgasta con el uso." — Sabiduría ancestral',
+                subtitle='"La desercion no debe leerse como un dato aislado de abandono, sino como una senal de pertinencia y sostenibilidad." — Equipo 195',
                 mascot="<i class='fas fa-brain'></i>"
             )
         with c2:
@@ -625,7 +625,7 @@ def main():
         
         with st.expander("Sobre este Dashboard"):
             st.markdown("""
-            Este sistema evalúa la **pertinencia de programas académicos** en 4 Síntesis evaluativas y 8 dominios :
+            Este sistema produce **estudios de contexto** que integran oferta académica, matrícula, deserción, desempeño, ocupaciones, competencias y conectividad para orientar **decisiones curriculares** que fortalezcan condiciones de permanencia estudiantil. Se organiza en 4 síntesis evaluativas:
             
 
             | **Académico**
@@ -920,7 +920,7 @@ def main():
     # TAB 1: SÍNTESIS ACADÉMICA
     # =========================================================================
     with tab_acad:
-        section_header("01", "Pertinencia Academica", "El mercado educativo esta saturado o hay oportunidad?")
+        section_header("01", "Pertinencia Academica", "La oferta actual responde a las necesidades de la poblacion o genera condiciones de riesgo para la permanencia?")
         
         # Obtener desglose académico completo (con filtros — sin escalares para respetar multiselect)
         desglose = get_desglose_academico(filtros=filtros_seleccionados)
@@ -929,7 +929,7 @@ def main():
         
         with col_hhi:
             st.markdown("#### Concentracion de Mercado (HHI)")
-            st.caption("Distribucion de matricula entre las IES. Valores bajos = muchos compiten. Valores altos = pocos dominan.")
+            st.caption("Distribucion de matricula entre las IES. Concentracion alta = pocos dominan, baja diferenciacion y riesgo de saturacion. Concentracion baja = mercado abierto con oportunidades de insercion sostenible.")
             fig_hhi = crear_gauge_hhi(hhi)
             st.plotly_chart(fig_hhi, use_container_width=True)
             # Exportar datos de market share si disponibles
@@ -989,7 +989,7 @@ def main():
         
         with col_cagr:
             st.markdown("#### Tasa de Crecimiento (CAGR)")
-            st.caption("Tendencia anual de matricula. Positivo = crece. Negativo = decrece. Requiere al menos 3 anos de datos.")
+            st.caption("Tendencia anual de matricula. Un campo en crecimiento sugiere demanda sostenida y menor riesgo de abandono por perdida de valor del programa.")
             st.metric("CAGR Matricula", f"{cagr}%", help="Compound Annual Growth Rate - Tasa de crecimiento anual compuesto de matriculados")
             st.info(cagr_interp)
             st.caption(get_citacion("snies_matriculados"))
@@ -1041,7 +1041,7 @@ def main():
         # =====================================================================
         st.markdown("---")
         st.markdown("### Evolucion del Ciclo Estudiantil")
-        st.caption("Seguimiento completo: inscritos, admitidos, matriculados en primer curso y graduados. Cada etapa revela donde se pierden o ganan estudiantes.")
+        st.caption("Seguimiento del flujo estudiantil: inscritos, admitidos, primer curso y graduados. Identificar donde se concentran las perdidas permite anticipar riesgos de desercion y disenar estrategias de retencion por etapa.")
         st.caption(f"Tendencia historica | {label_ambito}")
         
         col_insc, col_admi = st.columns(2)
@@ -1824,7 +1824,7 @@ def main():
 
     # =========================================================================
     with tab_lab:
-        section_header("02", "Pertinencia Laboral", "Estudiar esto garantiza empleo y buen salario?")
+        section_header("02", "Pertinencia Laboral", "La formacion se conecta con ocupaciones, competencias y oportunidades reales de insercion que fortalecen la empleabilidad y la permanencia?")
         
         # Obtener datos reales laborales
         # Si hay múltiples NBCs, se combinan los resultados de cada uno
@@ -2554,7 +2554,7 @@ def main():
     with tab_terr:
         nivel_territorial = "departamental" if arg_depto else "nacional"
         etiqueta_territorio = arg_depto or "Colombia (Nacional)"
-        st.markdown(f'<div class="section-header"><span class="section-eyebrow">03</span><h2>Pertinencia Territorial y Social</h2><p>Análisis {nivel_territorial} en {etiqueta_territorio}.</p></div>', unsafe_allow_html=True)
+        st.markdown(f'<div class="section-header"><span class="section-eyebrow">03</span><h2>Pertinencia Territorial y Social</h2><p>El territorio cuenta con condiciones de acceso, conectividad y demanda que favorezcan trayectorias educativas viables?</p></div>', unsafe_allow_html=True)
         if sel_deptos and len(sel_deptos) > 1:
             st.warning(f"Análisis territorial enfocado en **{html.escape(sel_deptos[0])}**. Los demás departamentos ({html.escape(', '.join(sel_deptos[1:3]))}{' …' if len(sel_deptos) > 3 else ''}) se incluyen en filtros de oferta y matriculados pero los indicadores territoriales corresponden al primero.")
         st.markdown(f"""

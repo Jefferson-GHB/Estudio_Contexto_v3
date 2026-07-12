@@ -3,7 +3,7 @@ __pycache__/
 *.pyo
 *.bak*
 *.bak_*
-*.duckdb
+# *.duckdb — tracked via Git LFS (see .gitattributes)
 *.duckdb.wal
 .env
 .venv/

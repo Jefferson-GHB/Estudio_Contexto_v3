@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">Dashboard de pertinencia educativa para educación superior en Colombia</h4>
+<h4 align="center">Estudios de contexto para decisiones curriculares con evidencia de pertinencia y permanencia</h4>
 
 <p align="center">
   <a href="#-stack-tecnologico"><img src="https://img.shields.io/badge/python-3.13-blue?logo=python&logoColor=white" alt="Python 3.13"></a>
@@ -18,15 +18,17 @@
 </p>
 
 <p align="center">
-  <b>Sistema de análisis que cruza oferta educativa (SNIES, SIET) con demanda laboral (APE, CUOC, GEIH)</b><br>
-  usando inteligencia artificial para determinar si un programa académico tiene cabida en el mercado colombiano.
+  <b>Plataforma que integra datos abiertos educativos, laborales y territoriales</b><br>
+  para orientar decisiones sobre oferta academica que fortalezcan condiciones de permanencia estudiantil.
 </p>
 
 ---
 
-## ¿Para qué sirve?
+## El problema: desercion y decisiones curriculares sin contexto integrado
 
-Imagina que una universidad quiere abrir un nuevo programa de **Enfermería** en Bogotá. ¿Hay mercado? ¿Cuántos compiten? ¿Qué salario ganan los egresados? ¿Qué competencias pide realmente el sector salud?
+Cuando una institucion disena, abre o modifica un programa sin leer el contexto (mercado, territorio, competencias, trayectorias), puede generar **condiciones que afectan la permanencia**: programas en mercados saturados, modalidades inviables para la poblacion objetivo, rutas formativas fragmentadas, o perfiles de egreso desconectados de las oportunidades laborales reales.
+
+Estudio Contexto convierte datos abiertos —SNIES, SIET, SPADIES, APE, CUOC, GEIH, ICFES— en **evidencia trazable** para que directivos, comites curriculares y equipos de aseguramiento de la calidad respondan preguntas como:
 
 Estudio Contexto responde automáticamente conectando **7 fuentes oficiales** en tiempo real:
 
@@ -50,12 +52,12 @@ SNIES (programas)  ←──────────────→  SIET (forma
   <em>4 síntesis navegables — cada una revela una dimensión del análisis</em>
 </p>
 
-| Síntesis | Qué responde | Fuentes |
-|----------|-------------|---------|
-| **Académica** | ¿El mercado está saturado? ¿Crece o decrece? ¿Calidad Saber PRO? | SNIES, ICFES |
-| **Laboral** | ¿Hay vacantes reales? ¿Cuánto pagan? ¿Qué competencias piden? | APE, CUOC, GEIH, OLE |
-| **Territorial** | ¿En qué departamento conviene abrir el programa? ¿Hay conectividad? | SNIES, DANE, PDET |
-| **Decisión** | Informe ejecutivo generado por IA con recomendación final | Gemini + todas las anteriores |
+| Síntesis | Qué responde | Aporte a permanencia |
+|----------|-------------|---------------------|
+| **Académica** | ¿La oferta actual esta saturada? ¿Crece o decrece? ¿Hay calidad? | Anticipa mercados con baja diferenciacion que pueden generar desercion por perdida de valor del titulo |
+| **Laboral** | ¿Existen ocupaciones, vacantes y competencias que respalden la empleabilidad? | Conecta formacion con oportunidades reales de insercion, fortaleciendo expectativas de retorno |
+| **Territorial** | ¿El departamento tiene conectividad, demanda y condiciones de acceso? | Identifica barreras de acceso que pueden afectar la continuidad en programas virtuales o hibridos |
+| **Decisión** | ¿La evidencia integrada respalda ofertar, ajustar o revaluar el programa? | Produce recomendacion trazable antes de comprometer recursos institucionales |
 
 ## Stack Tecnológico
 
@@ -142,6 +144,20 @@ MIT — ver [LICENSE](LICENSE)
 
 ---
 
+## Equipo
+
+| Integrante | Rol |
+|-----------|-----|
+| **Jefferson Cuastusa** | Lider tecnico BI, modelado de datos, ETL, visualizacion. Ingeniero de Sistemas. |
+| **Ximena Molano** | Especialista en educacion superior, calidad, evaluacion curricular. Economista. |
+| **Claudia Milena Munoz** | Lider academica y de aseguramiento de la calidad. Ingeniera Industrial, Mg. y candidata a Dra. en Educacion. |
+
+## Metodologia
+
+El desarrollo sigue el marco **CRISP-ML** (Cross-Industry Standard Process for Machine Learning) adaptado al dominio educativo: comprension del problema → comprension de datos → preparacion ETL → modelado de indicadores → evaluacion con 50 tests automatizados → despliegue en contenedor Docker.
+
+---
+
 <p align="center">
-  <sub>Desarrollado con ❤️ por <a href="https://github.com/Jefferson-GHB">JeffersonCA</a></sub>
+  <sub>Desarrollado con ❤️ por <a href="https://github.com/Jefferson-GHB">Equipo 195</a> — Concurso Datos al Ecosistema 2026</sub>
 </p>
