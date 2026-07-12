@@ -1,3 +1,13 @@
+---
+title: Estudio Contexto
+emoji: 📊
+colorFrom: red
+colorTo: gray
+sdk: docker
+app_file: app.py
+pinned: false
+---
+
 <h1 align="center">
   <br>
   <img src="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f4da.svg" width="80" alt="books">
