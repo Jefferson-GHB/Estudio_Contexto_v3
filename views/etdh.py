@@ -114,7 +114,7 @@ def _render_tendencias(df_tend_mat, df_tend_cert, df_tasa_hist, key_prefix):
                 hovermode='x unified'
             )
             fig_tend.update_xaxes(tickangle=-45, tickmode='linear', dtick=2, tickfont=dict(size=9))
-            st.plotly_chart(fig_tend, use_container_width=True, key=f"{key_prefix}_tend_mat_cert")
+            st.plotly_chart(fig_tend, width='stretch', key=f"{key_prefix}_tend_mat_cert")
             descargar_datos_grafico(df_tend_mat, f"siet_tendencia_matricula_{key_prefix}", "Descargar datos")
         else:
             st.info("Sin datos de tendencia ETDH")
@@ -134,7 +134,7 @@ def _render_tendencias(df_tend_mat, df_tend_cert, df_tasa_hist, key_prefix):
                 text=f"{last[COL_TASA_CERT]}%", showarrow=True,
                 arrowhead=2, font=dict(size=12, color='#6B9080')
             )
-            st.plotly_chart(fig_tasa, use_container_width=True, key=f"{key_prefix}_tasa_cert")
+            st.plotly_chart(fig_tasa, width='stretch', key=f"{key_prefix}_tasa_cert")
             descargar_datos_grafico(df_tasa_hist, f"siet_tasa_certificacion_{key_prefix}", "Descargar datos")
         else:
             st.info("Sin datos de tasa de certificacion")
@@ -163,7 +163,7 @@ def _render_tendencia_por_area(areas_desempeno, deptos, estados_siet, busqueda_n
                     color_discrete_sequence=['#d4a017']
                 )
                 fig_area_tend.update_layout(legend=dict(font=dict(size=9)))
-            st.plotly_chart(fig_area_tend, use_container_width=True, key=f"{key_prefix}_tend_area")
+            st.plotly_chart(fig_area_tend, width='stretch', key=f"{key_prefix}_tend_area")
             descargar_datos_grafico(df_tend_area, f"siet_tendencia_area_{key_prefix}", "Descargar datos")
             st.caption(get_citacion("siet_matricula_programa_"))
 
@@ -192,7 +192,7 @@ def _render_rankings(areas_desempeno, deptos, estados_siet, busqueda_nombre, key
                 yaxis_title="", xaxis_title="Matricula 2023"
             )
             fig_inst.update_yaxes(tickfont=dict(size=9))
-            st.plotly_chart(fig_inst, use_container_width=True, key=f"{key_prefix}_top_inst")
+            st.plotly_chart(fig_inst, width='stretch', key=f"{key_prefix}_top_inst")
 
             with st.expander("Ver tabla detallada", expanded=False):
                 df_show = df_top_inst.rename(columns={
@@ -202,7 +202,7 @@ def _render_rankings(areas_desempeno, deptos, estados_siet, busqueda_nombre, key
                 })
                 st.dataframe(df_show[['Institucion', 'Naturaleza', 'Programas',
                                        'Matricula 2023', 'Certificados 2023', 'Var. % Anual']],
-                            hide_index=True, use_container_width=True)
+                            hide_index=True, width='stretch')
                 descargar_datos_grafico(df_show, f"siet_top_instituciones_{key_prefix}", "Descargar datos")
         else:
             st.info("Sin datos de instituciones")
@@ -222,7 +222,7 @@ def _render_rankings(areas_desempeno, deptos, estados_siet, busqueda_nombre, key
                 yaxis_title="", xaxis_title="Matricula 2023"
             )
             fig_prog.update_yaxes(tickfont=dict(size=9))
-            st.plotly_chart(fig_prog, use_container_width=True, key=f"{key_prefix}_top_prog")
+            st.plotly_chart(fig_prog, width='stretch', key=f"{key_prefix}_top_prog")
 
             with st.expander("Ver tabla detallada", expanded=False):
                 df_show = df_top_prog.rename(columns={
@@ -232,7 +232,7 @@ def _render_rankings(areas_desempeno, deptos, estados_siet, busqueda_nombre, key
                 })
                 st.dataframe(df_show[['Programa', 'Area', 'Tipo', 'Instituciones',
                                        'Matricula 2023', 'Certificados 2023', 'Tasa Cert. %']],
-                            hide_index=True, use_container_width=True)
+                            hide_index=True, width='stretch')
                 descargar_datos_grafico(df_show, f"siet_top_programas_{key_prefix}", "Descargar datos")
         else:
             st.info("Sin datos de programas")
@@ -260,7 +260,7 @@ def _render_distribucion_geografica(areas_desempeno, estados_siet, busqueda_nomb
                     coloraxis_colorbar=dict(title="Var. Anual %"),
                     yaxis_title="", xaxis_title="Matricula 2023"
                 )
-                st.plotly_chart(fig_geo, use_container_width=True, key=f"{key_prefix}_geo")
+                st.plotly_chart(fig_geo, width='stretch', key=f"{key_prefix}_geo")
             with col_g2:
                 st.markdown("**Detalle por Departamento**")
                 df_geo_show = df_mat_depto.rename(columns={
@@ -270,7 +270,7 @@ def _render_distribucion_geografica(areas_desempeno, estados_siet, busqueda_nomb
                 })
                 st.dataframe(df_geo_show[['Departamento', 'Mat. 2023', 'Var. Anual %',
                                            'CAGR 4A %', 'Instit.', 'Progs.']],
-                            hide_index=True, use_container_width=True, height=max(300, min(600, len(df_geo_show)*35)))
+                            hide_index=True, width='stretch', height=max(300, min(600, len(df_geo_show)*35)))
                 descargar_datos_grafico(df_geo_show, f"siet_deptos_{key_prefix}", "Descargar datos")
             st.caption(get_citacion("siet_matricula_programa_"))
 
@@ -294,7 +294,7 @@ def _render_caracterizacion_oferta(areas_desempeno, deptos, estados_siet, busque
                                title="Tipo de Certificado", hole=0.35)
                 fig_tc.update_layout(showlegend=True, legend=dict(font=dict(size=9)))
                 fig_tc.update_traces(textposition='inside', textinfo='percent+label')
-                st.plotly_chart(fig_tc, use_container_width=True, key=f"{key_prefix}_tipo_cert")
+                st.plotly_chart(fig_tc, width='stretch', key=f"{key_prefix}_tipo_cert")
 
             df_esc = desglose.get('escolaridad', pd.DataFrame())
             if not df_esc.empty:
@@ -303,7 +303,7 @@ def _render_caracterizacion_oferta(areas_desempeno, deptos, estados_siet, busque
                                 color_continuous_scale=[[0, '#F9F7F4'], [0.33, '#E5DDD6'], [0.66, '#A09088'], [1, '#9B1B30']])
                 fig_esc.update_layout(yaxis={'categoryorder': 'total ascending'},
                                      coloraxis_showscale=False, yaxis_title="")
-                st.plotly_chart(fig_esc, use_container_width=True, key=f"{key_prefix}_escolaridad")
+                st.plotly_chart(fig_esc, width='stretch', key=f"{key_prefix}_escolaridad")
 
         with col_c2:
             df_met = desglose.get('metodologia', pd.DataFrame())
@@ -312,7 +312,7 @@ def _render_caracterizacion_oferta(areas_desempeno, deptos, estados_siet, busque
                                 title="Metodologia", hole=0.35)
                 fig_met.update_layout(showlegend=True, legend=dict(font=dict(size=9)))
                 fig_met.update_traces(textposition='inside', textinfo='percent+label')
-                st.plotly_chart(fig_met, use_container_width=True, key=f"{key_prefix}_metodologia")
+                st.plotly_chart(fig_met, width='stretch', key=f"{key_prefix}_metodologia")
 
             df_jor = desglose.get('jornada', pd.DataFrame())
             if not df_jor.empty:
@@ -321,7 +321,7 @@ def _render_caracterizacion_oferta(areas_desempeno, deptos, estados_siet, busque
                                 color_continuous_scale=[[0, '#F9F7F4'], [0.33, '#E5DDD6'], [0.66, '#A09088'], [1, '#9B1B30']])
                 fig_jor.update_layout(yaxis={'categoryorder': 'total ascending'},
                                      coloraxis_showscale=False, yaxis_title="")
-                st.plotly_chart(fig_jor, use_container_width=True, key=f"{key_prefix}_jornada")
+                st.plotly_chart(fig_jor, width='stretch', key=f"{key_prefix}_jornada")
 
         with col_c3:
             df_cos = desglose.get('costos', pd.DataFrame())
@@ -334,7 +334,7 @@ def _render_caracterizacion_oferta(areas_desempeno, deptos, estados_siet, busque
                 fig_cos.update_layout(coloraxis_colorbar=dict(title="Dur. (h)"),
                                      xaxis_title="Rango de Costo")
                 fig_cos.update_traces(textposition='auto')
-                st.plotly_chart(fig_cos, use_container_width=True, key=f"{key_prefix}_costos")
+                st.plotly_chart(fig_cos, width='stretch', key=f"{key_prefix}_costos")
 
             df_est = desglose.get('estado', pd.DataFrame())
             if not df_est.empty:
@@ -342,7 +342,7 @@ def _render_caracterizacion_oferta(areas_desempeno, deptos, estados_siet, busque
                                 title="Estado del Programa", hole=0.35)
                 fig_est.update_layout(showlegend=True, legend=dict(font=dict(size=9)))
                 fig_est.update_traces(textposition='inside', textinfo='percent+label')
-                st.plotly_chart(fig_est, use_container_width=True, key=f"{key_prefix}_estado")
+                st.plotly_chart(fig_est, width='stretch', key=f"{key_prefix}_estado")
 
         df_cpa = desglose.get('costo_por_area', pd.DataFrame())
         if not df_cpa.empty:
@@ -364,7 +364,7 @@ def _render_caracterizacion_oferta(areas_desempeno, deptos, estados_siet, busque
                 margin=dict(r=70),
                 legend=dict(orientation='h', yanchor='bottom', y=1.02)
             )
-            st.plotly_chart(fig_cpa, use_container_width=True, key=f"{key_prefix}_costo_area")
+            st.plotly_chart(fig_cpa, width='stretch', key=f"{key_prefix}_costo_area")
 
         st.caption(get_citacion("siet_programas"))
 
@@ -386,7 +386,7 @@ def _render_ml_top_programas(etdh_ml_stats, key_prefix):
                                       'Matricula 2023', 'Certificados 2023', 'Duracion (Hrs)']
                         if c in df_top_display.columns]
             st.dataframe(
-                df_top_display[cols_show], hide_index=True, use_container_width=True,
+                df_top_display[cols_show], hide_index=True, width='stretch',
                 column_config={"Score ML": st.column_config.ProgressColumn(
                     "Score ML", min_value=0, max_value=1, format="%.3f"
                 )}
@@ -406,7 +406,7 @@ def _render_detalle_completo(areas_desempeno, deptos, estados_siet, busqueda_nom
         if not df_detalle_siet.empty:
             st.markdown(f"**{len(df_detalle_siet):,} programas ETDH encontrados**")
             st.dataframe(
-                df_detalle_siet, hide_index=True, use_container_width=True, height=max(300, min(600, len(df_detalle_siet)*35)),
+                df_detalle_siet, hide_index=True, width='stretch', height=max(300, min(600, len(df_detalle_siet)*35)),
                 column_config={
                     "Institucion": st.column_config.TextColumn("Institucion", width="large"),
                     "Programa": st.column_config.TextColumn("Programa", width="large"),

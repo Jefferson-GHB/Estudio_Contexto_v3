@@ -162,7 +162,7 @@ div[data-testid="column"]:last-child{position:relative;z-index:1;background:rgba
             with st.form("login_form", clear_on_submit=False):
                 st.text_input("Usuario", key="username", placeholder="usuario@ejemplo.edu.co")
                 st.text_input("Contrasena", type="password", key="password", placeholder="Tu contrasena")
-                submitted = st.form_submit_button("Iniciar Sesion", use_container_width=False)
+                submitted = st.form_submit_button("Iniciar Sesion", width='content')
                 if submitted:
                     if credentials_entered():
                         st.success("Acceso concedido")

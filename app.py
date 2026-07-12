@@ -598,7 +598,7 @@ def main():
         with c1:
             render_welcome_banner(
                 title="Bienvenido, tu panel ya está listo",
-                subtitle='"La desercion no debe leerse como un dato aislado de abandono, sino como una senal de pertinencia y sostenibilidad." — Equipo 195',
+                subtitle='"La desercion no debe leerse como un dato aislado de abandono, sino como una señal de pertinencia y sostenibilidad." — Equipo 195',
                 mascot="<i class='fas fa-brain'></i>"
             )
         with c2:
@@ -862,7 +862,7 @@ def main():
                 df_oferta = pd.DataFrame()
             conn.close()
             if not df_oferta.empty:
-                st.dataframe(df_oferta, hide_index=True, use_container_width=True)
+                st.dataframe(df_oferta, hide_index=True, width='stretch')
             else:
                 st.info("No hay programas registrados para este NBC en ningún departamento.")
         return
@@ -931,7 +931,7 @@ def main():
             st.markdown("#### Concentracion de Mercado (HHI)")
             st.caption("Distribucion de matricula entre las IES. Concentracion alta = pocos dominan, baja diferenciacion y riesgo de saturacion. Concentracion baja = mercado abierto con oportunidades de insercion sostenible.")
             fig_hhi = crear_gauge_hhi(hhi)
-            st.plotly_chart(fig_hhi, use_container_width=True)
+            st.plotly_chart(fig_hhi, width='stretch')
             # Exportar datos de market share si disponibles
             if not df_market.empty:
                 descargar_datos_grafico(df_market, "market_share_instituciones", "Descargar market share")
@@ -945,7 +945,7 @@ def main():
                         columns={'institucion': 'Institución', 'matriculados': 'Matrículas', 'share': 'Cuota %'}
                     ),
                     hide_index=True,
-                    use_container_width=True
+                    width='stretch'
                 )
                 
                 # Botón para ver detalle de programas
@@ -956,7 +956,7 @@ def main():
                         st.dataframe(
                             df_detalle,
                             hide_index=True,
-                            use_container_width=True,
+                            width='stretch',
                             height=450,
                             column_config={
                                 "Institucion": st.column_config.TextColumn("Institución", width="large"),
@@ -1013,7 +1013,7 @@ def main():
                 
                 col_gauge, col_dist = st.columns([1, 2])
                 with col_gauge:
-                    st.plotly_chart(crear_gauge_saber(puntaje or 0, nacional), use_container_width=True)
+                    st.plotly_chart(crear_gauge_saber(puntaje or 0, nacional), width='stretch')
                     diff = (puntaje or 0) - (nacional or 0)
                     if diff > 0:
                         st.success(f"**{diff:+.0f} pts** sobre promedio nacional ({nacional:.0f})")
@@ -1029,7 +1029,7 @@ def main():
                         saber_stats.get('mediana', 0),
                         saber_stats.get('q3', 0),
                         saber_stats.get('puntaje_max', 0)
-                    ), use_container_width=True)
+                    ), width='stretch')
                     st.caption("Distribucion de puntajes: Min, Cuartiles y Maximo")
                 
                 st.caption(f"Fuente: ICFES — Saber PRO | Periodo: {saber_stats.get('periodo', '2020-2022')} | Promedio nacional: **{nacional:.0f}/300** | Matching semantico con MiniLM")
@@ -1054,7 +1054,7 @@ def main():
                     title=f"Histórico de Inscritos (2019-2024)",
                     markers=True, color_discrete_sequence=['#9b1b30']
                 )
-                st.plotly_chart(fig_insc, use_container_width=True)
+                st.plotly_chart(fig_insc, width='stretch')
                 descargar_datos_grafico(df_inscritos, "historico_inscritos", "Descargar datos")
                 st.caption(get_citacion("snies_inscritos"))
             else:
@@ -1068,7 +1068,7 @@ def main():
                     title=f"Histórico de Admitidos (2019-2024)",
                     markers=True, color_discrete_sequence=['#6B9080']
                 )
-                st.plotly_chart(fig_admi, use_container_width=True)
+                st.plotly_chart(fig_admi, width='stretch')
                 descargar_datos_grafico(df_admitidos, "historico_admitidos", "Descargar datos")
                 st.caption(get_citacion("snies_admitidos"))
             else:
@@ -1084,7 +1084,7 @@ def main():
                     title=f"Histórico Primer Curso (2019-2024)",
                     markers=True, color_discrete_sequence=['#cc8800']
                 )
-                st.plotly_chart(fig_primer, use_container_width=True)
+                st.plotly_chart(fig_primer, width='stretch')
                 descargar_datos_grafico(df_primer_curso, "historico_primer_curso", "Descargar datos")
                 st.caption(get_citacion("snies_matriculados_primer_curso"))
             else:
@@ -1098,7 +1098,7 @@ def main():
                     title=f"Histórico de Matriculados (2019-2024)",
                     markers=True, color_discrete_sequence=['#a0522d']
                 )
-                st.plotly_chart(fig_matr, use_container_width=True)
+                st.plotly_chart(fig_matr, width='stretch')
                 descargar_datos_grafico(df_tendencia, "historico_matriculados", "Descargar datos")
                 st.caption(get_citacion("snies_matriculados"))
             else:
@@ -1114,7 +1114,7 @@ def main():
                     title=f"Histórico de Graduados (2019-2024)",
                     markers=True, color_discrete_sequence=['#a0522d']
                 )
-                st.plotly_chart(fig_grad, use_container_width=True)
+                st.plotly_chart(fig_grad, width='stretch')
                 descargar_datos_grafico(df_graduados, "historico_graduados", "Descargar datos")
                 st.caption(get_citacion("snies_graduados"))
             else:
@@ -1160,7 +1160,7 @@ def main():
                     margin=dict(t=60),
                     hovermode='x unified'
                 )
-                st.plotly_chart(fig_comb, use_container_width=True)
+                st.plotly_chart(fig_comb, width='stretch')
                 descargar_datos_grafico(df_comb, "evolucion_estudiantil_combinado", "Descargar datos")
                 st.caption("Fuente: SNIES - MEN Colombia")
         
@@ -1189,7 +1189,7 @@ def main():
                 )
                 fig_mod.update_traces(textposition='inside', textinfo='percent+label')
                 fig_mod.update_layout( showlegend=True)
-                st.plotly_chart(fig_mod, use_container_width=True)
+                st.plotly_chart(fig_mod, width='stretch')
                 descargar_datos_grafico(df_mod, "desglose_modalidad", "Descargar datos")
                 st.caption(get_citacion("snies_programas"))
             else:
@@ -1222,7 +1222,7 @@ def main():
                 )
                 fig_sec.update_traces(textposition='inside', textinfo='percent+label')
                 fig_sec.update_layout( showlegend=True)
-                st.plotly_chart(fig_sec, use_container_width=True)
+                st.plotly_chart(fig_sec, width='stretch')
                 descargar_datos_grafico(df_sec, "desglose_sector", "Descargar datos")
                 st.caption(get_citacion("snies_programas"))
             else:
@@ -1250,7 +1250,7 @@ def main():
                     showlegend=False,
                     coloraxis_showscale=False
                 )
-                st.plotly_chart(fig_niv, use_container_width=True)
+                st.plotly_chart(fig_niv, width='stretch')
                 descargar_datos_grafico(df_niv, "desglose_nivel_formacion", "Descargar datos")
                 st.caption(get_citacion("snies_programas"))
             else:
@@ -1275,7 +1275,7 @@ def main():
                     showlegend=False,
                     coloraxis_showscale=False
                 )
-                st.plotly_chart(fig_car, use_container_width=True)
+                st.plotly_chart(fig_car, width='stretch')
                 descargar_datos_grafico(df_car, "desglose_caracter_academico", "Descargar datos")
                 st.caption(get_citacion("snies_instituciones"))
             else:
@@ -1303,7 +1303,7 @@ def main():
                     showlegend=False,
                     coloraxis_showscale=False
                 )
-                st.plotly_chart(fig_cred, use_container_width=True)
+                st.plotly_chart(fig_cred, width='stretch')
                 descargar_datos_grafico(df_cred, "desglose_creditos", "Descargar datos")
                 st.caption(get_citacion("snies_programas"))
                 
@@ -1333,7 +1333,7 @@ def main():
                     showlegend=False,
                     coloraxis_showscale=False
                 )
-                st.plotly_chart(fig_dur, use_container_width=True)
+                st.plotly_chart(fig_dur, width='stretch')
                 descargar_datos_grafico(df_dur, "desglose_duracion", "Descargar datos")
                 st.caption(get_citacion("snies_programas"))
                 
@@ -1360,7 +1360,7 @@ def main():
                 )
                 fig_per.update_traces(textposition='inside', textinfo='percent')
                 fig_per.update_layout( showlegend=True, legend=dict(orientation="h", y=-0.1))
-                st.plotly_chart(fig_per, use_container_width=True)
+                st.plotly_chart(fig_per, width='stretch')
                 descargar_datos_grafico(df_per, "desglose_periodicidad", "Datos")
                 st.caption(get_citacion("snies_programas"))
             else:
@@ -1379,7 +1379,7 @@ def main():
                 )
                 fig_est.update_traces(textposition='inside', textinfo='percent')
                 fig_est.update_layout( showlegend=True, legend=dict(orientation="h", y=-0.1))
-                st.plotly_chart(fig_est, use_container_width=True)
+                st.plotly_chart(fig_est, width='stretch')
                 descargar_datos_grafico(df_est, "desglose_estado", "Datos")
                 st.caption(get_citacion("snies_programas"))
             else:
@@ -1398,7 +1398,7 @@ def main():
                 )
                 fig_cic.update_traces(textposition='inside', textinfo='percent')
                 fig_cic.update_layout( showlegend=True, legend=dict(orientation="h", y=-0.1))
-                st.plotly_chart(fig_cic, use_container_width=True)
+                st.plotly_chart(fig_cic, width='stretch')
                 descargar_datos_grafico(df_cic, "desglose_ciclos_propedeuticos", "Datos")
                 st.caption(get_citacion("snies_programas"))
             else:
@@ -1426,7 +1426,7 @@ def main():
                 showlegend=False,
                 coloraxis_showscale=False
             )
-            st.plotly_chart(fig_geo, use_container_width=True)
+            st.plotly_chart(fig_geo, width='stretch')
             descargar_datos_grafico(df_deptos, "desglose_departamentos", "Descargar datos")
             st.caption(get_citacion("snies_programas"))
         else:
@@ -1456,7 +1456,7 @@ def main():
                 title="Posicionamiento de Programas (Duración vs Valor Matrícula)",
                 labels={'duracion': 'Duración (semestres)', 'costo': 'Valor Matrícula ($)', 'acreditada': 'Acreditada'}
             )
-            st.plotly_chart(fig_scatter, use_container_width=True)
+            st.plotly_chart(fig_scatter, width='stretch')
             descargar_datos_grafico(df_benchmark, "benchmarking_matricula_duracion", "Descargar datos")
             st.caption(get_citacion("snies_programas"))
             st.caption("**Interpretación:** Buscar cuadrantes con baja densidad = oportunidad de diferenciación")
@@ -1610,7 +1610,7 @@ def main():
                                 color='valor', color_continuous_scale=[[0, '#F9F7F4'], [0.33, '#E5DDD6'], [0.66, '#A09088'], [1, '#9B1B30']],
                                 text_auto=True
                             )
-                        st.plotly_chart(fig_exp, use_container_width=True)
+                        st.plotly_chart(fig_exp, width='stretch')
                     
                     # ==================== LINEA TEMPORAL ====================
                     elif exp_tipo_grafico == 'Linea Temporal':
@@ -1639,7 +1639,7 @@ def main():
                                 labels={'valor': exp_metrica},
                                 color_discrete_sequence=['#9b1b30']
                             )
-                        st.plotly_chart(fig_exp, use_container_width=True)
+                        st.plotly_chart(fig_exp, width='stretch')
                     
                     # ==================== BARRAS APILADAS ====================
                     elif exp_tipo_grafico == 'Barras Apiladas':
@@ -1662,7 +1662,7 @@ def main():
                                 color='valor', color_continuous_scale=[[0, '#F9F7F4'], [0.33, '#E5DDD6'], [0.66, '#A09088'], [1, '#9B1B30']],
                                 text_auto=True
                             )
-                        st.plotly_chart(fig_exp, use_container_width=True)
+                        st.plotly_chart(fig_exp, width='stretch')
                     
                     # ==================== SUNBURST (DRILL-DOWN) ====================
                     elif exp_tipo_grafico == 'Sunburst (Drill-Down)':
@@ -1686,7 +1686,7 @@ def main():
                             insidetextorientation='radial',
                             textfont_size=11
                         )
-                        st.plotly_chart(fig_exp, use_container_width=True)
+                        st.plotly_chart(fig_exp, width='stretch')
                         st.caption("Haz clic en un segmento para hacer drill-down. Clic en el centro para volver atras.")
                     
                     # ==================== TREEMAP ====================
@@ -1705,7 +1705,7 @@ def main():
                         )
                         fig_exp.update_layout(height=450, uniformtext=dict(minsize=9, mode='hide'))
                         fig_exp.update_traces(textinfo='label+percent parent', textfont_size=10)
-                        st.plotly_chart(fig_exp, use_container_width=True)
+                        st.plotly_chart(fig_exp, width='stretch')
                         st.caption("Haz clic en un bloque para hacer drill-down. Clic en el encabezado superior para volver.")
                     
                     # ==================== TABLA PIVOT ====================
@@ -1722,14 +1722,14 @@ def main():
                                 st.markdown(f"**Tabla cruzada: {dim1} vs {dim2}** (valores = {exp_metrica})")
                                 st.dataframe(
                                     pivot_df.style.format("{:,.0f}").background_gradient(cmap='Blues', axis=None),
-                                    use_container_width=True, height=max(300, min(600, len(pivot_df)*35))
+                                    width='stretch', height=max(300, min(600, len(pivot_df)*35))
                                 )
                             except Exception:
-                                st.dataframe(df_exp_sorted, hide_index=True, use_container_width=True, height=max(300, min(600, len(df_exp_sorted)*35)))
+                                st.dataframe(df_exp_sorted, hide_index=True, width='stretch', height=max(300, min(600, len(df_exp_sorted)*35)))
                         else:
                             st.dataframe(
                                 df_exp_sorted.style.format({'valor': '{:,.0f}', 'registros': '{:,.0f}'}),
-                                hide_index=True, use_container_width=True, height=max(300, min(600, len(df_exp_sorted)*35))
+                                hide_index=True, width='stretch', height=max(300, min(600, len(df_exp_sorted)*35))
                             )
                     
                     # ==================== HEATMAP ====================
@@ -1755,7 +1755,7 @@ def main():
                                     height=max(400, len(pivot_heat) * 30 + 100),
                                     xaxis_title=dim1, yaxis_title=dim2
                                 )
-                                st.plotly_chart(fig_exp, use_container_width=True)
+                                st.plotly_chart(fig_exp, width='stretch')
                             except Exception as e_heat:
                                 st.warning(f"No se pudo generar heatmap: {e_heat}")
                         else:
@@ -1763,7 +1763,7 @@ def main():
                 
                 except Exception as e_chart:
                     st.error(f"Error generando grafico: {e_chart}")
-                    st.dataframe(df_exp_sorted.head(50), hide_index=True, use_container_width=True)
+                    st.dataframe(df_exp_sorted.head(50), hide_index=True, width='stretch')
                 
                 # Boton de descarga
                 descargar_datos_grafico(df_exp_sorted, f"explorador_{exp_metrica.lower()}", "Descargar datos del explorador")
@@ -1905,7 +1905,7 @@ def main():
                 height=300,
                 title=f"Ratio: {ratio_abs_real}"
             )
-            st.plotly_chart(fig_abs, use_container_width=True)
+            st.plotly_chart(fig_abs, width='stretch')
             df_absorcion = pd.DataFrame({
                 'Concepto': ['Graduados/ano', 'Vacantes APE 2024'],
                 'Cantidad': [graduados_para_ratio, vacantes_reales]
@@ -1940,7 +1940,7 @@ def main():
                         columns={'ocupacion': 'Ocupacion', 'vacantes_2024': 'Vacantes 2024', 'vacantes_2023': 'Vacantes 2023'}
                     ),
                     hide_index=True,
-                    use_container_width=True
+                    width='stretch'
                 )
         
         with col_sal:
@@ -1976,7 +1976,7 @@ def main():
                             yaxis_title="Ingreso Base Cotizacion ($)",
                             showlegend=False
                         )
-                        st.plotly_chart(fig_sal, use_container_width=True)
+                        st.plotly_chart(fig_sal, width='stretch')
                         
                         ano_seg = df_ibc['ano_seguimiento'].iloc[0] if 'ano_seguimiento' in df_ibc.columns else '?'
                         cohorte = df_ibc['cohorte_graduados'].iloc[0] if 'cohorte_graduados' in df_ibc.columns else '?'
@@ -2022,7 +2022,7 @@ def main():
                             title="Salarios reales por nivel educativo",
                             yaxis_title="Salario ($)"
                         )
-                        st.plotly_chart(fig_sigep, use_container_width=True)
+                        st.plotly_chart(fig_sigep, width='stretch')
                         
                         total_emps = int(df_sigep['cantidad_empleados'].sum())
                         st.caption(f"**Fuente:** SIGEP (Sistema de Informacion y Gestion del Empleo Publico). "
@@ -2037,7 +2037,7 @@ def main():
                             'salario_promedio': 'Salario Promedio',
                             'salario_mediana': 'Salario Mediana',
                             'cantidad_empleados': 'N Empleados'
-                        }), hide_index=True, use_container_width=True)
+                        }), hide_index=True, width='stretch')
             else:
                 st.warning("No se encontraron datos salariales de referencia en las fuentes oficiales (OLE/SIGEP).")
         st.markdown("---")
@@ -2097,7 +2097,7 @@ def main():
                     title="Conocimientos más demandados (Nacional)",
                     legend=dict(orientation="h", yanchor="bottom", y=-0.2, xanchor="center", x=0.5)
                 )
-                st.plotly_chart(fig_radar_con, use_container_width=True)
+                st.plotly_chart(fig_radar_con, width='stretch')
                 descargar_datos_grafico(df_conocimientos, "conocimientos_requeridos", "Descargar datos")
                 st.caption(get_citacion("competencias_cuoc"))
             else:
@@ -2145,7 +2145,7 @@ def main():
                     title="Destrezas más demandadas (Nacional)",
                     legend=dict(orientation="h", yanchor="bottom", y=-0.2, xanchor="center", x=0.5)
                 )
-                st.plotly_chart(fig_radar_des, use_container_width=True)
+                st.plotly_chart(fig_radar_des, width='stretch')
                 descargar_datos_grafico(df_destrezas, "destrezas_requeridas", "Descargar datos")
                 st.caption(get_citacion("competencias_cuoc"))
             else:
@@ -2245,7 +2245,7 @@ def main():
         if not df_graduados.empty:
             fig_grad = px.bar(df_graduados, x='anio', y='graduados', 
                             title=f"Graduados por Ano ({label_ambito})")
-            st.plotly_chart(fig_grad, use_container_width=True)
+            st.plotly_chart(fig_grad, width='stretch')
             descargar_datos_grafico(df_graduados, "tendencia_graduados_barras", "Descargar datos")
             st.caption(get_citacion("snies_graduados"))
         
@@ -2258,7 +2258,7 @@ def main():
                                      title=f"Graduados Nacionales - {df_graduados_nbc['NBC'].iloc[0]}",
                                      markers=True)
                     fig_gnbc.update_layout( xaxis_title="Ano", yaxis_title="Graduados")
-                    st.plotly_chart(fig_gnbc, use_container_width=True)
+                    st.plotly_chart(fig_gnbc, width='stretch')
                 with col_gnbc2:
                     ult_grad = df_graduados_nbc.iloc[-1]['graduados']
                     prom_grad = df_graduados_nbc['graduados'].mean()
@@ -2295,7 +2295,7 @@ def main():
                                    text='vacantes')
                     fig_tv.update_layout( xaxis_title="Ano", yaxis_title="Vacantes")
                     fig_tv.update_traces(texttemplate='%{text:,.0f}', textposition='auto')
-                    st.plotly_chart(fig_tv, use_container_width=True)
+                    st.plotly_chart(fig_tv, width='stretch')
                     descargar_datos_grafico(df_tv_año, "tendencia_vacantes_ape", "Descargar datos")
             
             with col_tc:
@@ -2311,7 +2311,7 @@ def main():
                                    color_discrete_sequence=['#6B9080'])
                     fig_tc.update_layout( xaxis_title="Ano", yaxis_title="Colocados")
                     fig_tc.update_traces(texttemplate='%{text:,.0f}', textposition='auto')
-                    st.plotly_chart(fig_tc, use_container_width=True)
+                    st.plotly_chart(fig_tc, width='stretch')
                     descargar_datos_grafico(df_tc_año, "tendencia_colocados_ape", "Descargar datos")
             
             # Tasa de colocacion
@@ -2338,7 +2338,7 @@ def main():
                         df_ultimo[['ocupacion', 'vacantes']].rename(columns={
                             'ocupacion': 'Ocupacion', 'vacantes': f'Vacantes {ultimo_ano}'
                         }),
-                        hide_index=True, use_container_width=True
+                        hide_index=True, width='stretch'
                     )
             
             st.caption("**Fuente:** Agencia Publica de Empleo (APE) - SENA. Consolidados anuales 2017-2019.")
@@ -2416,7 +2416,7 @@ def main():
                     coloraxis_showscale=False
                 )
                 fig_nivel_cualif.update_traces(textposition='auto')
-                st.plotly_chart(fig_nivel_cualif, use_container_width=True)
+                st.plotly_chart(fig_nivel_cualif, width='stretch')
                 descargar_datos_grafico(df_nivel_cualif, "cualificaciones_nivel_mnc", "Descargar datos")
                 st.caption(get_citacion("cualificaciones_men"))
             
@@ -2449,7 +2449,7 @@ def main():
                 st.dataframe(
                     df_display,
                     hide_index=True,
-                    use_container_width=True,
+                    width='stretch',
                     height=400
                 )
                 
@@ -2702,7 +2702,7 @@ def main():
                         yaxis_title="Porcentaje (%)", xaxis_title="Año",
                         legend=dict(orientation="h", yanchor="bottom", y=-0.3)
                     )
-                    st.plotly_chart(fig_tasas, use_container_width=True)
+                    st.plotly_chart(fig_tasas, width='stretch')
                     # Descargar datos combinados
                     df_tasas_export = pd.DataFrame()
                     if not df_tcb_hist.empty:
@@ -2730,7 +2730,7 @@ def main():
                         height=300, title=f"Matrícula ES Total — {etiqueta_territorio}",
                         yaxis_title="Estudiantes", xaxis_title="Año"
                     )
-                    st.plotly_chart(fig_mat, use_container_width=True)
+                    st.plotly_chart(fig_mat, width='stretch')
                     descargar_datos_grafico(df_mat_hist, "matricula_es_depto", "Descargar datos")
             
             st.caption(f"**Fuente:** {datos_edu_depto['fuente']}")
@@ -2769,7 +2769,7 @@ def main():
                     yaxis_title="Estudiantes", xaxis_title="Año",
                     legend=dict(orientation="h", yanchor="bottom", y=-0.25)
                 )
-                st.plotly_chart(fig_nbc_depto, use_container_width=True)
+                st.plotly_chart(fig_nbc_depto, width='stretch')
                 # Exportar datos combinados
                 df_nbc_depto_export = pd.DataFrame()
                 if not df_mat_depto.empty:
@@ -2810,7 +2810,7 @@ def main():
                     xaxis_title="Graduados acumulados (2019-2024)",
                     yaxis={'categoryorder': 'total ascending'},
                 )
-                st.plotly_chart(fig_rank, use_container_width=True)
+                st.plotly_chart(fig_rank, width='stretch')
                 descargar_datos_grafico(df_ranking_nbc, "ranking_depto_nbc", "Descargar datos")
                 
                 # Calcular posición del depto
@@ -2831,7 +2831,7 @@ def main():
                     'ies': 'IES', 'programa': 'Programa', 'nivel': 'Nivel',
                     'metodologia': 'Metodología', 'estado': 'Estado', 'municipio': 'Municipio'
                 })
-                st.dataframe(df_display, hide_index=True, use_container_width=True)
+                st.dataframe(df_display, hide_index=True, width='stretch')
         
         # =================================================================
         # SECCIÓN 3: INFRAESTRUCTURA Y CONTEXTO TERRITORIAL
@@ -2863,7 +2863,7 @@ def main():
                     xaxis_title="Índice (0-1)",
                     yaxis={'categoryorder': 'total ascending'}
                 )
-                st.plotly_chart(fig_con, use_container_width=True)
+                st.plotly_chart(fig_con, width='stretch')
                 
                 col_4g, col_inet = st.columns(2)
                 col_4g.metric("Cobertura 4G/LTE promedio", f"{avg_4g*100:.1f}%")
@@ -2907,10 +2907,10 @@ def main():
                         st.dataframe(
                             df_pdet[['municipio', 'subregion']].rename(
                                 columns={'municipio': 'Municipio', 'subregion': 'Subregión'}
-                            ), hide_index=True, use_container_width=True
+                            ), hide_index=True, width='stretch'
                         )
                     else:
-                        st.dataframe(df_pdet, hide_index=True, use_container_width=True)
+                        st.dataframe(df_pdet, hide_index=True, width='stretch')
                 st.caption(get_citacion("pdet"))
             elif arg_depto:
                 st.info("No es territorio PDET")
@@ -2967,7 +2967,7 @@ def main():
                             color='empresas', color_continuous_scale=[[0, '#F9F7F4'], [0.33, '#E5DDD6'], [0.66, '#A09088'], [1, '#9B1B30']]
                         )
                         fig_cluster.update_layout( showlegend=False, yaxis={'categoryorder': 'total ascending'})
-                        st.plotly_chart(fig_cluster, use_container_width=True)
+                        st.plotly_chart(fig_cluster, width='stretch')
                         descargar_datos_grafico(df_top_sect, "cluster_empresarial", "Descargar datos")
                 
                 st.caption(get_citacion("rues"))
@@ -3020,7 +3020,7 @@ def main():
                         title=f"Salarios por Nivel Educativo — {etiqueta_territorio}",
                         yaxis_title="Salario ($)"
                     )
-                    st.plotly_chart(fig_sal_edu, use_container_width=True)
+                    st.plotly_chart(fig_sal_edu, width='stretch')
                     descargar_datos_grafico(df_sal_edu, "salarios_nivel_educativo_depto", "Descargar datos")
                 
                 st.caption(f"**Fuente:** {datos_sal_depto['fuente']}")
@@ -3112,7 +3112,7 @@ def main():
                 'Peso': pesos,
                 'Nivel': niveles
             })
-            st.dataframe(sintesis_df, hide_index=True, use_container_width=True)
+            st.dataframe(sintesis_df, hide_index=True, width='stretch')
             descargar_datos_grafico(sintesis_df, "sintesis_territorial", "Descargar síntesis")
             
             # Justificación territorial basada en datos
@@ -3166,7 +3166,7 @@ def main():
                 domain={'x': [0.05, 0.95], 'y': [0.08, 0.92]}
             ))
             fig_sint.update_layout( margin=dict(l=10, r=10, t=45, b=0))
-            st.plotly_chart(fig_sint, use_container_width=True)
+            st.plotly_chart(fig_sint, width='stretch')
             
             if score_territorial_total >= 75:
                 st.success("Alta pertinencia territorial")
@@ -3313,13 +3313,13 @@ def main():
         g1, g2, g3, g4 = st.columns(4)
         
         with g1:
-            st.plotly_chart(crear_gauge(score_acad, "Académico (30%)"), use_container_width=True)
+            st.plotly_chart(crear_gauge(score_acad, "Académico (30%)"), width='stretch')
         with g2:
-            st.plotly_chart(crear_gauge(score_lab, "Laboral (40%)"), use_container_width=True)
+            st.plotly_chart(crear_gauge(score_lab, "Laboral (40%)"), width='stretch')
         with g3:
-            st.plotly_chart(crear_gauge(score_terr, "Territorial (20%)"), use_container_width=True)
+            st.plotly_chart(crear_gauge(score_terr, "Territorial (20%)"), width='stretch')
         with g4:
-            st.plotly_chart(crear_gauge(score_glob, "Global (10%)"), use_container_width=True)
+            st.plotly_chart(crear_gauge(score_glob, "Global (10%)"), width='stretch')
         
         st.caption("Pesos de la decision final: Academica 30% | Laboral 40% | Territorial 20% | Global 10%. El score laboral tiene mayor peso por reflejar empleabilidad real.")
         
@@ -3356,7 +3356,7 @@ def main():
                 font_family="Inter, sans-serif",
                 font_color="#0B0F19"
             )
-            st.plotly_chart(fig_final, use_container_width=True)
+            st.plotly_chart(fig_final, width='stretch')
         
         with col_veredicto:
             st.markdown("### Veredicto")
@@ -3387,7 +3387,7 @@ def main():
                 'Peso': ['30%', '40%', '20%', '10%'],
                 'Aporte': [round(score_acad*0.3, 1), round(score_lab*0.4, 1), round(score_terr*0.2, 1), round(score_glob*0.1, 1)]
             })
-            st.dataframe(desglose_score, hide_index=True, use_container_width=True)
+            st.dataframe(desglose_score, hide_index=True, width='stretch')
             descargar_datos_grafico(desglose_score, "desglose_score_pertinencia", "Descargar desglose")
             
             # Nota sobre integración SNIES↔SIET en score laboral
@@ -3488,7 +3488,7 @@ def main():
                     markers=True
                 )
                 fig_desempleo.update_layout( yaxis_title="% Desempleo")
-                st.plotly_chart(fig_desempleo, use_container_width=True)
+                st.plotly_chart(fig_desempleo, width='stretch')
                 descargar_datos_grafico(df_global_decision, "desempleo_juvenil_colombia", "Descargar datos")
                 
                 ultimo_dato = df_global_decision.iloc[0]
@@ -3527,7 +3527,7 @@ def main():
                 fig_hab.update_traces(
                     hovertemplate='<b>%{y}</b><br>Relevancia: %{x:.0f}%<extra></extra>'
                 )
-                st.plotly_chart(fig_hab, use_container_width=True)
+                st.plotly_chart(fig_hab, width='stretch')
                 descargar_datos_grafico(df_top, "destrezas_cuoc_nbc", "Descargar datos")
                 
                 # Mostrar nota metodológica
@@ -3567,7 +3567,7 @@ def main():
                         color_continuous_scale=[[0, '#F9F7F4'], [0.33, '#E5DDD6'], [0.66, '#A09088'], [1, '#9B1B30']]
                     )
                     fig_hab.update_layout( yaxis={'categoryorder': 'total ascending'})
-                    st.plotly_chart(fig_hab, use_container_width=True)
+                    st.plotly_chart(fig_hab, width='stretch')
                 else:
                     st.warning("Sin datos de destrezas disponibles para este NBC")
         
@@ -3608,7 +3608,7 @@ def main():
             fig_esco.update_traces(
                 hovertemplate='<b>%{y}</b><br>Ocupaciones: %{x}<br>Tipo: %{customdata[0]}<br>Sector: %{customdata[1]}<br>Categoría: %{customdata[2]}<extra></extra>'
             )
-            st.plotly_chart(fig_esco, use_container_width=True)
+            st.plotly_chart(fig_esco, width='stretch')
             
             # Métricas resumen
             _col_m1, _col_m2, _col_m3 = st.columns(3)
@@ -3704,7 +3704,7 @@ def main():
                         )
                         fig_area_siet.update_layout( legend=dict(font=dict(size=8)))
                         fig_area_siet.update_traces(textposition='inside', textinfo='percent')
-                        st.plotly_chart(fig_area_siet, use_container_width=True)
+                        st.plotly_chart(fig_area_siet, width='stretch')
                         descargar_datos_grafico(df_area_siet, "siet_areas_decision", "Datos")
                 
                 with col_exp2:
@@ -3720,7 +3720,7 @@ def main():
                             color_continuous_scale=[[0, '#F9F7F4'], [0.33, '#E5DDD6'], [0.66, '#A09088'], [1, '#9B1B30']]
                         )
                         fig_depto_siet.update_layout( yaxis={'categoryorder': 'total ascending'})
-                        st.plotly_chart(fig_depto_siet, use_container_width=True)
+                        st.plotly_chart(fig_depto_siet, width='stretch')
                         descargar_datos_grafico(df_depto_siet, "siet_deptos_decision", "Datos")
             
             # =================================================================
@@ -3756,7 +3756,7 @@ def main():
                                 'Certificados': f"{p['certificados']:,}" if p['certificados'] else "—",
                             })
                         df_ml_display = pd.DataFrame(rows)
-                        st.dataframe(df_ml_display, use_container_width=True, hide_index=True)
+                        st.dataframe(df_ml_display, width='stretch', hide_index=True)
                         
                         # Insight contextual
                         n_alta = sum(1 for p in top_progs if p['score'] >= 0.6)
@@ -3825,7 +3825,7 @@ def main():
                         yaxis={'categoryorder': 'total ascending'},
                         legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
                     )
-                    st.plotly_chart(fig_comp, use_container_width=True)
+                    st.plotly_chart(fig_comp, width='stretch')
                     descargar_datos_grafico(df_comp_depto, "comparativa_snies_siet_depto", "Descargar datos")
                 else:
                     st.info("Sin datos comparativos disponibles")
@@ -3851,7 +3851,7 @@ def main():
                         paper_bgcolor="#FFFFFF",
                         font_color="#0B0F19"
                     )
-                    st.plotly_chart(fig_tipos, use_container_width=True)
+                    st.plotly_chart(fig_tipos, width='stretch')
                     descargar_datos_grafico(df_tipos, "comparativa_tipo_formacion", "Descargar datos")
                 else:
                     st.info("Sin datos de tipos de formacion disponibles")
@@ -3878,7 +3878,7 @@ def main():
             analizar_btn = st.button(
                 "Analizar con IA",
                 type="primary",
-                use_container_width=True,
+                width='stretch',
                 help="Genera un analisis completo usando el LLM de Gemini"
             )
         
@@ -4032,7 +4032,7 @@ def main():
                             file_name=nombre_archivo,
                             mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
                             type="primary",
-                            use_container_width=True,
+                            width='stretch',
                             icon=":material/download:"
                         )
                     except Exception as e_docx:

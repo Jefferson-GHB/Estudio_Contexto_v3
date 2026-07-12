@@ -263,7 +263,7 @@ def render_sidebar(mostrar_metodologia_callback) -> tuple[dict, dict]:
                     st.caption("Coincidencias sugeridas:")
                     for nombre, fuente, score in sugerencias[:3]:
                         label = f"{nombre[:60]}... [{fuente}]" if len(nombre) > 60 else f"{nombre} [{fuente}]"
-                        if st.button(label, key=f"sug_{hash(nombre)}", use_container_width=True):
+                        if st.button(label, key=f"sug_{hash(nombre)}", width='stretch'):
                             # Al hacer click, usar este nombre como busqueda
                             st.session_state.busqueda_programa = nombre
                             st.rerun()
@@ -563,7 +563,7 @@ def render_sidebar(mostrar_metodologia_callback) -> tuple[dict, dict]:
         with col_info:
             st.caption(f"{n_filtros} filtros activos" if n_filtros else "Sin filtros — mostrando todos los datos")
         with col_clear:
-            if st.button("Limpiar", use_container_width=True, disabled=(n_filtros == 0)):
+            if st.button("Limpiar", width='stretch', disabled=(n_filtros == 0)):
                 st.rerun()
         
         # =====================================================================
@@ -572,11 +572,11 @@ def render_sidebar(mostrar_metodologia_callback) -> tuple[dict, dict]:
         st.markdown("---")
         
         # Boton para ver metodologia
-        if st.button("Ver Metodologia", use_container_width=True, help="Documentacion de metricas y formulas"):
+        if st.button("Ver Metodologia", width='stretch', help="Documentacion de metricas y formulas"):
             mostrar_metodologia_callback()
         
         # Botón de cerrar sesión
-        if st.button("Cerrar Sesión", use_container_width=True, type="secondary"):
+        if st.button("Cerrar Sesión", width='stretch', type="secondary"):
             logout()
     
     # =========================================================================

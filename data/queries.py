@@ -1810,7 +1810,7 @@ def get_oferta_programas_depto(nbc, depto=None, filtros=None):
     try:
         where_depto = _depto_where("DEPARTAMENTO_OFERTA_PROGRAMA", depto)
         condiciones = [
-            build_nbc_match_condition(nbc, '"NUCLEO_BASICO_DEL_CONOCIMIENTO"')
+            build_nbc_match_condition(nbc, '"NÚCLEO_BÁSICO_DEL_CONOCIMIENTO"')
         ]
         # snies_programas: match directo (no necesita subquery puente)
         if filtros:
