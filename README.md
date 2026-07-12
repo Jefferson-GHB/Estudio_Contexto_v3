@@ -36,7 +36,7 @@ pinned: false
 
 ## El problema: desercion y decisiones curriculares sin contexto integrado
 
-Cuando una institucion disena, abre o modifica un programa sin leer el contexto (mercado, territorio, competencias, trayectorias), puede generar **condiciones que afectan la permanencia**: programas en mercados saturados, modalidades inviables para la poblacion objetivo, rutas formativas fragmentadas, o perfiles de egreso desconectados de las oportunidades laborales reales.
+Cuando una institucion diseña, abre o modifica un programa sin leer el contexto (mercado, territorio, competencias, trayectorias), puede generar **condiciones que afectan la permanencia**: programas en mercados saturados, modalidades inviables para la poblacion objetivo, rutas formativas fragmentadas, o perfiles de egreso desconectados de las oportunidades laborales reales.
 
 Estudio Contexto convierte datos abiertos —SNIES, SIET, SPADIES, APE, CUOC, GEIH, ICFES— en **evidencia trazable** para que directivos, comites curriculares y equipos de aseguramiento de la calidad respondan preguntas como:
 
