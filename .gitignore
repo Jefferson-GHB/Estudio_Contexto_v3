@@ -43,3 +43,6 @@ _limpieza/
 
 # ── Streamlit ──
 .streamlit/secrets.toml
+
+# ── Temporales regenerables──
+services/cache_data/
