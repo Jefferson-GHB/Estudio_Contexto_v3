@@ -160,7 +160,7 @@ MIT — ver [LICENSE](LICENSE)
 |-----------|-----|
 | **Jefferson Cuastusa** | Lider tecnico BI, modelado de datos, ETL, visualizacion. Ingeniero de Sistemas. |
 | **Ximena Molano** | Especialista en educacion superior, calidad, evaluacion curricular. Economista. |
-| **Claudia Milena Munoz** | Lider academica y de aseguramiento de la calidad. Ingeniera Industrial, Mg. y candidata a Dra. en Educacion. |
+| **Claudia Milena Muñoz** | Lider academica y de aseguramiento de la calidad. Ingeniera Industrial, Mg. y candidata a Dra. en Educacion. |
 
 ## Metodologia
 
