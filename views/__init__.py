@@ -1,2 +1,6 @@
 from views.methodology import mostrar_metodologia
 from views.etdh import render_etdh_dashboard
+from views.tab_academico import render_tab_academico
+from views.tab_laboral import render_tab_laboral
+from views.tab_territorial import render_tab_territorial
+from views.tab_decision import render_tab_decision
