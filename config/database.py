@@ -5,12 +5,6 @@ from pathlib import Path
 import duckdb
 import streamlit as st
 
-try:
-    from api.engine import get_engine
-    _DSS_AVAILABLE = True
-except ImportError:
-    _DSS_AVAILABLE = False
-
 
 def _get_duckdb_path():
     """Detecta la ruta correcta de la BD segun el entorno."""
@@ -26,14 +20,6 @@ def _get_duckdb_path():
 
 
 DUCKDB_PATH = _get_duckdb_path()
-
-
-@st.cache_resource
-def get_dss_engine():
-    """Obtiene conexion cacheada al motor DSS PostgreSQL."""
-    if not _DSS_AVAILABLE:
-        raise RuntimeError("DSS engine no disponible. El modulo api/ no esta instalado.")
-    return get_engine()
 
 
 def get_conn():
