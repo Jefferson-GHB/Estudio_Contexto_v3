@@ -1,0 +1,28 @@
+name: CI — Estudio Contexto
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Verificar archivos LFS (DuckDB)
+        run: ls -lh data/repositorio.duckdb 2>/dev/null && echo "DuckDB OK" || echo "DuckDB no encontrado — verificar LFS"
+
+      - name: Ejecutar 50 tests de integracion
+        run: python -m tests.test_queries
