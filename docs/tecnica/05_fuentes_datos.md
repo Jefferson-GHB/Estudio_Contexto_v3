@@ -338,8 +338,9 @@ vss                      → D (Vector Storage — embeddings internos)
 | `services/sources.py` | Diccionario centralizado de fuentes con URLs, periodos y citaciones | 376 |
 | `catalogo/MAPEO_DSS_OFICIAL.csv` | Mapeo de 81 variables a esquemas, tablas y columnas DuckDB | 115 |
 | `data/queries.py` | 56 funciones de consulta SQL parametrizadas con filtros | 3,138 |
-| `admin/ingestar_*.py` | Scripts de ingestion, limpieza y homologacion de fuentes | ~10 archivos |
+| `admin/ingestar_*.py` | Scripts de ingestion, limpieza y homologacion de fuentes | ~20 archivos |
 | `admin/auditar_*.py` | Scripts de auditoria de consistencia entre catalogos y fuentes | ~5 archivos |
+| `pipelines/pipeline_etl.py` | Orquestador que ejecuta todos los ingestar en orden | 1 archivo |
 
 ---
 
