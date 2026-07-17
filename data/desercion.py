@@ -1,45 +1,16 @@
 """
-Módulo de Cálculo de Indicadores de Deserción/Retención
-========================================================
+Cálculo exploratorio de indicadores de permanencia desde SNIES (2019-2024).
 
-Este módulo implementa el cálculo de indicadores de deserción y eficiencia terminal
-utilizando datos SNIES disponibles (2019-2024).
+Implementa TDA (Tasa de Deserción Aproximada) y eficiencia terminal
+usando tablas snies_matriculados, snies_graduados y snies_matriculados_primer_curso.
 
-METODOLOGÍA VALIDADA:
-- Validación contra análisis previo de Maestrías en Matemáticas
-- Eficiencia Terminal: 100% coincidencia en casos de prueba
-- Tasa de Deserción: Correlación alta con referencia (±3pp)
+Fórmulas implementadas:
+  balance_anual = (mat_anterior + primiparos - graduados) - mat_actual
+  tda_aproximada = balance_anual / mat_anterior
+  eficiencia_terminal = graduados / primiparos_{t-N}
 
-FÓRMULAS IMPLEMENTADAS (Metodología del usuario):
-
-1. Deserción (Balance):
-   Deserción_t = (Mat_{t-1} + Nuevos_t - Graduados_t) - Mat_t
-   
-2. Tasa de Deserción (TD):
-   TD_t = (Deserción_t / Mat_{t-1}) × 100%
-   
-   NOTA IMPORTANTE: Se divide por Mat_anterior SOLAMENTE,
-   NO por (Mat_anterior + Primíparos). Esta es la diferencia clave
-   con implementaciones anteriores.
-
-3. Eficiencia Terminal:
-   EF_t = (Graduados_t / Primíparos_{t-N}) × 100%
-   Donde N = duración teórica del programa (2 años para maestrías)
-
-LIMITACIONES DE DATOS:
-- snies_matriculados: 2019-2024
-- snies_matriculados_primer_curso (primíparos): Solo desde 2020 (2019 = 0)
-- snies_graduados: 2019-2024
-- Por tanto, Eficiencia Terminal: Solo calculable desde 2022+ (maestrías)
-
-INTEGRACIÓN:
-- Sigue el mismo patrón de funciones del app_streamlit.py
-- Recibe: nbc (opcional), depto (opcional), filtros (dict)
-- Funciona con o sin filtros
-- Maneja nombres de columnas correctos para cada tabla
-
-Autor: Sistema de Estudio de Contexto
-Fecha: Febrero 2025 (Actualizado)
+Nota: Este script es un cálculo independiente. El dashboard utiliza datos
+de deserción SPADIES reales vía el módulo RAG (services/rag/retrieval.py).
 """
 
 import duckdb

@@ -187,7 +187,7 @@ Estudio_Contexto_v3/
 │   ├── filters.py                # 2 subsistemas WHERE + cascada NBC (bridge COD_SNIES_PROGRAMA)
 │   ├── search.py                 # Busqueda semantica con embeddings en disco
 │   ├── transform.py              # Normalizacion de nombres SIET y canonicalizacion
-│   ├── deserción.py              # Modulo especializado SPADIES
+│   ├── desercion.py              # Script de apoyo — cálculo exploratorio de indicadores de permanencia desde SNIES
 │   ├── constants.py              # Constantes de datos
 │   ├── repositorio.duckdb        # Base de datos (703 MB, 54 esquemas, 488 tablas, Git LFS)
 │   ├── raw/                      # Archivos fuente originales sin procesar
