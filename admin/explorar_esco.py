@@ -9,7 +9,7 @@ antes de ejecutar la extraccion completa con ingestar_esco.py. Responde:
 - Como se ve una habilidad de ejemplo con todos sus metadatos
 - Que campos devuelve la API para planificar el esquema de ingestion
 
-Recuperado de UniSabana_Dev. Sin dependencias del proyecto — solo requests.
+Recuperado de Repositorio Maestro V1. Sin dependencias del proyecto — solo requests.
 """
 
 import requests

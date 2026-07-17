@@ -7,7 +7,7 @@ principales del ciclo estudiantil (inscritos, admitidos, primer curso,
 matriculados, graduados). Util para verificar que la DB contiene los
 datos esperados antes de ejecutar el dashboard.
 
-Recuperado de UniSabana_Dev. La ruta original apuntaba a repositorio_hf.duckdb
+Recuperado de Repositorio Maestro V1. La ruta original apuntaba a repositorio_hf.duckdb
 (version legacy de HuggingFace). Se actualizo al resolvedor automatico.
 """
 

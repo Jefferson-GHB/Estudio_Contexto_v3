@@ -10,8 +10,8 @@ archivo limpio, eliminando espacio muerto.
 ADVERTENCIA: Requiere acceso de escritura a la DB. Ejecutar con la app
 detenida. Si el archivo compactado no es mas pequeño, se descarta.
 
-Recuperado de UniSabana_Dev (v2 pre-refactorizacion). Las rutas absolutas
-originales apuntaban a D:\UniSabana_Dev\... — se reemplazaron por el
+Recuperado de Repositorio Maestro V1 (v2 pre-refactorizacion). Las rutas absolutas
+originales apuntaban a D:\Repositorio Maestro V1\... — se reemplazaron por el
 resolvedor automatico de config/database.py.
 """
 

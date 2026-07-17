@@ -10,7 +10,7 @@ de datos, y conteo total de registros.
 Util para validar que la DB contiene los datos esperados por cada
 componente del dashboard ANTES de ejecutar la aplicacion.
 
-Recuperado de UniSabana_Dev. Ruta absoluta original reemplazada por
+Recuperado de Repositorio Maestro V1. Ruta absoluta original reemplazada por
 el resolvedor automatico de config/database.py.
 """
 

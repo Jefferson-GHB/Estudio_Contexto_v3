@@ -8,7 +8,7 @@ y tienen las columnas esperadas. Complementa a verificar_fuentes.py
 cubriendo tablas que no estan en el flujo principal del dashboard pero
 que alimentan analisis de contexto global y territorial.
 
-Recuperado de UniSabana_Dev. Ruta absoluta original reemplazada.
+Recuperado de Repositorio Maestro V1. Ruta absoluta original reemplazada.
 """
 
 import sys, os

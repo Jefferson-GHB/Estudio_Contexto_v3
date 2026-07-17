@@ -8,7 +8,7 @@ Extrae la jerarquia desde broaderHierarchyConcept links en lugar de
 recorrer el arbol de pilares manualmente como hace la v1.
 
 Output: CSV + DuckDB tables en schema tendencias_tecnologicas.
-Recuperado de UniSabana_Dev (v2). Sin dependencias del proyecto.
+Recuperado de Repositorio Maestro V1 (v2). Sin dependencias del proyecto.
 """
 import requests
 import json

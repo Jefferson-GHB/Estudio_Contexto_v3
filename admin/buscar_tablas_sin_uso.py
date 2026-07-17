@@ -9,7 +9,7 @@ dashboard las referencia) y estima el espacio recuperable si se eliminan.
 Util como paso previo a compactar_db.py: eliminar tablas sin uso reduce
 el tamaño de la DB antes de compactar.
 
-Recuperado de UniSabana_Dev (v2). La lista hardcodeada de tablas usadas
+Recuperado de Repositorio Maestro V1 (v2). La lista hardcodeada de tablas usadas
 se reemplazo por una lectura dinamica desde el codigo fuente actual.
 """
 

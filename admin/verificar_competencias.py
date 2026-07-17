@@ -8,7 +8,7 @@ Explora:
 - Ejemplo concreto (codigo 2151) para validar el mapeo
 - Relacion NBC → ocupaciones CUOC via catalogo_curado.mapeo_nbc_cuoc
 
-Recuperado de UniSabana_Dev. Ruta absoluta original reemplazada.
+Recuperado de Repositorio Maestro V1. Ruta absoluta original reemplazada.
 """
 
 import sys, os

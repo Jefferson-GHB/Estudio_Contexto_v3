@@ -7,7 +7,7 @@ y literales de cadena que referencien tablas DuckDB. Util para auditorias
 de cobertura: identifica que tablas de la base de datos son efectivamente
 consultadas por la aplicacion, y cuales podrian ser candidatas a depuracion.
 
-Recuperado de UniSabana_Dev (v2 pre-refactorizacion). Las rutas originales
+Recuperado de Repositorio Maestro V1 (v2 pre-refactorizacion). Las rutas originales
 apuntaban a archivos del proyecto antiguo (app_streamlit.py, ml_matching.py).
 Se actualizaron para reflejar la estructura modular actual de V3.1.0.
 """

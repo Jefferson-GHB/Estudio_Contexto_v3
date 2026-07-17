@@ -10,7 +10,7 @@ Profundiza el analisis de verificar_fuentes.py enfocandose en:
 - Vacantes APE con JOIN a clasificacion CUOC
 - Indicadores Banco Mundial filtrados por Colombia
 
-Recuperado de UniSabana_Dev. Ruta absoluta original reemplazada.
+Recuperado de Repositorio Maestro V1. Ruta absoluta original reemplazada.
 """
 
 import sys, os

@@ -5,7 +5,7 @@
 -- real de la base de datos. Cada DROP corresponde a una tabla que existe en
 -- DuckDB pero no es referenciada por ninguna consulta del dashboard V3.1.0.
 --
--- Recuperado de UniSabana_Dev (v2). Contiene 448 tablas candidatas a
+-- Recuperado de Repositorio Maestro (v1). Contiene 448 tablas candidatas a
 -- eliminacion identificadas en la version legacy del repositorio. Revisar
 -- antes de ejecutar — algunas pueden ser necesarias en V3.1.0.
 --

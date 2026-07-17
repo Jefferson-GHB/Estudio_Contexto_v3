@@ -7,7 +7,7 @@ europea ESCO con su jerarquia completa, descripciones, tipos de habilidad,
 niveles de reutilizacion y conteo de ocupaciones relacionadas.
 
 Output: CSV + DuckDB tables en schema tendencias_tecnologicas.
-Recuperado de UniSabana_Dev (v2). Sin dependencias del proyecto — funciona standalone.
+Recuperado de Repositorio Maestro V1 (v2). Sin dependencias del proyecto — funciona standalone.
 """
 import requests
 import json
