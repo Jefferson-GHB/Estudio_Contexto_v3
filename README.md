@@ -27,13 +27,13 @@ pinned: false
 
 ## El problema
 
-En Colombia, segun el Sistema para la Prevencion de la Desercion de la Educacion Superior (SPADIES), la desercion universitaria constituye una señal estructural de riesgo. Cuando una institución diseña, abre o modifica un programa sin leer contexto integrado —mercado laboral, territorio, competencias, trayectorias— genera condiciones que afectan la permanencia: programas en mercados saturados, perfiles de egreso desconectados de ocupaciones reales, o modalidades inviables para la poblacion objetivo.
+En Colombia, segun el Sistema para la Prevencion de la Desercion de la Educacion Superior (SPADIES), la deserción universitaria constituye una señal estructural de riesgo. Cuando una institución diseña, abre o modifica un programa sin leer contexto integrado —mercado laboral, territorio, competencias, trayectorias— genera condiciones que afectan la permanencia: programas en mercados saturados, perfiles de egreso desconectados de ocupaciones reales, o modalidades inviables para la poblacion objetivo.
 
 ---
 
 ## Justificacion — Valor Publico
 
-Estudio Contexto democratiza el acceso a analisis de contexto educativo basados en **datos abiertos del Estado colombiano**. Es una herramienta gratuita, trazable y auditables para que directivos, comites curriculares y equipos de aseguramiento de la calidad de IES publicas y privadas tomen decisiones de oferta academica con evidencia verificable, fortaleciendo condiciones de permanencia estudiantil.
+Estudio Contexto democratiza el acceso a análisis de contexto educativo basados en **datos abiertos del Estado colombiano**. Es una herramienta gratuita, trazable y auditables para que directivos, comites curriculares y equipos de aseguramiento de la calidad de IES publicas y privadas tomen decisiones de oferta académica con evidencia verificable, fortaleciendo condiciones de permanencia estudiantil.
 
 ---
 
@@ -60,7 +60,7 @@ Estudio Contexto democratiza el acceso a analisis de contexto educativo basados 
 | 1 | NBC | Nucleo Basico del Conocimiento | SNIES |
 | 2 | Matriculados | Total matriculados 2019-2024 | SNIES |
 | 3 | Graduados | Total graduados anuales | SNIES |
-| 4 | Nivel de formacion | Pregrado / Posgrado | SNIES |
+| 4 | Nivel de formación | Pregrado / Posgrado | SNIES |
 | 5 | Modalidad | Presencial / Virtual / Distancia | SNIES |
 | 6 | Departamento oferta | Departamento del programa | SNIES |
 | 7 | Vacantes APE | Vacantes reportadas 2023-2024 | APE (datos.gov.co) |
@@ -74,16 +74,16 @@ Estudio Contexto democratiza el acceso a analisis de contexto educativo basados 
 
 ---
 
-## Tipo de analisis y modelo
+## Tipo de análisis y modelo
 
 **Tipo**: Analisis descriptivo multidimensional con scoring compuesto e IA generativa.
 
 **Modelo**: Sistema multi-componente que integra:
-- **Indicadores estadisticos**: HHI (concentracion de mercado), CAGR (tasa de crecimiento compuesta), Ratio de Absorcion Laboral
-- **Matching semantico**: `paraphrase-multilingual-MiniLM-L12-v2` (sentence-transformers, 384 dim) para cruzar programas academicos con ocupaciones CUOC y programas SIET — ~30K embeddings cacheados en disco
-- **RAG**: Recuperacion aumentada con datos de desercion SPADIES que enriquecen el contexto del LLM
-- **LLM**: Google Gemini 2.0 Flash con prompt estructurado de ~500 lineas generando informe en formato APA 7a edicion con citacion de fuentes verificables
-- **Motor de decision heuristica**: Scoring ponderado (30% academico + 40% laboral + 20% territorial + 10% global) que produce recomendacion trazable: OFERTAR / NO OFERTAR / MICROCREDENCIAL
+- **Indicadores estadísticos**: HHI (concentracion de mercado), CAGR (tasa de crecimiento compuesta), Ratio de Absorcion Laboral
+- **Matching semantico**: `paraphrase-multilingual-MiniLM-L12-v2` (sentence-transformers, 384 dim) para cruzar programas académicos con ocupaciones CUOC y programas SIET — ~30K embeddings cacheados en disco
+- **RAG**: Recuperacion aumentada con datos de deserción SPADIES que enriquecen el contexto del LLM
+- **LLM**: Google Gemini 2.0 Flash con prompt estructurado de ~500 lineas generando informe en formato APA 7a edicion con citación de fuentes verificables
+- **Motor de decisión heuristica**: Scoring ponderado (30% académico + 40% laboral + 20% territorial + 10% global) que produce recomendacion trazable: OFERTAR / NO OFERTAR / MICROCREDENCIAL
 
 ---
 
@@ -97,6 +97,7 @@ Estudio Contexto democratiza el acceso a analisis de contexto educativo basados 
 | Embeddings semanticos indexados | ~30,000 programas SNIES + SIET |
 | Fallback del LLM | 4 modelos Gemini con degradacion progresiva |
 | Validacion del puente SNIES-SIET | Umbral adaptativo de similitud por NBC (0.639-0.650) |
+| **Metricas IR (56 NBCs)** | **P@1=0.786, MRR=0.810, MAP=0.794, NDCG@10=0.813** |
 
 **Pipeline de ejecucion**: `pip install -r requirements.txt` → `python -m streamlit run app.py` → seleccionar NBC → 4 tabs con resultados en tiempo real.
 
@@ -105,8 +106,8 @@ Estudio Contexto democratiza el acceso a analisis de contexto educativo basados 
 ## Interpretacion
 
 - **Score ≥ 80 (OFERTAR)**: Condiciones favorables de mercado, empleabilidad y territorio. Baja concentracion, crecimiento positivo, vacantes activas, salarios competitivos y conectividad suficiente.
-- **Score 50-79 (OFERTAR CON AJUSTES)**: Señales mixtas. Se recomienda revisar modalidad, departamento o nivel de formacion antes de comprometer recursos.
-- **Score < 50 (REVALUAR)**: Mercado saturado o sin demanda laboral detectable. Explorar formacion complementaria de corta duracion alineada con competencias CUOC especificas.
+- **Score 50-79 (OFERTAR CON AJUSTES)**: Señales mixtas. Se recomienda revisar modalidad, departamento o nivel de formación antes de comprometer recursos.
+- **Score < 50 (REVALUAR)**: Mercado saturado o sin demanda laboral detectable. Explorar formación complementaria de corta duracion alineada con competencias CUOC especificas.
 
 La recomendacion es **trazable**: cada componente del score se desglosa con su valor numerico y fuente de datos, permitiendo auditoria completa del resultado.
 
@@ -114,9 +115,9 @@ La recomendacion es **trazable**: cada componente del score se desglosa con su v
 
 ## Impacto potencial
 
-- **Instituciones de educacion superior**: Decisiones de oferta academica basadas en evidencia integrada de mercado laboral, territorio y calidad, reduciendo el riesgo de abrir programas en mercados saturados o sin demanda laboral.
+- **Instituciones de educación superior**: Decisiones de oferta académica basadas en evidencia integrada de mercado laboral, territorio y calidad, reduciendo el riesgo de abrir programas en mercados saturados o sin demanda laboral.
 - **Entidades gubernamentales**: Modelo de referencia para estudios de pertinencia educativa con datos abiertos del Estado, reproducible y escalable a cualquier departamento o NBC.
-- **Ciudadania**: Transparencia sobre la relacion entre formacion y empleabilidad, fortaleciendo expectativas de retorno de la inversion educativa.
+- **Ciudadania**: Transparencia sobre la relación entre formación y empleabilidad, fortaleciendo expectativas de retorno de la inversion educativa.
 
 ---
 
@@ -141,13 +142,131 @@ docker run -p 7860:7860 estudio-contexto
 | Recurso | Acceso |
 |---------|--------|
 | Presentacion (PDF) | [RECURSOS/presentacion.pdf](RECURSOS/presentacion.pdf) |
-| Documentacion tecnica | [docs/tecnica/](docs/tecnica/) — Arquitectura, Datos, Metodologia, Validacion |
+| Documentacion técnica | [docs/tecnica/](docs/tecnica/) — Arquitectura, Datos, Metodologia, Validacion |
 | Repositorio GitHub | [github.com/Jefferson-GHB/Estudio_Contexto_v3](https://github.com/Jefferson-GHB/Estudio_Contexto_v3) |
 | Changelog | [Changelog.md](Changelog.md) |
 
 ---
 
-## Instalacion local
+## Estructura del repositorio
+
+```
+Estudio_Contexto_v3/
+│
+├── app.py                        # Dashboard principal (387 lineas). Delegacion a services/ y views/
+├── AGENTS.md                     # Guia para agentes de desarrollo con convenciones del proyecto
+├── Changelog.md                  # Registro cronologico de versiones y cambios
+├── LICENSE                       # MIT
+├── environment.yml               # Entorno conda con todas las dependencias
+├── requirements.txt              # Dependencias pip
+├── Dockerfile                     # Contenedor de despliegue (Python 3.13-slim, puerto 7860)
+├── .gitignore / .gitattributes   # Git LFS y exclusiones
+│
+├── views/                        # Vistas de cada sintesis evaluativa
+│   ├── tab_academico.py          # Concentracion (HHI), crecimiento (CAGR), calidad (Saber PRO)
+│   ├── tab_laboral.py            # Demanda laboral, vacantes, competencias, salarios
+│   ├── tab_territorial.py        # Conectividad, PDET, desempeno municipal
+│   ├── tab_decision.py           # Score ponderado, veredicto, informe LLM + DOCX
+│   ├── etdh.py                   # Dashboard SIET/ETDH (educación para el trabajo)
+│   └── methodology.py            # Documentacion de la metodología de scoring
+│
+├── services/                     # Logica de negocio y procesamiento
+│   ├── context.py                # Dataclass Context (52 campos compartidos entre tabs)
+│   ├── data_loader.py            # Carga centralizada pre-tab + ML matching + metricas
+│   ├── scoring.py                # HHI, CAGR, Ratio de Absorcion, Score Final
+│   ├── decision_engine.py        # Motor de recomendacion (OFERTAR / OFERTAR CON AJUSTES / REVALUAR)
+│   ├── context_builder.py        # Construccion de contexto markdown para el LLM (~500 lineas APA 7)
+│   ├── llm.py                    # Integracion Gemini 2.0 Flash con fallback de 4 modelos
+│   ├── sources.py                # Diccionario de 28 fuentes con URLs y citación APA
+│   ├── ml/                       # Matching semantico (MiniLM) + puente SNIES↔SIET via CUOC
+│   ├── rag/                      # RAG con datos de deserción SPADIES
+│   └── territorial/              # Normalizacion territorial, DNP, cluster empresarial
+│
+├── data/                         # Capa de acceso a datos
+│   ├── queries.py                # 56 consultas SQL parametrizadas (3,138 lineas)
+│   ├── filters.py                # 2 subsistemas WHERE + cascada NBC (bridge COD_SNIES_PROGRAMA)
+│   ├── search.py                 # Busqueda semantica con embeddings en disco
+│   ├── transform.py              # Normalizacion de nombres SIET y canonicalizacion
+│   ├── deserción.py              # Modulo especializado SPADIES
+│   ├── constants.py              # Constantes de datos
+│   ├── repositorio.duckdb        # Base de datos (703 MB, 54 esquemas, 488 tablas, Git LFS)
+│   ├── raw/                      # Archivos fuente originales sin procesar
+│   ├── external/                 # Datos auxiliares externos
+│   └── processed/                # Datos procesados intermedios
+│
+├── components/                   # Componentes reutilizables de UI
+│   ├── sidebar.py                # Panel de filtros con busqueda inteligente y cascada
+│   └── display.py                # Componentes de visualización (section_header, etc.)
+│
+├── config/                       # Configuracion del sistema
+│   ├── database.py               # Conexion DuckDB read-only + auto-deteccion de ruta
+│   ├── styles.py                 # CSS personalizado, loading overlay, insight cards
+│   └── constants.py              # Constantes compartidas (TEMPLATE_COLORS, etc.)
+│
+├── visualizations/               # Graficos Plotly reutilizables
+│   └── charts.py                 # Gauges (HHI, Saber PRO, Score), distribuciones, heatmaps
+│
+├── utils/                        # Utilidades transversales
+│   ├── auth.py                   # Autenticacion SHA-256 (st.secrets en prod)
+│   ├── helpers.py                # Descarga de datos de gráficos, utilidades
+│   └── reporte_docx.py           # Generador de informe Word con portada y marca de agua
+│
+├── admin/                        # ~25 scripts de ETL, auditoria, evaluación y diagnostico
+│   ├── ingestar_snies.py         # Ingesta XLSX del portal SNIES
+│   ├── ingestar_socrata.py       # Ingesta via API Socrata (datos.gov.co)
+│   ├── ingestar_ape.py           # Ingesta APE/SENA (vacantes)
+│   ├── ingestar_internacional.py # Ingesta Banco Mundial, OECD, UNESCO, ILO
+│   ├── ingestar_territorial.py   # Ingesta DNP, MinTIC, DIVIPOLA, conectividad
+│   ├── ingestar_catalogos.py     # Ingesta de 7 catalogos de mapeo (CSV → DuckDB)
+│   ├── ingestar_mapeo_variables.py # Ingesta del mapeo de 114 variables
+│   ├── auditar_catalogos.py      # Auditoria de consistencia entre catalogos y fuentes
+│   ├── auditar_mapeo_variables.py # Verificacion de esquemas, tablas y columnas
+│   ├── evaluacion/               # Suite de evaluacion del modelo ML
+│   │   ├── evaluar_modelo.py     # Metricas IR (P@K, MRR, MAP, NDCG) sobre 56 NBCs
+│   │   ├── benchmark_modelos.py  # Comparativa de modelos de embedding
+│   │   ├── generar_graficos.py   # Generacion de graficos desde JSON de resultados
+│   │   └── resultados/           # JSON + graficos de evaluacion automatica
+│   └── ...                       # ~12 scripts adicionales (diagnostico, grid search)
+│
+├── catalogo/                     # ~20 archivos CSV/JSON de catalogos y mapeos normalizados
+│   ├── MAPEO_DSS_OFICIAL.csv     # Mapeo de 114 variables a esquemas/tablas/columnas
+│   ├── CATALOGO_NBC_SNIES.csv    # NBCs con campos CINE-F y áreas de conocimiento
+│   ├── MAPEO_CUOC_CIIU.csv       # Mapeo ocupaciones ↔ sectores economicos
+│   ├── cruces_verificados.json   # 63 cruces SQL validados entre tablas
+│   └── ... (+15 CSVs de mapeo entre clasificadores)
+│
+├── pipelines/                    # Orquestadores de flujos de datos
+│   ├── pipeline_etl.py           # Orquestador de ingestion (--solo, --dry-run)
+│   └── pipeline_ml.py            # Pipeline de matching semantico y entrenamiento
+│
+├── tests/                        # Pruebas automatizadas
+│   └── test_queries.py           # 50 tests de integracion contra DuckDB real (666 lineas)
+│
+├── docs/                         # Documentacion del proyecto
+│   ├── técnica/                  # 9 documentos técnicos (evaluación concurso)
+│   │   ├── 01_arquitectura.md    # Diagrama de 4 capas + stack
+│   │   ├── 02_diccionario_datos.md # 114 variables en 4 ejes y 9 dominios
+│   │   ├── 03_planteamiento_problema.md
+│   │   ├── 04_marco_metodologico.md # CRISP-ML fase por fase
+│   │   ├── 05_fuentes_datos.md   # Trazabilidad de 54 esquemas
+│   │   ├── 06_conclusiones.md    # Hallazgos, limitaciones, próximos pasos
+│   │   ├── 07_guia_validacion.md # Como ejecutar tests y validar resultados
+│   │   ├── 08_validacion_componentes_ia.md # Metricas reales de IA
+│   │   └── estado_ingesta.md     # Clasificacion A/B/C por método de regeneracion
+│   └── compose/                  # Documentacion interna de desarrollo
+│
+├── RECURSOS/                     # Material visual del proyecto
+│   └── ...                       # Presentacion (PDF/PPTX), portada
+│
+├── reports/                      # Resultados visibles
+│   └── figures/                  # Capturas del dashboard + graficos de evaluacion ML
+│
+├── models/                       # Artefactos de modelos (referencia)
+├── notebooks/                    # Documentacion del flujo analitico equivalente
+└── src/                          # Re-exportaciones del paquete services
+```
+
+
 
 ```bash
 git clone https://github.com/Jefferson-GHB/Estudio_Contexto_v3.git
@@ -164,15 +283,15 @@ python -m streamlit run app.py
 
 | Integrante | Rol |
 |-----------|-----|
-| **Jefferson Cuastusa** | Lider tecnico BI, modelado de datos, ETL, visualizacion. Ingeniero de Sistemas. |
-| **Ximena Molano** | Especialista en educacion superior, calidad, evaluacion curricular. Economista. |
-| **Claudia Milena Munoz** | Lider academica y de aseguramiento de la calidad. Ingeniera Industrial, Mg. y candidata a Dra. en Educacion. |
+| **Jefferson Cuastusa** | Lider técnico BI, modelado de datos, ETL, visualización. Ingeniero de Sistemas. |
+| **Ximena Molano** | Especialista en educación superior, calidad, evaluación curricular. Economista. |
+| **Claudia Milena Muñoz** | Lider académica y de aseguramiento de la calidad. Ingeniera Industrial, Mg. y candidata a Dra. en Educacion. |
 
 ---
 
 ## Metodologia
 
-CRISP-ML (Cross-Industry Standard Process for Machine Learning) adaptado al dominio educativo: comprension del problema → comprension de datos → preparacion ETL → modelado de indicadores → evaluacion (50 tests automatizados) → despliegue (Docker + HuggingFace Spaces).
+CRISP-ML (Cross-Industry Standard Process for Machine Learning) adaptado al dominio educativo: comprension del problema → comprension de datos → preparacion ETL → modelado de indicadores → evaluación (50 tests automatizados) → despliegue (Docker + HuggingFace Spaces).
 
 ---
 

@@ -13,10 +13,10 @@ Los embeddings semanticos (MiniLM 384d) se cachean en disco:
 - **Busqueda semantica**: `paraphrase-multilingual-MiniLM-L12-v2` (384 dimensiones) via `sentence-transformers`
 - **Generacion LLM**: Google Gemini 2.0 Flash via API (modelo externo, no local)
 
-## Motor de decision
+## Motor de decisión
 
-`services/decision_engine.py` — Scoring ponderado (30% academica, 40% laboral, 20% territorial, 10% global) con 6 tipos de oferta educativa.
+`services/decision_engine.py` — Scoring ponderado (30% académica, 40% laboral, 20% territorial, 10% global) con 6 tipos de oferta educativa.
 
 ## Nota
 
-El sistema no entrena modelos supervisados desde cero. Utiliza modelos pre-entrenados para busqueda semantica y un LLM externo para generacion de informes. La ruta de evolucion hacia modelado predictivo supervisado de desercion esta documentada en `docs/tecnica/06_conclusiones.md` (seccion 3.2).
+El sistema no entrena modelos supervisados desde cero. Utiliza modelos pre-entrenados para busqueda semantica y un LLM externo para generación de informes. La ruta de evolucion hacia modelado predictivo supervisado de deserción esta documentada en `docs/tecnica/06_conclusiones.md` (seccion 3.2).

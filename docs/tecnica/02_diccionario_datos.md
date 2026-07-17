@@ -1,18 +1,18 @@
 # Diccionario de Datos
 
-Definicion de las variables del modelo analitico DSS (Decision Support System), organizadas por ejes de pertinencia y dominios funcionales. Cada variable se documenta con su ubicacion exacta en el repositorio DuckDB (esquema, tabla, columna) y su funcion en el sistema.
+Definicion de las variables del modelo analitico de pertinencia educativa, organizadas por ejes de pertinencia y dominios funcionales. Cada variable se documenta con su ubicación exacta en el repositorio DuckDB (esquema, tabla, columna) y su funcion en el sistema.
 
-**Fuente de verdad:** `catalogo/MAPEO_DSS_OFICIAL.csv` (114 variables, 11 columnas de metadatos, 54 esquemas DuckDB unicos)
+**Fuente de verdad:** `catalogo/MAPEO_DSS_OFICIAL.csv` (114 variables, 11 columnas de metadatos, 54 esquemas DuckDB únicos)
 
 ---
 
 ## 1. Estructura del Modelo de Datos
 
-El modelo DSS organiza las variables en **4 ejes de pertinencia** y **9 dominios funcionales**:
+El modelo analitico organiza las variables en **4 ejes de pertinencia** y **9 dominios funcionales**:
 
 | Eje | Codigo | Dominios | Variables | Descripcion |
 |:----|:-------|:---------|:----------|:------------|
-| Pertinencia Academica | EJE_1 | D1, D2, D3 | 41 | Oferta educativa, instituciones, programas, matricula, graduados |
+| Pertinencia Academica | EJE_1 | D1, D2, D3 | 41 | Oferta educativa, instituciones, programas, matrícula, graduados |
 | Pertinencia Laboral | EJE_2 | D4, D5 | 36 | Ocupaciones CUOC, competencias, vacantes APE, salarios, sectores CIIU |
 | Pertinencia Territorial | EJE_3 | D6 | 14 | Departamento, municipio, conectividad, cobertura, PDET, desempeño municipal |
 | Pertinencia Global | EJE_4 | D7 | 23 | Indicadores internacionales, tendencias tecnologicas, IA, EdTech, microcredenciales |
@@ -21,7 +21,7 @@ El modelo DSS organiza las variables en **4 ejes de pertinencia** y **9 dominios
 
 | Dominio | Codigo | Eje | Descripcion |
 |:--------|:-------|:----|:------------|
-| Academico Formativo | D1 | EJE_1 | Caracteristicas de programas academicos: NBC, nivel, modalidad, creditos |
+| Academico Formativo | D1 | EJE_1 | Caracteristicas de programas académicos: NBC, nivel, modalidad, créditos |
 | Normativo Institucional | D2 | EJE_1 | Datos institucionales: IES, sector, acreditacion, registro calificado |
 | Oferta Comparada | D3 | EJE_1 | Matriculados, graduados, admitidos, costos, comparativas SNIES/SIET |
 | Ocupacional Laboral | D4 | EJE_2 | Ocupaciones CUOC, vacantes APE, colocados, sectores CIIU, salarios |
@@ -35,8 +35,8 @@ Estos catalogos normalizan las variables y habilitan los cruces entre dominios:
 
 | Clasificador | Schema DuckDB | Tabla principal | Registros | Proposito |
 |:-------------|:--------------|:----------------|:----------|:----------|
-| NBC | `educacion` | `nbc_nucleos_basicos_conocimiento` | 54 | Llave principal de cruce entre SNIES, matriculados, CUOC |
-| CINE-F | `clasificadores` | `cine_f` | 10,431 | Clasificacion internacional de campos de educacion UNESCO 2013 |
+| NBC | `educación` | `nbc_nucleos_basicos_conocimiento` | 54 | Llave principal de cruce entre SNIES, matriculados, CUOC |
+| CINE-F | `clasificadores` | `cine_f` | 10,431 | Clasificacion internacional de campos de educación UNESCO 2013 |
 | CUOC 2025 | `clasificadores` | `cuoc` | 14,462 | Clasificacion Unica de Ocupaciones para Colombia |
 | CIIU Rev.4 | `clasificadores` | `ciiu_rev4` | 700 | Clasificacion Industrial Internacional Uniforme |
 | MNC | `catalogo_curado` | `cualificaciones_men` | 396 | Marco Nacional de Cualificaciones |
@@ -56,10 +56,10 @@ Estos catalogos normalizan las variables y habilitan los cruces entre dominios:
 | `nbc` | Nucleo Basico del Conocimiento | `snies` | `snies_programas` | `NUCLEO_BASICO_DEL_CONOCIMIENTO` | LLAVE_PRINCIPAL |
 | `codigo_snies` | Codigo SNIES del programa | `snies` | `snies_programas` | `CODIGO_SNIES_DEL_PROGRAMA` | LLAVE_PRINCIPAL |
 | `programa_nombre` | Nombre del programa | `snies` | `snies_programas` | `NOMBRE_DEL_PROGRAMA` | DATO |
-| `nivel_formacion` | Nivel de formacion | `snies` | `snies_programas` | `NIVEL_DE_FORMACION` | CLASIFICADOR |
-| `modalidad` | Modalidad de formacion | `snies` | `snies_programas` | `MODALIDAD` | CLASIFICADOR |
-| `creditos` | Numero de creditos | `snies` | `snies_programas` | `NUMERO_CREDITOS` | DATO |
-| `duracion_periodos` | Duracion en periodos | `snies` | `snies_programas` | `NUMERO_PERIODOS_DE_DURACION` | DATO |
+| `nivel_formacion` | Nivel de formación | `snies` | `snies_programas` | `NIVEL_DE_FORMACION` | CLASIFICADOR |
+| `modalidad` | Modalidad de formación | `snies` | `snies_programas` | `MODALIDAD` | CLASIFICADOR |
+| `créditos` | Numero de créditos | `snies` | `snies_programas` | `NUMERO_CREDITOS` | DATO |
+| `duracion_periodos` | Duracion en períodos | `snies` | `snies_programas` | `NUMERO_PERIODOS_DE_DURACION` | DATO |
 | `periodicidad` | Periodicidad | `snies` | `snies_programas` | `PERIODICIDAD` | DATO |
 | `ciclos_propedeuticos` | Ciclos propedeuticos | `snies` | `snies_programas` | `SE_OFRECE_POR_CICLOS_PROPEDEUT` | DATO |
 | `campo_amplio` | Campo amplio CINE-F | `catalogo_curado` | `catalogo_nbc_snies` | `CINE_Campo_Amplio` | CLASIFICADOR |
@@ -67,7 +67,7 @@ Estos catalogos normalizan las variables y habilitan los cruces entre dominios:
 | `campo_amplio_cinef` | Campo Amplio CINE-F (SNIES) | `snies` | `snies_programas` | `CINE_F_2013_AC_CAMPO_AMPLIO` | CLASIFICADOR_FILTRO |
 | `campo_especifico_cinef` | Campo Especifico CINE-F | `snies` | `snies_programas` | `CINE_F_2013_AC_CAMPO_ESPECIFIC` | CLASIFICADOR |
 | `campo_detallado_cinef` | Campo Detallado CINE-F | `snies` | `snies_programas` | `CINE_F_2013_AC_CAMPO_DETALLADO` | CLASIFICADOR |
-| `programa_siet` | Programa tecnico laboral (SIET) | `siet` | `siet_programas` | `Nombre Programa` | DATO |
+| `programa_siet` | Programa técnico laboral (SIET) | `siet` | `siet_programas` | `Nombre Programa` | DATO |
 | `duracion_horas_siet` | Duracion en horas (SIET) | `siet` | `siet_programas` | `Duracion Horas` | DATO |
 | `area_desempeno_siet` | Area de desempeno (SIET) | `siet` | `siet_programas` | `Area de Desempeno` | CLASIFICADOR |
 
@@ -86,7 +86,7 @@ Estos catalogos normalizan las variables y habilitan los cruces entre dominios:
 |:------------|:-------|:-------|:------|:-------|
 | `codigo_institucion` | Codigo de la institucion | `snies` | `snies_programas` | `CODIGO_INSTITUCION` |
 | `nombre_institucion` | Nombre de la institucion | `snies` | `snies_programas` | `NOMBRE_INSTITUCION` |
-| `caracter_academico` | Caracter academico IES | `snies` | `snies_programas` | `CARACTER_ACADEMICO` |
+| `caracter_academico` | Caracter académico IES | `snies` | `snies_programas` | `CARACTER_ACADEMICO` |
 | `sector` | Sector (publico/privado) | `snies` | `snies_programas` | `SECTOR` |
 | `estado_programa` | Estado del programa | `snies` | `snies_programas` | `ESTADO_PROGRAMA` |
 | `vigencia_anos` | Vigencia registro (anos) | `snies` | `snies_programas` | `VIGENCIA_ANOS` |
@@ -102,7 +102,7 @@ Estos catalogos normalizan las variables y habilitan los cruces entre dominios:
 |:------------|:-------|:-------|:------|:-------|:-----|
 | `departamento_programa` | Departamento del programa | `snies` | `snies_programas` | `DEPARTAMENTO_OFERTA_PROGRAMA` | LLAVE_CRUCE |
 | `municipio_programa` | Municipio del programa | `snies` | `snies_programas` | `MUNICIPIO_OFERTA_PROGRAMA` | DATO |
-| `costo_matricula` | Costo matricula estudiantes nuevos | `snies` | `snies_programas` | `COSTO_MATRICULA_ESTUD_NUEVOS` | DATO |
+| `costo_matricula` | Costo matrícula estudiantes nuevos | `snies` | `snies_programas` | `COSTO_MATRICULA_ESTUD_NUEVOS` | DATO |
 | `titulo_otorgado` | Titulo otorgado | `snies` | `snies_programas` | `TITULO_OTORGADO` | DATO |
 | `graduados` | Numero de graduados | `snies` | `snies_graduados` | `GRADUADOS` | INDICADOR |
 | `graduados_depto` | Departamento graduados | `snies` | `snies_graduados` | `DEPTO_PROGRAMA` | FILTRO |
@@ -144,7 +144,7 @@ Estos catalogos normalizan las variables y habilitan los cruces entre dominios:
 | `colocados_historico` | Colocados Historicos Anuales | `tendencias_laborales` | * | * |
 | `inscritos_historico` | Inscritos Historicos Anuales | `tendencias_laborales` | * | * |
 
-> **Nota:** Las tablas historicas de tendencias laborales (`colocados_ape_*`, `inscritos_ape_*`, `vacantes_ape_*`) tienen esquemas variables por periodo. Para consultas analiticas se recomienda usar la funcion `get_tendencia_laboral_nbc()` que normaliza estas diferencias. La tabla `vacantes_ape_clean` contiene la version consolidada con columnas estandarizadas.
+> **Nota:** Las tablas historicas de tendencias laborales (`colocados_ape_*`, `inscritos_ape_*`, `vacantes_ape_*`) tienen esquemas variables por período. Para consultas analiticas se recomienda usar la funcion `get_tendencia_laboral_nbc()` que normaliza estas diferencias. La tabla `vacantes_ape_clean` contiene la version consolidada con columnas estandarizadas.
 
 #### D5: Competencias (4 variables)
 
@@ -182,7 +182,7 @@ Estos catalogos normalizan las variables y habilitan los cruces entre dominios:
 
 ### 2.4 Eje 4 — Pertinencia Global
 
-#### D7: Global (23 variables) — [BD: Datos disponibles en DuckDB, no renderizados activamente en la version actual del dashboard. Utilizados para analisis comparativo via consulta directa.]
+#### D7: Global (23 variables) — [BD: Datos disponibles en DuckDB, no renderizados activamente en la version actual del dashboard. Utilizados para análisis comparativo via consulta directa.]
 
 | ID Variable | Nombre | Schema | Tabla | Columna | Fuente |
 |:------------|:-------|:-------|:------|:-------|:-------|
@@ -214,11 +214,11 @@ Estos catalogos normalizan las variables y habilitan los cruces entre dominios:
 
 ## 3. Motor de Decision
 
-El motor de decision (`services/decision_engine.py`) pondera las cuatro sintesis evaluativas y produce una recomendacion entre seis tipos de oferta educativa:
+El motor de decisión (`services/decision_engine.py`) pondera las cuatro sintesis evaluativas y produce una recomendacion entre seis tipos de oferta educativa:
 
-| Sintesis | Peso en decision | Indicadores principales |
+| Sintesis | Peso en decisión | Indicadores principales |
 |:---------|:-----------------|:------------------------|
-| Academica | 30% | HHI (concentracion de mercado), CAGR (crecimiento matricula), Saber PRO, desercion |
+| Academica | 30% | HHI (concentracion de mercado), CAGR (crecimiento matrícula), Saber PRO, deserción |
 | Laboral | 40% | Vacantes APE, ratio de absorcion, señal salarial, densidad de competencias, puente SNIES-SIET |
 | Territorial | 20% | Conectividad (internet fijo, cobertura 4G), desempeño municipal DNP, municipios PDET |
 | Global | 10% | Tendencias IA, EdTech, industria 4.0, indicadores OCDE/UNESCO |
@@ -228,8 +228,8 @@ El motor de decision (`services/decision_engine.py`) pondera las cuatro sintesis
 | Tipo | Condiciones |
 |:-----|:------------|
 | Programa formal completo | Academica y laboral favorables, territorio con acceso |
-| Microcredenciales | Alta demanda laboral, saturacion academica |
-| Formacion continua (ciclo corto) | Alta demanda laboral, saturacion academica |
+| Microcredenciales | Alta demanda laboral, saturacion académica |
+| Formacion continua (ciclo corto) | Alta demanda laboral, saturacion académica |
 | Ruta formativa flexible (virtual/hibrida) | Restricciones territoriales de conectividad |
 | Programa con condiciones | Mixto: algunas sintesis desfavorables |
 | No ofertar | Evidencia insuficiente o condiciones adversas en todas las sintesis |

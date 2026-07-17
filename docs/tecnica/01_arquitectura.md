@@ -12,7 +12,7 @@ Diagrama de arquitectura, flujo de datos, integracion de fuentes y stack tecnolo
 |  +--------------------------+  +-------------------+  +------------------+ |
 |  | Busqueda Semantica       |  | RAG Estructurado  |  | Generacion LLM    | |
 |  | MiniLM 384d (sentence-   |  | (EducacionRAG)    |  | Gemini 2.0 Flash  | |
-|  | -transformers)           |  | Recuperacion      |  | Informe academico | |
+|  | -transformers)           |  | Recuperacion      |  | Informe académico | |
 |  | Matching SNIES-CUOC-SIET |  | aumentada desde   |  | APA 7a edicion    | |
 |  | Cache 2 niveles (memoria |  | DuckDB + SPADIES  |  |                   | |
 |  | + disco)                 |  |                    |  |                   | |
@@ -78,13 +78,12 @@ Diagrama de arquitectura, flujo de datos, integracion de fuentes y stack tecnolo
 |:-----|:-----------|:--------|:----|
 | **Frontend** | Streamlit | 1.42 | Dashboard interactivo con 4 pestanas de sintesis evaluativa |
 | **Base de datos** | DuckDB | 1.5 | 703 MB, lectura exclusiva, 54 esquemas, 488 tablas normalizadas |
-| **ML / NLP** | sentence-transformers (MiniLM) | 2.2+ | Matching semantico programas academicos ↔ ocupaciones CUOC ↔ competencias |
-| **LLM** | Google Gemini 2.0 Flash | via API | Generacion de informe academico con formato APA 7a edicion, citacion de fuentes |
-| **RAG** | EducacionRAG (`services/rag/retrieval.py`) | — | Recuperacion aumentada con datos de desercion, Saber PRO y transito desde DuckDB |
+| **ML / NLP** | sentence-transformers (MiniLM) | 2.2+ | Matching semantico programas académicos ↔ ocupaciones CUOC ↔ competencias |
+| **LLM** | Google Gemini 2.0 Flash | via API | Generacion de informe académico con formato APA 7a edicion, citación de fuentes |
+| **RAG** | EducacionRAG (`services/rag/retrieval.py`) | — | Recuperacion aumentada con datos de deserción, Saber PRO y transito desde DuckDB |
 | **Visualizacion** | Plotly | 6.0+ | Graficos interactivos (gauges, lineas, distribucion), template global personalizado |
 | **Reportes** | python-docx | 1.0+ | Documento Word profesional con portada y marca de agua |
 | **Deploy** | Docker + HuggingFace Spaces | Python 3.13-slim | Puerto 7860, Git LFS para archivos > 100 MB |
-| **API** | FastAPI | — | Prototipo arquitectonico (`api/`), 81 variables, 5 ejes, 8 dominios, documentacion interactiva |
 
 ---
 
@@ -101,7 +100,7 @@ Diagrama de arquitectura, flujo de datos, integracion de fuentes y stack tecnolo
 | Area ─────────┤  |     | → DuckDB          |     |                   |
 | NBC ──────────┘  |     | → DataFrame       |     | 4 sintesis        |
 | Departamento ──► | ==> | → Indicadores     | ==> | evaluativas       |
-| Municipio        |     | → Scores          |     | con graficos      |
+| Municipio        |     | → Scores          |     | con gráficos      |
 | Modalidad        |     | → Motor Decision  |     | Plotly, tablas    |
 | Sector           |     |                   |     | y gauges          |
 | Nivel            |     |                   |     |                   |
@@ -149,7 +148,7 @@ Diagrama de arquitectura, flujo de datos, integracion de fuentes y stack tecnolo
 
 **Puente SNIES ↔ SIET:**
 
-El modelo de lenguaje identifica correspondencias entre educacion superior formal (SNIES) y educacion para el trabajo (SIET) a partir del significado de los textos, no de coincidencias literales. Esto permite que el analisis de pertinencia de un programa universitario se enriquezca con señales del ecosistema de formacion para el trabajo, revelando complementariedades que los datos estructurados no harian visibles.
+El modelo de lenguaje identifica correspondencias entre educación superior formal (SNIES) y educación para el trabajo (SIET) a partir del significado de los textos, no de coincidencias literales. Esto permite que el análisis de pertinencia de un programa universitario se enriquezca con señales del ecosistema de formación para el trabajo, revelando complementariedades que los datos estructurados no harian visibles.
 
 **Matching SNIES → CUOC:**
 
@@ -160,7 +159,7 @@ El sistema asocia un NBC con ocupaciones CUOC y sus competencias (conocimientos,
 | Aspecto | Detalle |
 |:--------|:--------|
 | Clase | `EducacionRAG` (`services/rag/retrieval.py`) |
-| Fuente de contexto | DuckDB (datos de desercion SPADIES, Saber PRO, transito inmediato, cobertura) |
+| Fuente de contexto | DuckDB (datos de deserción SPADIES, Saber PRO, transito inmediato, cobertura) |
 | Metodo | `augment_context(nbc_codigo, departamento, contexto, filtros_activos)` |
 | Integracion | `app.py:84-90` — enriquece el contexto antes de enviarlo al LLM |
 | Disponibilidad | Condicional: `RAG_AVAILABLE` (requiere `google-generativeai`) |
@@ -171,7 +170,7 @@ El sistema asocia un NBC con ocupaciones CUOC y sus competencias (conocimientos,
 |:--------|:--------|
 | Modelo | Google Gemini 2.0 Flash (fallback: 2.5 Flash, flash-latest, flash-lite) |
 | API Key | `GEMINIAPIKEY` o `GOOGLEAPIKEY` (variables de entorno) |
-| Prompt | System prompt de 58 lineas en `app.py:103-160` con perfil de investigador senior, reglas de citacion LaTeX, estructura de 7 secciones |
+| Prompt | System prompt de 58 lineas en `app.py:103-160` con perfil de investigador senior, reglas de citación LaTeX, estructura de 7 secciones |
 | Output | Informe en Markdown con LaTeX para formulas, tablas profesionales, veredicto y hoja de ruta |
 | Citacion | Catalogo de 15 fuentes oficiales con formato `(FUENTE - Periodo)` |
 | Ubicacion | `app.py:72-220` (funcion `analizar_con_llm`) y `services/llm.py` (429 lineas, 1 funcion) |
@@ -230,34 +229,22 @@ Las tablas de matriculados, graduados, inscritos y admitidos no contienen todas 
 
 - URL: `https://jeffersonca-estudio-contexto.hf.space/`
 - Repositorio: `https://github.com/Jefferson-GHB/Estudio_Contexto_v3`
-- Autenticacion: SHA-256 via `st.secrets` (produccion) con fallback `admin` / `EstudioContexto2026!` (desarrollo)
+- Autenticacion: SHA-256 via `st.secrets` (producción) con fallback `admin` / `EstudioContexto2026!` (desarrollo)
 - Variables de entorno: `GEMINIAPIKEY`, `GITHUB_TOKEN`, `HUGGINGFACE_TOKEN`, `DUCKDB_PATH`
 
 ---
 
 ## 7. Modulos Condicionales
 
-El unico modulo condicional en `app.py:37-41` es el sistema RAG:
+El único módulo condicional en `app.py:37-41` es el sistema RAG:
 
 | Flag | Modulo | Dependencia | Funcion |
 |:-----|:-------|:------------|:--------|
 | `RAG_AVAILABLE` | `services/rag/retrieval.py` (`EducacionRAG`) | `google-generativeai` | Recuperacion aumentada de contexto |
 
-Los modulos de matching semantico (`services/ml/matching.py`, `services/ml/snies_etdh.py`) y territorial (`services/territorial/`) son cargados bajo demanda por `services/data_loader.py` (259 lineas, funcion `cargar_datos_base()`), que centraliza toda la carga de datos de las 4 sintesis evaluativas.
+Los módulos de matching semantico (`services/ml/matching.py`, `services/ml/snies_etdh.py`) y territorial (`services/territorial/`) son cargados bajo demanda por `services/data_loader.py` (259 lineas, funcion `cargar_datos_base()`), que centraliza toda la carga de datos de las 4 sintesis evaluativas.
 
 ---
-
-## 8. API Backend (Prototipo)
-
-| Aspecto | Detalle |
-|:--------|:--------|
-| Framework | FastAPI (`api/main.py`) |
-| Estado | Prototipo arquitectonico — no integrado al dashboard, no desplegable |
-| Valor | Modelado conceptual de 81 variables en 5 ejes y 8 dominios |
-| Endpoints | `api/routes.py`: 5 grupos funcionales (estado del sistema, exploracion de variables, recuperacion de datos, generacion de contexto, tendencias) |
-| Esquemas | `api/schemas.py` — validacion de datos con Pydantic |
-| Motor | `api/engine.py` — construccion dinamica de consultas (no predefinidas) |
-| Fuente de verdad | `catalogo/MAPEO_DSS_OFICIAL.csv` (114 variables mapeadas) |
 
 ---
 
@@ -283,19 +270,19 @@ Estudio_Contexto_v3/
 │   ├── filters.py                # Constructor de clausulas WHERE + cascada NBC
 │   ├── search.py                 # Busqueda semantica con embeddings en disco
 │   ├── transform.py              # Transformacion de datos
-│   ├── desercion.py              # Modulo especializado SPADIES
+│   ├── deserción.py              # Modulo especializado SPADIES
 │   └── constants.py              # Constantes de datos
 │
 ├── components/
 │   ├── sidebar.py                # Sidebar con busqueda inteligente y filtros cascada
-│   └── display.py                # Utilidades de visualizacion (section headers)
+│   └── display.py                # Utilidades de visualización (section headers)
 │
 ├── services/
 │   ├── ml/
 │   │   ├── matching.py           # Matching semantico (MiniLM)
 │   │   └── snies_etdh.py         # Puente SNIES ↔ SIET (pipeline v2)
 │   ├── rag/
-│   │   └── retrieval.py          # EducacionRAG (recuperacion aumentada)
+│   │   └── retrieval.py          # EducacionRAG (recuperación aumentada)
 │   ├── llm.py                    # Integracion Google Gemini
 │   ├── scoring.py                # Indicadores: HHI, CAGR, Ratio Absorcion
 │   ├── decision_engine.py        # Motor de recomendacion (6 tipos de oferta)
@@ -312,32 +299,29 @@ Estudio_Contexto_v3/
 │   ├── tab_territorial.py        # Sintesis Territorial
 │   ├── tab_decision.py           # Decision Final
 │   ├── etdh.py                   # Dashboard ETDH
-│   └── methodology.py            # Vista de metodologia
+│   └── methodology.py            # Vista de metodología
 │
 ├── visualizations/
 │   └── charts.py                 # Gauges Plotly (HHI, Saber PRO, Score)
 │
 ├── utils/
 │   ├── auth.py                   # Autenticacion SHA-256
-│   ├── helpers.py                # Utilidades (descarga de datos de graficos)
+│   ├── helpers.py                # Utilidades (descarga de datos de gráficos)
 │   └── reporte_docx.py           # Generador de informe Word profesional
-│
-├── api/                          # Prototipo FastAPI (no integrado)
-│   ├── main.py, routes.py, schemas.py, engine.py, config.py
 │
 ├── catalogo/                     # 26 archivos CSV/JSON de mapeo (SNIES, CUOC, SIET, MEN)
 │
 ├── services/cache_data/           # Embeddings cacheados en disco (180+ archivos .pkl)
 │
-├── admin/                        # Scripts de auditoria, evaluacion e ingestion
-│   ├── ingestar_mapeo_dss.py, auditar_mapeo_dss.py, benchmark_modelos.py, ...
+├── admin/                        # Scripts de auditoria, evaluación e ingestion
+│   ├── ingestar_mapeo_variables.py, auditar_mapeo_variables.py, benchmark_modelos.py, ...
 │
 ├── tests/
 │   └── test_queries.py           # 50 tests de integracion contra DuckDB real (666 lineas)
 │
 ├── docs/
 │   ├── compose/                  # Documentacion interna de desarrollo
-│   └── tecnica/                  # Documentacion tecnica para evaluacion
+│   └── técnica/                  # Documentacion técnica para evaluación
 ```
 
 ---

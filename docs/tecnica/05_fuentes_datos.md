@@ -1,6 +1,6 @@
 # Fuentes de Datos
 
-Documento de trazabilidad de todas las fuentes de datos integradas en el repositorio analitico. Cada fuente se documenta con su entidad de origen, URL de descarga, periodo de los datos, esquema y tablas asociadas en DuckDB, y evidencia de su procedencia.
+Documento de trazabilidad de todas las fuentes de datos integradas en el repositorio analitico. Cada fuente se documenta con su entidad de origen, URL de descarga, período de los datos, esquema y tablas asociadas en DuckDB, y evidencia de su procedencia.
 
 ---
 
@@ -13,7 +13,7 @@ El repositorio DuckDB (`data/repositorio.duckdb`, 703 MB, lectura exclusiva) int
 | A | Portal datos.gov.co (Socrata API) | `datos_gov_co`, `dane_socrata`, `conectividad`, `men_estadisticas`, `estadisticas_es`, `empleo_publico`, `dane`, `dane_estadisticas`, `dane_indicadores`, `competencias`, `sena`, `sena_formacion`, `mintic`, `dnp`, `dnp_planes_desarrollo`, `cultura`, `mipymes_estructura_empresarial`, `rues_camaras_comercio`, `datos_complementarios` | ~188 | URLs documentadas en `services/sources.py`, schemas con nombre explicito `datos_gov_co` y `dane_socrata` |
 | B | Descarga directa portales MEN/ICFES | `snies`, `siet`, `icfes_saber`, `men` | 18 | Columna `archivo_fuente` en tablas SNIES con nombres de archivo XLSX, URLs documentadas en `services/sources.py` |
 | C | Fuentes internacionales | `banco_mundial`, `banco_mundial_internacional`, `indicadores_globales`, `ilo_internacional`, `oecd_internacional`, `unesco_internacional`, `esco` | 60 | URLs propias de cada organismo internacional en `services/sources.py` |
-| D | Catalogos curados (elaboracion propia) | `catalogo_curado`, `clasificadores`, `cuoc`, `educacion`, `microcredenciales`, `tendencias_tecnologicas`, `tendencias_laborales`, `vss`, `ref`, `inventarios`, `_diccionarios`, `divipola`, `territorial`, `inteligente`, `programas_ies`, `entidades`, `empresas`, `empleadores`, `mercado_laboral`, `servicio_publico_empleo`, `laboral`, `ole`, `poblacion` | ~200 | Construidos a partir de fuentes oficiales. Mapeos NBC-CUOC, CINE-F, CIIU, MNC, DIVIPOLA verificados contra fuentes originales |
+| D | Catalogos curados (elaboración propia) | `catalogo_curado`, `clasificadores`, `cuoc`, `educación`, `microcredenciales`, `tendencias_tecnologicas`, `tendencias_laborales`, `vss`, `ref`, `inventarios`, `_diccionarios`, `divipola`, `territorial`, `inteligente`, `programas_ies`, `entidades`, `empresas`, `empleadores`, `mercado_laboral`, `servicio_publico_empleo`, `laboral`, `ole`, `poblacion` | ~200 | Construidos a partir de fuentes oficiales. Mapeos NBC-CUOC, CINE-F, CIIU, MNC, DIVIPOLA verificados contra fuentes originales |
 
 ---
 
@@ -60,8 +60,8 @@ El nombre del schema constituye evidencia directa de origen. Las tablas contenid
 | `funcion_publica_empleos_entidad` | Funcion Publica | 295 | Empleos y tipos de planta por entidad del Estado |
 | `men_programas_etdh` | MEN | 19,867 | Programas de Educacion para el Trabajo y Desarrollo Humano |
 | `sena_certificacion_fpi` | SENA | 8,538 | Certificacion de Formacion Profesional Integral |
-| `sena_cupos_fpi_poblacion` | SENA | 42,080 | Cupos en formacion profesional integral por tipo de poblacion |
-| `sena_desercion_fpi` | SENA | 42,080 | Desercion de la formacion profesional integral |
+| `sena_cupos_fpi_poblacion` | SENA | 42,080 | Cupos en formación profesional integral por tipo de poblacion |
+| `sena_desercion_fpi` | SENA | 42,080 | Desercion de la formación profesional integral |
 | `sena_inscritos_ape_nacional` | SENA | 566 | Total nacional de inscritos en la Agencia Publica de Empleo |
 | `sena_mesas_sectoriales` | SENA | 84 | Mesas sectoriales del SENA |
 
@@ -88,23 +88,23 @@ Datasets del Ministerio de Educacion Nacional disponibles en el portal de datos 
 
 | Tabla | Registros | Descripcion |
 |:------|:----------|:------------|
-| `men_matricula_departamentos_es` | 567 | Matricula en educacion superior por departamento |
-| `men_matricula_estadistica_es` | 206,919 | Estadistica detallada de matricula en educacion superior |
-| `men_matricula_municipios_es` | 10,429 | Matricula en educacion superior por municipio |
+| `men_matricula_departamentos_es` | 567 | Matricula en educación superior por departamento |
+| `men_matricula_estadistica_es` | 206,919 | Estadistica detallada de matrícula en educación superior |
+| `men_matricula_municipios_es` | 10,429 | Matricula en educación superior por municipio |
 
 ### 2.5 Schema `estadisticas_es` (21 tablas)
 
-Estadisticas de Educacion Superior consolidadas por el MEN. Incluyen indicadores de cobertura, desercion, matricula, graduados, docentes, transito inmediato y cobertura bruta por departamento y municipio. Tablas principales:
+Estadisticas de Educacion Superior consolidadas por el MEN. Incluyen indicadores de cobertura, deserción, matrícula, graduados, docentes, transito inmediato y cobertura bruta por departamento y municipio. Tablas principales:
 
 | Tabla | Descripcion |
 |:------|:------------|
-| `es_desercion_nivel` | Tasa de desercion por nivel de formacion |
-| `es_cobertura_bruta` | Tasa de cobertura bruta en educacion superior |
+| `es_desercion_nivel` | Tasa de deserción por nivel de formación |
+| `es_cobertura_bruta` | Tasa de cobertura bruta en educación superior |
 | `es_matricula_departamento` | Matricula por departamento |
 | `es_matricula_modalidad` | Matricula por modalidad (presencial/virtual/distancia) |
-| `es_matricula_nivel` | Matricula por nivel de formacion |
+| `es_matricula_nivel` | Matricula por nivel de formación |
 | `es_matricula_sector` | Matricula por sector (oficial/privado) |
-| `es_graduados_nivel` | Graduados por nivel de formacion |
+| `es_graduados_nivel` | Graduados por nivel de formación |
 | `es_tti_departamento` | Tasa de transito inmediato por departamento |
 | `es_tcb_departamento` | Tasa de cobertura bruta por departamento |
 | `es_ies_acreditadas` | IES con acreditacion de alta calidad |
@@ -115,7 +115,7 @@ Estadisticas de Educacion Superior consolidadas por el MEN. Incluyen indicadores
 |:-------|:-------|:----------|:------------|
 | `empleo_publico` | 30 | Funcion Publica, SENA, DAFP, MinTrabajo | Caracterizacion del empleo publico, SIGEP, ley de cuotas, pensionados, personas expuestas politicamente, PQRSD |
 | `dane` + `dane_estadisticas` + `dane_indicadores` | 23 | DANE | Proyecciones de poblacion, ODS, ley de cuotas, directorio establecimientos educativos, resguardos indigenas |
-| `competencias` + `sena` + `sena_formacion` | 18 | SENA | CUOC conocimientos y destrezas, certificacion FPI, desercion FPI, cursos, mesas sectoriales, georeferenciacion centros |
+| `competencias` + `sena` + `sena_formacion` | 18 | SENA | CUOC conocimientos y destrezas, certificacion FPI, deserción FPI, cursos, mesas sectoriales, georeferenciacion centros |
 | `mintic` | 6 | MinTIC | Gobierno digital, centros digitales, asesorias teletrabajo, certificaciones TI |
 | `dnp` + `dnp_planes_desarrollo` | 8 | DNP | Medicion desempeno municipal, planes de desarrollo, red vial, indicadores PDT |
 | `cultura` | 6 | MinCultura | Espacios culturales, sitios arqueologicos, estimulos artisticos, memorias de oficio |
@@ -181,7 +181,7 @@ Tablas en DuckDB:
 | URL | `https://www.icfes.gov.co/` |
 | Portal datos.gov.co | No. Datos obtenidos directamente del ICFES |
 | Schema DuckDB | `icfes_saber`, `men` |
-| Citacion | `services/sources.py` — Sistema de citacion |
+| Citacion | `services/sources.py` — Sistema de citación |
 
 | Tabla | Registros | Descripcion |
 |:------|:----------|:------------|
@@ -213,8 +213,8 @@ Principales indicadores utilizados:
 |:----------|:-------------|:----------|
 | PIB per capita | `bm_pib_per_capita` | 35 paises |
 | Tasa de desempleo | `bm_tasa_desempleo` | 34 paises |
-| Gasto en educacion (%PIB) | `bm_gasto_educacion_pib` | 23 paises |
-| Tasa matricula terciaria | `bm_tasa_matricula_terciaria` | 22 paises |
+| Gasto en educación (%PIB) | `bm_gasto_educacion_pib` | 23 paises |
+| Tasa matrícula terciaria | `bm_tasa_matricula_terciaria` | 22 paises |
 | Usuarios de internet (%) | `bm_usuarios_internet_pct` | 31 paises |
 | Desempleo juvenil | `bm_desempleo_jovenes` + `ilo_internacional.empleo_global` | 34 paises |
 | PISA scores | `oecd_internacional.pisa_scores` | 39 paises |
@@ -224,7 +224,7 @@ Principales indicadores utilizados:
 
 ## 5. Grupo D — Catalogos Curados (Elaboracion Propia)
 
-Conjuntos de datos construidos por el equipo a partir de fuentes oficiales para habilitar los cruces analiticos entre dominios (educacion, trabajo, territorio).
+Conjuntos de datos construidos por el equipo a partir de fuentes oficiales para habilitar los cruces analiticos entre dominios (educación, trabajo, territorio).
 
 ### 5.1 Clasificadores Oficiales
 
@@ -237,12 +237,12 @@ Conjuntos de datos construidos por el equipo a partir de fuentes oficiales para 
 | `cuoc` | `perfilesocupacionales_excel_cuoc_2025` | 681 | Perfiles ocupacionales detallados |
 | `divipola` | `divipola_departamentos` | 33 | Codigos DANE de departamentos |
 | `divipola` | `divipola_municipios` | 1,122 | Codigos DANE de municipios |
-| `educacion` | `nbc_nucleos_basicos_conocimiento` | 54 | 55 NBCs con area de conocimiento y campo CINE asociado |
-| `educacion` | `areas_conocimiento_men` | 8 | 8 areas de conocimiento definidas por el MEN |
-| `educacion` | `niveles_formacion_men` | 7 | Niveles de formacion (Tecnico a Doctorado) |
-| `educacion` | `modalidades_formacion` | 4 | Presencial, Distancia, Virtual, Dual |
-| `educacion` | `sectores_ies` | 2 | Oficial, Privado |
-| `educacion` | `caracteres_ies` | 4 | Universidad, Inst. Universitaria, Tecnologica, Tecnica |
+| `educación` | `nbc_nucleos_basicos_conocimiento` | 54 | 55 NBCs con área de conocimiento y campo CINE asociado |
+| `educación` | `areas_conocimiento_men` | 8 | 8 áreas de conocimiento definidas por el MEN |
+| `educación` | `niveles_formacion_men` | 7 | Niveles de formación (Tecnico a Doctorado) |
+| `educación` | `modalidades_formacion` | 4 | Presencial, Distancia, Virtual, Dual |
+| `educación` | `sectores_ies` | 2 | Oficial, Privado |
+| `educación` | `caracteres_ies` | 4 | Universidad, Inst. Universitaria, Tecnologica, Tecnica |
 
 ### 5.2 Catalogos de Mapeo y Articulacion
 
@@ -256,13 +256,13 @@ Conjuntos de datos construidos por el equipo a partir de fuentes oficiales para 
 | `catalogo_curado` | `mapeo_cuoc_cinef_amplio` | 26 | CUOC ↔ Campos amplios CINE-F |
 | `catalogo_curado` | `mapeo_observatorio_cuoc` | 1,881 | Observatorio laboral ↔ CUOC |
 | `catalogo_curado` | `cualificaciones_men` | 396 | Catalogo de Cualificaciones del MEN (MNC) |
-| `catalogo_curado` | `mapeo_dss_variables` | 114 | Mapeo oficial de variables del modelo DSS (81 variables en 5 ejes y 8 dominios) |
+| `catalogo_curado` | `mapeo_variables` | 114 | Mapeo de variables del modelo analitico (114 variables en 4 ejes y 9 dominios) |
 
 ### 5.3 Tendencias Laborales — Agencia Publica de Empleo
 
 | Schema | Descripcion | Tablas | Periodo |
 |:-------|:------------|:-------|:--------|
-| `tendencias_laborales` | Series historicas de vacantes, colocados e inscritos APE por ocupacion, departamento y periodo | 142 | 2017-2025 |
+| `tendencias_laborales` | Series historicas de vacantes, colocados e inscritos APE por ocupacion, departamento y período | 142 | 2017-2025 |
 | `tendencias_laborales` | `vacantes_ape_clean` | 599 registros | Consolidado limpio para matching |
 
 Fuente original: Agencia Publica de Empleo del SENA (`https://observatorio.sena.edu.co/`). Los datos de la APE tambien estan disponibles en datos.gov.co, pero la descarga masiva de series trimestrales se realizo desde el observatorio del SENA.
@@ -277,7 +277,7 @@ Cada esquema del repositorio se mapea a su fuente y grupo de trazabilidad:
 _sdiccionarios          → D (Catalogos curados)
 banco_mundial            → C (Banco Mundial)
 banco_mundial_internacional → C (Banco Mundial API)
-catalogo_curado          → D (Catalogos curados — elaboracion propia)
+catalogo_curado          → D (Catalogos curados — elaboración propia)
 clasificadores           → D (Clasificadores oficiales — procesados)
 competencias             → A (SENA — datos.gov.co)
 conectividad             → A (MinTIC — datos.gov.co, URL confirmada)
@@ -292,7 +292,7 @@ datos_gov_co             → A (datos.gov.co — schema explicito)
 divipola                 → D (DIVIPOLA — procesado)
 dnp                      → A (DNP — datos.gov.co)
 dnp_planes_desarrollo    → A (DNP — datos.gov.co)
-educacion                → D (Catalogos educativos — procesados)
+educación                → D (Catalogos educativos — procesados)
 empleadores              → A (datos.gov.co)
 empleo_publico           → A (Funcion Publica — datos.gov.co)
 empresas                 → A (datos.gov.co)
@@ -335,8 +335,8 @@ vss                      → D (Vector Storage — embeddings internos)
 
 | Archivo | Funcion | Lineas |
 |:--------|:--------|:-------|
-| `services/sources.py` | Diccionario centralizado de fuentes con URLs, periodos y citaciones | 376 |
-| `catalogo/MAPEO_DSS_OFICIAL.csv` | Mapeo de 81 variables a esquemas, tablas y columnas DuckDB | 115 |
+| `services/sources.py` | Diccionario centralizado de fuentes con URLs, períodos y citaciones | 376 |
+| `catalogo/MAPEO_DSS_OFICIAL.csv` | Mapeo de 114 variables a esquemas, tablas y columnas DuckDB | 115 |
 | `data/queries.py` | 56 funciones de consulta SQL parametrizadas con filtros | 3,138 |
 | `admin/ingestar_*.py` | Scripts de ingestion, limpieza y homologacion de fuentes | ~20 archivos |
 | `admin/auditar_*.py` | Scripts de auditoria de consistencia entre catalogos y fuentes | ~5 archivos |
@@ -344,6 +344,6 @@ vss                      → D (Vector Storage — embeddings internos)
 
 ---
 
-**Nota metodologica:** La clasificacion de fuentes en los Grupos A, B, C y D se fundamenta en evidencia documental y de codigo, no en supuestos. Los datos del Grupo A tienen al menos uno de los siguientes respaldos: (a) nombre de schema que referencia explicitamente el portal o la plataforma Socrata, (b) URL documentada en `services/sources.py` con dominio `datos.gov.co`, o (c) nombre de tabla que coincide con datasets publicados en el portal. Los datos del Grupo B tienen columna `archivo_fuente` con los nombres de los archivos XLSX descargados desde los portales originales. Los datos del Grupo C tienen URLs propias de cada organismo internacional. Los datos del Grupo D son productos derivados del procesamiento y curacion del equipo.
+**Nota metodologica:** La clasificación de fuentes en los Grupos A, B, C y D se fundamenta en evidencia documental y de código, no en supuestos. Los datos del Grupo A tienen al menos uno de los siguientes respaldos: (a) nombre de schema que referencia explicitamente el portal o la plataforma Socrata, (b) URL documentada en `services/sources.py` con dominio `datos.gov.co`, o (c) nombre de tabla que coincide con datasets publicados en el portal. Los datos del Grupo B tienen columna `archivo_fuente` con los nombres de los archivos XLSX descargados desde los portales originales. Los datos del Grupo C tienen URLs propias de cada organismo internacional. Los datos del Grupo D son productos derivados del procesamiento y curacion del equipo.
 
 *Documento generado a partir de evidencia extraida del repositorio DuckDB (703 MB, 54 esquemas, 488 tablas), `services/sources.py` (376 lineas), `catalogo/MAPEO_DSS_OFICIAL.csv` (114 variables), y los scripts de ingestion en `admin/`.*

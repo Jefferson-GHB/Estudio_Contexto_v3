@@ -19,7 +19,7 @@ El sistema produce indicadores cuantitativos trazables que permiten caracterizar
 | Dimension | Indicador | Que revela |
 |:----------|:----------|:-----------|
 | Academica | HHI | Concentracion del mercado: identifica campos saturados donde la diferenciacion es baja |
-| Academica | CAGR | Tendencia de matricula: crecimiento, estabilidad o declive del campo |
+| Academica | CAGR | Tendencia de matrícula: crecimiento, estabilidad o declive del campo |
 | Laboral | Ratio de Absorcion | Capacidad del mercado laboral para absorber graduados del NBC |
 | Laboral | Densidad de Competencias | Que tan definido esta el perfil ocupacional asociado al NBC |
 | Territorial | Conectividad | Condiciones de acceso para modalidades virtuales o hibridas |
@@ -28,24 +28,24 @@ El sistema produce indicadores cuantitativos trazables que permiten caracterizar
 
 ### 1.3 Sobre el Matching Semantico
 
-El uso de embeddings multilingues (MiniLM 384d) para establecer correspondencias entre programas academicos, ocupaciones CUOC y competencias laborales resuelve un problema concreto del ecosistema de datos colombianos: las ocupaciones que demanda el mercado laboral rara vez se nombran con las mismas palabras que utilizan los programas academicos. La evidencia del piloto muestra que:
+El uso de embeddings multilingues (MiniLM 384d) para establecer correspondencias entre programas académicos, ocupaciones CUOC y competencias laborales resuelve un problema concreto del ecosistema de datos colombianos: las ocupaciones que demanda el mercado laboral rara vez se nombran con las mismas palabras que utilizan los programas académicos. La evidencia del piloto muestra que:
 
 - El puente SNIES ↔ CUOC permite asociar un NBC con ocupaciones y competencias incluso cuando las denominaciones no comparten una sola palabra
-- El puente SNIES ↔ SIET revela complementariedades entre educacion formal y formacion para el trabajo que los datos estructurados no harian visibles
+- El puente SNIES ↔ SIET revela complementariedades entre educación formal y formación para el trabajo que los datos estructurados no harian visibles
 - El sistema de cache de dos niveles (memoria + disco) permite que las consultas semanticas respondan en tiempos aceptables (< 500ms para funciones criticas)
 
 ### 1.4 Sobre la Generacion de Informes
 
-La integracion con Google Gemini 2.0 Flash para generacion de informes academicos demuestra que es viable automatizar la produccion de estudios de contexto con:
+La integracion con Google Gemini 2.0 Flash para generación de informes académicos demuestra que es viable automatizar la producción de estudios de contexto con:
 
-- Citacion automatica de fuentes oficiales (catalogo de 15 fuentes con formato `FUENTE - Periodo`)
+- Citacion automática de fuentes oficiales (catalogo de 15 fuentes con formato `FUENTE - Periodo`)
 - Notacion LaTeX para metricas y formulas
-- Estructura de paper academico en 7 secciones
-- Recomendacion final con justificacion basada en evidencia
+- Estructura de paper académico en 7 secciones
+- Recomendacion final con justificación basada en evidencia
 
 ### 1.5 Sobre el Impacto Esperado
 
-La solucion reduce el tiempo necesario para producir un estudio de contexto, integrando en una sola consulta lo que tradicionalmente exigia recopilar y cruzar manualmente informacion de multiples fuentes dispersas. Estructura la evidencia de manera que cada hallazgo es trazable hasta la fuente y el periodo de origen. En terminos sociales, una oferta mejor sustentada contribuye a disminuir brechas de acceso, permanencia y empleabilidad.
+La solucion reduce el tiempo necesario para producir un estudio de contexto, integrando en una sola consulta lo que tradicionalmente exigia recopilar y cruzar manualmente información de multiples fuentes dispersas. Estructura la evidencia de manera que cada hallazgo es trazable hasta la fuente y el período de origen. En términos sociales, una oferta mejor sustentada contribuye a disminuir brechas de acceso, permanencia y empleabilidad.
 
 ---
 
@@ -53,7 +53,7 @@ La solucion reduce el tiempo necesario para producir un estudio de contexto, int
 
 ### 2.1 Alcance Predictivo
 
-La herramienta aporta a la comprension de condiciones asociadas a la desercion y al fortalecimiento de decisiones de permanencia. Su alcance actual **no equivale a una prediccion individual de abandono**, ni sustituye los sistemas institucionales de acompanamiento estudiantil. La prediccion individual o agregada de riesgo de desercion se propone como fase de evolucion futura.
+La herramienta aporta a la comprension de condiciones asociadas a la deserción y al fortalecimiento de decisiones de permanencia. Su alcance actual **no equivale a una prediccion individual de abandono**, ni sustituye los sistemas institucionales de acompanamiento estudiantil. La prediccion individual o agregada de riesgo de deserción se propone como fase de evolucion futura.
 
 ### 2.2 Dependencia de Actualizacion de Fuentes
 
@@ -61,7 +61,7 @@ La mayoria de los datos operan con cortes periodicos (anuales, semestrales). La 
 
 ### 2.3 Cobertura de Conectividad
 
-Los datos de conectividad (internet fijo, cobertura movil 4G) provienen de fuentes oficiales (MinTIC) y reflejan sus limitaciones de cobertura. En zonas rurales y municipios PDET, la ausencia de datos de conectividad puede introducir sesgo territorial en la sintesis respectiva. Esta limitacion esta declarada en la documentacion de fuentes (`docs/tecnica/05_fuentes_datos.md`).
+Los datos de conectividad (internet fijo, cobertura movil 4G) provienen de fuentes oficiales (MinTIC) y reflejan sus limitaciones de cobertura. En zonas rurales y municipios PDET, la ausencia de datos de conectividad puede introducir sesgo territorial en la sintesis respectiva. Esta limitacion esta declarada en la documentación de fuentes (`docs/tecnica/05_fuentes_datos.md`).
 
 ### 2.4 Subreporte de la Agencia Publica de Empleo
 
@@ -73,7 +73,7 @@ El componente de busqueda semantica depende de la disponibilidad de `sentence-tr
 
 ### 2.6 Interpretabilidad del Motor de Decision
 
-El motor de decision produce recomendaciones basadas en scoring ponderado, pero los pesos (30% academica, 40% laboral, 20% territorial, 10% global) reflejan una priorizacion de empleabilidad sobre otras dimensiones. Esta decision de diseño esta documentada y justificada, pero instituciones con prioridades diferentes pueden requerir recalibracion de pesos.
+El motor de decisión produce recomendaciones basadas en scoring ponderado, pero los pesos (30% académica, 40% laboral, 20% territorial, 10% global) reflejan una priorizacion de empleabilidad sobre otras dimensiones. Esta decisión de diseño esta documentada y justificada, pero instituciones con prioridades diferentes pueden requerir recalibracion de pesos.
 
 ---
 
@@ -85,39 +85,39 @@ El motor de decision produce recomendaciones basadas en scoring ponderado, pero 
 |:-------|:----------|:------------|
 | Documentar URLs especificas de datasets en datos.gov.co | Alta | Reemplazar URLs genericas en `services/sources.py` por URLs directas a cada dataset (formato `https://www.datos.gov.co/d/xxxx-xxxx`) |
 | Ampliar cobertura de pruebas | Alta | Incorporar pruebas unitarias para `test_data.py`, `test_models.py`, `test_features.py` |
-| Crear notebooks de proceso | Media | `notebooks/01-05` con flujo completo de exploracion, limpieza, analisis, modelo y reportes |
+| Crear notebooks de proceso | Media | `notebooks/01-05` con flujo completo de exploracion, limpieza, análisis, modelo y reportes |
 | Pipeline ML | Media | `pipelines/pipeline_ml.py` con flujo end-to-end reproducible |
 
 ### 3.2 Mediano Plazo (3-12 meses)
 
 | Accion | Descripcion |
 |:-------|:------------|
-| Modelado predictivo de desercion | Definir variable objetivo, preparar matriz de entrenamiento con variables academicas, territoriales y de modalidad, evaluar Random Forest y Gradient Boosting con metricas estandar (Accuracy, F1-Score, AUC) |
+| Modelado predictivo de deserción | Definir variable objetivo, preparar matriz de entrenamiento con variables académicas, territoriales y de modalidad, evaluar Random Forest y Gradient Boosting con metricas estandar (Accuracy, F1-Score, AUC) |
 | Automatizacion de actualizacion de fuentes | Pipeline ETL automatizado que detecte nuevos cortes en las fuentes oficiales y actualice el repositorio DuckDB |
-| API REST productiva | Migrar el prototipo FastAPI (`api/`) a produccion, con autenticacion, limites de tasa y documentacion completa |
+| API REST productiva | Exponer endpoints de consulta documentados para consumo programatico, con autenticacion y limites de tasa |
 | Integracion con sistemas institucionales | Conectores para SIA (Sistema de Informacion Academica), SPADIES institucional, y sistemas de aseguramiento de la calidad |
 
 ### 3.3 Largo Plazo (> 12 meses)
 
 | Accion | Descripcion |
 |:-------|:------------|
-| Datos en tiempo real | Incorporacion de fuentes con actualizacion en tiempo real (ej. vacantes APE diarias, matricula en linea) |
-| Modelos de simulacion | Simulacion de escenarios de oferta academica (que pasaria si se abre un programa en el departamento X bajo modalidad Y) |
-| Sistema multi-agente | Agentes especializados por sintesis evaluativa que colaboren en la generacion de recomendaciones |
+| Datos en tiempo real | Incorporacion de fuentes con actualizacion en tiempo real (ej. vacantes APE diarias, matrícula en linea) |
+| Modelos de simulacion | Simulacion de escenarios de oferta académica (que pasaria si se abre un programa en el departamento X bajo modalidad Y) |
+| Sistema multi-agente | Agentes especializados por sintesis evaluativa que colaboren en la generación de recomendaciones |
 | Cobertura regional ampliada | Incorporacion de datos de otros paises de la region (Mexico, Chile, Brasil) para comparativas latinoamericanas |
 
 ---
 
 ## 4. Lectura Responsable del Alcance
 
-El Sistema de Analisis de Contexto para la Toma de Decisiones Educativas es un **sistema de apoyo a la decision**, no un sustituto del criterio experto. Las siguientes salvaguardas estan incorporadas en el diseño:
+El Sistema de Analisis de Contexto para la Toma de Decisiones Educativas es un **sistema de apoyo a la decisión**, no un sustituto del criterio experto. Las siguientes salvaguardas estan incorporadas en el diseño:
 
 1. **Validacion experta requerida:** Los informes generados por el asistente de IA requieren revision humana antes de orientar decisiones formales. El sistema lo declara explicitamente en su interfaz.
-2. **Datos agregados, no individuales:** El sistema opera con datos agregados por NBC, departamento y nivel de formacion. No infiere ni expone informacion a nivel de estudiante individual.
+2. **Datos agregados, no individuales:** El sistema opera con datos agregados por NBC, departamento y nivel de formación. No infiere ni expone información a nivel de estudiante individual.
 3. **Sesgo territorial declarado:** Las zonas con baja conectividad o escasa presencia institucional generan menos datos. El sistema declara esta limitacion en la sintesis territorial.
-4. **Transparencia de fuentes:** Cada dato presentado en el dashboard incluye su citacion de fuente, periodo y entidad responsable. La trazabilidad es completa hasta el registro en la base de datos.
-5. **No es un predictor de desercion:** El sistema analiza condiciones de contexto asociadas a la permanencia, pero no predice abandono individual. Esta distincion esta documentada en todas las sintesis evaluativas.
+4. **Transparencia de fuentes:** Cada dato presentado en el dashboard incluye su citación de fuente, período y entidad responsable. La trazabilidad es completa hasta el registro en la base de datos.
+5. **No es un predictor de deserción:** El sistema analiza condiciones de contexto asociadas a la permanencia, pero no predice abandono individual. Esta distincion esta documentada en todas las sintesis evaluativas.
 
 ---
 
-*Documento generado a partir del documento tecnico ejecutivo (`Documento_solucion_Sistema_Analisis_Contexto_Pertinencia_Educativa_V3.docx` secciones 8 y 10), `README.md` (secciones de alcance y fuentes), `AGENTS.md`, y el estado actual del codigo (`tests/test_queries.py`, `services/decision_engine.py`, `services/scoring.py`).*
+*Documento generado a partir del documento técnico ejecutivo (`Documento_solucion_Sistema_Analisis_Contexto_Pertinencia_Educativa_V3.docx` secciones 8 y 10), `README.md` (secciones de alcance y fuentes), `AGENTS.md`, y el estado actual del código (`tests/test_queries.py`, `services/decision_engine.py`, `services/scoring.py`).*

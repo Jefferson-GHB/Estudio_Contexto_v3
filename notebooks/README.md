@@ -1,6 +1,6 @@
-# Notebooks de experimentacion y analisis
+# Notebooks de experimentacion y análisis
 
-El flujo analitico del proyecto se implemento como codigo Python modular en lugar de notebooks interactivos. La documentacion tecnica describe el proceso completo equivalente:
+El flujo analitico del proyecto se implemento como código Python modular en lugar de notebooks interactivos. La documentación técnica describe el proceso completo equivalente:
 
 | Fase | Documentacion | Codigo |
 |---|---|---|
@@ -8,7 +8,7 @@ El flujo analitico del proyecto se implemento como codigo Python modular en luga
 | Limpieza y transformacion | `docs/tecnica/04_marco_metodologico.md` (Fase 3) | `data/queries.py`, `data/transform.py`, `data/filters.py`, `admin/ingestar_*.py` |
 | Analisis descriptivo | `docs/tecnica/01_arquitectura.md` (Capa 3) | `services/scoring.py` (HHI, CAGR, ratio absorcion) |
 | Modelo predictivo | `docs/tecnica/08_validacion_componentes_ia.md` | `services/ml/matching.py`, `services/ml/snies_etdh.py` |
-| Reportes automaticos | `docs/tecnica/07_guia_validacion.md` | `utils/reporte_docx.py`, `app.py` (funcion `analizar_con_llm`) |
+| Reportes automáticos | `docs/tecnica/07_guia_validacion.md` | `utils/reporte_docx.py`, `app.py` (funcion `analizar_con_llm`) |
 
 ## Ejecucion del dashboard
 

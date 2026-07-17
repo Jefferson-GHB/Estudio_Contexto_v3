@@ -57,7 +57,7 @@ git lfs pull --include="data/repositorio.duckdb"
 | Variable | Requerida para | Proposito |
 |:---------|:---------------|:----------|
 | `DUCKDB_PATH` | No (opcional) | Ruta personalizada a la base de datos |
-| `GEMINIAPIKEY` | Si (para generacion de informes IA) | API key de Google Gemini |
+| `GEMINIAPIKEY` | Si (para generación de informes IA) | API key de Google Gemini |
 | `GOOGLEAPIKEY` | Si (alternativa) | API key de Google (alternativa a GEMINIAPIKEY) |
 | `GITHUB_TOKEN` | No (opcional) | Token para GitHub API |
 | `HUGGINGFACE_TOKEN` | No (opcional) | Token para HuggingFace Hub |
@@ -106,7 +106,7 @@ TOTAL: 50 OK  |  0 FAIL  |  0 SKIP
 
 | Categoria | Numero de pruebas | Que validan |
 |:----------|:------------------|:------------|
-| Construccion de filtros | 8 | `build_where_clause`, `build_where_clause_matriculados`, `build_nbc_condition` con combinaciones de parametros NBC, departamento, modalidad, sector, nivel, caracter, campo amplio, area, estado |
+| Construccion de filtros | 8 | `build_where_clause`, `build_where_clause_matriculados`, `build_nbc_condition` con combinaciones de parametros NBC, departamento, modalidad, sector, nivel, carácter, campo amplio, área, estado |
 | Consultas directas (programas) | 4 | `get_estadisticas_basicas`, `get_benchmarking_data`, `get_programas_detalle`, `get_desglose_academico` |
 | Puente programas↔matriculados | 9 | `get_market_share`, `get_tendencia_matricula`, `get_graduados_historico`, `get_tendencia_inscritos`, `get_tendencia_admitidos`, `get_tendencia_primer_curso` — validan que el bridge via `COD_SNIES_PROGRAMA` funciona para filtros que no existen en las tablas destino |
 | Explorador interactivo | 6 | `get_datos_explorador_interactivo` con combinaciones de Ano, Sexo, Departamento, Modalidad, Sector, Nivel, Campo Amplio |
@@ -153,7 +153,7 @@ python -m streamlit run app.py
 | Usuario | `admin` |
 | Contrasena | `EstudioContexto2026!` |
 
-En produccion (HuggingFace Spaces), las credenciales se administran via `st.secrets` con hash SHA-256.
+En producción (HuggingFace Spaces), las credenciales se administran via `st.secrets` con hash SHA-256.
 
 ### 3.3 Demo en Linea
 
@@ -169,10 +169,10 @@ Para validar el sistema completo, se sugiere el siguiente flujo:
    - Area: "Ingenieria, Arquitectura, Urbanismo y afines"
    - NBC: "Ingenieria de Sistemas"
    - Departamento: "BOGOTA D.C."
-3. **Sintesis Academica:** Verificar que se muestren los indicadores HHI, CAGR, evolucion de matricula, graduados
+3. **Sintesis Academica:** Verificar que se muestren los indicadores HHI, CAGR, evolucion de matrícula, graduados
 4. **Sintesis Laboral:** Verificar que se muestren vacantes APE, competencias CUOC, salarios
 5. **Sintesis Territorial:** Verificar conectividad del departamento
-6. **Decision Final:** Verificar el semaforo de decision y la recomendacion de tipo de oferta
+6. **Decision Final:** Verificar el semaforo de decisión y la recomendacion de tipo de oferta
 7. **Informe IA:** Si `GEMINIAPIKEY` esta configurada, generar informe de pertinencia
 
 ---
@@ -243,7 +243,7 @@ Las URLs de descarga y metadata de cada fuente estan documentadas en `services/s
 
 ## 6. Reporte de Issues
 
-Si durante la validacion se encuentra alguna inconsistencia, se debe reportar con:
+Si durante la validación se encuentra alguna inconsistencia, se debe reportar con:
 
 1. El NBC, departamento y filtros utilizados
 2. La sintesis evaluativa donde se observo el problema
