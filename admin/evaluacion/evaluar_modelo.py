@@ -19,7 +19,7 @@ Reportes:
 Uso: python scripts/evaluar_modelo.py [--model MODEL_NAME] [--report REPORT_PATH]
 """
 import sys, os, json, time
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 import numpy as np
 import pandas as pd
@@ -387,7 +387,7 @@ if __name__ == "__main__":
         report = evaluate(conn, model_name=model_name)
 
         # Guardar JSON
-        output_dir = "scripts/evaluacion_output"
+        output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "resultados")
         os.makedirs(output_dir, exist_ok=True)
         json_path = os.path.join(output_dir,
             f"evaluacion_{model_name}_{datetime.now().strftime('%Y%m%d_%H%M')}.json")

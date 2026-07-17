@@ -1,0 +1,1504 @@
+{
+  "model": "MiniLM",
+  "date": "2026-07-17T10:36:26.098966",
+  "total_nbcs": 56,
+  "nbcs_with_areas": 47,
+  "correct_top5": 47,
+  "precision_top5_pct": 100.0,
+  "elapsed_seconds": 437.1,
+  "metrics_avg": {
+    "P@1": 0.7857,
+    "R@1": 0.628,
+    "F1@1": 0.5375,
+    "P@3": 0.6607,
+    "R@3": 1.3378,
+    "F1@3": 0.7721,
+    "P@5": 0.4714,
+    "R@5": 1.5565,
+    "F1@5": 0.6513,
+    "P@10": 0.2518,
+    "R@10": 1.6801,
+    "F1@10": 0.4096,
+    "MRR": 0.8095,
+    "MAP": 0.7942,
+    "NDCG@10": 0.8125
+  },
+  "metrics_std": {
+    "P@1": 0.4103,
+    "R@1": 0.3783,
+    "F1@1": 0.3735,
+    "P@3": 0.3646,
+    "R@3": 0.8519,
+    "F1@3": 0.4613,
+    "P@5": 0.2737,
+    "R@5": 1.0695,
+    "F1@5": 0.3905,
+    "P@10": 0.1535,
+    "R@10": 1.2304,
+    "F1@10": 0.2531,
+    "MRR": 0.3759,
+    "MAP": 0.3705,
+    "NDCG@10": 0.3652
+  },
+  "per_area": {
+    "ARTE CULTURA ESPARCIMIENTO Y DEPORTES": {
+      "nbc_count": 9,
+      "correct": 9,
+      "precision_pct": 100.0,
+      "avg_precision@5": 0.556
+    },
+    "CIENCIAS NATURALES APLICADAS Y RELACIONADAS": {
+      "nbc_count": 19,
+      "correct": 19,
+      "precision_pct": 100.0,
+      "avg_precision@5": 0.632
+    },
+    "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES": {
+      "nbc_count": 14,
+      "correct": 14,
+      "precision_pct": 100.0,
+      "avg_precision@5": 0.514
+    },
+    "EXPLOTACION PRIMARIA Y EXTRACTIVA": {
+      "nbc_count": 18,
+      "correct": 18,
+      "precision_pct": 100.0,
+      "avg_precision@5": 0.622
+    },
+    "FINANZAS Y ADMINISTRACION": {
+      "nbc_count": 11,
+      "correct": 11,
+      "precision_pct": 100.0,
+      "avg_precision@5": 0.527
+    },
+    "OFICIOS OPERACION EQUIPO Y TRANSPORTE": {
+      "nbc_count": 13,
+      "correct": 13,
+      "precision_pct": 100.0,
+      "avg_precision@5": 0.631
+    },
+    "PROCESAMIENTO FABRICACION Y ENSAMBLAJE": {
+      "nbc_count": 13,
+      "correct": 13,
+      "precision_pct": 100.0,
+      "avg_precision@5": 0.631
+    },
+    "SALUD": {
+      "nbc_count": 11,
+      "correct": 11,
+      "precision_pct": 100.0,
+      "avg_precision@5": 0.473
+    },
+    "VENTAS Y SERVICIOS": {
+      "nbc_count": 6,
+      "correct": 6,
+      "precision_pct": 100.0,
+      "avg_precision@5": 0.467
+    }
+  },
+  "per_nbc": [
+    {
+      "nbc": "Administración",
+      "top_match": "TÉCNICO LABORAL EN ADMINISTRACIÓN EN SISTEMAS INFORMÁTICOS",
+      "top_area": "FINANZAS Y ADMINISTRACION",
+      "top_score": 0.7285457849502563,
+      "matches_found": 2,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "FINANZAS Y ADMINISTRACION",
+        "VENTAS Y SERVICIOS"
+      ],
+      "retrieved_areas": [
+        "FINANZAS Y ADMINISTRACION",
+        "VENTAS Y SERVICIOS"
+      ],
+      "retrieved_scores": [
+        0.7285457849502563,
+        0.6939859390258789
+      ]
+    },
+    {
+      "nbc": "Agronomía",
+      "top_match": "Técnico Laboral en Agroindustria",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.6997330188751221,
+      "matches_found": 6,
+      "correct_in_top5": true,
+      "mrr": 0.5,
+      "map": 0.5,
+      "ndcg": 0.6653497124326151,
+      "areas_relevant": [
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA"
+      ],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "VENTAS Y SERVICIOS",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_scores": [
+        0.6997330188751221,
+        0.6839220523834229,
+        0.6839220523834229,
+        0.6743096113204956,
+        0.6743096113204956
+      ]
+    },
+    {
+      "nbc": "Antropología y artes liberales",
+      "top_match": "TÉCNICO LABORAL POR COMPETENCIA COMO AUXILIAR EN SISTEMAS INFORMATICOS",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.6109185218811035,
+      "matches_found": 2,
+      "correct_in_top5": false,
+      "mrr": 0.0,
+      "map": 0.0,
+      "ndcg": 0.0,
+      "areas_relevant": [],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "FINANZAS Y ADMINISTRACION"
+      ],
+      "retrieved_scores": [
+        0.6109185218811035,
+        0.6059648990631104
+      ]
+    },
+    {
+      "nbc": "Arquitectura y afines",
+      "top_match": "TÉCNJCO LABORAL EN SISTEMAS, SOPORTE E INFORMÁTICA",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.6680782437324524,
+      "matches_found": 2,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "OFICIOS OPERACION EQUIPO Y TRANSPORTE",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE"
+      ],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE"
+      ],
+      "retrieved_scores": [
+        0.6680782437324524,
+        0.6173622608184814
+      ]
+    },
+    {
+      "nbc": "Artes plásticas, visuales y afines",
+      "top_match": "TÉCNICO LABORAL EN MEDIOS INFORMATIVOS RADIO Y TELEVISION",
+      "top_area": "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+      "top_score": 0.6303249597549438,
+      "matches_found": 3,
+      "correct_in_top5": false,
+      "mrr": 0.0,
+      "map": 0.0,
+      "ndcg": 0.0,
+      "areas_relevant": [],
+      "retrieved_areas": [
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_scores": [
+        0.6303249597549438,
+        0.6072458624839783,
+        0.6064815521240234
+      ]
+    },
+    {
+      "nbc": "Artes representativas",
+      "top_match": "TÉCNICO LABORAL POR COMPETENCIA COMO AUXILIAR EN SISTEMAS INFORMATICOS",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.6185457706451416,
+      "matches_found": 3,
+      "correct_in_top5": false,
+      "mrr": 0.0,
+      "map": 0.0,
+      "ndcg": 0.0,
+      "areas_relevant": [],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE"
+      ],
+      "retrieved_scores": [
+        0.6185457706451416,
+        0.6178716421127319,
+        0.6117817163467407
+      ]
+    },
+    {
+      "nbc": "Bacteriología",
+      "top_match": "TECNICO LABORAL POR COMPETENCIA EN SECRETARIADO MEDICO HOSPITALARIO",
+      "top_area": "SALUD",
+      "top_score": 0.5699421167373657,
+      "matches_found": 5,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "SALUD"
+      ],
+      "retrieved_areas": [
+        "SALUD",
+        "SALUD",
+        "SALUD",
+        "SALUD",
+        "SALUD"
+      ],
+      "retrieved_scores": [
+        0.5699421167373657,
+        0.5294770002365112,
+        0.5293372869491577,
+        0.5026993751525879,
+        0.4902968406677246
+      ]
+    },
+    {
+      "nbc": "Bibliotecología, otros de ciencias sociales y humanas",
+      "top_match": "TÉCNICO LABORAL EN ASISTENTE EN TECNOLOGÍA E INFORMÁTICA",
+      "top_area": "FINANZAS Y ADMINISTRACION",
+      "top_score": 0.5833086967468262,
+      "matches_found": 1,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "ARTE CULTURA ESPARCIMIENTO Y DEPORTES",
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "FINANZAS Y ADMINISTRACION"
+      ],
+      "retrieved_areas": [
+        "FINANZAS Y ADMINISTRACION"
+      ],
+      "retrieved_scores": [
+        0.5833086967468262
+      ]
+    },
+    {
+      "nbc": "Biología, microbiología y afines",
+      "top_match": "TÉCNJCO LABORAL EN SISTEMAS, SOPORTE E INFORMÁTICA",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.6122382283210754,
+      "matches_found": 4,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_scores": [
+        0.6122382283210754,
+        0.58162522315979,
+        0.5771329402923584,
+        0.5690288543701172
+      ]
+    },
+    {
+      "nbc": "Ciencia política, relaciones internacionales",
+      "top_match": "TÉCNICO LABORAL EN ASISTENTE EN TECNOLOGÍA E INFORMÁTICA",
+      "top_area": "FINANZAS Y ADMINISTRACION",
+      "top_score": 0.5737975239753723,
+      "matches_found": 2,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "ARTE CULTURA ESPARCIMIENTO Y DEPORTES",
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "FINANZAS Y ADMINISTRACION"
+      ],
+      "retrieved_areas": [
+        "FINANZAS Y ADMINISTRACION",
+        "FINANZAS Y ADMINISTRACION"
+      ],
+      "retrieved_scores": [
+        0.5737975239753723,
+        0.5396093130111694
+      ]
+    },
+    {
+      "nbc": "Comunicación social, periodismo y afines",
+      "top_match": "TÉCNICO LABORAL EN ASISTENTE EN TECNOLOGÍA E INFORMÁTICA",
+      "top_area": "FINANZAS Y ADMINISTRACION",
+      "top_score": 0.5965615510940552,
+      "matches_found": 8,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 0.961734693877551,
+      "ndcg": 0.9888009031441519,
+      "areas_relevant": [
+        "ARTE CULTURA ESPARCIMIENTO Y DEPORTES",
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "FINANZAS Y ADMINISTRACION"
+      ],
+      "retrieved_areas": [
+        "FINANZAS Y ADMINISTRACION",
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "FINANZAS Y ADMINISTRACION",
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+      ],
+      "retrieved_scores": [
+        0.5965615510940552,
+        0.5926929116249084,
+        0.5878281593322754,
+        0.5842011570930481,
+        0.583769679069519
+      ]
+    },
+    {
+      "nbc": "Contaduría pública",
+      "top_match": "TÉCNICO LABORAL EN SOPORTE Y SISTEMAS DE INFORMACION",
+      "top_area": "FINANZAS Y ADMINISTRACION",
+      "top_score": 0.7029014825820923,
+      "matches_found": 3,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "FINANZAS Y ADMINISTRACION",
+        "VENTAS Y SERVICIOS"
+      ],
+      "retrieved_areas": [
+        "FINANZAS Y ADMINISTRACION",
+        "VENTAS Y SERVICIOS",
+        "FINANZAS Y ADMINISTRACION"
+      ],
+      "retrieved_scores": [
+        0.7029014825820923,
+        0.6840574145317078,
+        0.6684542894363403
+      ]
+    },
+    {
+      "nbc": "Deportes, educación física y recreación",
+      "top_match": "TÉCNICO LABORAL EN AUXILIAR EN SERVICIOS INFORMÁTICOS",
+      "top_area": "VENTAS Y SERVICIOS",
+      "top_score": 0.6008029580116272,
+      "matches_found": 6,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 0.6916666666666667,
+      "ndcg": 0.8485833840018,
+      "areas_relevant": [
+        "ARTE CULTURA ESPARCIMIENTO Y DEPORTES",
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "SALUD",
+        "VENTAS Y SERVICIOS"
+      ],
+      "retrieved_areas": [
+        "VENTAS Y SERVICIOS",
+        "FINANZAS Y ADMINISTRACION",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "VENTAS Y SERVICIOS",
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+      ],
+      "retrieved_scores": [
+        0.6008029580116272,
+        0.6008029580116272,
+        0.6008029580116272,
+        0.5928821563720703,
+        0.5889096260070801
+      ]
+    },
+    {
+      "nbc": "Derecho y afines",
+      "top_match": "TÉCNICO LABORAL EN SOPORTE Y SISTEMAS DE INFORMACION",
+      "top_area": "FINANZAS Y ADMINISTRACION",
+      "top_score": 0.7183743715286255,
+      "matches_found": 3,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "FINANZAS Y ADMINISTRACION",
+        "VENTAS Y SERVICIOS"
+      ],
+      "retrieved_areas": [
+        "FINANZAS Y ADMINISTRACION",
+        "VENTAS Y SERVICIOS",
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+      ],
+      "retrieved_scores": [
+        0.7183743715286255,
+        0.6990789771080017,
+        0.6890217661857605
+      ]
+    },
+    {
+      "nbc": "Diseño",
+      "top_match": "TÉCNJCO LABORAL EN SISTEMAS, SOPORTE E INFORMÁTICA",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.6467657089233398,
+      "matches_found": 2,
+      "correct_in_top5": false,
+      "mrr": 0.0,
+      "map": 0.0,
+      "ndcg": 0.0,
+      "areas_relevant": [],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_scores": [
+        0.6467657089233398,
+        0.6282998919487
+      ]
+    },
+    {
+      "nbc": "Economía",
+      "top_match": "TÉCNICO LABORAL EN ASISTENTE EN TECNOLOGÍA E INFORMÁTICA",
+      "top_area": "FINANZAS Y ADMINISTRACION",
+      "top_score": 0.5564287900924683,
+      "matches_found": 2,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "ARTE CULTURA ESPARCIMIENTO Y DEPORTES",
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "FINANZAS Y ADMINISTRACION"
+      ],
+      "retrieved_areas": [
+        "FINANZAS Y ADMINISTRACION",
+        "ARTE CULTURA ESPARCIMIENTO Y DEPORTES"
+      ],
+      "retrieved_scores": [
+        0.5564287900924683,
+        0.5513557195663452
+      ]
+    },
+    {
+      "nbc": "Educación",
+      "top_match": "TÉCNICO LABORAL EN DIVERSIDAD EDUCATIVA",
+      "top_area": "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+      "top_score": 0.5895978808403015,
+      "matches_found": 9,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 0.5798611111111112,
+      "ndcg": 0.7991748853900112,
+      "areas_relevant": [
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+      ],
+      "retrieved_areas": [
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "VENTAS Y SERVICIOS",
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE"
+      ],
+      "retrieved_scores": [
+        0.5895978808403015,
+        0.5802783966064453,
+        0.5802783966064453,
+        0.5802783966064453,
+        0.5802783966064453
+      ]
+    },
+    {
+      "nbc": "Enfermería",
+      "top_match": "TECNICO LABORAL POR COMPETENCIA EN SECRETARIADO MEDICO HOSPITALARIO",
+      "top_area": "SALUD",
+      "top_score": 0.5907424688339233,
+      "matches_found": 2,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "SALUD"
+      ],
+      "retrieved_areas": [
+        "SALUD",
+        "SALUD"
+      ],
+      "retrieved_scores": [
+        0.5907424688339233,
+        0.5373566150665283
+      ]
+    },
+    {
+      "nbc": "Filosofía, teología y afines",
+      "top_match": "TÉCNICO LABORAL POR COMPETENCIA COMO AUXILIAR EN SISTEMAS INFORMATICOS",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.6312621831893921,
+      "matches_found": 1,
+      "correct_in_top5": false,
+      "mrr": 0.0,
+      "map": 0.0,
+      "ndcg": 0.0,
+      "areas_relevant": [],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_scores": [
+        0.6312621831893921
+      ]
+    },
+    {
+      "nbc": "Formación relacionada con el campo militar o policial",
+      "top_match": "TÉCNICO LABORAL EN AUXILIAR EN SERVICIOS INFORMÁTICOS",
+      "top_area": "FINANZAS Y ADMINISTRACION",
+      "top_score": 0.5807248950004578,
+      "matches_found": 4,
+      "correct_in_top5": true,
+      "mrr": 0.3333333333333333,
+      "map": 0.41666666666666663,
+      "ndcg": 0.5706417189553201,
+      "areas_relevant": [
+        "ARTE CULTURA ESPARCIMIENTO Y DEPORTES",
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "SALUD",
+        "VENTAS Y SERVICIOS"
+      ],
+      "retrieved_areas": [
+        "FINANZAS Y ADMINISTRACION",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "VENTAS Y SERVICIOS",
+        "VENTAS Y SERVICIOS"
+      ],
+      "retrieved_scores": [
+        0.5807248950004578,
+        0.5807248950004578,
+        0.5807248950004578,
+        0.5452470779418945
+      ]
+    },
+    {
+      "nbc": "Física",
+      "top_match": "TÉCNJCO LABORAL EN SISTEMAS, SOPORTE E INFORMÁTICA",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.6236019134521484,
+      "matches_found": 4,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_scores": [
+        0.6236019134521484,
+        0.5802562832832336,
+        0.5739670991897583,
+        0.5728501081466675
+      ]
+    },
+    {
+      "nbc": "Geografía, historia",
+      "top_match": "TÉCNICO LABORAL EN ASISTENTE EN TECNOLOGÍA E INFORMÁTICA",
+      "top_area": "FINANZAS Y ADMINISTRACION",
+      "top_score": 0.5639940500259399,
+      "matches_found": 3,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "ARTE CULTURA ESPARCIMIENTO Y DEPORTES",
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "FINANZAS Y ADMINISTRACION"
+      ],
+      "retrieved_areas": [
+        "FINANZAS Y ADMINISTRACION",
+        "FINANZAS Y ADMINISTRACION",
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+      ],
+      "retrieved_scores": [
+        0.5639940500259399,
+        0.5147849321365356,
+        0.5146572589874268
+      ]
+    },
+    {
+      "nbc": "Geología, otros programas de ciencias naturales",
+      "top_match": "TÉCNJCO LABORAL EN SISTEMAS, SOPORTE E INFORMÁTICA",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.5822980403900146,
+      "matches_found": 3,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_scores": [
+        0.5822980403900146,
+        0.5598536729812622,
+        0.5559837818145752
+      ]
+    },
+    {
+      "nbc": "Ingeniería administrativa y afines",
+      "top_match": "TÉCNJCO LABORAL EN SISTEMAS, SOPORTE E INFORMÁTICA",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.6558958888053894,
+      "matches_found": 3,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "OFICIOS OPERACION EQUIPO Y TRANSPORTE",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE"
+      ],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE"
+      ],
+      "retrieved_scores": [
+        0.6558958888053894,
+        0.6184744834899902,
+        0.6156176328659058
+      ]
+    },
+    {
+      "nbc": "Ingeniería agroindustrial, alimentos y afines",
+      "top_match": "TÉCNJCO LABORAL EN SISTEMAS, SOPORTE E INFORMÁTICA",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.6123051047325134,
+      "matches_found": 4,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "OFICIOS OPERACION EQUIPO Y TRANSPORTE",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE"
+      ],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_scores": [
+        0.6123051047325134,
+        0.5773273706436157,
+        0.5743879079818726,
+        0.5660738348960876
+      ]
+    },
+    {
+      "nbc": "Ingeniería agronómica, pecuaria y afines",
+      "top_match": "Técnico Laboral en Agroindustria",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.67333984375,
+      "matches_found": 6,
+      "correct_in_top5": true,
+      "mrr": 0.5,
+      "map": 0.6083333333333333,
+      "ndcg": 0.7315682114753617,
+      "areas_relevant": [
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA"
+      ],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "VENTAS Y SERVICIOS",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA"
+      ],
+      "retrieved_scores": [
+        0.67333984375,
+        0.6656991243362427,
+        0.6537328958511353,
+        0.6537328958511353,
+        0.6474690437316895
+      ]
+    },
+    {
+      "nbc": "Ingeniería agrícola, forestal y afines",
+      "top_match": "TÉCNICO LABORAL EN AGUICULTURA Y PESCA",
+      "top_area": "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+      "top_score": 0.6780045628547668,
+      "matches_found": 6,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 0.8166666666666667,
+      "ndcg": 0.9267582364714126,
+      "areas_relevant": [
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA"
+      ],
+      "retrieved_areas": [
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "VENTAS Y SERVICIOS",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA"
+      ],
+      "retrieved_scores": [
+        0.6780045628547668,
+        0.6743178963661194,
+        0.6743178963661194,
+        0.6601349115371704,
+        0.6601349115371704
+      ]
+    },
+    {
+      "nbc": "Ingeniería ambiental, sanitaria y afines",
+      "top_match": "TÉCNJCO LABORAL EN SISTEMAS, SOPORTE E INFORMÁTICA",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.602979302406311,
+      "matches_found": 4,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "OFICIOS OPERACION EQUIPO Y TRANSPORTE",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE"
+      ],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_scores": [
+        0.602979302406311,
+        0.5908921957015991,
+        0.5655450224876404,
+        0.5596498250961304
+      ]
+    },
+    {
+      "nbc": "Ingeniería biomédica y afines",
+      "top_match": "TÉCNJCO LABORAL EN SISTEMAS, SOPORTE E INFORMÁTICA",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.5931495428085327,
+      "matches_found": 4,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "OFICIOS OPERACION EQUIPO Y TRANSPORTE",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE"
+      ],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_scores": [
+        0.5931495428085327,
+        0.5766535401344299,
+        0.5742948055267334,
+        0.5630727410316467
+      ]
+    },
+    {
+      "nbc": "Ingeniería civil y afines",
+      "top_match": "TÉCNJCO LABORAL EN SISTEMAS, SOPORTE E INFORMÁTICA",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.6269780397415161,
+      "matches_found": 3,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "OFICIOS OPERACION EQUIPO Y TRANSPORTE",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE"
+      ],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE"
+      ],
+      "retrieved_scores": [
+        0.6269780397415161,
+        0.5923829674720764,
+        0.590655505657196
+      ]
+    },
+    {
+      "nbc": "Ingeniería de minas, metalurgia y afines",
+      "top_match": "TÉCNJCO LABORAL EN SISTEMAS, SOPORTE E INFORMÁTICA",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.6208564043045044,
+      "matches_found": 3,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "OFICIOS OPERACION EQUIPO Y TRANSPORTE",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE"
+      ],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_scores": [
+        0.6208564043045044,
+        0.5840492844581604,
+        0.5706766247749329
+      ]
+    },
+    {
+      "nbc": "Ingeniería de sistemas, telemática y afines",
+      "top_match": "TÉCNJCO LABORAL EN SISTEMAS, SOPORTE E INFORMÁTICA",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.6542143821716309,
+      "matches_found": 3,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "VENTAS Y SERVICIOS"
+      ],
+      "retrieved_scores": [
+        0.6542143821716309,
+        0.6475879549980164,
+        0.6475879549980164
+      ]
+    },
+    {
+      "nbc": "Ingeniería electrónica, telecomunicaciones y afines",
+      "top_match": "TÉCNJCO LABORAL EN SISTEMAS, SOPORTE E INFORMÁTICA",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.632666289806366,
+      "matches_found": 4,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "OFICIOS OPERACION EQUIPO Y TRANSPORTE",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE"
+      ],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_scores": [
+        0.632666289806366,
+        0.6153355836868286,
+        0.6140410900115967,
+        0.6040077209472656
+      ]
+    },
+    {
+      "nbc": "Ingeniería eléctrica y afines",
+      "top_match": "TÉCNJCO LABORAL EN SISTEMAS, SOPORTE E INFORMÁTICA",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.6251212358474731,
+      "matches_found": 3,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "OFICIOS OPERACION EQUIPO Y TRANSPORTE",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE"
+      ],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE",
+        "OFICIOS OPERACION EQUIPO Y TRANSPORTE"
+      ],
+      "retrieved_scores": [
+        0.6251212358474731,
+        0.5954288840293884,
+        0.5786441564559937
+      ]
+    },
+    {
+      "nbc": "Ingeniería industrial y afines",
+      "top_match": "TÉCNJCO LABORAL EN SISTEMAS, SOPORTE E INFORMÁTICA",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.6226351857185364,
+      "matches_found": 2,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "OFICIOS OPERACION EQUIPO Y TRANSPORTE",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE"
+      ],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE"
+      ],
+      "retrieved_scores": [
+        0.6226351857185364,
+        0.5821903944015503
+      ]
+    },
+    {
+      "nbc": "Ingeniería mecánica y afines",
+      "top_match": "TÉCNJCO LABORAL EN SISTEMAS, SOPORTE E INFORMÁTICA",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.591586709022522,
+      "matches_found": 4,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "OFICIOS OPERACION EQUIPO Y TRANSPORTE",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE"
+      ],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE",
+        "OFICIOS OPERACION EQUIPO Y TRANSPORTE",
+        "OFICIOS OPERACION EQUIPO Y TRANSPORTE"
+      ],
+      "retrieved_scores": [
+        0.591586709022522,
+        0.5656757354736328,
+        0.5641463398933411,
+        0.5596824288368225
+      ]
+    },
+    {
+      "nbc": "Ingeniería química y afines",
+      "top_match": "TÉCNJCO LABORAL EN SISTEMAS, SOPORTE E INFORMÁTICA",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.6170228719711304,
+      "matches_found": 4,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "OFICIOS OPERACION EQUIPO Y TRANSPORTE",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE"
+      ],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE",
+        "OFICIOS OPERACION EQUIPO Y TRANSPORTE"
+      ],
+      "retrieved_scores": [
+        0.6170228719711304,
+        0.5857611894607544,
+        0.5818729400634766,
+        0.5759220719337463
+      ]
+    },
+    {
+      "nbc": "Instrumentación quirúrgica",
+      "top_match": "TECNICO LABORAL POR COMPETENCIA EN SECRETARIADO MEDICO HOSPITALARIO",
+      "top_area": "SALUD",
+      "top_score": 0.5683085918426514,
+      "matches_found": 2,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "SALUD"
+      ],
+      "retrieved_areas": [
+        "SALUD",
+        "SALUD"
+      ],
+      "retrieved_scores": [
+        0.5683085918426514,
+        0.5566825270652771
+      ]
+    },
+    {
+      "nbc": "Lenguas modernas, literatura, linguística y afines",
+      "top_match": "TÉCNICO LABORAL EN MEDIOS INFORMATIVOS RADIO Y TELEVISION",
+      "top_area": "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+      "top_score": 0.6567007303237915,
+      "matches_found": 3,
+      "correct_in_top5": false,
+      "mrr": 0.0,
+      "map": 0.0,
+      "ndcg": 0.0,
+      "areas_relevant": [],
+      "retrieved_areas": [
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_scores": [
+        0.6567007303237915,
+        0.6254303455352783,
+        0.6224125623703003
+      ]
+    },
+    {
+      "nbc": "Matemáticas, estadística y afines",
+      "top_match": "TÉCNJCO LABORAL EN SISTEMAS, SOPORTE E INFORMÁTICA",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.6343507170677185,
+      "matches_found": 3,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_scores": [
+        0.6343507170677185,
+        0.6082228422164917,
+        0.6056385636329651
+      ]
+    },
+    {
+      "nbc": "Medicina",
+      "top_match": "TECNICO LABORAL POR COMPETENCIA EN SECRETARIADO MEDICO HOSPITALARIO",
+      "top_area": "SALUD",
+      "top_score": 0.629065752029419,
+      "matches_found": 2,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "SALUD"
+      ],
+      "retrieved_areas": [
+        "SALUD",
+        "SALUD"
+      ],
+      "retrieved_scores": [
+        0.629065752029419,
+        0.529019832611084
+      ]
+    },
+    {
+      "nbc": "Medicina veterinaria",
+      "top_match": "TÉCNICO LABORAL EN AGUICULTURA Y PESCA",
+      "top_area": "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+      "top_score": 0.6223628520965576,
+      "matches_found": 4,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA"
+      ],
+      "retrieved_areas": [
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_scores": [
+        0.6223628520965576,
+        0.6114851236343384,
+        0.5596702098846436,
+        0.5596702098846436
+      ]
+    },
+    {
+      "nbc": "Música",
+      "top_match": "TÉCNICO LABORAL EN MEDIOS INFORMATIVOS RADIO Y TELEVISION",
+      "top_area": "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+      "top_score": 0.6103711128234863,
+      "matches_found": 3,
+      "correct_in_top5": false,
+      "mrr": 0.0,
+      "map": 0.0,
+      "ndcg": 0.0,
+      "areas_relevant": [],
+      "retrieved_areas": [
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_scores": [
+        0.6103711128234863,
+        0.5889194011688232,
+        0.582375168800354
+      ]
+    },
+    {
+      "nbc": "Nutrición y dietética",
+      "top_match": "TÉCNICO AUXILIAR EN SALUD PUBLICA",
+      "top_area": "SALUD",
+      "top_score": 0.56505286693573,
+      "matches_found": 2,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "SALUD"
+      ],
+      "retrieved_areas": [
+        "SALUD",
+        "SALUD"
+      ],
+      "retrieved_scores": [
+        0.56505286693573,
+        0.5288142561912537
+      ]
+    },
+    {
+      "nbc": "Odontología",
+      "top_match": "TECNICO LABORAL POR COMPETENCIA EN SECRETARIADO MEDICO HOSPITALARIO",
+      "top_area": "SALUD",
+      "top_score": 0.5767220258712769,
+      "matches_found": 2,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "SALUD"
+      ],
+      "retrieved_areas": [
+        "SALUD",
+        "SALUD"
+      ],
+      "retrieved_scores": [
+        0.5767220258712769,
+        0.5400764346122742
+      ]
+    },
+    {
+      "nbc": "Optometría, otros programas de ciencias de la salud",
+      "top_match": "TECNICO LABORAL POR COMPETENCIA EN SECRETARIADO MEDICO HOSPITALARIO",
+      "top_area": "SALUD",
+      "top_score": 0.5601324439048767,
+      "matches_found": 2,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "SALUD"
+      ],
+      "retrieved_areas": [
+        "SALUD",
+        "SALUD"
+      ],
+      "retrieved_scores": [
+        0.5601324439048767,
+        0.4917742609977722
+      ]
+    },
+    {
+      "nbc": "Otras ingenierías",
+      "top_match": "TÉCNJCO LABORAL EN SISTEMAS, SOPORTE E INFORMÁTICA",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.607312798500061,
+      "matches_found": 1,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "OFICIOS OPERACION EQUIPO Y TRANSPORTE",
+        "PROCESAMIENTO FABRICACION Y ENSAMBLAJE"
+      ],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_scores": [
+        0.607312798500061
+      ]
+    },
+    {
+      "nbc": "Otros programas asociados a bellas artes",
+      "top_match": "TÉCNICO LABORAL EN MEDIOS INFORMATIVOS RADIO Y TELEVISION",
+      "top_area": "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+      "top_score": 0.5824307203292847,
+      "matches_found": 4,
+      "correct_in_top5": false,
+      "mrr": 0.0,
+      "map": 0.0,
+      "ndcg": 0.0,
+      "areas_relevant": [],
+      "retrieved_areas": [
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "NAN",
+        "ARTE CULTURA ESPARCIMIENTO Y DEPORTES",
+        "NAN"
+      ],
+      "retrieved_scores": [
+        0.5824307203292847,
+        0.5578946471214294,
+        0.5471125841140747,
+        0.5426994562149048
+      ]
+    },
+    {
+      "nbc": "Psicología",
+      "top_match": "TÉCNICO LABORAL EN ASISTENTE EN TECNOLOGÍA E INFORMÁTICA",
+      "top_area": "FINANZAS Y ADMINISTRACION",
+      "top_score": 0.5636364221572876,
+      "matches_found": 3,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "ARTE CULTURA ESPARCIMIENTO Y DEPORTES",
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "FINANZAS Y ADMINISTRACION"
+      ],
+      "retrieved_areas": [
+        "FINANZAS Y ADMINISTRACION",
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+      ],
+      "retrieved_scores": [
+        0.5636364221572876,
+        0.5283545255661011,
+        0.5228830575942993
+      ]
+    },
+    {
+      "nbc": "Publicidad y afines",
+      "top_match": "TÉCNJCO LABORAL EN SISTEMAS, SOPORTE E INFORMÁTICA",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.6646360158920288,
+      "matches_found": 3,
+      "correct_in_top5": false,
+      "mrr": 0.0,
+      "map": 0.0,
+      "ndcg": 0.0,
+      "areas_relevant": [],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+      ],
+      "retrieved_scores": [
+        0.6646360158920288,
+        0.664459228515625,
+        0.6475412845611572
+      ]
+    },
+    {
+      "nbc": "Química y afines",
+      "top_match": "TÉCNJCO LABORAL EN SISTEMAS, SOPORTE E INFORMÁTICA",
+      "top_area": "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+      "top_score": 0.6719402074813843,
+      "matches_found": 3,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_areas": [
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS"
+      ],
+      "retrieved_scores": [
+        0.6719402074813843,
+        0.6356651782989502,
+        0.6283316016197205
+      ]
+    },
+    {
+      "nbc": "Salud pública",
+      "top_match": "TECNICO LABORAL POR COMPETENCIA EN SECRETARIADO MEDICO HOSPITALARIO",
+      "top_area": "SALUD",
+      "top_score": 0.5796152949333191,
+      "matches_found": 2,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "SALUD"
+      ],
+      "retrieved_areas": [
+        "SALUD",
+        "SALUD"
+      ],
+      "retrieved_scores": [
+        0.5796152949333191,
+        0.5596774816513062
+      ]
+    },
+    {
+      "nbc": "Sin clasificar",
+      "top_match": "TÉCNICO LABORAL EN SOPORTE Y SISTEMAS DE INFORMACION",
+      "top_area": "FINANZAS Y ADMINISTRACION",
+      "top_score": 0.671103835105896,
+      "matches_found": 1,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "FINANZAS Y ADMINISTRACION",
+        "VENTAS Y SERVICIOS"
+      ],
+      "retrieved_areas": [
+        "FINANZAS Y ADMINISTRACION"
+      ],
+      "retrieved_scores": [
+        0.671103835105896
+      ]
+    },
+    {
+      "nbc": "Sociología, trabajo social y afines",
+      "top_match": "TÉCNICO LABORAL EN ASISTENTE EN TECNOLOGÍA E INFORMÁTICA",
+      "top_area": "FINANZAS Y ADMINISTRACION",
+      "top_score": 0.5529232025146484,
+      "matches_found": 4,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "ARTE CULTURA ESPARCIMIENTO Y DEPORTES",
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "FINANZAS Y ADMINISTRACION"
+      ],
+      "retrieved_areas": [
+        "FINANZAS Y ADMINISTRACION",
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES",
+        "CIENCIAS SOCIALES EDUCATIVAS RELIGIOSAS Y SERVICIOS GUBERNAMENTALES"
+      ],
+      "retrieved_scores": [
+        0.5529232025146484,
+        0.5400038957595825,
+        0.537893533706665,
+        0.5239672660827637
+      ]
+    },
+    {
+      "nbc": "Terapias",
+      "top_match": "TECNICO LABORAL POR COMPETENCIA EN SECRETARIADO MEDICO HOSPITALARIO",
+      "top_area": "SALUD",
+      "top_score": 0.571172297000885,
+      "matches_found": 2,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 1.0,
+      "ndcg": 1.0,
+      "areas_relevant": [
+        "SALUD"
+      ],
+      "retrieved_areas": [
+        "SALUD",
+        "SALUD"
+      ],
+      "retrieved_scores": [
+        0.571172297000885,
+        0.5283291339874268
+      ]
+    },
+    {
+      "nbc": "Zootecnia",
+      "top_match": "TÉCNICO LABORAL EN AGUICULTURA Y PESCA",
+      "top_area": "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+      "top_score": 0.6524776220321655,
+      "matches_found": 7,
+      "correct_in_top5": true,
+      "mrr": 1.0,
+      "map": 0.9028571428571428,
+      "ndcg": 0.9669850519151657,
+      "areas_relevant": [
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA"
+      ],
+      "retrieved_areas": [
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA",
+        "CIENCIAS NATURALES APLICADAS Y RELACIONADAS",
+        "EXPLOTACION PRIMARIA Y EXTRACTIVA"
+      ],
+      "retrieved_scores": [
+        0.6524776220321655,
+        0.6293810606002808,
+        0.618300199508667,
+        0.618300199508667,
+        0.608261227607727
+      ]
+    }
+  ]
+}
