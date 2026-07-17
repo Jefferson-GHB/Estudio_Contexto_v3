@@ -1,48 +1,68 @@
-"""Analyze which tables are actually used in the app."""
+"""
+Rastrea referencias a schema.table en el codigo fuente del proyecto.
+====================================================================
+
+Escanea archivos Python del dashboard en busca de patrones FROM/JOIN/INTO
+y literales de cadena que referencien tablas DuckDB. Util para auditorias
+de cobertura: identifica que tablas de la base de datos son efectivamente
+consultadas por la aplicacion, y cuales podrian ser candidatas a depuracion.
+
+Recuperado de UniSabana_Dev (v2 pre-refactorizacion). Las rutas originales
+apuntaban a archivos del proyecto antiguo (app_streamlit.py, ml_matching.py).
+Se actualizaron para reflejar la estructura modular actual de V3.1.0.
+"""
+
 import re
 import os
+import glob
 
-# Files to scan
-files_to_scan = [
-    r'D:\UniSabana_Dev\Estudio_Contexto\data\queries.py',
-    r'D:\UniSabana_Dev\Estudio_Contexto\app_streamlit.py',
-    r'D:\UniSabana_Dev\Estudio_Contexto\ml_matching.py',
-    r'D:\UniSabana_Dev\Estudio_Contexto\ml_matching_snies_etdh.py',
-    r'D:\UniSabana_Dev\Estudio_Contexto\fuentes_datos.py',
+# ============================================================================
+# RASTREO DE TABLAS — Busca schema.table en queries SQL y f-strings
+# ============================================================================
+
+# Archivos del proyecto actual donde residen las consultas DuckDB
+ARCHIVOS_A_ESCANEAR = [
+    'data/queries.py',
+    'app.py',
+    'services/ml/matching.py',
+    'services/ml/snies_etdh.py',
+    'services/data_loader.py',
+    'services/sources.py',
+    'views/tab_academico.py',
+    'views/tab_laboral.py',
+    'views/tab_territorial.py',
+    'views/tab_decision.py',
 ]
 
-used_tables = set()
+tablas_referenciadas = set()
 
-# Pattern to find schema.table references
-pattern = re.compile(r'(FROM|JOIN|INTO)\s+([a-z_]+)\.([a-z_0-9]+)', re.IGNORECASE)
+# Patron 1: SQL explicito — FROM/JOIN/INTO schema.table
+patron_sql = re.compile(r'(FROM|JOIN|INTO)\s+([a-z_]+)\.([a-z_0-9]+)', re.IGNORECASE)
 
-for filepath in files_to_scan:
-    if os.path.exists(filepath):
-        with open(filepath, 'r', encoding='utf-8') as f:
-            content = f.read()
-            matches = pattern.findall(content)
-            for match in matches:
-                keyword, schema, table = match
-                used_tables.add(f"{schema.lower()}.{table.lower()}")
+# Patron 2: Strings literales — "schema"."table" o 'schema'.'table'  
+patron_string = re.compile(r'["\']([a-z_]+)\.([a-z_0-9]+)["\']', re.IGNORECASE)
 
-# Also check for string interpolations like f"{schema}.{table}"
-string_pattern = re.compile(r'["\']([a-z_]+)\.([a-z_0-9]+)["\']', re.IGNORECASE)
-for filepath in files_to_scan:
-    if os.path.exists(filepath):
-        with open(filepath, 'r', encoding='utf-8') as f:
-            content = f.read()
-            matches = string_pattern.findall(content)
-            for schema, table in matches:
-                if schema.lower() not in ['main', 'temp', 'information_schema']:
-                    used_tables.add(f"{schema.lower()}.{table.lower()}")
+for archivo in ARCHIVOS_A_ESCANEAR:
+    if os.path.exists(archivo):
+        with open(archivo, 'r', encoding='utf-8') as f:
+            contenido = f.read()
 
-print(f"Total unique tables referenced in code: {len(used_tables)}")
-print("\nUsed schemas:")
-schemas = set(t.split('.')[0] for t in used_tables)
-for schema in sorted(schemas):
-    tables_in_schema = [t for t in used_tables if t.startswith(schema + '.')]
-    print(f"  {schema}: {len(tables_in_schema)} tables")
+        for match in patron_sql.findall(contenido):
+            _, schema, tabla = match
+            tablas_referenciadas.add(f"{schema.lower()}.{tabla.lower()}")
 
-print("\nAll referenced tables:")
-for table in sorted(used_tables):
-    print(f"  {table}")
+        for schema, tabla in patron_string.findall(contenido):
+            if schema.lower() not in ['main', 'temp', 'information_schema']:
+                tablas_referenciadas.add(f"{schema.lower()}.{tabla.lower()}")
+
+print(f"Total tablas referenciadas en codigo: {len(tablas_referenciadas)}")
+print()
+
+esquemas = set(t.split('.')[0] for t in tablas_referenciadas)
+for esquema in sorted(esquemas):
+    tablas_en_esquema = [t for t in tablas_referenciadas if t.startswith(esquema + '.')]
+    print(f"  {esquema}: {len(tablas_en_esquema)} tablas")
+
+print("\nTodas las tablas referenciadas:")
+for tabla in sorted(tablas_referenciadas):
+    print(f"  {tabla}")

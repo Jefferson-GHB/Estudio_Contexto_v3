@@ -1,7 +1,14 @@
 """
-ESCO Skills Extractor v2 — Uses /search endpoint to get ALL skills.
-Strategy: Paginate through /search?type=skill with full=true to get
-all 13,939 skills, extracting hierarchy from broaderHierarchyConcept links.
+ESCO Skills Extractor v2 — Full extraction via /search endpoint.
+================================================================
+
+Version mejorada del extractor ESCO. Usa el endpoint /search?type=skill
+con full=true para obtener las 13,939 habilidades paginando de a 100.
+Extrae la jerarquia desde broaderHierarchyConcept links en lugar de
+recorrer el arbol de pilares manualmente como hace la v1.
+
+Output: CSV + DuckDB tables en schema tendencias_tecnologicas.
+Recuperado de UniSabana_Dev (v2). Sin dependencias del proyecto.
 """
 import requests
 import json

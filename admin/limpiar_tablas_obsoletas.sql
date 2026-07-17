@@ -1,3 +1,18 @@
+-- =============================================================================
+-- DEPURACION DE TABLAS OBSOLETAS EN DUCKDB
+-- =============================================================================
+-- Generado automaticamente por buscar_tablas_sin_uso.py desde el inventario
+-- real de la base de datos. Cada DROP corresponde a una tabla que existe en
+-- DuckDB pero no es referenciada por ninguna consulta del dashboard V3.1.0.
+--
+-- Recuperado de UniSabana_Dev (v2). Contiene 448 tablas candidatas a
+-- eliminacion identificadas en la version legacy del repositorio. Revisar
+-- antes de ejecutar â€” algunas pueden ser necesarias en V3.1.0.
+--
+-- Ejecutar con la app detenida:
+--   duckdb data/repositorio.duckdb < admin/limpiar_tablas_obsoletas.sql
+-- =============================================================================
+
 -- SQL to delete unused tables
 -- Total space to reclaim: 7.65 MB
 
@@ -17,8 +32,8 @@ DROP TABLE IF EXISTS "datos_complementarios"."servidores_publicos_sigep";
 DROP TABLE IF EXISTS "datos_complementarios"."estadisticas_desmovilizados_reintegracion";
 DROP TABLE IF EXISTS "datos_complementarios"."sigep_salarios_agregados";
 DROP TABLE IF EXISTS "datos_gov_co"."sena_desercion_fpi";
-DROP TABLE IF EXISTS "empleo_publico"."cupos_en_formación_profesional_integral_por_tipo_d";
-DROP TABLE IF EXISTS "empleo_publico"."desercion_de_la_formación_profesional_integral";
+DROP TABLE IF EXISTS "empleo_publico"."cupos_en_formaciï¿½n_profesional_integral_por_tipo_d";
+DROP TABLE IF EXISTS "empleo_publico"."desercion_de_la_formaciï¿½n_profesional_integral";
 DROP TABLE IF EXISTS "sena"."sena_cursos_largos";
 DROP TABLE IF EXISTS "competencias"."programacion_cursos_sena_regional";
 DROP TABLE IF EXISTS "sena_formacion"."sena_cupos_formacion_integral_tipo";
@@ -32,24 +47,24 @@ DROP TABLE IF EXISTS "mercado_laboral"."oferentes_remitidos_a_empleadores_pereir
 DROP TABLE IF EXISTS "rues_camaras_comercio"."top_10000_empresas_mas_grandes_colombia";
 DROP TABLE IF EXISTS "empleo_publico"."pqrsd_ministerio_del_trabajo";
 DROP TABLE IF EXISTS "rues_camaras_comercio"."empresas_activas_legalmente_constituidas";
-DROP TABLE IF EXISTS "empleo_publico"."superservicios_personal_por_categoría_de_empleo";
+DROP TABLE IF EXISTS "empleo_publico"."superservicios_personal_por_categorï¿½a_de_empleo";
 DROP TABLE IF EXISTS "empresas"."personal_por_categoria_empleo";
 DROP TABLE IF EXISTS "banco_mundial_internacional"."consolidado_global";
 DROP TABLE IF EXISTS "cultura"."espacios_de_las_artes_las_culturas_y_lo";
 DROP TABLE IF EXISTS "rues_camaras_comercio"."empresas_oriente_antioqueno";
 DROP TABLE IF EXISTS "rues_camaras_comercio"."pymes_magdalena_nordeste_antioquia";
-DROP TABLE IF EXISTS "empleo_publico"."personas_expuestas_políticamente__pep_";
+DROP TABLE IF EXISTS "empleo_publico"."personas_expuestas_polï¿½ticamente__pep_";
 DROP TABLE IF EXISTS "empleadores"."personas_expuestas_politicamente_pep";
 DROP TABLE IF EXISTS "dane_estadisticas"."objetivos_de_desarrollo_sostenible_soc";
 DROP TABLE IF EXISTS "dane"."objetivos_de_desarrollo_sostenible_soc";
-DROP TABLE IF EXISTS "empleo_publico"."puestos_sensibles_a_la_corrupción";
+DROP TABLE IF EXISTS "empleo_publico"."puestos_sensibles_a_la_corrupciï¿½n";
 DROP TABLE IF EXISTS "snies"."snies_administrativos";
 DROP TABLE IF EXISTS "empleo_publico"."ruta_empleabilidad_barranquilla";
 DROP TABLE IF EXISTS "datos_complementarios"."ruta_empleabilidad_resumen";
 DROP TABLE IF EXISTS "servicio_publico_empleo"."ruta_empleabilidad_barranquilla";
 DROP TABLE IF EXISTS "dnp_planes_desarrollo"."dnp_medicion_desempeno_municipal";
-DROP TABLE IF EXISTS "dane_socrata"."vista_registro_nacional_de_turismo_boyacá";
-DROP TABLE IF EXISTS "empleo_publico"."men_programas_educación_para_el_trabajo_y_el_desar";
+DROP TABLE IF EXISTS "dane_socrata"."vista_registro_nacional_de_turismo_boyacï¿½";
+DROP TABLE IF EXISTS "empleo_publico"."men_programas_educaciï¿½n_para_el_trabajo_y_el_desar";
 DROP TABLE IF EXISTS "datos_gov_co"."men_programas_etdh";
 DROP TABLE IF EXISTS "cultura"."sitios_arqueol_gicos_de_colombia";
 DROP TABLE IF EXISTS "dnp_planes_desarrollo"."dnp_seguimiento_planes_avance";
@@ -81,7 +96,7 @@ DROP TABLE IF EXISTS "men_estadisticas"."men_matricula_municipios_es";
 DROP TABLE IF EXISTS "rues_camaras_comercio"."nits_empresas_actividad_comercial";
 DROP TABLE IF EXISTS "mercado_laboral"."encuesta_territorial_de_comportamiento_e";
 DROP TABLE IF EXISTS "ole"."graduados_universidad_valle";
-DROP TABLE IF EXISTS "empleo_publico"."certificación_de_la_formación_profesional_integral";
+DROP TABLE IF EXISTS "empleo_publico"."certificaciï¿½n_de_la_formaciï¿½n_profesional_integral";
 DROP TABLE IF EXISTS "competencias"."certificacion_formacion_profesional_sena";
 DROP TABLE IF EXISTS "sena"."certificaci_n_de_la_formaci_n_profesional_integral";
 DROP TABLE IF EXISTS "datos_gov_co"."sena_certificacion_fpi";
@@ -96,13 +111,13 @@ DROP TABLE IF EXISTS "dane_estadisticas"."poblaci_n_que_ingres_al_proceso_de_rei
 DROP TABLE IF EXISTS "ole"."matriculados_iu_mayor_cartagena";
 DROP TABLE IF EXISTS "banco_mundial_internacional"."indicadores_economia";
 DROP TABLE IF EXISTS "dnp_planes_desarrollo"."avance_fisico_plan_desarrollo_caldas";
-DROP TABLE IF EXISTS "empleo_publico"."caracterización_del_empleo_público";
+DROP TABLE IF EXISTS "empleo_publico"."caracterizaciï¿½n_del_empleo_pï¿½blico";
 DROP TABLE IF EXISTS "datos_complementarios"."empleo_publico_sigep";
-DROP TABLE IF EXISTS "empleo_publico"."men_instituciones_educación_para_el_trabajo_y_el_d";
+DROP TABLE IF EXISTS "empleo_publico"."men_instituciones_educaciï¿½n_para_el_trabajo_y_el_d";
 DROP TABLE IF EXISTS "datos_complementarios"."salarios_por_cargo";
 DROP TABLE IF EXISTS "mintic"."guadalajara_de_buga_capacitaciones_gob";
-DROP TABLE IF EXISTS "dane_socrata"."evaluaciones_agrícolas__del_departamento_de_caldas";
-DROP TABLE IF EXISTS "empleo_publico"."vinculación_de_personas_con_discapacidad";
+DROP TABLE IF EXISTS "dane_socrata"."evaluaciones_agrï¿½colas__del_departamento_de_caldas";
+DROP TABLE IF EXISTS "empleo_publico"."vinculaciï¿½n_de_personas_con_discapacidad";
 DROP TABLE IF EXISTS "dane_socrata"."registro_nacional_de_turismo___departamento_del_ch";
 DROP TABLE IF EXISTS "poblacion"."t_6_personas_con_discapacidad";
 DROP TABLE IF EXISTS "ref"."municipio_mapping";
@@ -121,12 +136,12 @@ DROP TABLE IF EXISTS "divipola"."divipola_municipios";
 DROP TABLE IF EXISTS "divipola"."minsalud_municipios";
 DROP TABLE IF EXISTS "ref"."municipios";
 DROP TABLE IF EXISTS "divipola"."divipola_municipios_geo";
-DROP TABLE IF EXISTS "empleo_publico"."más_jóvenes_en_el_estado";
+DROP TABLE IF EXISTS "empleo_publico"."mï¿½s_jï¿½venes_en_el_estado";
 DROP TABLE IF EXISTS "dane"."m_s_j_venes_en_el_estado";
 DROP TABLE IF EXISTS "dane_estadisticas"."m_s_j_venes_en_el_estado";
 DROP TABLE IF EXISTS "dane"."resguardos_ind_genas_a_nivel_nacional_20";
 DROP TABLE IF EXISTS "dane_estadisticas"."resguardos_ind_genas_a_nivel_nacional_20";
-DROP TABLE IF EXISTS "dane_socrata"."resguardos_indígenas_a_nivel_nacional_2020";
+DROP TABLE IF EXISTS "dane_socrata"."resguardos_indï¿½genas_a_nivel_nacional_2020";
 DROP TABLE IF EXISTS "mipymes_estructura_empresarial"."creditos_fonder_valle_emprendimiento";
 DROP TABLE IF EXISTS "sena"."sena_programas_catalogo";
 DROP TABLE IF EXISTS "banco_mundial_internacional"."pivot_paises_anios";
@@ -288,28 +303,28 @@ DROP TABLE IF EXISTS "datos_complementarios"."salarios_nivel_jerarquico_departam
 DROP TABLE IF EXISTS "datos_complementarios"."salarios_nivel_x_departamento";
 DROP TABLE IF EXISTS "cultura"."est_mulos_a_proyectos_art_sticos_y_cultu";
 DROP TABLE IF EXISTS "mintic"."centros_digitales_sucre";
-DROP TABLE IF EXISTS "dane_socrata"."men_estadisticas_en_educacion_en_preescolar_básic";
+DROP TABLE IF EXISTS "dane_socrata"."men_estadisticas_en_educacion_en_preescolar_bï¿½sic";
 DROP TABLE IF EXISTS "datos_complementarios"."graduados_nbc_nivel";
 DROP TABLE IF EXISTS "entidades"."entidades_superfinanciera";
 DROP TABLE IF EXISTS "mipymes_estructura_empresarial"."estructura_empresarial_ciiu_detallado_tamano";
 DROP TABLE IF EXISTS "ole"."graduados_colegio_mayor_de_antioquia";
 DROP TABLE IF EXISTS "ole"."graduados_colegio_mayor_antioquia";
-DROP TABLE IF EXISTS "ole"."graduados_institución_universitaria_mayor_de_carta";
+DROP TABLE IF EXISTS "ole"."graduados_instituciï¿½n_universitaria_mayor_de_carta";
 DROP TABLE IF EXISTS "dane_estadisticas"."personas_acceso_agua_saneamiento";
 DROP TABLE IF EXISTS "dane_indicadores"."personas_acceso_agua_saneamiento";
 DROP TABLE IF EXISTS "rues_camaras_comercio"."ciiu_por_municipio";
 DROP TABLE IF EXISTS "empleo_publico"."disparidad_salarial_hombres_mujeres";
-DROP TABLE IF EXISTS "empleo_publico"."población_nini_entre_18_y_28_años";
+DROP TABLE IF EXISTS "empleo_publico"."poblaciï¿½n_nini_entre_18_y_28_aï¿½os";
 DROP TABLE IF EXISTS "empleo_publico"."cantidad_de_empleos_y_tipos_de_planta_por_entidad";
 DROP TABLE IF EXISTS "datos_gov_co"."funcion_publica_empleos_entidad";
 DROP TABLE IF EXISTS "empleadores"."empleos_tipos_planta_por_entidad";
-DROP TABLE IF EXISTS "dane_socrata"."sección_de_usos_del_portal_de_datos_abiertos_del_e";
+DROP TABLE IF EXISTS "dane_socrata"."secciï¿½n_de_usos_del_portal_de_datos_abiertos_del_e";
 DROP TABLE IF EXISTS "datos_complementarios"."salarios_sector_privado";
 DROP TABLE IF EXISTS "datos_complementarios"."graduados_nbc_metodologia";
-DROP TABLE IF EXISTS "empleo_publico"."esquema_de_publicación_de_información__ministerio_";
+DROP TABLE IF EXISTS "empleo_publico"."esquema_de_publicaciï¿½n_de_informaciï¿½n__ministerio_";
 DROP TABLE IF EXISTS "dane_estadisticas"."directorio_de_establecimientos_educativo";
 DROP TABLE IF EXISTS "dane"."directorio_de_establecimientos_educativo";
-DROP TABLE IF EXISTS "empleo_publico"."registro_de_activos_de_información";
+DROP TABLE IF EXISTS "empleo_publico"."registro_de_activos_de_informaciï¿½n";
 DROP TABLE IF EXISTS "dane_estadisticas"."proyecci_n_demogr_fica_del_municipio_de";
 DROP TABLE IF EXISTS "dane"."proyecci_n_demogr_fica_del_municipio_de";
 DROP TABLE IF EXISTS "mipymes_estructura_empresarial"."estructura_empresarial_municipio_tamano";
@@ -332,7 +347,7 @@ DROP TABLE IF EXISTS "estadisticas_es"."es_matricula_area";
 DROP TABLE IF EXISTS "datos_gov_co"."sena_mesas_sectoriales";
 DROP TABLE IF EXISTS "competencias"."mesas_sectoriales_sena_base_datos";
 DROP TABLE IF EXISTS "competencias"."mesas_sectoriales_sena";
-DROP TABLE IF EXISTS "empleo_publico"."directorio_de_los_funcionarios_de_la_alcaldía_muni";
+DROP TABLE IF EXISTS "empleo_publico"."directorio_de_los_funcionarios_de_la_alcaldï¿½a_muni";
 DROP TABLE IF EXISTS "empleo_publico"."pensionados_en_colombia";
 DROP TABLE IF EXISTS "empleo_publico"."pensionados_por_entidad_administradora_de_colombia";
 DROP TABLE IF EXISTS "estadisticas_es"."es_graduados_nivel";
@@ -343,22 +358,22 @@ DROP TABLE IF EXISTS "unesco_internacional"."resumen_educativo_paises";
 DROP TABLE IF EXISTS "cultura"."historial_memorias_de_oficio";
 DROP TABLE IF EXISTS "vss"."documentos_embeddings";
 DROP TABLE IF EXISTS "estadisticas_es"."es_docentes_nivel";
-DROP TABLE IF EXISTS "dane_socrata"."proyección_de_población_municipal_de_chiquinquirá_";
+DROP TABLE IF EXISTS "dane_socrata"."proyecciï¿½n_de_poblaciï¿½n_municipal_de_chiquinquirï¿½_";
 DROP TABLE IF EXISTS "dane"."proyecci_n_de_poblaci_n_municipal_de_chi";
 DROP TABLE IF EXISTS "ilo_internacional"."tendencias_empleo_latam";
 DROP TABLE IF EXISTS "dane_estadisticas"."proyecci_n_de_poblaci_n_municipal_de_chi";
 DROP TABLE IF EXISTS "educacion"."nbc_nucleos_basicos_conocimiento";
 DROP TABLE IF EXISTS "cultura"."modalidades_de_formaci_n_en_arte_y_depor";
 DROP TABLE IF EXISTS "datos_complementarios"."ole_mapasregionales_textos";
-DROP TABLE IF EXISTS "dane_socrata"."salud___tasa_de_mortalidad_por_desnutrición_en_men";
+DROP TABLE IF EXISTS "dane_socrata"."salud___tasa_de_mortalidad_por_desnutriciï¿½n_en_men";
 DROP TABLE IF EXISTS "programas_ies"."programas_colegio_mayor_cundinamarca";
 DROP TABLE IF EXISTS "datos_complementarios"."ole_tasavinculacion_textos";
 DROP TABLE IF EXISTS "estadisticas_es"."es_matricula_modalidad";
 DROP TABLE IF EXISTS "competencias"."brechas_competencia";
 DROP TABLE IF EXISTS "datos_complementarios"."ole_basecotizacion_textos";
 DROP TABLE IF EXISTS "oecd_internacional"."pisa_scores";
-DROP TABLE IF EXISTS "empleo_publico"."consultas_verbales_por_dirección_territorial";
-DROP TABLE IF EXISTS "empleo_publico"."averiguaciones_preliminares_iniciadas_por_direcció";
+DROP TABLE IF EXISTS "empleo_publico"."consultas_verbales_por_direcciï¿½n_territorial";
+DROP TABLE IF EXISTS "empleo_publico"."averiguaciones_preliminares_iniciadas_por_direcciï¿½";
 DROP TABLE IF EXISTS "empleo_publico"."sanciones_no_ejecutoriadas_y_ejecutoriadas_por_dir";
 DROP TABLE IF EXISTS "competencias"."catalogo_competencias_transversales";
 DROP TABLE IF EXISTS "indicadores_globales"."bm_fuerza_laboral_total";
@@ -393,7 +408,7 @@ DROP TABLE IF EXISTS "banco_mundial"."bm_empleo_vulnerable";
 DROP TABLE IF EXISTS "ref"."departamentos";
 DROP TABLE IF EXISTS "divipola"."divipola_departamentos_geo";
 DROP TABLE IF EXISTS "divipola"."minsalud_departamentos";
-DROP TABLE IF EXISTS "dane_socrata"."divipola__códigos_departamentos";
+DROP TABLE IF EXISTS "dane_socrata"."divipola__cï¿½digos_departamentos";
 DROP TABLE IF EXISTS "programas_ies"."estudiantes_admitidos_institucional";
 DROP TABLE IF EXISTS "indicadores_globales"."bm_usuarios_internet_pct";
 DROP TABLE IF EXISTS "banco_mundial"."bm_usuarios_internet_pct";

@@ -1,9 +1,13 @@
 """
 ESCO Skills Extractor — Full extraction from ESCO API v1.2.0
-Extracts all skills/knowledge/competences with their hierarchy,
-descriptions, skill types, reuse levels, and related occupations count.
+============================================================
 
-Output: CSV + DuckDB tables in tendencias_tecnologicas schema.
+Extrae todas las habilidades, conocimientos y competencias desde la API
+europea ESCO con su jerarquia completa, descripciones, tipos de habilidad,
+niveles de reutilizacion y conteo de ocupaciones relacionadas.
+
+Output: CSV + DuckDB tables en schema tendencias_tecnologicas.
+Recuperado de UniSabana_Dev (v2). Sin dependencias del proyecto — funciona standalone.
 """
 import requests
 import json
