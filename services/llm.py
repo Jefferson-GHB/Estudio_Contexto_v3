@@ -70,7 +70,7 @@ CADA VEZ que menciones un dato numerico, estadistico, o afirmacion factual, DEBE
 
 FORMATO DE CITACION EN TEXTO:
 - "La matricula alcanzo 15,234 estudiantes (MEN, 2024)"
-- "El HHI de 2,847 indica un mercado altamente concentrado ( Sistema de analisis para estudio de contexto, 2026)"
+- "El HHI de 2,847 indica un mercado altamente concentrado ( Sistema de Análisis de Contexto para la Toma de Decisiones Educativas, 2026)"
 - "Se registraron 1,250 vacantes en el sector salud (MinTrabajo, 2024)"
 - "El salario promedio es $3,200,000 COP (DANE, 2024)"
 
@@ -80,7 +80,7 @@ FORMATO DE REFERENCIAS (seccion al final del informe):
 - Ministerio del Trabajo. (2024). Agencia Publica de Empleo - Estadisticas de vacantes. https://www.mintrabajo.gov.co
 - Ministerio de Educacion Nacional. (2023). Sistema de Informacion de la Educacion para el Trabajo (SIET). https://www.mineducacion.gov.co
 - DANE & MinTrabajo. (2024). Clasificacion Unica de Ocupaciones para Colombia (CUOC). https://www.dane.gov.co
-- Sistema de analisis para estudio de contexto. (2026). Plataforma de pertinencia educativa [Software]. Estudio Contexto.
+- Sistema de Análisis de Contexto para la Toma de Decisiones Educativas. (2026). Plataforma de pertinencia educativa [Software]. Estudio Contexto.
 
 CATALOGO DE FUENTES OFICIALES:
 | Tipo de Dato                | Fuente a Citar (APA)                    |
@@ -88,8 +88,8 @@ CATALOGO DE FUENTES OFICIALES:
 | Programas, IES, Matricula   | MEN (2024). SNIES                      |
 | Graduados                   | MEN (2024). SNIES Graduados             |
 | Tendencia historica         | MEN (2024). SNIES Matriculados          |
-| HHI (concentracion)         | Sistema de analisis para estudio de contexto (2026) |
-| CAGR (crecimiento)          | Sistema de analisis para estudio de contexto (2026) |
+| HHI (concentracion)         | Sistema de Análisis de Contexto para la Toma de Decisiones Educativas (2026) |
+| CAGR (crecimiento)          | Sistema de Análisis de Contexto para la Toma de Decisiones Educativas (2026) |
 | Educacion ETDH              | MEN (2023). SIET                        |
 | Vacantes laborales          | MinTrabajo (2024). APE                  |
 | Competencias/Conocimientos  | DANE & MinTrabajo (2024). CUOC          |
@@ -148,7 +148,7 @@ REGLAS DE FORMATO:
 ---
 # INFORME DE PERTINENCIA EDUCATIVA
 
-Sistema de análisis para estudio de contexto
+Sistema de Análisis de Contexto para la Toma de Decisiones Educativas
 
 | Campo | Valor |
 |:------|:------|
@@ -338,13 +338,13 @@ Ejemplo de formato:
 - Departamento Administrativo Nacional de Estadistica. (2024). *Gran Encuesta Integrada de Hogares (GEIH)*. https://www.dane.gov.co
 - Ministerio del Trabajo. (2024). *Agencia Publica de Empleo - Estadisticas de vacantes*. https://www.mintrabajo.gov.co
 - DANE & MinTrabajo. (2024). *Clasificacion Unica de Ocupaciones para Colombia (CUOC)*. https://www.dane.gov.co
-- Sistema de analisis para estudio de contexto. (2026). *Plataforma de pertinencia educativa* (Version 3.1) [Software]. Estudio Contexto.
+- Sistema de Análisis de Contexto para la Toma de Decisiones Educativas. (2026). *Plataforma de pertinencia educativa* (Version 3.1) [Software]. Estudio Contexto.
 - ICFES. (2023). *Resultados Saber PRO 2020-2022*. https://www.icfes.gov.co
 
 Si consultaste fuentes externas adicionales, INCLUYELAS en esta seccion con su referencia APA completa.
 
 ---
-*Documento generado automaticamente por Estudio Contexto — Sistema de analisis para estudio de contexto*
+*Documento generado automaticamente por el Sistema de Análisis de Contexto para la Toma de Decisiones Educativas*
 *Consultoria en Pertinencia Educativa — contacto@estudiocontexto.co*
 
 REGLAS DE REDACCION:

@@ -1,4 +1,4 @@
-# Documentacion Tecnica — Estudio Contexto
+# Documentación Técnica — Sistema de Análisis de Contexto
 
 Equipo 195 | Concurso Datos al Ecosistema 2026: IA para Colombia | Nivel Intermedio
 

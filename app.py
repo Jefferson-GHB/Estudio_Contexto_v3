@@ -131,7 +131,7 @@ CATALOGO DE FUENTES OFICIALES:
 | Salarios                    | GEIH - DANE 2023-2024                   |
 | Desercion academica         | ES Desercion - MEN Colombia             |
 | Pruebas SABER 11/PRO        | ICFES - MEN Colombia                    |
-| Score Sistema               | Sistema de analisis para estudio de contexto 2024 |
+| Score Sistema               | Sistema de Análisis de Contexto para la Toma de Decisiones Educativas 2024 |
 
 NUNCA escribas datos sin fuente.
 
@@ -249,7 +249,7 @@ def main():
     sel_modalidades_siet = filtros_siet_seleccionados.get('modalidades_siet', [])
     mostrar_siet = filtros_siet_seleccionados['mostrar']
 
-    st.title("Sistema de analisis para estudio de contexto")
+    st.title("Sistema de Análisis de Contexto para la Toma de Decisiones Educativas")
     st.markdown("Evidencia integrada para decisiones de pertinencia y permanencia estudiantil")
 
     if not st.session_state.get("welcome_banner_shown", False):

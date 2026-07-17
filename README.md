@@ -1,5 +1,5 @@
 ---
-title: Estudio Contexto
+title: Sistema de Análisis de Contexto para la Toma de Decisiones Educativas
 emoji: "\U0001F4CA"
 colorFrom: red
 colorTo: gray
@@ -9,7 +9,7 @@ pinned: false
 ---
 
 <h1 align="center">
-  Estudio Contexto
+  Sistema de Análisis de Contexto<br>para la Toma de Decisiones Educativas
 </h1>
 
 <h4 align="center">Estudios de contexto para decisiones curriculares con evidencia de pertinencia y permanencia</h4>
