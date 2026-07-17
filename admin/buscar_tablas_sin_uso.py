@@ -15,13 +15,23 @@ se reemplazo por una lectura dinamica desde el codigo fuente actual.
 
 import duckdb
 from collections import defaultdict
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from config.database import DUCKDB_PATH
 
 # ============================================================================
-# CARGA DE REFERENCIAS — Desde el codigo fuente actual
+# CARGA DE REFERENCIAS — Desde el codigo fuente actual (mismo patron de analizar_uso_tablas.py)
 # ============================================================================
 
-from admin.analizar_uso_tablas import ARCHIVOS_A_ESCANEAR
+import re
+
+ARCHIVOS_A_ESCANEAR = [
+    'data/queries.py', 'app.py',
+    'services/ml/matching.py', 'services/ml/snies_etdh.py', 'services/data_loader.py',
+    'services/sources.py',
+    'views/tab_academico.py', 'views/tab_laboral.py',
+    'views/tab_territorial.py', 'views/tab_decision.py',
+]
 import re, os
 
 tablas_referenciadas = set()

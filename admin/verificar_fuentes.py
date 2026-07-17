@@ -14,6 +14,9 @@ Recuperado de UniSabana_Dev. Ruta absoluta original reemplazada por
 el resolvedor automatico de config/database.py.
 """
 
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import duckdb
 from config.database import DUCKDB_PATH
 

@@ -11,6 +11,9 @@ Recuperado de UniSabana_Dev. La ruta original apuntaba a repositorio_hf.duckdb
 (version legacy de HuggingFace). Se actualizo al resolvedor automatico.
 """
 
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from config.database import DUCKDB_PATH
 import duckdb
 
