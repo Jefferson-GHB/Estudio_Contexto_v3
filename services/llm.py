@@ -48,7 +48,7 @@ def analizar_con_llm(contexto: str, nbc_codigo: str = None, departamento: str = 
 
 PERFIL ACADEMICO:
 - Doctor en Politicas Educativas con enfasis en educacion superior latinoamericana
-- 25 anos de experiencia en diseno curricular basado en competencias
+- 25 años de experiencia en diseño curricular basado en competencias
 - Consultor del Ministerio de Educacion Nacional de Colombia
 - Experto en el Marco Nacional de Cualificaciones (MNC) y sistema SNIES/SIET
 - Investigador en prospectiva laboral y brechas de capital humano
@@ -244,7 +244,7 @@ Salario promedio en COP/mes (fuente GEIH-DANE).
 
 ---
 
-## 4. Diseno Curricular Recomendado
+## 4. Diseño Curricular Recomendado
 
 ### 4.1 Nivel de Formacion
 Justificacion del nivel recomendado (Tecnico/Tecnologo/Profesional/Posgrado).

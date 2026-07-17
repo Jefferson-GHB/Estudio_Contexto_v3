@@ -583,7 +583,7 @@ def render_tab_decision(ctx, tab1_output, tab2_output, tab3_output, analizar_con
                         except Exception as e_docx:
                             st.error(f"No se pudo generar el documento: {e_docx}")
                 with col_dl2:
-                    st.caption("Documento Word profesional con portada institucional, marca de agua, encabezados, tabla de metricas, referencias APA y diseno editorial completo.")
+                    st.caption("Documento Word profesional con portada institucional, marca de agua, encabezados, tabla de metricas, referencias APA y diseño editorial completo.")
 
                 with st.expander("Ver datos enviados al modelo", expanded=False):
                     st.code(contexto, language="markdown")

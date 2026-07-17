@@ -13,7 +13,7 @@ CACHE_DIR = Path(__file__).parent.parent / "cache_data" / "ml_embeddings"
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
 # Modelo configurable via variable de entorno EMBEDDING_MODEL
-# Opciones recomendadas para espanol:
+# Opciones recomendadas para español:
 #   "paraphrase-multilingual-MiniLM-L12-v2"   (120 MB, ligero, default)
 #   "Alibaba-NLP/gte-multilingual-base"        (620 MB, mejor precision)
 #   "intfloat/multilingual-e5-large"           (1.2 GB, alternativa top)

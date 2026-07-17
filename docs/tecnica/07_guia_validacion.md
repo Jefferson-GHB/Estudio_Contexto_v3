@@ -42,7 +42,7 @@ pip install -r requirements.txt
 ### 1.3 Base de Datos
 
 - Archivo: `data/repositorio.duckdb`
-- Tamano: 703 MB
+- Tamaño: 703 MB
 - Gestion: Git LFS
 - Modo: Lectura exclusiva (read-only)
 

@@ -27,7 +27,7 @@ pinned: false
 
 ## El problema
 
-En Colombia, segun el Sistema para la Prevencion de la Desercion de la Educacion Superior (SPADIES), la desercion universitaria constituye una senal estructural de riesgo. Cuando una institucion disena, abre o modifica un programa sin leer contexto integrado —mercado laboral, territorio, competencias, trayectorias— genera condiciones que afectan la permanencia: programas en mercados saturados, perfiles de egreso desconectados de ocupaciones reales, o modalidades inviables para la poblacion objetivo.
+En Colombia, segun el Sistema para la Prevencion de la Desercion de la Educacion Superior (SPADIES), la desercion universitaria constituye una señal estructural de riesgo. Cuando una institución diseña, abre o modifica un programa sin leer contexto integrado —mercado laboral, territorio, competencias, trayectorias— genera condiciones que afectan la permanencia: programas en mercados saturados, perfiles de egreso desconectados de ocupaciones reales, o modalidades inviables para la poblacion objetivo.
 
 ---
 
@@ -105,7 +105,7 @@ Estudio Contexto democratiza el acceso a analisis de contexto educativo basados 
 ## Interpretacion
 
 - **Score ≥ 80 (OFERTAR)**: Condiciones favorables de mercado, empleabilidad y territorio. Baja concentracion, crecimiento positivo, vacantes activas, salarios competitivos y conectividad suficiente.
-- **Score 50-79 (OFERTAR CON AJUSTES)**: Senales mixtas. Se recomienda revisar modalidad, departamento o nivel de formacion antes de comprometer recursos.
+- **Score 50-79 (OFERTAR CON AJUSTES)**: Señales mixtas. Se recomienda revisar modalidad, departamento o nivel de formacion antes de comprometer recursos.
 - **Score < 50 (REVALUAR)**: Mercado saturado o sin demanda laboral detectable. Explorar formacion complementaria de corta duracion alineada con competencias CUOC especificas.
 
 La recomendacion es **trazable**: cada componente del score se desglosa con su valor numerico y fuente de datos, permitiendo auditoria completa del resultado.

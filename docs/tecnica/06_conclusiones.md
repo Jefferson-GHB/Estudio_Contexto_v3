@@ -23,7 +23,7 @@ El sistema produce indicadores cuantitativos trazables que permiten caracterizar
 | Laboral | Ratio de Absorcion | Capacidad del mercado laboral para absorber graduados del NBC |
 | Laboral | Densidad de Competencias | Que tan definido esta el perfil ocupacional asociado al NBC |
 | Territorial | Conectividad | Condiciones de acceso para modalidades virtuales o hibridas |
-| Territorial | Desempeno Municipal (MDM) | Capacidad institucional del territorio |
+| Territorial | Desempeño Municipal (MDM) | Capacidad institucional del territorio |
 | Global | Brecha de Talento IA | Oportunidad o riesgo segun la disponibilidad de talento en el campo |
 
 ### 1.3 Sobre el Matching Semantico
@@ -65,7 +65,7 @@ Los datos de conectividad (internet fijo, cobertura movil 4G) provienen de fuent
 
 ### 2.4 Subreporte de la Agencia Publica de Empleo
 
-Las vacantes registradas por la APE no capturan la totalidad del mercado laboral colombiano. El sistema aplica un factor de ajuste en el calculo del ratio de absorcion laboral para corregir parcialmente este subreporte, pero la senal laboral debe interpretarse como una aproximacion, no como un censo.
+Las vacantes registradas por la APE no capturan la totalidad del mercado laboral colombiano. El sistema aplica un factor de ajuste en el calculo del ratio de absorcion laboral para corregir parcialmente este subreporte, pero la señal laboral debe interpretarse como una aproximacion, no como un censo.
 
 ### 2.5 Dependencia del Modelo de Lenguaje
 
@@ -73,7 +73,7 @@ El componente de busqueda semantica depende de la disponibilidad de `sentence-tr
 
 ### 2.6 Interpretabilidad del Motor de Decision
 
-El motor de decision produce recomendaciones basadas en scoring ponderado, pero los pesos (30% academica, 40% laboral, 20% territorial, 10% global) reflejan una priorizacion de empleabilidad sobre otras dimensiones. Esta decision de diseno esta documentada y justificada, pero instituciones con prioridades diferentes pueden requerir recalibracion de pesos.
+El motor de decision produce recomendaciones basadas en scoring ponderado, pero los pesos (30% academica, 40% laboral, 20% territorial, 10% global) reflejan una priorizacion de empleabilidad sobre otras dimensiones. Esta decision de diseño esta documentada y justificada, pero instituciones con prioridades diferentes pueden requerir recalibracion de pesos.
 
 ---
 
@@ -110,7 +110,7 @@ El motor de decision produce recomendaciones basadas en scoring ponderado, pero 
 
 ## 4. Lectura Responsable del Alcance
 
-El Sistema de Analisis de Contexto para la Toma de Decisiones Educativas es un **sistema de apoyo a la decision**, no un sustituto del criterio experto. Las siguientes salvaguardas estan incorporadas en el diseno:
+El Sistema de Analisis de Contexto para la Toma de Decisiones Educativas es un **sistema de apoyo a la decision**, no un sustituto del criterio experto. Las siguientes salvaguardas estan incorporadas en el diseño:
 
 1. **Validacion experta requerida:** Los informes generados por el asistente de IA requieren revision humana antes de orientar decisiones formales. El sistema lo declara explicitamente en su interfaz.
 2. **Datos agregados, no individuales:** El sistema opera con datos agregados por NBC, departamento y nivel de formacion. No infiere ni expone informacion a nivel de estudiante individual.

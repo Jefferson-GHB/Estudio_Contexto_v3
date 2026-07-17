@@ -119,7 +119,7 @@ Estadisticas de Educacion Superior consolidadas por el MEN. Incluyen indicadores
 | `mintic` | 6 | MinTIC | Gobierno digital, centros digitales, asesorias teletrabajo, certificaciones TI |
 | `dnp` + `dnp_planes_desarrollo` | 8 | DNP | Medicion desempeno municipal, planes de desarrollo, red vial, indicadores PDT |
 | `cultura` | 6 | MinCultura | Espacios culturales, sitios arqueologicos, estimulos artisticos, memorias de oficio |
-| `mipymes_estructura_empresarial` | 5 | MinComercio | Estructura empresarial por CIIU, tamano, municipio, naturaleza |
+| `mipymes_estructura_empresarial` | 5 | MinComercio | Estructura empresarial por CIIU, tamaño, municipio, naturaleza |
 | `rues_camaras_comercio` | 13 | Confecamaras | RUES, empresas activas, empresas creadas, top 10,000 empresas |
 | `datos_complementarios` | 37 | SENA, OLE, DANE, SIGEP | Salarios, vacantes, graduados, ruta empleabilidad, tendencias laborales |
 

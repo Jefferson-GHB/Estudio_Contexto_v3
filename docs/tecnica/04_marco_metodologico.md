@@ -8,7 +8,7 @@ Aplicacion del marco CRISP-ML (Cross-Industry Standard Process for Machine Learn
 
 ### Definicion del Marco de Pertinencia Educativa
 
-El problema central es la desercion universitaria como senal estructural de riesgo para la calidad, la equidad y la sostenibilidad de la educacion superior en Colombia. Las instituciones disenan, renuevan o modifican programas academicos sin una lectura integrada del contexto (mercado educativo, demanda laboral, territorio, competencias, trayectorias), lo que puede generar condiciones que afectan la permanencia estudiantil.
+El problema central es la desercion universitaria como señal estructural de riesgo para la calidad, la equidad y la sostenibilidad de la educacion superior en Colombia. Las instituciones diseñan, renuevan o modifican programas academicos sin una lectura integrada del contexto (mercado educativo, demanda laboral, territorio, competencias, trayectorias), lo que puede generar condiciones que afectan la permanencia estudiantil.
 
 ### Objetivo del Proyecto
 
@@ -114,7 +114,7 @@ Todas las fuentes estan documentadas con trazabilidad en:
 
 ### 4.2 Busqueda Semantica con Embeddings Multilingues
 
-**Modelo:** `sentence-transformers` con arquitectura MiniLM de 384 dimensiones, seleccionado por su equilibrio entre precision, tamano compacto y desempeno en espanol.
+**Modelo:** `sentence-transformers` con arquitectura MiniLM de 384 dimensiones, seleccionado por su equilibrio entre precision, tamaño compacto y desempeño en español.
 
 **Corpus indexado:**
 - Ocupaciones CUOC: 680 perfiles (`perfilesocupacionales_excel_cuoc_2025`)
@@ -176,7 +176,7 @@ Todas las fuentes estan documentadas con trazabilidad en:
 6. No ofertar
 
 **Logica del score laboral (el de mayor peso — 40%):** No se reduce a una comparacion simple graduados vs vacantes. Integra cuatro componentes:
-- Volumen absoluto de vacantes (senal de mercado activo)
+- Volumen absoluto de vacantes (señal de mercado activo)
 - Ratio de absorcion ajustado (corrige subreporte APE)
 - Senal salarial (valoracion del mercado por la formacion)
 - Densidad de competencias asociadas (perfil ocupacional definido)

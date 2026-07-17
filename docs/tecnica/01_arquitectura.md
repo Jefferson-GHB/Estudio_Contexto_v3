@@ -149,7 +149,7 @@ Diagrama de arquitectura, flujo de datos, integracion de fuentes y stack tecnolo
 
 **Puente SNIES ↔ SIET:**
 
-El modelo de lenguaje identifica correspondencias entre educacion superior formal (SNIES) y educacion para el trabajo (SIET) a partir del significado de los textos, no de coincidencias literales. Esto permite que el analisis de pertinencia de un programa universitario se enriquezca con senales del ecosistema de formacion para el trabajo, revelando complementariedades que los datos estructurados no harian visibles.
+El modelo de lenguaje identifica correspondencias entre educacion superior formal (SNIES) y educacion para el trabajo (SIET) a partir del significado de los textos, no de coincidencias literales. Esto permite que el analisis de pertinencia de un programa universitario se enriquezca con señales del ecosistema de formacion para el trabajo, revelando complementariedades que los datos estructurados no harian visibles.
 
 **Matching SNIES → CUOC:**
 

@@ -104,7 +104,7 @@ def analizar_con_llm(contexto: str, nbc_codigo: str = None, departamento: str = 
 
 PERFIL ACADEMICO:
 - Doctor en Politicas Educativas con enfasis en educacion superior latinoamericana
-- 25 anos de experiencia en diseno curricular basado en competencias
+- 25 años de experiencia en diseño curricular basado en competencias
 - Consultor del Ministerio de Educacion Nacional de Colombia
 - Experto en el Marco Nacional de Cualificaciones (MNC) y sistema SNIES/SIET
 - Investigador en prospectiva laboral y brechas de capital humano
@@ -261,7 +261,7 @@ def main():
         with c1:
             render_welcome_banner(
                 title="Bienvenido, tu panel ya esta listo",
-                subtitle='"La desercion no debe leerse como un dato aislado de abandono, sino como una senal de pertinencia y sostenibilidad." — Equipo 195',
+                subtitle='"La desercion no debe leerse como un dato aislado de abandono, sino como una señal de pertinencia y sostenibilidad." — Equipo 195',
                 mascot="<i class='fas fa-brain'></i>"
             )
         with c2:

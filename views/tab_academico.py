@@ -148,7 +148,7 @@ def render_tab_academico(ctx):
     # =====================================================================
     st.markdown("---")
     st.markdown("### Evolucion del Ciclo Estudiantil")
-    st.caption("Seguimiento del flujo estudiantil: inscritos, admitidos, primer curso y graduados. Identificar donde se concentran las perdidas permite anticipar riesgos de desercion y disenar estrategias de retencion por etapa.")
+    st.caption("Seguimiento del flujo estudiantil: inscritos, admitidos, primer curso y graduados. Identificar donde se concentran las perdidas permite anticipar riesgos de desercion y diseñar estrategias de retencion por etapa.")
     st.caption(f"Tendencia historica | {ctx.label_ambito}")
 
     col_insc, col_admi = st.columns(2)

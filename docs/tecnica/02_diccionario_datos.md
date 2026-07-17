@@ -14,7 +14,7 @@ El modelo DSS organiza las variables en **4 ejes de pertinencia** y **9 dominios
 |:----|:-------|:---------|:----------|:------------|
 | Pertinencia Academica | EJE_1 | D1, D2, D3 | 41 | Oferta educativa, instituciones, programas, matricula, graduados |
 | Pertinencia Laboral | EJE_2 | D4, D5 | 36 | Ocupaciones CUOC, competencias, vacantes APE, salarios, sectores CIIU |
-| Pertinencia Territorial | EJE_3 | D6 | 14 | Departamento, municipio, conectividad, cobertura, PDET, desempeno municipal |
+| Pertinencia Territorial | EJE_3 | D6 | 14 | Departamento, municipio, conectividad, cobertura, PDET, desempeño municipal |
 | Pertinencia Global | EJE_4 | D7 | 23 | Indicadores internacionales, tendencias tecnologicas, IA, EdTech, microcredenciales |
 
 ### 1.1 Dominios Funcionales
@@ -26,7 +26,7 @@ El modelo DSS organiza las variables en **4 ejes de pertinencia** y **9 dominios
 | Oferta Comparada | D3 | EJE_1 | Matriculados, graduados, admitidos, costos, comparativas SNIES/SIET |
 | Ocupacional Laboral | D4 | EJE_2 | Ocupaciones CUOC, vacantes APE, colocados, sectores CIIU, salarios |
 | Competencias | D5 | EJE_2 | Conocimientos, destrezas, brechas de competencia por ocupacion |
-| Territorial Estrategico | D6 | EJE_3 | Territorio, conectividad, cobertura movil, internet fijo, PDET, desempeno DNP |
+| Territorial Estrategico | D6 | EJE_3 | Territorio, conectividad, cobertura movil, internet fijo, PDET, desempeño DNP |
 | Global | D7 | EJE_4 | Indicadores Banco Mundial, OECD, UNESCO, tendencias IA, EdTech, microcredenciales |
 
 ### 1.2 Clasificadores Transversales
@@ -41,7 +41,7 @@ Estos catalogos normalizan las variables y habilitan los cruces entre dominios:
 | CIIU Rev.4 | `clasificadores` | `ciiu_rev4` | 700 | Clasificacion Industrial Internacional Uniforme |
 | MNC | `catalogo_curado` | `cualificaciones_men` | 396 | Marco Nacional de Cualificaciones |
 | DIVIPOLA | `divipola` | `divipola_municipios` | 1,122 | Division Politico-Administrativa DANE |
-| SIET Areas | `catalogo_curado` | `mapeo_cinef_detallado_siet` | 106 | Areas de desempeno SIET ↔ CINE-F |
+| SIET Areas | `catalogo_curado` | `mapeo_cinef_detallado_siet` | 106 | Areas de desempeño SIET ↔ CINE-F |
 
 ---
 
@@ -219,8 +219,8 @@ El motor de decision (`services/decision_engine.py`) pondera las cuatro sintesis
 | Sintesis | Peso en decision | Indicadores principales |
 |:---------|:-----------------|:------------------------|
 | Academica | 30% | HHI (concentracion de mercado), CAGR (crecimiento matricula), Saber PRO, desercion |
-| Laboral | 40% | Vacantes APE, ratio de absorcion, senal salarial, densidad de competencias, puente SNIES-SIET |
-| Territorial | 20% | Conectividad (internet fijo, cobertura 4G), desempeno municipal DNP, municipios PDET |
+| Laboral | 40% | Vacantes APE, ratio de absorcion, señal salarial, densidad de competencias, puente SNIES-SIET |
+| Territorial | 20% | Conectividad (internet fijo, cobertura 4G), desempeño municipal DNP, municipios PDET |
 | Global | 10% | Tendencias IA, EdTech, industria 4.0, indicadores OCDE/UNESCO |
 
 **Seis tipos de oferta educativa recomendada:**
@@ -241,7 +241,7 @@ El motor de decision (`services/decision_engine.py`) pondera las cuatro sintesis
 | Aspecto | Valor |
 |:--------|:------|
 | Motor | DuckDB 1.2 |
-| Tamano | 703 MB |
+| Tamaño | 703 MB |
 | Modo | Read-only (`duckdb.connect(DUCKDB_PATH, read_only=True)`) |
 | Esquemas | 54 |
 | Tablas | 488 |

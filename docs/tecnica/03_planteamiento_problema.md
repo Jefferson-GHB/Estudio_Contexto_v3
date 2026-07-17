@@ -6,9 +6,9 @@ Definicion del problema que aborda el Sistema de Analisis de Contexto para la To
 
 ## 1. El Problema: Desercion y Decisiones Curriculares sin Contexto Integrado
 
-La desercion universitaria constituye una senal estructural de riesgo para la calidad, la equidad y la sostenibilidad de la educacion superior en Colombia. Segun datos del Sistema para la Prevencion de la Desercion de la Educacion Superior (SPADIES) del Ministerio de Educacion Nacional, las tasas de desercion por cohorte varian significativamente segun nivel de formacion, modalidad, departamento y area de conocimiento, reflejando que el abandono no es un fenomeno homogeneo sino que responde a condiciones especificas de contexto.
+La desercion universitaria constituye una señal estructural de riesgo para la calidad, la equidad y la sostenibilidad de la educacion superior en Colombia. Segun datos del Sistema para la Prevencion de la Desercion de la Educacion Superior (SPADIES) del Ministerio de Educacion Nacional, las tasas de desercion por cohorte varian significativamente segun nivel de formacion, modalidad, departamento y area de conocimiento, reflejando que el abandono no es un fenomeno homogeneo sino que responde a condiciones especificas de contexto.
 
-Sus causas se relacionan con factores academicos, socioeconomicos, territoriales, institucionales, vocacionales y de pertinencia formativa. Cuando la oferta academica se disena, renueva o modifica sin una lectura integrada del contexto, las instituciones pueden ofrecer programas:
+Sus causas se relacionan con factores academicos, socioeconomicos, territoriales, institucionales, vocacionales y de pertinencia formativa. Cuando la oferta academica se diseña, renueva o modifica sin una lectura integrada del contexto, las instituciones pueden ofrecer programas:
 
 - Desconectados de las necesidades de la poblacion objetivo
 - En modalidades inviables para las condiciones de acceso del territorio
@@ -23,16 +23,16 @@ Las instituciones de educacion superior disponen de multiples fuentes de informa
 | SNIES | MEN | Programas, IES, matricula, graduados, admitidos, inscritos, docentes |
 | SIET | MEN | Programas de educacion para el trabajo y desarrollo humano |
 | SPADIES | MEN | Desercion por cohorte, eficiencia terminal, balance anual |
-| Saber PRO/TyT/11 | ICFES | Resultados de pruebas de estado, desempeno academico |
+| Saber PRO/TyT/11 | ICFES | Resultados de pruebas de estado, desempeño academico |
 | APE | SENA | Vacantes, inscritos, colocados por ocupacion y departamento |
 | CUOC | DANE | Ocupaciones, competencias, destrezas, conocimientos |
 | GEIH | DANE | Salarios, empleo, condiciones laborales |
 | DIVIPOLA | DANE | Division politico-administrativa |
 | Conectividad | MinTIC | Internet fijo, cobertura movil 4G |
-| MDM | DNP | Medicion de desempeno municipal |
+| MDM | DNP | Medicion de desempeño municipal |
 | RUES | Confecamaras | Registro unico empresarial, estructura empresarial |
 
-Sin embargo, estas fuentes suelen operar como registros separados. La fragmentacion reduce la capacidad institucional para convertir datos abiertos en conocimiento util para la gestion de permanencia, el diseno curricular y la toma de decisiones sobre portafolio academico.
+Sin embargo, estas fuentes suelen operar como registros separados. La fragmentacion reduce la capacidad institucional para convertir datos abiertos en conocimiento util para la gestion de permanencia, el diseño curricular y la toma de decisiones sobre portafolio academico.
 
 ---
 
@@ -47,7 +47,7 @@ El estudio de contexto funciona como un dispositivo analitico para anticipar con
 - La ruta formativa y su articulacion con el ecosistema educativo
 - La correspondencia entre la propuesta curricular, las necesidades de la poblacion y las dinamicas sociales y laborales del entorno
 
-Desde esta perspectiva, la desercion se interpreta como una senal critica de pertinencia, trayectoria y sostenibilidad. Su analisis adquiere mayor capacidad explicativa cuando se relaciona con variables de contexto como:
+Desde esta perspectiva, la desercion se interpreta como una señal critica de pertinencia, trayectoria y sostenibilidad. Su analisis adquiere mayor capacidad explicativa cuando se relaciona con variables de contexto como:
 
 - Matricula y su evolucion historica (CAGR)
 - Concentracion del mercado educativo (HHI)
@@ -58,7 +58,7 @@ Desde esta perspectiva, la desercion se interpreta como una senal critica de per
 - Brechas de competencias entre formacion y mercado
 - Coherencia de la oferta academica con el ecosistema de formacion para el trabajo (SNIES ↔ SIET)
 
-La solucion no es un predictor individual de abandono. No sustituye los sistemas institucionales de acompanamiento estudiantil ni infiere riesgo a nivel de estudiante. Su funcion es mejorar la calidad de las decisiones sobre oferta academica, de manera que los programas se disenen y actualicen con evidencia contextual suficiente para fortalecer condiciones de permanencia.
+La solucion no es un predictor individual de abandono. No sustituye los sistemas institucionales de acompanamiento estudiantil ni infiere riesgo a nivel de estudiante. Su funcion es mejorar la calidad de las decisiones sobre oferta academica, de manera que los programas se diseñen y actualicen con evidencia contextual suficiente para fortalecer condiciones de permanencia.
 
 ---
 
@@ -72,7 +72,7 @@ Implementar una aplicacion web que integre datos abiertos educativos, laborales 
 
 | Objetivo | Resultado esperado | Evidencia de cumplimiento |
 |:---------|:-------------------|:--------------------------|
-| Integrar conjuntos de datos oficiales y abiertos relacionados con oferta academica, matricula, desercion, graduacion, transito, desempeno, ocupaciones, vacantes, competencias y conectividad | Repositorio unificado DuckDB con 488 tablas en 54 esquemas | `data/repositorio.duckdb` (703 MB), `docs/tecnica/05_fuentes_datos.md` |
+| Integrar conjuntos de datos oficiales y abiertos relacionados con oferta academica, matricula, desercion, graduacion, transito, desempeño, ocupaciones, vacantes, competencias y conectividad | Repositorio unificado DuckDB con 488 tablas en 54 esquemas | `data/repositorio.duckdb` (703 MB), `docs/tecnica/05_fuentes_datos.md` |
 | Normalizar los datos mediante CINE-F, NBC, CUOC, CIIU, MNC y DIVIPOLA para habilitar cruces comparables entre educacion, trabajo y territorio | Sistema de filtros en cascada con bridge programas↔matriculados | `data/filters.py`, `catalogo/` (26 archivos de mapeo), `docs/tecnica/02_diccionario_datos.md` |
 | Generar indicadores de pertinencia academica, laboral, territorial y global, incluyendo HHI, CAGR, ratio de absorcion laboral, indice de conectividad y puntaje final de decision | 4 sintesis evaluativas con scoring ponderado y motor de decision de 6 tipos de oferta | `services/scoring.py`, `services/decision_engine.py`, `docs/tecnica/01_arquitectura.md` |
 | Producir reportes de contexto y recomendaciones institucionales trazables, auditables y comprensibles para usuarios directivos, oficinas de planeacion, aseguramiento de la calidad y comites curriculares | Dashboard interactivo (Streamlit) + informe Word (python-docx) + informe LLM (Gemini) | `app.py` (387 lineas), `views/tab_academico.py` (907 L), `views/tab_laboral.py` (674 L), `views/tab_territorial.py` (560 L), `views/tab_decision.py` (592 L), `utils/reporte_docx.py`, `docs/tecnica/07_guia_validacion.md` |
@@ -86,7 +86,7 @@ Implementar una aplicacion web que integre datos abiertos educativos, laborales 
 | Directivos y rectores | Decisiones estrategicas sobre portafolio academico | Sintesis evaluativas con semaforo de decision y recomendacion de tipo de oferta |
 | Comites curriculares | Diseno y actualizacion de programas | Evidencia de pertinencia academica, laboral y territorial trazable a fuentes oficiales |
 | Oficinas de planeacion | Estudios de contexto para registro calificado | Informe academico con formato APA, citacion de fuentes, indicadores cuantitativos |
-| Aseguramiento de la calidad | Evidencia para acreditacion y autoevaluacion | Datos de desercion, desempeno, conectividad y mercado laboral integrados en un solo panel |
+| Aseguramiento de la calidad | Evidencia para acreditacion y autoevaluacion | Datos de desercion, desempeño, conectividad y mercado laboral integrados en un solo panel |
 | Investigadores y analistas | Datos abiertos integrados para estudios propios | Base DuckDB consultable, API FastAPI documentada, 56 consultas SQL parametrizadas |
 
 ---

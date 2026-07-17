@@ -58,7 +58,7 @@ La funcion `validate_bridge()` (`services/ml/snies_etdh.py:851-907`) ejecuta 4 v
 | 1. Resultados no vacios | `n_results > 0` | El puente encontro correspondencias |
 | 2. Dispersion de scores | `score_spread > 0.1` | Los scores no son todos identicos (evita overfitting) |
 | 3. Ratio top/resto | `top_score / rest_mean < 3.0` | El primer resultado no domina desproporcionadamente |
-| 4. Consistencia de areas | Al menos 1 area SIET identificada | El mapeo estructural encontro areas de desempeno |
+| 4. Consistencia de areas | Al menos 1 area SIET identificada | El mapeo estructural encontro areas de desempeño |
 
 **Metricas producidas:** `score_spread` (dispersion), `score_median`, `score_mean`, `n_results`, `total_matricula`
 
@@ -106,8 +106,8 @@ El motor de decision (`services/decision_engine.py`) pondera 4 sintesis evaluati
 | Sintesis | Peso | Justificacion |
 |:---------|:-----|:--------------|
 | Academica | 30% | Concentracion de mercado (HHI) y crecimiento (CAGR) |
-| Laboral | 40% | Mayor peso porque refleja empleabilidad real: volumen de vacantes, ratio de absorcion (x3 ajustado por subreporte APE), senal salarial, densidad de competencias, y bonus por alineacion SNIES-SIET |
-| Territorial | 20% | Conectividad digital, desempeno municipal DNP, contexto PDET |
+| Laboral | 40% | Mayor peso porque refleja empleabilidad real: volumen de vacantes, ratio de absorcion (x3 ajustado por subreporte APE), señal salarial, densidad de competencias, y bonus por alineacion SNIES-SIET |
+| Territorial | 20% | Conectividad digital, desempeño municipal DNP, contexto PDET |
 | Global | 10% | Desempleo juvenil (Banco Mundial) como indicador macro |
 
 ### 4.2 Validacion del scoring
