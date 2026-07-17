@@ -1,5 +1,5 @@
 """
-DICCIONARIO DE FUENTES DE DATOS - DSS Analytics Pro
+DICCIONARIO DE FUENTES DE DATOS — Estudio Contexto
 =====================================================
 Centraliza todas las fuentes de datos con su información de citación.
 Usar para mostrar en gráficos y asegurar transparencia al cliente.

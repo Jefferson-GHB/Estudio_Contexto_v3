@@ -1,5 +1,5 @@
 """
-Pipeline ETL — Orquestador de ingestion de fuentes de datos
+Pipeline ETL — Ejemplo de orquestador de ingestion de fuentes de datos
 =============================================================
 
 Ejecuta todos los scripts de ingesta en orden: catalogos → SNIES → SIET →
@@ -35,7 +35,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 # ============================================================================
 
 PIPELINE = [
-    ("catalogos",       "admin/ingestar_catalogos.py",       "Catalogos NBC, CUOC, CIIU, MNC, DSS"),
+    ("catalogos",       "admin/ingestar_catalogos.py",       "Catalogos NBC, CUOC, CIIU, MNC, Mapeo de Variables"),
     ("snies",           "admin/ingestar_snies.py",           "SNIES: programas, matricula, graduados"),
     ("socrata",         "admin/ingestar_socrata.py",         "datos.gov.co: ~188 tablas Socrata"),
     ("ape",             "admin/ingestar_ape.py",             "APE/SENA: vacantes, inscritos, colocados"),

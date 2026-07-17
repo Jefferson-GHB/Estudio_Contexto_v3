@@ -1,4 +1,4 @@
-"""Corrige los 7 errores detectados en el mapeo DSS (audit Aug 2026)."""
+"""Corrige los 7 errores detectados en el mapeo de variables (audit Aug 2026)."""
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 

@@ -1,4 +1,4 @@
-"""Ingesta MAPEO_DSS_OFICIAL.csv -> catalogo_curado.mapeo_dss_variables."""
+"""Ingesta del mapeo de variables (catalogo/MAPEO_DSS_OFICIAL.csv) a catalogo_curado.mapeo_variables."""
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 

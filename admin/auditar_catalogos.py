@@ -66,10 +66,10 @@ if not db3c.empty:
             log(f"  CINE '{r['NBC']}': orig='{m.iloc[0]['CINE_Campo_Amplio']}' -> corr='{r['CINE_Campo_Amplio']}'")
     log(f"  Corrections in effect: {corrections}")
 
-# --- Check 4: mapeo_dss_variables ---
+# --- Check 4: mapeo_variables ---
 log("")
 log("=" * 60)
-log("CHECK 4: catalogo_curado.mapeo_dss_variables")
+log("CHECK 4: catalogo_curado.mapeo_variables")
 log("=" * 60)
 db4 = conn.execute("""
     SELECT Eje, Dominio, COUNT(*) as n_vars, SUM(CASE WHEN Verificado THEN 1 ELSE 0 END) as verified

@@ -1,4 +1,4 @@
-"""Audita veracidad del mapeo DSS: schema/tabla/columna existen, cruces coherentes."""
+"""Audita veracidad del mapeo de variables: schema/tabla/columna existen, cruces coherentes."""
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -89,7 +89,7 @@ for _, r in mapeo.iterrows():
 
 # Report
 print("=" * 70)
-print("AUDITORIA MAPEO DSS — Veracidad de esquemas y cruces")
+print("AUDITORIA MAPEO DE VARIABLES — Veracidad de esquemas y cruces")
 print("=" * 70)
 for eje, s in sorted(stats.items()):
     bar = "OK" if s["err"] == 0 and s["sin_tabla"] == 0 else f"{s['err']} ERR" if s['err'] else f"{s['sin_tabla']} SIN_TABLA"

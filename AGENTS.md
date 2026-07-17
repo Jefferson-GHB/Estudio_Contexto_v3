@@ -2,12 +2,18 @@
 
 ## Entrypoints
 
-- **Streamlit dashboard**: `python -m streamlit run app.py`. `main()` en L560. No requiere el backend DSS.
-- **Backend DSS (FastAPI)**: Prototipo arquitectónico (`api/`). No está en producción ni integrado al dashboard.
+- **Streamlit dashboard**: `python -m streamlit run app.py`. Delega carga de datos a `services/data_loader.py` y renderizado a `views/tab_*.py`.
 
-## api/ — Prototipo de Arquitectura Orientada a API
+## Metodologia de ingesta de datos
 
-`api/` es un prototipo FastAPI que modela el dominio en **81 variables** organizadas en 5 ejes y 8 dominios. Apunta a una arquitectura desacoplada y consultable vía REST, donde `catalogo/MAPEO_DSS_OFICIAL.csv` es la fuente de verdad del modelo de datos. No está integrado al dashboard ni desplegable — su valor está en el **modelado conceptual** (variables, dominios, mapeos NBC-CUOC-CIIU) y los catálogos curados en `catalogo_curado.*`.
+Los scripts en `admin/ingestar_*.py` documentan el patron de ingenieria ETL para cada tipo de fuente:
+- **Portales oficiales (XLSX)**: `ingestar_snies.py` — patron representativo para SNIES, SIET, ICFES
+- **API datos.gov.co (Socrata)**: `ingestar_socrata.py` — 13 datasets mapeados como muestra del patron de consumo Socrata
+- **APIs internacionales**: `ingestar_internacional.py` — Banco Mundial via API; OECD/UNESCO/ILO via descarga de portales
+- **Archivos curados**: `ingestar_catalogos.py` — CSVs de mapeo desde `catalogo/`
+- **Orquestador**: `pipelines/pipeline_etl.py` con `--solo` y `--dry-run`
+
+Ver `docs/tecnica/estado_ingesta.md` para la clasificación completa por schema y método de regeneracion.
 
 ## Base de datos: DuckDB
 

@@ -1,14 +1,14 @@
 """
-Ingesta de Catalogos — NBC, CUOC, CIIU, MNC, DSS, CINE-F
+Ingesta de Catalogos — NBC, CUOC, CIIU, MNC, Mapeo de Variables, CINE-F
 ===========================================================
 
 Unifica y extiende los scripts ingestar_nbc_corregido.py e
-ingestar_mapeo_dss.py. Carga todos los catalogos de mapeo que habilitan
+ingestar_mapeo_variables.py. Carga todos los catalogos de mapeo que habilitan
 los cruces entre educacion, trabajo y territorio.
 
 Catalogos ingeridos:
   1. NBC corregido (57 filas) → catalogo_curado.catalogo_nbc_snies_corregido
-  2. Mapeo DSS (114 variables) → catalogo_curado.mapeo_dss_variables
+  2. Mapeo de Variables (114 variables) → catalogo_curado.mapeo_variables
   3. CUOC 2025 (14,462 ocupaciones) → clasificadores.cuoc
   4. CIIU Rev.4 (700 sectores) → clasificadores.ciiu_rev4
   5. MNC cualificaciones (396) → catalogo_curado.cualificaciones_men
@@ -54,7 +54,7 @@ CATALOGOS = [
         },
     },
     {
-        "nombre": "Mapeo DSS",
+        "nombre": "Mapeo de Variables",
         "csv": "MAPEO_DSS_OFICIAL.csv",
         "schema": "catalogo_curado",
         "tabla": "mapeo_dss_variables",
